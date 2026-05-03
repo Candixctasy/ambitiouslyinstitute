@@ -1,0 +1,260 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: Ambitiously Institute + By BoBo — C-Ai and data backend
+
+Globals:
+  Function:
+    Runtime: nodejs20.x
+    Architectures: [arm64]
+    Timeout: 30
+    MemorySize: 512
+    Environment:
+      Variables:
+        ALLOWED_ORIGIN: !Ref AllowedOrigin
+
+Parameters:
+  AllowedOrigin:
+    Type: String
+    Default: "https://ambitiouslyinstitute.com"
+  AnthropicApiKey:
+    Type: String
+    NoEcho: true
+  ClaudeModel:
+    Type: String
+    Default: "claude-sonnet-4-6"
+
+# ── API Gateway ───────────────────────────────────────────────────────────────
+
+Resources:
+  AmbitiouslyApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      Name: ambitiously-api
+      StageName: prod
+      Auth:
+        ApiKeyRequired: true
+        UsagePlan:
+          CreateUsagePlan: PER_API
+          UsagePlanName: ambitiously-usage-plan
+      Cors:
+        AllowMethods: "'POST,GET,OPTIONS'"
+        AllowHeaders: "'Content-Type,x-api-key'"
+        AllowOrigin: !Sub "'${AllowedOrigin}'"
+
+# ── C-Ai Lambda ───────────────────────────────────────────────────────────────
+
+  CAiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: ambitiously-cai
+      Handler: cai-handler.handler
+      CodeUri: lambda/
+      Description: C-Ai — Claude-powered assistant for Ambitiously Institute
+      Environment:
+        Variables:
+          ANTHROPIC_API_KEY: !Ref AnthropicApiKey
+          CLAUDE_MODEL: !Ref ClaudeModel
+      Events:
+        Ask:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /ask
+            Method: POST
+        Recommend:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /recommend
+            Method: POST
+        ScoreScript:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /score-script
+            Method: POST
+
+# ── Database Lambda ───────────────────────────────────────────────────────────
+
+  DbFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: ambitiously-db
+      Handler: db-handler.handler
+      CodeUri: lambda/
+      Description: Data API for Institute and By BoBo
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref ContactsTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref InstituteEnrollmentsTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref InstituteProgressTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref ByBoBoCurriculumTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref ByBoBoProductsTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref SKIAssessmentsTable
+      Environment:
+        Variables:
+          CONTACTS_TABLE: !Ref ContactsTable
+          ENROLLMENTS_TABLE: !Ref InstituteEnrollmentsTable
+          PROGRESS_TABLE: !Ref InstituteProgressTable
+          CURRICULUM_TABLE: !Ref ByBoBoCurriculumTable
+          PRODUCTS_TABLE: !Ref ByBoBoProductsTable
+          SKI_TABLE: !Ref SKIAssessmentsTable
+      Events:
+        InstituteEnrollments:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /institute/enrollments
+            Method: GET
+        InstituteProgress:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /institute/progress
+            Method: POST
+        Curriculum:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /institute/curriculum/{programId}
+            Method: GET
+        ByBoBoProducts:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /bybobo/products
+            Method: GET
+        SKIPost:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /bybobo/ski-assessments
+            Method: POST
+        SKIGet:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /bybobo/ski-assessments
+            Method: GET
+        Contacts:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /contacts
+            Method: POST
+        Analytics:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /analytics
+            Method: POST
+
+# ── DynamoDB Tables ───────────────────────────────────────────────────────────
+
+  ContactsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-contacts
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: email
+          AttributeType: S
+      KeySchema:
+        - AttributeName: email
+          KeyType: HASH
+
+  InstituteEnrollmentsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-institute-enrollments
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: programId
+          AttributeType: S
+        - AttributeName: memberId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: programId
+          KeyType: HASH
+        - AttributeName: memberId
+          KeyType: RANGE
+
+  InstituteProgressTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-institute-progress
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: memberId
+          AttributeType: S
+        - AttributeName: lessonId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: memberId
+          KeyType: HASH
+        - AttributeName: lessonId
+          KeyType: RANGE
+
+  ByBoBoCurriculumTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-curriculum
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: programId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: programId
+          KeyType: HASH
+
+  ByBoBoProductsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-bybobo-products
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: productId
+          AttributeType: S
+        - AttributeName: category
+          AttributeType: S
+      KeySchema:
+        - AttributeName: productId
+          KeyType: HASH
+      GlobalSecondaryIndexes:
+        - IndexName: category-index
+          KeySchema:
+            - AttributeName: category
+              KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+
+  SKIAssessmentsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-ski-assessments
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: email
+          AttributeType: S
+        - AttributeName: submittedAt
+          AttributeType: S
+      KeySchema:
+        - AttributeName: email
+          KeyType: HASH
+        - AttributeName: submittedAt
+          KeyType: RANGE
+
+# ── Outputs ───────────────────────────────────────────────────────────────────
+
+Outputs:
+  ApiUrl:
+    Description: API Gateway base URL — set as CAI_API_URL and DB_API_URL in Wix Secrets
+    Value: !Sub "https://${AmbitiouslyApi}.execute-api.${AWS::Region}.amazonaws.com/prod"
+  ApiKey:
+    Description: API key ARN — retrieve value from API Gateway console for Wix Secrets
+    Value: !Sub "arn:aws:apigateway:${AWS::Region}::/apikeys/*"

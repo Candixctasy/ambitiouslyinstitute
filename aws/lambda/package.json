@@ -5,6 +5,8 @@
   "description": "C-Ai AWS Lambda handler for Ambitiously Institute",
   "main": "cai-handler.js",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.39.0"
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/util-dynamodb": "^3.0.0"
   }
 }
