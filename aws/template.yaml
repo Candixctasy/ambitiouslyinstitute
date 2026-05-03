@@ -1,6 +1,8 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Transform: AWS::Serverless-2016-10-31
-Description: Ambitiously Institute + By BoBo — C-Ai and data backend
+Description: Ambitiously Institute + By BoBo A List — C-Ai and data backend (ca-central-1)
+
+# Deploy: sam build && sam deploy --guided --region ca-central-1
 
 Globals:
   Function:
@@ -11,14 +13,13 @@ Globals:
     Environment:
       Variables:
         ALLOWED_ORIGIN: !Ref AllowedOrigin
+        CLAUDE_MODEL: !Ref ClaudeModel
+        ANTHROPIC_SECRET_NAME: ambitiously/anthropic-api-key
 
 Parameters:
   AllowedOrigin:
     Type: String
-    Default: "https://ambitiouslyinstitute.com"
-  AnthropicApiKey:
-    Type: String
-    NoEcho: true
+    Default: "https://www.ambitiouslybybobo.com"
   ClaudeModel:
     Type: String
     Default: "claude-sonnet-4-6"
@@ -49,12 +50,12 @@ Resources:
       FunctionName: ambitiously-cai
       Handler: cai-handler.handler
       CodeUri: lambda/
-      Description: C-Ai — Claude-powered assistant for Ambitiously Institute
-      Environment:
-        Variables:
-          ANTHROPIC_API_KEY: !Ref AnthropicApiKey
-          CLAUDE_MODEL: !Ref ClaudeModel
+      Description: C-Ai — skin intelligence + Institute assistant
+      Policies:
+        - AWSSecretsManagerGetSecretValuePolicy:
+            SecretArn: !Sub "arn:aws:secretsmanager:ca-central-1:344626517888:secret:ambitiously/anthropic-api-key*"
       Events:
+        # Institute routes
         Ask:
           Type: Api
           Properties:
@@ -73,6 +74,31 @@ Resources:
             RestApiId: !Ref AmbitiouslyApi
             Path: /score-script
             Method: POST
+        # A List / By BoBo skin flow routes
+        SkinIntake:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/skin-intake
+            Method: POST
+        SkinIntelligence:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/skin-intelligence
+            Method: POST
+        Ingredients:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/ingredients
+            Method: POST
+        Formulate:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/formulate
+            Method: POST
 
 # ── Database Lambda ───────────────────────────────────────────────────────────
 
@@ -82,7 +108,7 @@ Resources:
       FunctionName: ambitiously-db
       Handler: db-handler.handler
       CodeUri: lambda/
-      Description: Data API for Institute and By BoBo
+      Description: Data API for Institute and By BoBo A List
       Policies:
         - DynamoDBCrudPolicy:
             TableName: !Ref ContactsTable
@@ -91,19 +117,28 @@ Resources:
         - DynamoDBCrudPolicy:
             TableName: !Ref InstituteProgressTable
         - DynamoDBCrudPolicy:
-            TableName: !Ref ByBoBoCurriculumTable
+            TableName: !Ref CurriculumTable
         - DynamoDBCrudPolicy:
-            TableName: !Ref ByBoBoProductsTable
+            TableName: !Ref ProductsTable
         - DynamoDBCrudPolicy:
             TableName: !Ref SKIAssessmentsTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref AListMembersTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref AListProMembersTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref SkinTrackingTable
       Environment:
         Variables:
           CONTACTS_TABLE: !Ref ContactsTable
           ENROLLMENTS_TABLE: !Ref InstituteEnrollmentsTable
           PROGRESS_TABLE: !Ref InstituteProgressTable
-          CURRICULUM_TABLE: !Ref ByBoBoCurriculumTable
-          PRODUCTS_TABLE: !Ref ByBoBoProductsTable
+          CURRICULUM_TABLE: !Ref CurriculumTable
+          PRODUCTS_TABLE: !Ref ProductsTable
           SKI_TABLE: !Ref SKIAssessmentsTable
+          ALIST_TABLE: !Ref AListMembersTable
+          ALIST_PRO_TABLE: !Ref AListProMembersTable
+          SKIN_TRACKING_TABLE: !Ref SkinTrackingTable
       Events:
         InstituteEnrollments:
           Type: Api
@@ -153,6 +188,56 @@ Resources:
             RestApiId: !Ref AmbitiouslyApi
             Path: /analytics
             Method: POST
+        # A List membership routes
+        AListJoin:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/members
+            Method: POST
+        AListGet:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/members
+            Method: GET
+        AListTrack:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/skin-tracking
+            Method: POST
+        AListTrackGet:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/skin-tracking
+            Method: GET
+        AListDiscount:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/discount
+            Method: GET
+        # Professional A-List routes
+        AListProJoin:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/pro/members
+            Method: POST
+        AListProGet:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/pro/members
+            Method: GET
+        AListProProducts:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/pro/products
+            Method: GET
 
 # ── DynamoDB Tables ───────────────────────────────────────────────────────────
 
@@ -200,7 +285,7 @@ Resources:
         - AttributeName: lessonId
           KeyType: RANGE
 
-  ByBoBoCurriculumTable:
+  CurriculumTable:
     Type: AWS::DynamoDB::Table
     Properties:
       TableName: ambitiously-curriculum
@@ -212,7 +297,7 @@ Resources:
         - AttributeName: programId
           KeyType: HASH
 
-  ByBoBoProductsTable:
+  ProductsTable:
     Type: AWS::DynamoDB::Table
     Properties:
       TableName: ambitiously-bybobo-products
@@ -249,12 +334,49 @@ Resources:
         - AttributeName: submittedAt
           KeyType: RANGE
 
+  AListMembersTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-alist-members
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: email
+          AttributeType: S
+      KeySchema:
+        - AttributeName: email
+          KeyType: HASH
+
+  AListProMembersTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-alist-pro-members
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: email
+          AttributeType: S
+      KeySchema:
+        - AttributeName: email
+          KeyType: HASH
+
+  SkinTrackingTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-skin-tracking
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: email
+          AttributeType: S
+        - AttributeName: trackedAt
+          AttributeType: S
+      KeySchema:
+        - AttributeName: email
+          KeyType: HASH
+        - AttributeName: trackedAt
+          KeyType: RANGE
+
 # ── Outputs ───────────────────────────────────────────────────────────────────
 
 Outputs:
   ApiUrl:
-    Description: API Gateway base URL — set as CAI_API_URL and DB_API_URL in Wix Secrets
-    Value: !Sub "https://${AmbitiouslyApi}.execute-api.${AWS::Region}.amazonaws.com/prod"
-  ApiKey:
-    Description: API key ARN — retrieve value from API Gateway console for Wix Secrets
-    Value: !Sub "arn:aws:apigateway:${AWS::Region}::/apikeys/*"
+    Description: API Gateway base URL — paste into Wix Secrets as CAI_API_URL and DB_API_URL
+    Value: !Sub "https://${AmbitiouslyApi}.execute-api.ca-central-1.amazonaws.com/prod"

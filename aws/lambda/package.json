@@ -1,12 +1,12 @@
 {
-  "name": "cai-lambda",
+  "name": "ambitiously-lambda",
   "version": "1.0.0",
   "type": "module",
-  "description": "C-Ai AWS Lambda handler for Ambitiously Institute",
-  "main": "cai-handler.js",
+  "description": "C-Ai and data Lambda handlers for Ambitiously Institute + By BoBo A List",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
     "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/client-secrets-manager": "^3.0.0",
     "@aws-sdk/util-dynamodb": "^3.0.0"
   }
 }
