@@ -1,0 +1,10 @@
+{
+  "name": "cai-lambda",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "C-Ai AWS Lambda handler for Ambitiously Institute",
+  "main": "cai-handler.js",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}
