@@ -1,10 +1,37 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+// Ambitiously Institute — Member Profile page
 
-$w.onReady(function () {
-    // Write your JavaScript here
+import wixLocation from 'wix-location';
+import { currentMember } from 'wix-members';
 
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+$w.onReady(async function () {
+    const member = await currentMember.getMember().catch(() => null);
+    if (!member) {
+        wixLocation.to('/login?redirect=/profile');
+        return;
+    }
+    populateProfile(member);
+    initEditButton();
 });
+
+function populateProfile(member) {
+    const name = [
+        member.contactDetails?.firstName,
+        member.contactDetails?.lastName,
+    ].filter(Boolean).join(' ');
+
+    try { $w('#profileName').text = name || 'Member'; } catch (_) {}
+    try { $w('#profileEmail').text = member.loginEmail || ''; } catch (_) {}
+
+    const joinDate = member.createdDate
+        ? new Date(member.createdDate).toLocaleDateString('en-CA', {
+              year: 'numeric', month: 'long', day: 'numeric',
+          })
+        : '';
+    try { $w('#profileJoinDate').text = joinDate ? `Member since ${joinDate}` : ''; } catch (_) {}
+}
+
+function initEditButton() {
+    try {
+        $w('#editProfileBtn').onClick(() => wixLocation.to('/my-account'));
+    } catch (_) {}
+}
