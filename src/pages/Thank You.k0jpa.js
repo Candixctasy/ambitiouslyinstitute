@@ -1,10 +1,20 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+import wixLocation from 'wix-location';
 
 $w.onReady(function () {
-    // Write your JavaScript here
+    const name = wixLocation.query?.name || '';
+    const source = wixLocation.query?.source || 'order';
 
-    // To select an element by ID use: $w('#elementID')
+    if ($w('#thankYouMsg').length > 0) {
+        const messages = {
+            order: `Thank you${name ? ', ' + name : ''}! Your order is confirmed.`,
+            booking: `Thank you${name ? ', ' + name : ''}! Your booking is confirmed.`,
+            application: `Thank you${name ? ', ' + name : ''}! We'll be in touch within 48 hours.`,
+            alist: `Welcome to The A List${name ? ', ' + name : ''}! Your membership is active.`,
+        };
+        $w('#thankYouMsg').text = messages[source] || messages.order;
+    }
 
-    // Click 'Preview' to run your code
+    if ($w('#continueShoppingBtn').length > 0) $w('#continueShoppingBtn').onClick(() => wixLocation.to('/shop'));
+    if ($w('#myAccountBtn').length > 0) $w('#myAccountBtn').onClick(() => wixLocation.to('/my-account'));
+    if ($w('#homeBtn').length > 0) $w('#homeBtn').onClick(() => wixLocation.to('/'));
 });

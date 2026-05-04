@@ -1,10 +1,14 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+import wixLocation from 'wix-location';
+import { currentMember } from 'wix-members';
 
-$w.onReady(function () {
-    // Write your JavaScript here
+$w.onReady(async function () {
+    try {
+        const member = await currentMember.getMember();
+        if (!member) { wixLocation.to('/login?redirect=/booking-calendar'); return; }
+    } catch (_) { wixLocation.to('/login?redirect=/booking-calendar'); return; }
 
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+    if ($w('#bookingCalendar').length > 0) $w('#bookingCalendar').show();
+    if ($w('#confirmBookingBtn').length > 0) {
+        $w('#confirmBookingBtn').onClick(() => wixLocation.to('/my-bookings'));
+    }
 });

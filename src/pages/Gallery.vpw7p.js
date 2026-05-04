@@ -1,10 +1,10 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+import wixLocation from 'wix-location';
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+    if ($w('#gallery').length > 0) {
+        $w('#gallery').onItemClicked((event) => {
+            const item = event.item;
+            if (item?.link) wixLocation.to(item.link);
+        });
+    }
 });

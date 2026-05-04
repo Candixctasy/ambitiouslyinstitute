@@ -1,10 +1,18 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+import wixLocation from 'wix-location';
+import { currentMember } from 'wix-members';
+import { getActiveDiscount } from 'backend/alist.web';
 
-$w.onReady(function () {
-    // Write your JavaScript here
+$w.onReady(async function () {
+    if ($w('#checkoutBtn').length > 0) $w('#checkoutBtn').onClick(() => wixLocation.to('/checkout'));
+    if ($w('#viewCartBtn').length > 0) $w('#viewCartBtn').onClick(() => wixLocation.to('/cart'));
 
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+    try {
+        const member = await currentMember.getMember();
+        if (!member) return;
+        const { discount, isBirthday } = await getActiveDiscount(member.loginEmail, 'consumer');
+        if (discount && $w('#sideCartDiscount').length > 0) {
+            $w('#sideCartDiscount').text = `A List ${discount}% off${isBirthday ? ' 🎂' : ''}`;
+            $w('#sideCartDiscount').show();
+        }
+    } catch (_) {}
 });

@@ -1,15 +1,13 @@
-// Velo API Reference: https://www.wix.com/velo/reference/api-overview/introduction
+import { currentMember } from 'wix-members';
+import wixLocation from 'wix-location';
 
-$w.onReady(function () {
-
-    // Write your Javascript code here using the Velo framework API
-
-    // Print hello world:
-    // console.log("Hello world!");
-
-    // Call functions on page elements, e.g.:
-    // $w("#button1").label = "Click me!";
-
-    // Click "Run", or Preview your site, to execute your code
-
+$w.onReady(async function () {
+    if ($w('#joinGroupBtn').length > 0) {
+        $w('#joinGroupBtn').onClick(async () => {
+            try {
+                const member = await currentMember.getMember();
+                if (!member) { wixLocation.to('/login?redirect=/groups'); return; }
+            } catch (_) { wixLocation.to('/login?redirect=/groups'); }
+        });
+    }
 });
