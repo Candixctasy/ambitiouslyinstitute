@@ -56,6 +56,12 @@ The brands winning biggest all made the same counterintuitive call: restraint.
 This is not a trend. It is a structural shift. Restraint is the new growth strategy.
 
 WHAT AMBITIOUSLY INSTITUTE TEACHES:
+Conrad St. Denis is the founder of Ambitiously Institute. His credentials:
+- Executive Senior Guest Artist, Caryl Baker Visage (one of Canada's most established luxury beauty brands)
+- Educator-level delivery — trained professionals across Canada on technique, client conversion, and brand execution
+- Trained in consultation architecture, skincare ingredient science, retail authority, and revenue systems
+- Built Ambitiously from the real patterns he observed: talent doesn't automatically convert — structure converts.
+
 Conrad's framework is the professional translation of what the winning brands already know. Structure beats hustle. Education closes. Authority without arrogance.
 
 Programs:
@@ -77,24 +83,82 @@ const SKIN_SYSTEM_BLOCKS = [
         type: "text",
         text: `You are C-Ai, the skin intelligence engine for The A List by Ambitiously By BoBo.
 
-MARKET CONTEXT YOU REASON FROM:
-The beauty industry ships 30,000 new products a year. 85% fail. Consumers are overwhelmed by generic mass-market formulas built for shelf space, not for skin. The brands winning — Rhode, MERIT, Fara Homidi — chose fewer, more precise products. Sephora's CEO named curation their competitive advantage.
+COMPETITIVE POSITIONING (2026 Gen AI data):
+When AI models like Gemini and ChatGPT recommend skincare, the top performers are:
+CeraVe (100%), SkinCeuticals (96%), La Roche-Posay (94%), Paula's Choice (89%), The Ordinary (84%).
+The pattern: science-backed, ingredient-transparent, barrier-first brands win. These brands win because they explain WHY an ingredient is there.
+C-Ai does what those brands do — but personalized to one skin, not a demographic.
+A List formulations must meet or exceed the clinical transparency of SkinCeuticals and the ingredient literacy of Paula's Choice. If a client can't understand why each ingredient is in their formula, C-Ai has failed.
 
-By BoBo exists as the opposite of that noise. Every A List formulation is built for one client's actual skin — not a demographic, not a trend, not a shelf slot. C-Ai is the intelligence layer that makes that possible.
+THE AMBITIOUSLY FORMULATION PYRAMID:
+All A List products are built on one of three bases — chosen based on barrier status, hydration need, and skin behaviour:
 
-HOW YOU ANALYZE:
+ESSENCE (70–80% water)
+- Hydrating & Lightweight
+- Best for: dehydrated, sensitive, reactive, post-treatment skin
+- Cannot carry high concentrations of oil-soluble actives
+- Delivery: toner/essence pad or dropper
+
+SERUM (60–70% water)
+- Concentrated & Silky
+- Best for: targeted correction — acne, hyperpigmentation, aging, barrier repair
+- Can carry meaningful % of actives (niacinamide, vitamin C, AHA/BHA, peptides)
+- Delivery: dropper, pump
+
+CREAM (50–60% water)
+- Rich & Nourishing
+- Best for: dry, compromised barrier, cold climate, mature skin
+- Occlusive layer — applied last, locks in treatment layers
+- Delivery: jar, airless pump
+
+FORMULATION RULES:
+- Never exceed what the skin's current barrier status can tolerate.
+- Barrier health is Step 0. No actives on a severely compromised barrier — repair first.
+- Ingredient interactions must be checked: retinoids + AHAs, vitamin C + niacinamide timing, benzoyl peroxide + retinol, etc.
+- Pregnancy/nursing: flag and exclude all category C/D ingredients (retinoids, salicylic acid >2%, hydroquinone).
+- All formulations use sustainable, biodegradable-compatible ingredients. No ingredients that harm aquatic environments (certain UV filters, microplastics, certain preservatives).
+- Eco packaging is default: suggest glass, aluminium, or PCR (post-consumer recycled) plastic.
+- Client can choose formula scent profile: unscented | light botanical | signature BoBo (proprietary blend).
+
+THE BY BOBO BOTANICAL HERITAGE LIBRARY:
+The 2026 Gen AI beauty data identifies "Hybrid: Science → Heritage" as the winning positioning. By BoBo formulations blend modern cosmetic chemistry (the pyramid) with a curated botanical ingredient library drawn from traditional herbal apothecary. When formulating, consider these botanicals alongside synthetic actives where clinically appropriate:
+
+SKIN-ACTIVE BOTANICALS (topical applications):
+- Aloe Vera: humectant, soothing, wound support, post-treatment barrier calm
+- Chamomile (Matricaria): bisabolol/apigenin — anti-inflammatory, redness reduction, sensitive skin
+- Calendula: wound healing, barrier lipid support, eczema-prone skin
+- Tea Tree (Melaleuca): terpinen-4-ol — antimicrobial, acne, folliculitis (max 5% topical)
+- Lavender: antimicrobial, calming (fragrance allergen at >0.5% — flag for sensitive skin)
+- Arnica: anti-inflammatory, post-procedure (external only; not on broken skin)
+- Comfrey (Allantoin source): cell proliferation, wound healing, dry skin repair
+- Elderberry (Sambucus): antioxidant, anthocyanins, brightening
+- Ginkgo Biloba: antioxidant, microcirculation support, aging skin
+- Ginseng: adaptogen, fatigue-related skin dullness, anti-aging
+- Echinacea: immune-modulating topically, barrier support
+- Bearberry (Uva Ursi): arbutin — tyrosinase inhibition, hyperpigmentation (gentler than hydroquinone)
+- Dandelion: antioxidant, rich in vitamins A/C/K, brightening
+- Borage: GLA (gamma-linolenic acid) — barrier lipid, eczema, dry inflamed skin
+- Horsetail (Equisetum): silica — collagen support, skin firmness
+- Goldenrod: anti-inflammatory, astringent for oily/acne skin
+- Lemon Balm (Melissa): antiviral, calming, sensitive and stressed skin
+- Feverfew: parthenolide-free extract — redness, rosacea, photodamage
+- Ginger: circulation, antioxidant, warming (avoid on reactive/rosacea skin)
+- Turmeric (Curcumin): anti-inflammatory, brightening (may stain — encapsulated form preferred)
+
+FORMULATION PRINCIPLE — SCIENCE × HERITAGE:
+Every A List formula blends the precision of cosmetic chemistry with the heritage of botanical medicine. The synthetic and botanical are not competing — they are complementary delivery systems for the same outcome: skin that functions well.
+
+MARKET CONTEXT:
+The beauty industry ships 30,000 products a year. 85% fail. Every A List formula is built for one skin — not a shelf slot. The curation IS the product. What we leave out matters as much as what we put in.
+
+HOW YOU ANALYZE AND RESPOND:
 - Evidence-based dermatology and cosmetic chemistry only. No trends. No buzzwords.
-- Every recommendation must be earned by the client's actual intake data.
-- Exclude any ingredient that is not directly indicated for this specific skin profile.
-- Fewer, more precise ingredients outperform broad-spectrum catch-all formulas every time.
-- Flag conflicts, contraindications, and medication interactions explicitly.
-- Barrier health is assessed first — no actives on a compromised barrier.
-
-TONE:
-- Clinical precision. No filler language.
-- Explain the WHY behind every ingredient choice in one sentence.
-- If the skin is not ready for an active, say so clearly and explain what to address first.
-- Treat the client as an intelligent adult who deserves the real answer, not a softened one.`,
+- Every ingredient choice must be traceable to the client's actual skin data.
+- Fewer, precise ingredients beat broad-spectrum formulas every time.
+- Flag all conflicts, contraindications, and medication interactions explicitly.
+- If the skin is not ready for an active, say so and prescribe what to address first.
+- Clinical precision. Explain the WHY in one sentence per ingredient.
+- Treat the client as an intelligent adult who deserves the real answer.`,
         cache_control: { type: "ephemeral" },
     },
 ];
@@ -260,37 +324,72 @@ Client goals: ${goals.join(", ")}`,
 }
 
 // Step 4: Custom Formulation
-// skinMap, selectedIngredients, productType, preferences
+// skinMap, selectedIngredients, productType (essence|serum|cream|gel|mousse|toner|treatment),
+// preferences: { scent, packaging, sustainableOnly, charitable }
 async function handleFormulate(client, { skinMap = {}, selectedIngredients = [], productType, preferences = {} }) {
     if (!productType) return err(400, "productType is required");
+
+    // Map product type to pyramid tier context
+    const pyramidContext = {
+        essence: "ESSENCE tier (70-80% water): hydrating & lightweight. Prioritise humectants and skin-identical hydrators. Do not attempt to carry high concentrations of oil-soluble actives.",
+        serum:   "SERUM tier (60-70% water): concentrated & silky. This is the correction layer — carry meaningful actives at therapeutic concentrations.",
+        cream:   "CREAM tier (50-60% water): rich & nourishing. Occlusive layer applied last. Focus on barrier lipids, emollients, and locking in the treatment layers beneath.",
+        gel:     "GEL base: water-based with gelling agent. Lightweight, high skin tolerance. Good for acne-prone, oily, and sensitive skin.",
+        mousse:  "MOUSSE base: aerated emulsion. Ultra-light delivery. Suited for oily skin, body application, or texture-sensitive clients.",
+        toner:   "TONER: functional pre-serum step. pH prep, light exfoliation, or hydration. Not a rinse — designed to stay on skin.",
+        treatment: "TREATMENT: targeted spot or zone application. Highest active concentration. Short contact time or overnight depending on actives.",
+    };
+    const tier = pyramidContext[productType.toLowerCase()] || `${productType} formulation`;
+
+    const scent = preferences.scent || "unscented";
+    const packaging = preferences.packaging || "eco (glass or aluminium preferred)";
+    const charitable = preferences.charitable
+        ? "A portion of this product's revenue goes to The Ginette N. BoBo Foundation. Note this in the formula card."
+        : "";
+
     const msg = await client.messages.create({
         model: MODEL,
-        max_tokens: 2000,
+        max_tokens: 2048,
         system: SKIN_SYSTEM_BLOCKS,
         messages: [{
             role: "user",
-            content: `Build a complete custom A List ${productType} formulation. This is not a generic formula — every choice must be traceable to this client's actual skin data. Return JSON only:
+            content: `Build a complete custom A List formulation for the Ambitiously By BoBo product line.
+
+PRODUCT TYPE: ${tier}
+SCENT PREFERENCE: ${scent}
+PACKAGING: ${packaging}
+${charitable}
+
+This is NOT a generic formula. Every ingredient must be traceable to this client's actual skin data. Return JSON only:
 {
   "formulaName": "",
-  "positioningLine": "",         // one line: why this formula exists for this skin specifically
-  "base": "",
-  "activeIngredients": [{ "name": "", "percentage": "", "benefit": "", "whyThisSkin": "" }],
-  "supportingIngredients": [{ "name": "", "percentage": "", "role": "" }],
-  "preservativeSystem": "",
+  "pyramidTier": "",             // essence | serum | cream | gel | mousse | toner | treatment
+  "positioningLine": "",         // one sentence: why this formula exists for this skin specifically
+  "waterPhase": {
+    "percentage": "",
+    "components": [{ "name": "", "inci": "", "percentage": "", "role": "" }]
+  },
+  "activeIngredients": [{ "name": "", "inci": "", "percentage": "", "benefit": "", "whyThisSkin": "" }],
+  "emollients": [{ "name": "", "inci": "", "percentage": "", "role": "" }],
+  "preservativeSystem": { "system": "", "percentage": "", "broadSpectrumCoverage": true },
   "pH": "",
   "texture": "",
-  "usageInstructions": "",
-  "shelfLife": "",
+  "scentProfile": "",
   "packagingRecommendation": "",
+  "ecoCredentials": "",          // why this formula qualifies as sustainable/biodegradable
+  "usageInstructions": "",
+  "layeringPosition": "",        // where in routine: 1=first, 2=second etc
+  "shelfLifeMonths": 0,
   "estimatedCostCAD": "",
-  "whatWeLeftOut": ""            // ingredients considered but excluded and why — this is the curation proof
+  "whatWeLeftOut": "",           // ingredients considered but excluded and why — the curation proof
+  "clientSummary": ""            // plain-language 2-sentence summary the client receives on their formula card
 }
 
 Skin map:
 ${JSON.stringify(skinMap, null, 2)}
 
 Selected ingredients: ${selectedIngredients.join(", ")}
-Client preferences: ${JSON.stringify(preferences)}`,
+Additional preferences: ${JSON.stringify(preferences)}`,
         }],
     });
     return ok({ formula: msg.content[0].text, usage: msg.usage });

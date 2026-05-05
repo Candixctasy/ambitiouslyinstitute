@@ -25,6 +25,7 @@ const T = {
     alist:           process.env.ALIST_TABLE,
     alistPro:        process.env.ALIST_PRO_TABLE,
     skinTracking:    process.env.SKIN_TRACKING_TABLE,
+    referrals:       process.env.REFERRALS_TABLE,
 };
 
 const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || "*";
@@ -69,6 +70,12 @@ export const handler = async (event) => {
             return ok(await joinAList(body));
         if (path.includes("/alist/members") && !path.includes("pro") && method === "GET")
             return ok(await getAListMember(qs.email));
+
+        // ── Referrals ──────────────────────────────────────────────────────────
+        if (path.includes("/alist/referrals") && method === "POST")
+            return ok(await saveReferrals(body));
+        if (path.includes("/alist/referrals") && method === "GET")
+            return ok(await getReferralStats(qs.email));
 
         // ── A List — professional ──────────────────────────────────────────────
         if (path.includes("/alist/pro/members") && method === "POST")
@@ -167,18 +174,40 @@ async function getClientSKI(email) {
 // ── A List — consumer ─────────────────────────────────────────────────────────
 // Benefits: personalized formulation, ongoing skin tracking,
 //           priority product access, 10% off always, 30% off birthday (day-of)
+// data: { email, name, birthdayMonth, birthdayDay, birthdayYear?,
+//         referredBy?, formulaPreferences?, charitable? }
 
 async function joinAList(data) {
     if (!data.email) throw new Error("email required");
+
+    // Parse birthday from ISO date string if provided as full date
+    let birthdayMonth = data.birthdayMonth;
+    let birthdayDay   = data.birthdayDay;
+    if (data.birthday && !birthdayMonth) {
+        const d = new Date(data.birthday);
+        if (!isNaN(d)) { birthdayMonth = d.getMonth() + 1; birthdayDay = d.getDate(); }
+    }
+
     const item = {
         ...data,
         tier: "consumer",
         discountRate: 10,
+        birthdayMonth: birthdayMonth ? Number(birthdayMonth) : undefined,
+        birthdayDay:   birthdayDay   ? Number(birthdayDay)   : undefined,
         joinedAt: now(),
         updatedAt: now(),
         status: "active",
     };
+    // Remove undefined keys before marshalling
+    Object.keys(item).forEach(k => item[k] === undefined && delete item[k]);
+
     await db.send(new PutItemCommand({ TableName: T.alist, Item: marshall(item) }));
+
+    // If referred by someone, credit that referral
+    if (data.referredBy) {
+        await creditReferral(data.referredBy, data.email).catch(() => {});
+    }
+
     return { joined: true, tier: "consumer" };
 }
 
@@ -285,6 +314,64 @@ function checkBirthday(month, day) {
     if (!month || !day) return false;
     const today = new Date();
     return today.getMonth() + 1 === Number(month) && today.getDate() === Number(day);
+}
+
+// ── Referrals ─────────────────────────────────────────────────────────────────
+// Viral referral loop: member texts 5 friends, enters their emails.
+// Each confirmed referral earns credit toward free products.
+
+async function saveReferrals(data) {
+    if (!data.referrerEmail) throw new Error("referrerEmail required");
+    if (!Array.isArray(data.referredEmails) || !data.referredEmails.length)
+        throw new Error("referredEmails array required");
+
+    const writes = data.referredEmails.map(email => {
+        const item = {
+            referrerEmail: data.referrerEmail,
+            referredEmail: email.toLowerCase().trim(),
+            status: "pending",
+            createdAt: now(),
+        };
+        return db.send(new PutItemCommand({ TableName: T.referrals, Item: marshall(item) }));
+    });
+
+    await Promise.all(writes);
+
+    // Also upsert referred emails as contacts so they enter the funnel
+    await Promise.all(data.referredEmails.map(email =>
+        db.send(new PutItemCommand({
+            TableName: T.contacts,
+            Item: marshall({ email: email.toLowerCase().trim(), source: "alist-referral", referredBy: data.referrerEmail, updatedAt: now() }),
+        })).catch(() => {})
+    ));
+
+    return { saved: true, count: data.referredEmails.length };
+}
+
+async function creditReferral(referrerEmail, referredEmail) {
+    await db.send(new PutItemCommand({
+        TableName: T.referrals,
+        Item: marshall({
+            referrerEmail,
+            referredEmail: referredEmail.toLowerCase(),
+            status: "confirmed",
+            confirmedAt: now(),
+            createdAt: now(),
+        }),
+    }));
+}
+
+async function getReferralStats(email) {
+    if (!email) throw new Error("email required");
+    const r = await db.send(new QueryCommand({
+        TableName: T.referrals,
+        KeyConditionExpression: "referrerEmail = :e",
+        ExpressionAttributeValues: marshall({ ":e": email }),
+    }));
+    const referrals = r.Items.map(unmarshall);
+    const confirmed = referrals.filter(r => r.status === "confirmed").length;
+    const pending   = referrals.filter(r => r.status === "pending").length;
+    return { referrals, confirmed, pending, total: referrals.length };
 }
 
 // ── Shared ────────────────────────────────────────────────────────────────────

@@ -128,6 +128,8 @@ Resources:
             TableName: !Ref AListProMembersTable
         - DynamoDBCrudPolicy:
             TableName: !Ref SkinTrackingTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref ReferralsTable
       Environment:
         Variables:
           CONTACTS_TABLE: !Ref ContactsTable
@@ -139,6 +141,7 @@ Resources:
           ALIST_TABLE: !Ref AListMembersTable
           ALIST_PRO_TABLE: !Ref AListProMembersTable
           SKIN_TRACKING_TABLE: !Ref SkinTrackingTable
+          REFERRALS_TABLE: !Ref ReferralsTable
       Events:
         InstituteEnrollments:
           Type: Api
@@ -237,6 +240,19 @@ Resources:
           Properties:
             RestApiId: !Ref AmbitiouslyApi
             Path: /alist/pro/products
+            Method: GET
+        # Referral routes
+        AListReferralPost:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/referrals
+            Method: POST
+        AListReferralGet:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /alist/referrals
             Method: GET
 
 # ── DynamoDB Tables ───────────────────────────────────────────────────────────
@@ -372,6 +388,22 @@ Resources:
         - AttributeName: email
           KeyType: HASH
         - AttributeName: trackedAt
+          KeyType: RANGE
+
+  ReferralsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-referrals
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: referrerEmail
+          AttributeType: S
+        - AttributeName: referredEmail
+          AttributeType: S
+      KeySchema:
+        - AttributeName: referrerEmail
+          KeyType: HASH
+        - AttributeName: referredEmail
           KeyType: RANGE
 
 # ── Outputs ───────────────────────────────────────────────────────────────────
