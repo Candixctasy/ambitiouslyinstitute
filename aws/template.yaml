@@ -130,6 +130,8 @@ Resources:
             TableName: !Ref SkinTrackingTable
         - DynamoDBCrudPolicy:
             TableName: !Ref ReferralsTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref EncyclopediaTable
       Environment:
         Variables:
           CONTACTS_TABLE: !Ref ContactsTable
@@ -142,6 +144,7 @@ Resources:
           ALIST_PRO_TABLE: !Ref AListProMembersTable
           SKIN_TRACKING_TABLE: !Ref SkinTrackingTable
           REFERRALS_TABLE: !Ref ReferralsTable
+          ENCYCLOPEDIA_TABLE: !Ref EncyclopediaTable
       Events:
         InstituteEnrollments:
           Type: Api
@@ -253,6 +256,19 @@ Resources:
           Properties:
             RestApiId: !Ref AmbitiouslyApi
             Path: /alist/referrals
+            Method: GET
+        # Ingredient encyclopedia routes
+        EncyclopediaList:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /bybobo/encyclopedia
+            Method: GET
+        EncyclopediaGet:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /bybobo/encyclopedia/{slug}
             Method: GET
 
 # ── DynamoDB Tables ───────────────────────────────────────────────────────────
@@ -405,6 +421,39 @@ Resources:
           KeyType: HASH
         - AttributeName: referredEmail
           KeyType: RANGE
+
+  EncyclopediaTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-ingredient-encyclopedia
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: slug
+          AttributeType: S
+        - AttributeName: category
+          AttributeType: S
+        - AttributeName: isPublished
+          AttributeType: S
+      KeySchema:
+        - AttributeName: slug
+          KeyType: HASH
+      GlobalSecondaryIndexes:
+        - IndexName: category-index
+          KeySchema:
+            - AttributeName: category
+              KeyType: HASH
+            - AttributeName: slug
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+        - IndexName: published-index
+          KeySchema:
+            - AttributeName: isPublished
+              KeyType: HASH
+            - AttributeName: category
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
 
 # ── Outputs ───────────────────────────────────────────────────────────────────
 

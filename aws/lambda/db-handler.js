@@ -1,6 +1,6 @@
 // Database Lambda — DynamoDB operations for:
 //   • Ambitiously Institute (enrollments, progress, curriculum)
-//   • By BoBo consumer site (products, SKI assessments)
+//   • By BoBo consumer site (products, SKI assessments, ingredient encyclopedia)
 //   • A List consumer membership (retail + services, skin tracking, discounts)
 //   • Professional A-List (treatment products, wholesale, pro benefits)
 
@@ -26,6 +26,7 @@ const T = {
     alistPro:        process.env.ALIST_PRO_TABLE,
     skinTracking:    process.env.SKIN_TRACKING_TABLE,
     referrals:       process.env.REFERRALS_TABLE,
+    encyclopedia:    process.env.ENCYCLOPEDIA_TABLE,
 };
 
 const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || "*";
@@ -64,6 +65,13 @@ export const handler = async (event) => {
             return ok(await saveSKI(body));
         if (path.includes("/bybobo/ski-assessments") && method === "GET")
             return ok(await getClientSKI(qs.email));
+
+        // ── Ingredient encyclopedia ────────────────────────────────────────────
+        if (path.includes("/bybobo/encyclopedia") && method === "GET") {
+            const slug = path.split("/bybobo/encyclopedia/")[1];
+            if (slug) return ok(await getIngredient(slug));
+            return ok(await listEncyclopedia(qs));
+        }
 
         // ── A List — consumer ──────────────────────────────────────────────────
         if (path.includes("/alist/members") && !path.includes("pro") && method === "POST")
@@ -400,6 +408,77 @@ async function getAnalytics({ startDate, endDate } = {}) {
         period: { startDate, endDate },
         generatedAt: now(),
     };
+}
+
+// ── Ingredient Encyclopedia ───────────────────────────────────────────────────
+
+async function getIngredient(slug) {
+    const r = await db.send(new GetItemCommand({
+        TableName: T.encyclopedia,
+        Key: marshall({ slug }),
+    }));
+    return { ingredient: r.Item ? unmarshall(r.Item) : null };
+}
+
+async function listEncyclopedia({ category, sourcing, skinType, search, limit = "50", published = "true" } = {}) {
+    const pageSize = Math.min(Number(limit) || 50, 100);
+
+    if (category) {
+        const r = await db.send(new QueryCommand({
+            TableName: T.encyclopedia,
+            IndexName: "category-index",
+            KeyConditionExpression: "category = :cat",
+            ExpressionAttributeValues: marshall({ ":cat": category }),
+            Limit: pageSize,
+        }));
+        return { ingredients: r.Items.map(unmarshall), count: r.Count };
+    }
+
+    // Scan with optional filters — for full library browsing
+    const filters = [];
+    const eav = {};
+    if (published === "true") { filters.push("isPublished = :pub"); eav[":pub"] = "true"; }
+    if (skinType) { filters.push("contains(bestForSkinTypes, :st)"); eav[":st"] = skinType; }
+    if (sourcing) {
+        // sourcing is comma-separated list of flags e.g. "vegan,organic"
+        sourcing.split(",").forEach((flag, i) => {
+            filters.push(`#s${i} = :sv${i}`);
+            eav[`:sv${i}`] = true;
+        });
+    }
+
+    const params = {
+        TableName: T.encyclopedia,
+        Limit: pageSize,
+        ...(filters.length && {
+            FilterExpression: filters.join(" AND "),
+            ExpressionAttributeValues: marshall(eav),
+        }),
+    };
+
+    if (sourcing) {
+        // Add ExpressionAttributeNames for sourcing flag fields
+        const flagNames = sourcing.split(",");
+        params.ExpressionAttributeNames = {};
+        flagNames.forEach((flag, i) => {
+            params.ExpressionAttributeNames[`#s${i}`] = flag.trim();
+        });
+    }
+
+    const r = await db.send(new ScanCommand(params));
+    let items = r.Items.map(unmarshall);
+
+    if (search) {
+        const q = search.toLowerCase();
+        items = items.filter(i =>
+            i.name?.toLowerCase().includes(q) ||
+            i.inciName?.toLowerCase().includes(q) ||
+            i.primaryFunction?.toLowerCase().includes(q) ||
+            i.category?.toLowerCase().includes(q)
+        );
+    }
+
+    return { ingredients: items, count: items.length };
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
