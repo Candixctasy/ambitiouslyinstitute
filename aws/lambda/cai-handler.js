@@ -148,6 +148,31 @@ SKIN-ACTIVE BOTANICALS (topical applications):
 FORMULATION PRINCIPLE — SCIENCE × HERITAGE:
 Every A List formula blends the precision of cosmetic chemistry with the heritage of botanical medicine. The synthetic and botanical are not competing — they are complementary delivery systems for the same outcome: skin that functions well.
 
+THE BY BOBO INGREDIENT SOURCING STANDARDS:
+Clients declare their sourcing preferences at intake. Every formulation must respect the declared standards:
+
+HERITAGE & ORIGIN STANDARDS:
+- Botanical: ingredients derived from plant material (roots, leaves, flowers, bark, seeds). Preference for whole-plant extracts over isolated fractions where clinically equivalent.
+- Herbal: ingredients with a documented history of use in traditional herbal medicine (TCM, Ayurveda, Western herbalism). Must have modern topical evidence to be included.
+- Wild Crafted: ingredients harvested from uncultivated, natural habitats — not farmed. Higher phytochemical variability; note in the formula card. Source sustainability must be considered.
+- Organic: USDA Organic / ECOCERT / COSMOS certified where available. Synthetic pesticide and herbicide-free cultivation. Flag any ingredient where certified organic form is not commercially viable.
+- Raw: minimally processed — no heat treatment above 40°C, no solvent extraction. Cold-process compatible. Flag any active where raw form has meaningfully lower efficacy than processed.
+- Cold Pressed: extraction via mechanical pressure only — no solvents, no heat. Applies primarily to fixed oils (rosehip, jojoba, argan, borage, sea buckthorn, evening primrose). Retains full fatty acid and antioxidant profile.
+
+VALUES & COMPLIANCE STANDARDS:
+- Cruelty Free: no animal testing at any stage — ingredient, formula, or finished product. PETA/Leaping Bunny standard. Verify supplier chain.
+- Vegan: no animal-derived ingredients or animal byproducts. Exclude: lanolin, beeswax, honey, carmine, collagen (bovine/marine), silk protein, allantoin (if not synthetic or comfrey-sourced), squalane (shark — use olive-derived only).
+- Gluten Free: no wheat, barley, rye, or oat-derived ingredients. Flag hydrolyzed wheat protein (common emollient/conditioner). Certified gluten-free alternatives only.
+- Clinical Grade: ingredients at therapeutic concentrations with clinical evidence. Minimum: peer-reviewed study or established dermatology consensus. No ingredient is included for marketing appeal alone. Concentrations must meet or exceed the ranges used in published studies.
+- Pharmaceutical Grade: USP/BP/EP purity standards where applicable. Highest purity specification — pharmaceutical-grade niacinamide, retinol, ascorbic acid, peptides. Supplier COA (Certificate of Analysis) required. No cosmetic-grade substitution when pharmaceutical-grade is requested.
+
+SOURCING CONFLICT RULES:
+- If Vegan is selected: exclude beeswax (use candelilla), lanolin (use plant ceramides or shea), marine collagen (use plant peptides), shark squalane (use Amaranthus-derived or olive-derived squalane).
+- If Gluten Free is selected: exclude hydrolyzed wheat protein, oat extract (unless certified GF oat), barley extract.
+- If Pharmaceutical Grade is selected: all key actives must reference USP-grade specification in the formula card.
+- If Wild Crafted is selected: note species, region, and sustainability status (CITES listed plants must be excluded or use farmed alternatives).
+- Conflicting standards (e.g., Raw + Pharmaceutical Grade on the same active) should be flagged — explain the trade-off, recommend which standard takes priority for that ingredient.
+
 MARKET CONTEXT:
 The beauty industry ships 30,000 products a year. 85% fail. Every A List formula is built for one skin — not a shelf slot. The curation IS the product. What we leave out matters as much as what we put in.
 
@@ -299,18 +324,23 @@ ${JSON.stringify(profile, null, 2)}`,
 }
 
 // Step 3: Ingredient Education
-// skinMap: result from step 2, goals: array of client goals
-async function handleIngredients(client, { skinMap = {}, goals = [] }) {
+// skinMap: result from step 2, goals: array, sourcing: array of client sourcing standards
+async function handleIngredients(client, { skinMap = {}, goals = [], sourcing = [] }) {
+    const sourcingLine = sourcing.length
+        ? `\nINGREDIENT SOURCING REQUIREMENTS: The client has declared the following standards — ALL ingredient selections must comply: ${sourcing.join(", ")}. Flag any ingredient that cannot meet a declared standard and propose a compliant alternative.`
+        : "";
     const msg = await client.messages.create({
         model: MODEL,
         max_tokens: 1500,
         system: SKIN_SYSTEM_BLOCKS,
         messages: [{
             role: "user",
-            content: `Based on this skin map and client goals, select ONLY the ingredients that are directly indicated. Fewer precise ingredients beat a broad-spectrum list every time.
+            content: `Based on this skin map and client goals, select ONLY the ingredients that are directly indicated. Fewer precise ingredients beat a broad-spectrum list every time.${sourcingLine}
 
 For each ingredient return as a JSON array of objects:
-{ "name": "", "inci": "", "purpose": "", "concentrationRange": "", "applicationOrder": 0, "whyThisSkin": "", "contraindication": "" }
+{ "name": "", "inci": "", "purpose": "", "concentrationRange": "", "applicationOrder": 0, "whyThisSkin": "", "sourcingNotes": "", "contraindication": "" }
+
+"sourcingNotes" should confirm compliance with declared standards or flag a trade-off.
 
 Exclude anything not clearly earned by this skin profile. If a goal requires an active the skin cannot currently tolerate, note it in a "deferred" array with a reason.
 
@@ -325,7 +355,7 @@ Client goals: ${goals.join(", ")}`,
 
 // Step 4: Custom Formulation
 // skinMap, selectedIngredients, productType (essence|serum|cream|gel|mousse|toner|treatment),
-// preferences: { scent, packaging, sustainableOnly, charitable }
+// preferences: { scent, packaging, charitable, sourcing[] }
 async function handleFormulate(client, { skinMap = {}, selectedIngredients = [], productType, preferences = {} }) {
     if (!productType) return err(400, "productType is required");
 
@@ -346,6 +376,9 @@ async function handleFormulate(client, { skinMap = {}, selectedIngredients = [],
     const charitable = preferences.charitable
         ? "A portion of this product's revenue goes to The Ginette N. BoBo Foundation. Note this in the formula card."
         : "";
+    const sourcing = Array.isArray(preferences.sourcing) && preferences.sourcing.length
+        ? `INGREDIENT SOURCING STANDARDS (mandatory compliance): ${preferences.sourcing.join(", ")}. Every ingredient in this formula must comply. Flag any conflict or trade-off under "sourcingNotes" in each ingredient object. Add a "sourcingCertifications" field to the root formula object listing all standards this formula satisfies.`
+        : "";
 
     const msg = await client.messages.create({
         model: MODEL,
@@ -359,6 +392,7 @@ PRODUCT TYPE: ${tier}
 SCENT PREFERENCE: ${scent}
 PACKAGING: ${packaging}
 ${charitable}
+${sourcing}
 
 This is NOT a generic formula. Every ingredient must be traceable to this client's actual skin data. Return JSON only:
 {
@@ -369,7 +403,7 @@ This is NOT a generic formula. Every ingredient must be traceable to this client
     "percentage": "",
     "components": [{ "name": "", "inci": "", "percentage": "", "role": "" }]
   },
-  "activeIngredients": [{ "name": "", "inci": "", "percentage": "", "benefit": "", "whyThisSkin": "" }],
+  "activeIngredients": [{ "name": "", "inci": "", "percentage": "", "benefit": "", "whyThisSkin": "", "sourcingNotes": "" }],
   "emollients": [{ "name": "", "inci": "", "percentage": "", "role": "" }],
   "preservativeSystem": { "system": "", "percentage": "", "broadSpectrumCoverage": true },
   "pH": "",
@@ -377,6 +411,7 @@ This is NOT a generic formula. Every ingredient must be traceable to this client
   "scentProfile": "",
   "packagingRecommendation": "",
   "ecoCredentials": "",          // why this formula qualifies as sustainable/biodegradable
+  "sourcingCertifications": [],  // all declared sourcing standards this formula satisfies
   "usageInstructions": "",
   "layeringPosition": "",        // where in routine: 1=first, 2=second etc
   "shelfLifeMonths": 0,
