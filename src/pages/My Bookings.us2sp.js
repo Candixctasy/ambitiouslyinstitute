@@ -1,25 +1,11 @@
-// Ambitiously Institute — My Bookings page
-
-import wixLocation from 'wix-location';
 import { currentMember } from 'wix-members';
+import wixLocation from 'wix-location';
 
 $w.onReady(async function () {
-    const member = await currentMember.getMember().catch(() => null);
-    if (!member) {
-        wixLocation.to('/login?redirect=/my-bookings');
-        return;
-    }
-    initBookNowButton();
+    try {
+        const member = await currentMember.getMember();
+        if (!member) { wixLocation.to('/login?redirect=/my-bookings'); return; }
+        if ($w('#bookingsWidget').length > 0) $w('#bookingsWidget').show();
+        if ($w('#bookAnotherBtn').length > 0) $w('#bookAnotherBtn').onClick(() => wixLocation.to('/book-online'));
+    } catch (_) { wixLocation.to('/login?redirect=/my-bookings'); }
 });
-
-function initBookNowButton() {
-    // Wix Bookings renders the booking list automatically via the My Bookings widget.
-    // This handles any standalone CTA buttons on the page.
-    try {
-        $w('#bookNewSessionBtn').onClick(() => wixLocation.to('/schedule'));
-    } catch (_) {}
-
-    try {
-        $w('#browseProgramsBtn').onClick(() => wixLocation.to('/plans-pricing'));
-    } catch (_) {}
-}

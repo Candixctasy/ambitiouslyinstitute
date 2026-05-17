@@ -1,10 +1,7 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+import wixLocation from 'wix-location';
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+    if ($w('#customizePlanWidget').length > 0) $w('#customizePlanWidget').show();
+    if ($w('#backToPlansBtn').length > 0) $w('#backToPlansBtn').onClick(() => wixLocation.to('/plans-pricing'));
+    if ($w('#continueBtn').length > 0) $w('#continueBtn').onClick(() => wixLocation.to('/checkout'));
 });

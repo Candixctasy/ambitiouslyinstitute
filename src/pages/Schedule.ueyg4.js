@@ -1,36 +1,11 @@
-// Ambitiously Institute — Schedule / Book Online page
-
-import wixLocation from 'wix-location';
 import { currentMember } from 'wix-members';
+import wixLocation from 'wix-location';
 
 $w.onReady(async function () {
-    await guardAuth();
-    initServiceFilters();
+    try {
+        const member = await currentMember.getMember();
+        if (!member) { wixLocation.to('/login?redirect=/schedule'); return; }
+        if ($w('#scheduleWidget').length > 0) $w('#scheduleWidget').show();
+        if ($w('#bookBtn').length > 0) $w('#bookBtn').onClick(() => wixLocation.to('/book-online'));
+    } catch (_) { wixLocation.to('/login?redirect=/schedule'); }
 });
-
-async function guardAuth() {
-    const member = await currentMember.getMember().catch(() => null);
-    if (!member) {
-        wixLocation.to('/login?redirect=' + encodeURIComponent(wixLocation.url));
-    }
-}
-
-function initServiceFilters() {
-    try {
-        $w('#filterStrategy').onClick(() => filterServices('strategy'));
-        $w('#filterProgram').onClick(() => filterServices('program'));
-        $w('#filterAll').onClick(() => filterServices('all'));
-    } catch (_) {}
-}
-
-function filterServices(category) {
-    try {
-        if (category === 'all') {
-            $w('#servicesDataset').setFilter(wixData.filter());
-        } else {
-            $w('#servicesDataset').setFilter(
-                wixData.filter().eq('category', category)
-            );
-        }
-    } catch (_) {}
-}

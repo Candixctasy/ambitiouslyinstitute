@@ -1,35 +1,28 @@
-// Ambitiously Institute — Service Page (individual service detail)
-
 import wixLocation from 'wix-location';
 import { currentMember } from 'wix-members';
+import { getActiveDiscount } from 'backend/alist.web';
 
 $w.onReady(async function () {
-    const member = await currentMember.getMember().catch(() => null);
-    const isLoggedIn = !!member;
-
-    initBookingButton(isLoggedIn);
-    initRelatedServices();
+    initBooking();
+    await applyAListPricing();
 });
 
-function initBookingButton(isLoggedIn) {
-    try {
-        $w('#bookNowBtn').onClick(() => {
-            if (!isLoggedIn) {
-                wixLocation.to('/login?redirect=' + encodeURIComponent(wixLocation.url));
-                return;
-            }
-            // Wix Bookings handles the booking flow via its native widget.
-            $w('#bookingWidget').scrollTo();
-        });
-    } catch (_) {}
+function initBooking() {
+    if ($w('#bookServiceBtn').length > 0) {
+        $w('#bookServiceBtn').onClick(() => wixLocation.to('/booking'));
+    }
+    if ($w('#addToCartBtn').length > 0) {
+        $w('#addToCartBtn').onClick(() => wixLocation.to('/cart'));
+    }
 }
 
-function initRelatedServices() {
+async function applyAListPricing() {
     try {
-        $w('#viewAllServicesBtn').onClick(() => wixLocation.to('/schedule'));
-    } catch (_) {}
-
-    try {
-        $w('#viewPricingBtn').onClick(() => wixLocation.to('/plans-pricing'));
+        const member = await currentMember.getMember();
+        if (!member) return;
+        const { discount, isBirthday } = await getActiveDiscount(member.loginEmail, 'consumer');
+        if (!discount || !$w('#alistServicePrice').length) return;
+        $w('#alistServicePrice').text = `A List Members: ${discount}% off${isBirthday ? ' (Birthday bonus!)' : ''}`;
+        $w('#alistServicePrice').show();
     } catch (_) {}
 }

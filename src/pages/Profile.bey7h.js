@@ -1,37 +1,29 @@
-// Ambitiously Institute — Member Profile page
-
-import wixLocation from 'wix-location';
 import { currentMember } from 'wix-members';
+import wixLocation from 'wix-location';
+import { getAListProfile, getSkinHistory } from 'backend/alist.web';
 
 $w.onReady(async function () {
-    const member = await currentMember.getMember().catch(() => null);
-    if (!member) {
-        wixLocation.to('/login?redirect=/profile');
-        return;
-    }
-    populateProfile(member);
-    initEditButton();
-});
-
-function populateProfile(member) {
-    const name = [
-        member.contactDetails?.firstName,
-        member.contactDetails?.lastName,
-    ].filter(Boolean).join(' ');
-
-    try { $w('#profileName').text = name || 'Member'; } catch (_) {}
-    try { $w('#profileEmail').text = member.loginEmail || ''; } catch (_) {}
-
-    const joinDate = member.createdDate
-        ? new Date(member.createdDate).toLocaleDateString('en-CA', {
-              year: 'numeric', month: 'long', day: 'numeric',
-          })
-        : '';
-    try { $w('#profileJoinDate').text = joinDate ? `Member since ${joinDate}` : ''; } catch (_) {}
-}
-
-function initEditButton() {
     try {
-        $w('#editProfileBtn').onClick(() => wixLocation.to('/my-account'));
+        const member = await currentMember.getMember();
+        if (!member) { wixLocation.to('/login?redirect=/profile'); return; }
+
+        if ($w('#profileName').length > 0) $w('#profileName').text = member.profile?.nickname || member.loginEmail?.split('@')[0] || 'Member';
+        if ($w('#profileEmail').length > 0) $w('#profileEmail').text = member.loginEmail || '';
+
+        const { member: alistMember } = await getAListProfile(member.loginEmail).catch(() => ({ member: null }));
+        if (alistMember && $w('#alistStatus').length > 0) {
+            $w('#alistStatus').text = `A List Member — ${alistMember.tier === 'professional' ? 'Professional' : 'Consumer'} Tier`;
+            $w('#alistStatus').show();
+        }
+
+        const { history } = await getSkinHistory(member.loginEmail).catch(() => ({ history: [] }));
+        if (history?.length > 0 && $w('#lastCheckIn').length > 0) {
+            const last = new Date(history[0].trackedAt);
+            $w('#lastCheckIn').text = `Last skin check-in: ${last.toLocaleDateString('en-CA')}`;
+            $w('#lastCheckIn').show();
+        }
     } catch (_) {}
-}
+
+    if ($w('#editProfileBtn').length > 0) $w('#editProfileBtn').onClick(() => wixLocation.to('/settings'));
+    if ($w('#myAccountBtn').length > 0) $w('#myAccountBtn').onClick(() => wixLocation.to('/my-account'));
+});

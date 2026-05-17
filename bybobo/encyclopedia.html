@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ingredient Encyclopedia — Ambitiously By BoBo</title>
+  <meta name="description" content="Every ingredient By BoBo uses — where it comes from, how it works, why it's in your formula. Education before everything." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --black:  #080808;
+      --dark:   #0f0f0f;
+      --panel:  #111111;
+      --gold:   #C9A84C;
+      --gold2:  #E8C96A;
+      --gold3:  #8B6914;
+      --ivory:  #F0EBE0;
+      --muted:  #7A7068;
+      --serif:  'Cormorant Garamond', Georgia, serif;
+      --sans:   'DM Sans', sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--black); color: var(--ivory); font-family: var(--sans); font-weight: 300; line-height: 1.7; overflow-x: hidden; }
+
+    /* NAV */
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 1.4rem 5rem; background: rgba(8,8,8,0.97); border-bottom: 1px solid rgba(201,168,76,0.15); }
+    .nav-logo { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; }
+    .nav-monogram { width: 40px; height: 40px; border: 1px solid var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+    .nav-wordmark { font-family: var(--serif); font-size: 1rem; font-weight: 400; color: var(--gold); letter-spacing: 0.12em; text-transform: uppercase; }
+    .nav-back { font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(240,235,224,0.6); text-decoration: none; transition: color 0.2s; }
+    .nav-back:hover { color: var(--gold); }
+
+    /* HERO */
+    .hero { padding: 10rem 5rem 5rem; text-align: center; border-bottom: 1px solid rgba(201,168,76,0.1); }
+    .hero-eyebrow { font-size: 0.65rem; letter-spacing: 0.35em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.2rem; }
+    .hero-title { font-family: var(--serif); font-size: clamp(2.8rem, 6vw, 5rem); font-weight: 300; line-height: 1.1; margin-bottom: 1.5rem; }
+    .hero-title em { font-style: italic; color: var(--gold); }
+    .hero-copy { font-size: 1.05rem; color: rgba(240,235,224,0.65); max-width: 600px; margin: 0 auto 2rem; line-height: 1.8; }
+    .hero-principle { display: inline-block; font-family: var(--serif); font-size: 1.1rem; font-style: italic; color: var(--gold); border-top: 1px solid rgba(201,168,76,0.3); border-bottom: 1px solid rgba(201,168,76,0.3); padding: 0.6rem 2rem; margin-bottom: 0; }
+
+    /* FILTER BAR */
+    .filter-section { padding: 2.5rem 5rem; border-bottom: 1px solid rgba(201,168,76,0.08); background: var(--dark); position: sticky; top: 73px; z-index: 90; }
+    .filter-row { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin-bottom: 1rem; }
+    .filter-row:last-child { margin-bottom: 0; }
+    .filter-label { font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); white-space: nowrap; flex-shrink: 0; width: 90px; }
+    .filter-pills { display: flex; gap: 0.4rem; flex-wrap: wrap; flex: 1; }
+    .fpill { padding: 0.3rem 0.9rem; border: 1px solid rgba(201,168,76,0.2); font-size: 0.7rem; color: rgba(240,235,224,0.55); cursor: pointer; transition: all 0.2s; border-radius: 0; background: none; font-family: var(--sans); letter-spacing: 0.05em; }
+    .fpill:hover, .fpill.active { border-color: var(--gold); color: var(--gold); background: rgba(201,168,76,0.06); }
+    .search-wrap { position: relative; flex: 1; max-width: 340px; }
+    .search-input { width: 100%; background: rgba(255,255,255,0.04); border: 1px solid rgba(201,168,76,0.15); color: var(--ivory); font-family: var(--sans); font-size: 0.8rem; padding: 0.55rem 2.5rem 0.55rem 1rem; outline: none; transition: border-color 0.2s; }
+    .search-input:focus { border-color: rgba(201,168,76,0.4); }
+    .search-input::placeholder { color: var(--muted); }
+    .search-icon { position: absolute; right: 0.8rem; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 0.9rem; pointer-events: none; }
+    .result-count { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.05em; margin-top: 0.6rem; }
+
+    /* GRID */
+    .grid-section { padding: 3rem 5rem 6rem; }
+    .ingredient-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1px; background: rgba(201,168,76,0.08); }
+    .ing-card { background: var(--dark); padding: 2rem; cursor: pointer; transition: background 0.2s; position: relative; }
+    .ing-card:hover { background: #161616; }
+    .ing-card-hero { width: 100%; height: 160px; object-fit: cover; margin-bottom: 1.2rem; display: block; background: var(--panel); }
+    .ing-card-cat { font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.4rem; }
+    .ing-card-name { font-family: var(--serif); font-size: 1.4rem; font-weight: 400; margin-bottom: 0.2rem; }
+    .ing-card-inci { font-size: 0.72rem; color: var(--muted); font-style: italic; margin-bottom: 0.8rem; }
+    .ing-card-fn { font-size: 0.82rem; color: rgba(240,235,224,0.65); line-height: 1.6; margin-bottom: 1rem; }
+    .ing-badges { display: flex; gap: 0.3rem; flex-wrap: wrap; }
+    .badge { font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.2rem 0.6rem; border: 1px solid rgba(201,168,76,0.2); color: rgba(201,168,76,0.7); }
+    .badge.vegan { border-color: rgba(120,180,100,0.35); color: rgba(140,200,120,0.8); }
+    .badge.organic { border-color: rgba(100,160,80,0.35); color: rgba(120,180,100,0.8); }
+    .badge.wildcrafted { border-color: rgba(160,130,80,0.4); color: rgba(180,150,100,0.85); }
+    .badge.cold-pressed { border-color: rgba(180,220,255,0.2); color: rgba(180,210,255,0.7); }
+    .badge.pharmaceutical { border-color: rgba(180,180,255,0.3); color: rgba(180,180,255,0.75); }
+    .badge.canadian { border-color: rgba(200,80,80,0.3); color: rgba(200,100,100,0.75); }
+    .ing-card-read { position: absolute; bottom: 1.2rem; right: 1.5rem; font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); opacity: 0; transition: opacity 0.2s; }
+    .ing-card:hover .ing-card-read { opacity: 1; }
+
+    /* LOADING / EMPTY */
+    .grid-loading { text-align: center; padding: 6rem 0; color: var(--muted); font-size: 0.85rem; letter-spacing: 0.1em; }
+    .grid-loading .spinner { display: inline-block; width: 28px; height: 28px; border: 1px solid rgba(201,168,76,0.2); border-top-color: var(--gold); border-radius: 50%; animation: spin 0.9s linear infinite; margin-bottom: 1rem; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .grid-empty { text-align: center; padding: 5rem 0; color: var(--muted); }
+    .grid-empty strong { display: block; font-family: var(--serif); font-size: 1.5rem; font-weight: 300; color: rgba(240,235,224,0.4); margin-bottom: 0.5rem; }
+
+    /* MODAL */
+    .modal-overlay { position: fixed; inset: 0; background: rgba(8,8,8,0.92); z-index: 200; display: none; overflow-y: auto; }
+    .modal-overlay.open { display: block; }
+    .modal { max-width: 780px; margin: 5rem auto; background: var(--panel); border: 1px solid rgba(201,168,76,0.15); padding: 3rem; position: relative; }
+    .modal-close { position: absolute; top: 1.5rem; right: 1.5rem; background: none; border: none; color: var(--muted); font-size: 1.4rem; cursor: pointer; transition: color 0.2s; line-height: 1; }
+    .modal-close:hover { color: var(--ivory); }
+    .modal-hero { width: 100%; height: 220px; object-fit: cover; margin-bottom: 2rem; display: block; background: var(--dark); }
+    .modal-cat { font-size: 0.6rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.5rem; }
+    .modal-name { font-family: var(--serif); font-size: 2.4rem; font-weight: 300; margin-bottom: 0.2rem; }
+    .modal-inci { font-size: 0.82rem; color: var(--muted); font-style: italic; margin-bottom: 1rem; }
+    .modal-badges { display: flex; gap: 0.3rem; flex-wrap: wrap; margin-bottom: 2rem; }
+    .modal-divider { height: 1px; background: rgba(201,168,76,0.1); margin: 1.5rem 0; }
+    .modal-section-label { font-size: 0.6rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.6rem; }
+    .modal-body { font-size: 0.88rem; color: rgba(240,235,224,0.72); line-height: 1.85; }
+    .modal-body p { margin-bottom: 1rem; }
+    .modal-body p:last-child { margin-bottom: 0; }
+    .modal-meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.5rem; }
+    .modal-meta-item { background: var(--dark); padding: 1rem 1.2rem; }
+    .modal-meta-key { font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.3rem; }
+    .modal-meta-val { font-size: 0.85rem; color: var(--ivory); }
+    .modal-trans { margin-top: 2rem; padding: 1.2rem; border-left: 2px solid var(--gold); background: rgba(201,168,76,0.04); font-size: 0.85rem; font-style: italic; color: rgba(240,235,224,0.65); line-height: 1.7; }
+    .modal-cta { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(201,168,76,0.1); display: flex; align-items: center; justify-content: space-between; flex-wrap: gap; }
+    .modal-cta-copy { font-size: 0.82rem; color: var(--muted); }
+    .btn-gold { display: inline-block; padding: 0.7rem 2rem; border: 1px solid var(--gold); color: var(--gold); font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; transition: all 0.25s; font-family: var(--sans); cursor: pointer; background: transparent; }
+    .btn-gold:hover { background: var(--gold); color: var(--black); }
+
+    /* CATEGORIES KEY */
+    .cat-key { padding: 4rem 5rem; border-top: 1px solid rgba(201,168,76,0.08); }
+    .cat-key-title { font-family: var(--serif); font-size: 1.5rem; font-weight: 300; margin-bottom: 2rem; }
+    .cat-key-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1px; background: rgba(201,168,76,0.08); }
+    .cat-key-item { background: var(--dark); padding: 1.2rem 1.5rem; cursor: pointer; transition: background 0.2s; }
+    .cat-key-item:hover { background: #161616; }
+    .cat-key-name { font-size: 0.82rem; color: var(--ivory); margin-bottom: 0.2rem; }
+    .cat-key-count { font-size: 0.68rem; color: var(--muted); }
+
+    @media (max-width: 900px) {
+      nav { padding: 1.2rem 1.5rem; }
+      .hero, .filter-section, .grid-section, .cat-key { padding-left: 1.5rem; padding-right: 1.5rem; }
+      .filter-section { top: 65px; }
+      .ingredient-grid { grid-template-columns: 1fr; }
+      .modal { margin: 0; min-height: 100vh; border: none; }
+      .modal-meta-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <div class="nav-monogram">
+      <svg viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <text x="2" y="17" font-family="Cormorant Garamond,Georgia,serif" font-size="14" font-weight="400" fill="#C9A84C">A</text>
+        <text x="10" y="17" font-family="Cormorant Garamond,Georgia,serif" font-size="14" font-weight="400" fill="#C9A84C">B</text>
+      </svg>
+    </div>
+    <span class="nav-wordmark">By BoBo</span>
+  </a>
+  <a href="index.html" class="nav-back">← The A List</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-eyebrow">Transparency · Science · Heritage</div>
+  <h1 class="hero-title">The Ingredient<br><em>Encyclopedia</em></h1>
+  <p class="hero-copy">Every ingredient By BoBo formulates with — where it grows, how it's extracted, what it does on skin, and why it earns its place in your formula. Education before everything. Nothing is in your product by accident.</p>
+  <div class="hero-principle">"If you can't explain why an ingredient is there, it shouldn't be there."</div>
+</section>
+
+<!-- FILTER BAR -->
+<div class="filter-section">
+  <div class="filter-row">
+    <span class="filter-label">Category</span>
+    <div class="filter-pills" id="cat-filters">
+      <button class="fpill active" data-filter="category" data-val="">All</button>
+      <button class="fpill" data-filter="category" data-val="Butter">Butters</button>
+      <button class="fpill" data-filter="category" data-val="Oil">Oils</button>
+      <button class="fpill" data-filter="category" data-val="Hydrosol">Hydrosols</button>
+      <button class="fpill" data-filter="category" data-val="Active">Actives</button>
+      <button class="fpill" data-filter="category" data-val="Botanical">Botanicals</button>
+      <button class="fpill" data-filter="category" data-val="Wax">Waxes</button>
+      <button class="fpill" data-filter="category" data-val="Humectant">Humectants</button>
+      <button class="fpill" data-filter="category" data-val="Emulsifier">Emulsifiers</button>
+      <button class="fpill" data-filter="category" data-val="Preservative">Preservatives</button>
+      <button class="fpill" data-filter="category" data-val="Peptide">Peptides</button>
+      <button class="fpill" data-filter="category" data-val="AHA">AHAs</button>
+      <button class="fpill" data-filter="category" data-val="Vitamin">Vitamins</button>
+    </div>
+  </div>
+  <div class="filter-row">
+    <span class="filter-label">Standards</span>
+    <div class="filter-pills">
+      <button class="fpill" data-filter="sourcing" data-val="vegan">Vegan</button>
+      <button class="fpill" data-filter="sourcing" data-val="organic">Organic</button>
+      <button class="fpill" data-filter="sourcing" data-val="wildcrafted">Wild Crafted</button>
+      <button class="fpill" data-filter="sourcing" data-val="glutenFree">Gluten Free</button>
+      <button class="fpill" data-filter="sourcing" data-val="coldPressed">Cold Pressed</button>
+      <button class="fpill" data-filter="sourcing" data-val="biodegradable">Biodegradable</button>
+      <button class="fpill" data-filter="sourcing" data-val="canadianSourced">Canadian</button>
+      <button class="fpill" data-filter="sourcing" data-val="ancientIngredient">Ancient</button>
+    </div>
+    <div class="search-wrap">
+      <input class="search-input" id="search" type="search" placeholder="Search ingredients…" oninput="handleSearch()" />
+      <span class="search-icon">⌕</span>
+    </div>
+  </div>
+  <div class="result-count" id="result-count">Loading encyclopedia…</div>
+</div>
+
+<!-- GRID -->
+<section class="grid-section">
+  <div id="grid-loading" class="grid-loading">
+    <div class="spinner"></div><br>Loading ingredients…
+  </div>
+  <div class="ingredient-grid" id="ing-grid" style="display:none;"></div>
+  <div class="grid-empty" id="grid-empty" style="display:none;">
+    <strong>No ingredients found</strong>
+    Try a different search or filter.
+  </div>
+</section>
+
+<!-- CATEGORY KEY -->
+<section class="cat-key" id="cat-key" style="display:none;">
+  <p class="cat-key-title">Browse by Category</p>
+  <div class="cat-key-grid" id="cat-key-grid"></div>
+</section>
+
+<!-- INGREDIENT DETAIL MODAL -->
+<div class="modal-overlay" id="modal" role="dialog" aria-modal="true">
+  <div class="modal" id="modal-inner">
+    <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<script>
+  const DB_URL  = 'YOUR_API_GATEWAY_URL';
+  const DB_KEY  = 'YOUR_API_KEY';
+
+  let allIngredients = [];
+  let filters = { category: '', sourcing: '', search: '' };
+
+  // ── Boot ──────────────────────────────────────────────────────────────────
+  (async () => {
+    try {
+      const r = await fetch(`${DB_URL}/bybobo/encyclopedia?limit=500`, {
+        headers: { 'x-api-key': DB_KEY }
+      });
+      const data = await r.json();
+      allIngredients = data.ingredients || [];
+      renderGrid(allIngredients);
+      buildCatKey(allIngredients);
+    } catch (e) {
+      document.getElementById('grid-loading').innerHTML =
+        '<p style="color:var(--muted);">Unable to load encyclopedia — check API configuration.</p>';
+    }
+  })();
+
+  // ── Filter pills ──────────────────────────────────────────────────────────
+  document.querySelectorAll('.fpill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const type = btn.dataset.filter;
+      const val  = btn.dataset.val;
+
+      if (type === 'category') {
+        document.querySelectorAll('[data-filter="category"]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        filters.category = val;
+      } else if (type === 'sourcing') {
+        btn.classList.toggle('active');
+        const active = [...document.querySelectorAll('[data-filter="sourcing"].active')].map(b => b.dataset.val);
+        filters.sourcing = active.join(',');
+      }
+
+      applyFilters();
+    });
+  });
+
+  function handleSearch() {
+    filters.search = document.getElementById('search').value.trim().toLowerCase();
+    applyFilters();
+  }
+
+  function applyFilters() {
+    let items = allIngredients;
+
+    if (filters.category) {
+      items = items.filter(i => i.category === filters.category || i.subCategory === filters.category);
+    }
+
+    if (filters.sourcing) {
+      const flags = filters.sourcing.split(',').filter(Boolean);
+      items = items.filter(i => flags.every(f => i[f] === true || i[f] === 'true'));
+    }
+
+    if (filters.search) {
+      const q = filters.search;
+      items = items.filter(i =>
+        i.name?.toLowerCase().includes(q) ||
+        i.inciName?.toLowerCase().includes(q) ||
+        i.primaryFunction?.toLowerCase().includes(q) ||
+        i.category?.toLowerCase().includes(q) ||
+        i.origin?.toLowerCase().includes(q)
+      );
+    }
+
+    renderGrid(items);
+  }
+
+  // ── Render ────────────────────────────────────────────────────────────────
+  function renderGrid(items) {
+    const grid    = document.getElementById('ing-grid');
+    const loading = document.getElementById('grid-loading');
+    const empty   = document.getElementById('grid-empty');
+    const count   = document.getElementById('result-count');
+
+    loading.style.display = 'none';
+
+    if (!items.length) {
+      grid.style.display = 'none';
+      empty.style.display = 'block';
+      count.textContent = 'No ingredients match';
+      return;
+    }
+
+    empty.style.display = 'none';
+    grid.style.display = 'grid';
+    count.textContent = `${items.length} ingredient${items.length !== 1 ? 's' : ''}`;
+
+    grid.innerHTML = items.map(i => cardHTML(i)).join('');
+  }
+
+  function cardHTML(i) {
+    const badges = buildBadges(i);
+    const img = i.heroImageUrl
+      ? `<img class="ing-card-hero" src="${escHtml(i.heroImageUrl)}" alt="${escHtml(i.name)}" loading="lazy" />`
+      : `<div class="ing-card-hero" style="display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:0.7rem;letter-spacing:0.1em;">No image</div>`;
+    return `
+      <div class="ing-card" onclick="openModal('${escHtml(i.slug)}')">
+        ${img}
+        <div class="ing-card-cat">${escHtml(i.category || '')}${i.subCategory ? ' · ' + escHtml(i.subCategory) : ''}</div>
+        <div class="ing-card-name">${escHtml(i.name)}</div>
+        <div class="ing-card-inci">${escHtml(i.inciName || '')}</div>
+        <div class="ing-card-fn">${escHtml(i.primaryFunction || '')}</div>
+        <div class="ing-badges">${badges}</div>
+        <span class="ing-card-read">Read more →</span>
+      </div>`;
+  }
+
+  function buildBadges(i) {
+    const map = {
+      vegan:          ['vegan',        'Vegan'],
+      organic:        ['organic',      'Organic'],
+      wildcrafted:    ['wildcrafted',  'Wild Crafted'],
+      glutenFree:     ['',             'GF'],
+      crueltyFree:    ['',             'Cruelty Free'],
+      coldPressed:    ['cold-pressed', 'Cold Pressed'],
+      pharmaceutical: ['pharmaceutical','Pharm Grade'],
+      biodegradable:  ['',             'Biodeg'],
+      canadianSourced:['canadian',     'Canadian'],
+      ancientIngredient:['',           'Ancient'],
+    };
+    return Object.entries(map)
+      .filter(([key]) => i[key] === true || i[key] === 'true')
+      .map(([, [cls, label]]) => `<span class="badge ${cls}">${label}</span>`)
+      .join('');
+  }
+
+  // ── Category Key ──────────────────────────────────────────────────────────
+  function buildCatKey(items) {
+    const cats = {};
+    items.forEach(i => { if (i.category) cats[i.category] = (cats[i.category] || 0) + 1; });
+    const keyGrid = document.getElementById('cat-key-grid');
+    keyGrid.innerHTML = Object.entries(cats).sort((a,b) => b[1]-a[1]).map(([cat, cnt]) =>
+      `<div class="cat-key-item" onclick="filterByCategory('${escHtml(cat)}')" >
+        <div class="cat-key-name">${escHtml(cat)}</div>
+        <div class="cat-key-count">${cnt} ingredient${cnt !== 1 ? 's' : ''}</div>
+      </div>`
+    ).join('');
+    document.getElementById('cat-key').style.display = 'block';
+  }
+
+  function filterByCategory(cat) {
+    filters.category = cat;
+    document.querySelectorAll('[data-filter="category"]').forEach(b => {
+      b.classList.toggle('active', b.dataset.val === cat);
+    });
+    applyFilters();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // ── Modal ─────────────────────────────────────────────────────────────────
+  let ingredientCache = {};
+
+  async function openModal(slug) {
+    document.getElementById('modal').classList.add('open');
+    document.body.style.overflow = 'hidden';
+
+    let ing = ingredientCache[slug];
+    if (!ing) {
+      // Try local first
+      ing = allIngredients.find(i => i.slug === slug);
+      if (!ing) {
+        try {
+          const r = await fetch(`${DB_URL}/bybobo/encyclopedia/${slug}`, {
+            headers: { 'x-api-key': DB_KEY }
+          });
+          const data = await r.json();
+          ing = data.ingredient;
+        } catch { }
+      }
+      if (ing) ingredientCache[slug] = ing;
+    }
+
+    document.getElementById('modal-content').innerHTML = ing ? modalHTML(ing) : '<p style="color:var(--muted);padding:2rem;">Ingredient not found.</p>';
+  }
+
+  function closeModal() {
+    document.getElementById('modal').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('modal')) closeModal();
+  });
+
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  function modalHTML(i) {
+    const badges = buildBadges(i);
+    const img = i.heroImageUrl
+      ? `<img class="modal-hero" src="${escHtml(i.heroImageUrl)}" alt="${escHtml(i.name)}" />`
+      : '';
+
+    const metaItems = [
+      i.countryOfOrigin && ['Country of Origin', i.countryOfOrigin + (i.regionOfOrigin ? ', ' + i.regionOfOrigin : '')],
+      i.processingMethod && ['Processing', i.processingMethod],
+      i.sourceForm      && ['Source Form', i.sourceForm],
+      i.solubility      && ['Solubility', i.solubility],
+      i.maxUseLevel     && ['Max Use Level', i.maxUseLevel + '%'],
+      i.phWindowLow != null && i.phWindowHigh != null && ['pH Window', `${i.phWindowLow}–${i.phWindowHigh}`],
+      i.irritationRisk  && ['Irritation Risk', i.irritationRisk],
+      i.positioning     && ['Positioning', i.positioning],
+    ].filter(Boolean);
+
+    const eduSections = [
+      ['What it is',     i.educationWhat],
+      ['Where it comes from', i.educationWhere],
+      ['How it works',   i.educationHow],
+      ['Why it works',   i.educationWhy],
+      ['When to use',    i.educationWhen],
+    ].filter(([, val]) => val);
+
+    return `
+      ${img}
+      <div class="modal-cat">${escHtml(i.category || '')}${i.subCategory ? ' · ' + escHtml(i.subCategory) : ''}</div>
+      <h2 class="modal-name">${escHtml(i.name)}</h2>
+      <div class="modal-inci">${escHtml(i.inciName || '')}</div>
+      <div class="modal-badges">${badges}</div>
+
+      ${eduSections.map(([label, html]) => `
+        <div class="modal-divider"></div>
+        <div class="modal-section-label">${label}</div>
+        <div class="modal-body">${html}</div>
+      `).join('')}
+
+      ${i.historicalUseNotes ? `
+        <div class="modal-divider"></div>
+        <div class="modal-section-label">Historical Use</div>
+        <div class="modal-body">${i.historicalUseNotes}</div>
+      ` : ''}
+
+      ${metaItems.length ? `
+        <div class="modal-divider"></div>
+        <div class="modal-section-label">Formulation Data</div>
+        <div class="modal-meta-grid">
+          ${metaItems.map(([k,v]) => `<div class="modal-meta-item"><div class="modal-meta-key">${k}</div><div class="modal-meta-val">${escHtml(String(v))}</div></div>`).join('')}
+        </div>
+      ` : ''}
+
+      ${i.incompatibilities ? `
+        <div class="modal-divider"></div>
+        <div class="modal-section-label">Incompatibilities</div>
+        <div class="modal-body" style="color:rgba(240,180,100,0.75);">${i.incompatibilities}</div>
+      ` : ''}
+
+      ${i.transparencyStatement ? `
+        <div class="modal-trans">${i.transparencyStatement}</div>
+      ` : ''}
+
+      ${i.canadianRelevance ? `
+        <div class="modal-divider"></div>
+        <div class="modal-section-label">Canadian Relevance</div>
+        <div class="modal-body">${i.canadianRelevance}</div>
+      ` : ''}
+
+      <div class="modal-cta">
+        <span class="modal-cta-copy">This ingredient may be in your formula based on your skin profile.</span>
+        <a href="index.html#create" class="btn-gold">Build My Formula</a>
+      </div>`;
+  }
+
+  function escHtml(s) {
+    return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+</script>
+</body>
+</html>

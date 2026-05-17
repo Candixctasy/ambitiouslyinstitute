@@ -1,10 +1,13 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+import { currentMember } from 'wix-members';
+import wixLocation from 'wix-location';
+import { askCAI } from 'backend/cai.web';
 
-$w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+$w.onReady(async function () {
+    try {
+        const member = await currentMember.getMember();
+        if (!member) {
+            if ($w('#commentInput').length > 0) $w('#commentInput').disable();
+            if ($w('#commentHint').length > 0) { $w('#commentHint').text = 'Log in to join the conversation.'; $w('#commentHint').show(); }
+        }
+    } catch (_) {}
 });

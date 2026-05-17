@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ambitiously Institute — Executive Education for Beauty Professionals</title>
+  <meta name="description" content="The operational systems that transform talented beauty professionals into structured, high-earning educators. EBOS, Revenue Architecture, Territory Strategy." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --dark:   #1A1714;
+      --ivory:  #F5F0E8;
+      --gold:   #B8933F;
+      --gold2:  #D4AF37;
+      --muted:  #7A6E62;
+      --ink:    #0E0C0B;
+      --serif:  'Cormorant Garamond', Georgia, serif;
+      --sans:   'DM Sans', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--dark);
+      color: var(--ivory);
+      font-family: var(--sans);
+      font-weight: 300;
+      line-height: 1.7;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.2rem 4rem;
+      background: rgba(26,23,20,0.95);
+      border-bottom: 1px solid rgba(184,147,63,0.2);
+      backdrop-filter: blur(8px);
+    }
+    .nav-logo {
+      font-family: var(--serif);
+      font-size: 1.4rem;
+      letter-spacing: 0.15em;
+      color: var(--gold);
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a {
+      color: var(--ivory); text-decoration: none;
+      font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase;
+      opacity: 0.8; transition: opacity .2s, color .2s;
+    }
+    .nav-links a:hover { opacity: 1; color: var(--gold); }
+    .nav-cta {
+      background: var(--gold); color: var(--dark) !important;
+      padding: 0.6rem 1.4rem; opacity: 1 !important;
+      font-weight: 500;
+    }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--ivory); }
+
+    /* ── HERO ── */
+    #hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 8rem 2rem 4rem;
+      background: linear-gradient(160deg, #1A1714 60%, #2a201a);
+      position: relative; overflow: hidden;
+    }
+    #hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 50% 100%, rgba(184,147,63,0.08) 0%, transparent 70%);
+    }
+    .eyebrow {
+      font-size: 0.72rem; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 1.2rem;
+    }
+    h1 {
+      font-family: var(--serif); font-size: clamp(3rem, 7vw, 6rem);
+      font-weight: 300; line-height: 1.1; color: var(--ivory);
+      margin-bottom: 1.5rem;
+    }
+    h1 em { font-style: italic; color: var(--gold); }
+    .hero-sub {
+      max-width: 600px; font-size: 1.1rem; color: var(--ivory);
+      opacity: 0.75; margin-bottom: 3rem; line-height: 1.8;
+    }
+    .btn-group { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    .btn-primary {
+      background: var(--gold); color: var(--dark);
+      padding: 1rem 2.2rem; font-family: var(--sans);
+      font-size: 0.85rem; font-weight: 500; letter-spacing: 0.1em;
+      text-transform: uppercase; text-decoration: none;
+      border: none; cursor: pointer; transition: background .2s, transform .2s;
+    }
+    .btn-primary:hover { background: var(--gold2); transform: translateY(-2px); }
+    .btn-outline {
+      background: transparent; color: var(--ivory);
+      padding: 1rem 2.2rem; font-size: 0.85rem; font-weight: 400;
+      letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none;
+      border: 1px solid rgba(245,240,232,0.35); cursor: pointer;
+      transition: border-color .2s, color .2s;
+    }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+    .stats-bar {
+      display: flex; gap: 3rem; margin-top: 5rem; padding-top: 3rem;
+      border-top: 1px solid rgba(184,147,63,0.2);
+      flex-wrap: wrap; justify-content: center;
+    }
+    .stat { text-align: center; }
+    .stat-num { font-family: var(--serif); font-size: 2.4rem; color: var(--gold); }
+    .stat-label { font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.6; }
+
+    /* ── SECTIONS ── */
+    section { padding: 6rem 2rem; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .section-eyebrow {
+      font-size: 0.72rem; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 1rem; display: block;
+    }
+    h2 {
+      font-family: var(--serif); font-size: clamp(2.2rem, 5vw, 3.8rem);
+      font-weight: 300; line-height: 1.15; color: var(--ivory); margin-bottom: 1.5rem;
+    }
+    .section-intro { max-width: 600px; opacity: 0.75; margin-bottom: 3rem; font-size: 1rem; }
+
+    /* ── ABOUT ── */
+    #about { background: #141210; }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .about-photo {
+      aspect-ratio: 3/4; background: #2a201a;
+      border: 1px solid rgba(184,147,63,0.2);
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--serif); font-size: 1.2rem; color: var(--muted);
+    }
+    .about-cred { display: flex; flex-direction: column; gap: 1rem; margin: 2rem 0; }
+    .cred-item {
+      display: flex; align-items: flex-start; gap: 1rem;
+      padding: 1rem; border-left: 2px solid var(--gold);
+      background: rgba(184,147,63,0.04);
+    }
+    .cred-year { font-family: var(--serif); color: var(--gold); font-size: 0.9rem; min-width: 50px; }
+
+    /* ── GAP ── */
+    #gap { text-align: center; background: var(--dark); }
+    .gap-diagram {
+      display: grid; grid-template-columns: 1fr auto 1fr;
+      gap: 1rem; align-items: center; margin: 4rem 0; max-width: 900px; margin-inline: auto;
+    }
+    .cliff {
+      background: rgba(184,147,63,0.06); border: 1px solid rgba(184,147,63,0.2);
+      padding: 2rem; border-radius: 2px;
+    }
+    .cliff h3 { font-family: var(--serif); color: var(--gold); margin-bottom: 1rem; font-size: 1.3rem; }
+    .cliff ul { list-style: none; }
+    .cliff ul li { padding: 0.3rem 0; opacity: 0.7; font-size: 0.9rem; }
+    .cliff ul li::before { content: '→ '; color: var(--gold); }
+    .bridge {
+      background: var(--gold); color: var(--dark);
+      padding: 1.5rem 1rem; font-family: var(--serif);
+      font-size: 0.85rem; writing-mode: vertical-rl;
+      text-align: center; letter-spacing: 0.1em;
+    }
+
+    /* ── PROGRAMS ── */
+    #programs { background: #141210; }
+    .programs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 3rem; }
+    .program-card {
+      border: 1px solid rgba(184,147,63,0.2);
+      padding: 2.5rem 2rem; position: relative;
+      transition: border-color .3s, transform .3s;
+      background: rgba(184,147,63,0.02);
+    }
+    .program-card:hover { border-color: var(--gold); transform: translateY(-4px); }
+    .program-card.featured {
+      border-color: var(--gold);
+      background: rgba(184,147,63,0.06);
+    }
+    .badge {
+      display: inline-block; font-size: 0.65rem; letter-spacing: 0.2em;
+      text-transform: uppercase; padding: 0.3rem 0.8rem;
+      border: 1px solid var(--gold); color: var(--gold); margin-bottom: 1.5rem;
+    }
+    .program-price {
+      font-family: var(--serif); font-size: 2.5rem;
+      color: var(--gold); line-height: 1;
+    }
+    .program-price span { font-size: 1rem; color: var(--muted); }
+    .program-title { font-family: var(--serif); font-size: 1.4rem; margin: 0.8rem 0; }
+    .program-features { list-style: none; margin: 1.5rem 0 2rem; }
+    .program-features li {
+      padding: 0.5rem 0; border-bottom: 1px solid rgba(245,240,232,0.08);
+      font-size: 0.9rem; opacity: 0.8;
+    }
+    .program-features li::before { content: '✓ '; color: var(--gold); }
+
+    /* ── HOW IT WORKS ── */
+    #how { background: var(--dark); }
+    .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; margin-top: 3rem; }
+    .step { text-align: center; padding: 2rem 1rem; }
+    .step-num {
+      font-family: var(--serif); font-size: 3rem; color: var(--gold);
+      opacity: 0.4; line-height: 1; margin-bottom: 1rem;
+    }
+    .step h4 { font-family: var(--serif); font-size: 1.1rem; margin-bottom: 0.8rem; }
+    .step p { font-size: 0.9rem; opacity: 0.65; }
+
+    /* ── CAI ── */
+    #cai { background: #0E0C0B; }
+    .cai-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+    .cai-chat {
+      background: #1a1714; border: 1px solid rgba(184,147,63,0.25);
+      border-radius: 2px; overflow: hidden;
+    }
+    .cai-header {
+      background: var(--gold); color: var(--dark);
+      padding: 1rem 1.5rem; font-size: 0.85rem;
+      font-weight: 500; letter-spacing: 0.05em;
+    }
+    .cai-messages { padding: 1.5rem; min-height: 260px; display: flex; flex-direction: column; gap: 1rem; }
+    .msg { max-width: 85%; padding: 0.8rem 1rem; font-size: 0.9rem; line-height: 1.6; }
+    .msg-ai { background: rgba(184,147,63,0.1); border-left: 2px solid var(--gold); align-self: flex-start; }
+    .msg-user { background: rgba(245,240,232,0.08); align-self: flex-end; text-align: right; }
+    .cai-input-row {
+      display: flex; border-top: 1px solid rgba(184,147,63,0.2); padding: 1rem;
+    }
+    #caiInput {
+      flex: 1; background: transparent; border: none; outline: none;
+      color: var(--ivory); font-family: var(--sans); font-size: 0.9rem;
+    }
+    #caiInput::placeholder { color: var(--muted); }
+    #caiSend {
+      background: var(--gold); color: var(--dark); border: none;
+      padding: 0.5rem 1.2rem; cursor: pointer; font-size: 0.85rem; font-weight: 500;
+    }
+    .cai-thinking { display: none; align-self: flex-start; padding: 0.8rem 1rem; font-size: 0.85rem; color: var(--muted); }
+
+    /* ── TESTIMONIALS ── */
+    #testimonials { background: #141210; }
+    .testi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3rem; }
+    .testi-card {
+      padding: 2rem; border: 1px solid rgba(184,147,63,0.15);
+      background: rgba(184,147,63,0.03);
+    }
+    .testi-quote { font-family: var(--serif); font-size: 1.05rem; line-height: 1.7; margin-bottom: 1.5rem; opacity: 0.9; }
+    .testi-author { font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); }
+
+    /* ── FAQ ── */
+    #faq { background: var(--dark); }
+    .faq-list { max-width: 720px; margin-top: 3rem; }
+    .faq-item {
+      border-bottom: 1px solid rgba(245,240,232,0.1);
+      cursor: pointer;
+    }
+    .faq-q {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.4rem 0; font-size: 1rem;
+    }
+    .faq-q span { color: var(--gold); font-size: 1.2rem; transition: transform .3s; }
+    .faq-a { display: none; padding-bottom: 1.4rem; opacity: 0.7; font-size: 0.95rem; line-height: 1.8; }
+    .faq-item.open .faq-a { display: block; }
+    .faq-item.open .faq-q span { transform: rotate(45deg); }
+
+    /* ── APPLY ── */
+    #apply { background: linear-gradient(160deg, #1A1714, #2a1f15); text-align: center; }
+    .apply-box {
+      max-width: 680px; margin: 0 auto;
+      border: 1px solid rgba(184,147,63,0.3);
+      padding: 4rem 3rem; background: rgba(184,147,63,0.04);
+    }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+    .form-group { display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1rem; }
+    .form-group label { font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      background: rgba(245,240,232,0.05); border: 1px solid rgba(245,240,232,0.15);
+      color: var(--ivory); padding: 0.8rem 1rem;
+      font-family: var(--sans); font-size: 0.95rem; outline: none;
+      transition: border-color .2s;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus { border-color: var(--gold); }
+    .form-group select option { background: var(--dark); }
+    .form-group textarea { min-height: 100px; resize: vertical; }
+    #applySuccess { display: none; color: var(--gold); margin-top: 1rem; font-family: var(--serif); font-size: 1.1rem; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: #0E0C0B; padding: 4rem 2rem 2rem;
+      border-top: 1px solid rgba(184,147,63,0.15);
+    }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; max-width: 1100px; margin: 0 auto; }
+    .footer-brand h3 { font-family: var(--serif); color: var(--gold); font-size: 1.3rem; margin-bottom: 1rem; }
+    .footer-brand p { font-size: 0.9rem; opacity: 0.6; max-width: 280px; line-height: 1.8; }
+    .footer-col h4 { font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.2rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col ul li a { color: var(--ivory); text-decoration: none; opacity: 0.6; font-size: 0.9rem; transition: opacity .2s; }
+    .footer-col ul li a:hover { opacity: 1; }
+    .footer-bottom {
+      max-width: 1100px; margin: 3rem auto 0;
+      padding-top: 1.5rem; border-top: 1px solid rgba(245,240,232,0.08);
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 0.8rem; opacity: 0.5;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; }
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .nav-links.open {
+        display: flex; flex-direction: column; position: absolute;
+        top: 100%; left: 0; right: 0; background: var(--dark);
+        padding: 1.5rem; gap: 1.5rem;
+        border-bottom: 1px solid rgba(184,147,63,0.2);
+      }
+      .about-grid, .cai-grid { grid-template-columns: 1fr; }
+      .programs-grid, .steps, .testi-grid { grid-template-columns: 1fr; }
+      .gap-diagram { grid-template-columns: 1fr; }
+      .bridge { writing-mode: horizontal-tb; padding: 1rem; }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .about-photo { aspect-ratio: 16/9; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">Ambitiously Institute</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">Conrad</a></li>
+    <li><a href="#programs">Programs</a></li>
+    <li><a href="#cai">C-Ai</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="https://www.ambitiouslybybobo.com">By BoBo ↗</a></li>
+    <li><a href="#apply" class="nav-cta">Apply Now</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <p class="eyebrow">Ambitiously Institute</p>
+  <h1>Executive Education<br>for <em>Beauty Professionals</em></h1>
+  <p class="hero-sub">The operational systems that transform talented technicians into structured, high-earning educators. Education closes. Structure converts.</p>
+  <div class="btn-group">
+    <a href="#apply" class="btn-primary">Apply for Founding Cohort — $297</a>
+    <a href="#programs" class="btn-outline">Explore Programs</a>
+  </div>
+  <div class="stats-bar">
+    <div class="stat"><div class="stat-num">18+</div><div class="stat-label">Years Experience</div></div>
+    <div class="stat"><div class="stat-num">750+</div><div class="stat-label">Professionals Trained</div></div>
+    <div class="stat"><div class="stat-num">3</div><div class="stat-label">Program Tiers</div></div>
+    <div class="stat"><div class="stat-num">140%</div><div class="stat-label">Avg Retail Increase</div></div>
+  </div>
+</section>
+
+<!-- ABOUT CONRAD -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-photo">Conrad St. Denis<br><small style="opacity:.5;font-size:.8rem">Photo Coming</small></div>
+      <div>
+        <span class="section-eyebrow">The Founder</span>
+        <h2>Conrad<br><em>St. Denis</em></h2>
+        <p style="opacity:.75;margin-bottom:2rem;line-height:1.8">I spent 18 years as a National Educator for Visage Cosmetics, training hundreds of beauty professionals. I watched the same problem repeat: talent doesn't automatically convert. Structure converts.<br><br>The Institute exists to make your expertise speak clearly — so the right clients trust you, follow your plans, and invest without resistance.</p>
+        <div class="about-cred">
+          <div class="cred-item"><span class="cred-year">2003</span><span>Licensed Esthetician — 18 years active practice</span></div>
+          <div class="cred-item"><span class="cred-year">2012</span><span>Aveda Academy Certified — Medical Esthetics, Honours</span></div>
+          <div class="cred-item"><span class="cred-year">2018</span><span>Territory Revenue Leadership — Visage Cosmetics</span></div>
+          <div class="cred-item"><span class="cred-year">2024</span><span>Founder — Ambitiously Institute &amp; By BoBo</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE GAP -->
+<section id="gap">
+  <div class="container">
+    <span class="section-eyebrow">The Problem</span>
+    <h2>The <em>Authority Gap</em></h2>
+    <p class="section-intro" style="margin-inline:auto;text-align:center">Talent is not the issue. Language is. Systems are. Here is what separates where you are from where you want to be.</p>
+    <div class="gap-diagram">
+      <div class="cliff">
+        <h3>Your Talent</h3>
+        <ul>
+          <li>Technique</li><li>Certification</li>
+          <li>Passion</li><li>Beautiful work</li>
+        </ul>
+      </div>
+      <div class="bridge">The Executive Beauty Operating System</div>
+      <div class="cliff">
+        <h3>Your Empire</h3>
+        <ul>
+          <li>Consultation authority</li><li>Predictable conversion</li>
+          <li>Scalable revenue</li><li>Freedom</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMS -->
+<section id="programs">
+  <div class="container">
+    <span class="section-eyebrow">Programs</span>
+    <h2>Three Tiers.<br><em>One Direction.</em></h2>
+    <p class="section-intro">From your first framework to full territory partnerships — structured for where you are right now.</p>
+    <div class="programs-grid">
+      <div class="program-card featured">
+        <div class="badge">Founding Cohort</div>
+        <div class="program-price">$297 <span>one-time</span></div>
+        <h3 class="program-title">Executive Beauty<br>Operating System</h3>
+        <p style="opacity:.65;font-size:.9rem;margin-bottom:1rem">5-module operational framework. 4 live sessions. Lifetime access.</p>
+        <ul class="program-features">
+          <li>Skin Architecture Fundamentals</li>
+          <li>Treatment Communication Protocol</li>
+          <li>Ingredient Authority Language</li>
+          <li>Consultation Conversion System</li>
+          <li>Retail Education Script System</li>
+          <li>Private community + workbook</li>
+        </ul>
+        <a href="#apply" class="btn-primary" style="display:block;text-align:center">Apply Now — 10 Seats</a>
+      </div>
+      <div class="program-card">
+        <div class="badge">Advanced</div>
+        <div class="program-price">$1,750 <span>4-week</span></div>
+        <h3 class="program-title">Revenue Architecture<br>Program</h3>
+        <p style="opacity:.65;font-size:.9rem;margin-bottom:1rem">Build your own curriculum, sales page, and delivery infrastructure. Direct founder access.</p>
+        <ul class="program-features">
+          <li>Signature curriculum design</li>
+          <li>Sales page + email sequences</li>
+          <li>Delivery infrastructure</li>
+          <li>90-day scale plan</li>
+          <li>Weekly founder calls</li>
+        </ul>
+        <a href="#apply" class="btn-outline" style="display:block;text-align:center">Schedule Consultation</a>
+      </div>
+      <div class="program-card">
+        <div class="badge">Application Only</div>
+        <div class="program-price">$5,000+ <span>90-day</span></div>
+        <h3 class="program-title">Territory Strategy<br>Partnership</h3>
+        <p style="opacity:.65;font-size:.9rem;margin-bottom:1rem">Full revenue system audit, team training architecture, direct founder access. 2 spots per quarter.</p>
+        <ul class="program-features">
+          <li>Full revenue system audit</li>
+          <li>Team training architecture</li>
+          <li>Territory expansion plan</li>
+          <li>Direct text/phone access</li>
+          <li>Revenue share potential</li>
+        </ul>
+        <a href="#apply" class="btn-outline" style="display:block;text-align:center">Apply for Discovery Call</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="container">
+    <span class="section-eyebrow">Process</span>
+    <h2>How the Institute<br><em>Works</em></h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <h4>Apply</h4>
+        <p>Complete the short application. Conrad reviews every submission personally.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <h4>Enroll</h4>
+        <p>Secure your seat. Access your module dashboard and private community immediately.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <h4>Execute</h4>
+        <p>Work through 5 modules with live sessions, real script work, and direct feedback.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <h4>Scale</h4>
+        <p>Apply the frameworks in your practice. Track conversion. Graduate to Revenue Architecture.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- C-AI -->
+<section id="cai">
+  <div class="container">
+    <div class="cai-grid">
+      <div>
+        <span class="section-eyebrow">C-Ai Assistant</span>
+        <h2>Ask <em>C-Ai</em><br>Anything</h2>
+        <p style="opacity:.7;margin-bottom:2rem;line-height:1.8">C-Ai is the Institute's AI assistant — trained on consultation frameworks, ingredient science, and business systems. Ask a question. Get an actionable answer.</p>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:.8rem">
+          <li style="display:flex;gap:1rem;align-items:flex-start"><span style="color:var(--gold)">→</span> Consultation script coaching</li>
+          <li style="display:flex;gap:1rem;align-items:flex-start"><span style="color:var(--gold)">→</span> Ingredient authority language</li>
+          <li style="display:flex;gap:1rem;align-items:flex-start"><span style="color:var(--gold)">→</span> Program guidance</li>
+          <li style="display:flex;gap:1rem;align-items:flex-start"><span style="color:var(--gold)">→</span> Business system questions</li>
+        </ul>
+      </div>
+      <div class="cai-chat">
+        <div class="cai-header">C-Ai — Ambitiously Institute</div>
+        <div class="cai-messages" id="caiMessages">
+          <div class="msg msg-ai">Hello. I'm C-Ai, your Institute assistant. Ask me about consultation frameworks, ingredient authority, or any program questions.</div>
+        </div>
+        <div style="padding:0 1.5rem;font-size:.75rem;color:var(--muted);display:none" id="caiThinking">C-Ai is thinking…</div>
+        <div class="cai-input-row">
+          <input type="text" id="caiInput" placeholder="Ask C-Ai a question…" autocomplete="off" />
+          <button id="caiSend">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="container">
+    <span class="section-eyebrow">Results</span>
+    <h2>What Professionals<br><em>Experience</em></h2>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <p class="testi-quote">"Conrad trained our entire team in consultation conversion. Our retail sales increased 140% in 60 days. The language frameworks are unlike anything I've seen in the industry."</p>
+        <p class="testi-author">— Salon Owner, Ottawa</p>
+      </div>
+      <div class="testi-card">
+        <p class="testi-quote">"I stopped explaining and started educating. The difference in how clients respond is immediate. I closed three treatment plans in my first week using the EBOS scripts."</p>
+        <p class="testi-author">— Solo Esthetician, Toronto</p>
+      </div>
+      <div class="testi-card">
+        <p class="testi-quote">"This isn't a course. It's an operational infrastructure. I now have a repeatable system for every consultation. My average ticket is up 60%."</p>
+        <p class="testi-author">— Injector &amp; Educator, Vancouver</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <span class="section-eyebrow">Questions</span>
+    <h2><em>Frequently</em><br>Asked</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q">Will this work for my modality? <span>+</span></div>
+        <div class="faq-a">If you consult with clients and recommend home care, yes. The language adapts to any treatment — esthetics, hair, injectables, makeup, microblading.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What's different about this vs. other courses? <span>+</span></div>
+        <div class="faq-a">Most programs teach you how to post on Instagram. This teaches you how to speak so clients say yes. It's operational infrastructure, not marketing tips.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Is there a payment plan? <span>+</span></div>
+        <div class="faq-a">Not for the founding cohort. The $297 is already 40% off future pricing. Revenue Architecture has flexible options — contact us.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What if I can't attend live sessions? <span>+</span></div>
+        <div class="faq-a">Recordings are available, but live attendance is recommended for direct feedback on your scripts. You get more out of it in the room.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Do I get wholesale access to By BoBo products? <span>+</span></div>
+        <div class="faq-a">EBOS graduates receive Professional A-List access — wholesale pricing on all Ambitiously By BoBo treatment products.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">How is this different from the beauty services? <span>+</span></div>
+        <div class="faq-a">Ambitiously By BoBo is Conrad's practice. The Institute is his teaching. Both serve beauty professionals — one through direct service, one through education.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- APPLY -->
+<section id="apply">
+  <div class="container">
+    <div class="apply-box">
+      <span class="section-eyebrow">Apply Now</span>
+      <h2 style="font-size:2.5rem;margin-bottom:.5rem">Join the<br><em>Founding Cohort</em></h2>
+      <p style="opacity:.65;margin-bottom:2.5rem;font-size:.95rem">10 seats. $297. Conrad reviews every application personally. You'll hear back within 48 hours.</p>
+      <form id="applyForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" id="aName" required placeholder="Jane Smith" />
+          </div>
+          <div class="form-group">
+            <label>Email *</label>
+            <input type="email" id="aEmail" required placeholder="you@example.com" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Phone</label>
+            <input type="tel" id="aPhone" placeholder="613-000-0000" />
+          </div>
+          <div class="form-group">
+            <label>City / Province</label>
+            <input type="text" id="aCity" placeholder="Ottawa, ON" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Current Role *</label>
+          <select id="aRole" required>
+            <option value="">Select your role</option>
+            <option>Solo Esthetician</option>
+            <option>Salon / Spa Owner</option>
+            <option>Injector</option>
+            <option>Hair Professional</option>
+            <option>Makeup Artist</option>
+            <option>Educator</option>
+            <option>Other Beauty Professional</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Program Interest *</label>
+          <select id="aProgram" required>
+            <option value="">Select a program</option>
+            <option>EBOS — Founding Cohort ($297)</option>
+            <option>Revenue Architecture ($1,750)</option>
+            <option>Territory Strategy ($5,000+)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Biggest Challenge *</label>
+          <textarea id="aChallenge" required placeholder="What's the primary problem you want this program to solve?"></textarea>
+        </div>
+        <button type="submit" class="btn-primary" style="width:100%;padding:1.1rem">Submit Application</button>
+        <p id="applySuccess">Application received. You'll hear from Conrad within 48 hours.</p>
+        <p id="applyError" style="display:none;color:#e57373;margin-top:1rem;font-size:.9rem">Something went wrong. Email Conrad at learn@ambitiouslyinstitute.com</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>Ambitiously Institute</h3>
+      <p>Executive education for beauty professionals. The operational systems that transform talent into structured income.</p>
+      <p style="margin-top:1rem;opacity:.5;font-size:.85rem">297 Cyr Avenue, Ottawa<br>learn@ambitiouslyinstitute.com<br>613-422-2820</p>
+    </div>
+    <div class="footer-col">
+      <h4>Programs</h4>
+      <ul>
+        <li><a href="#programs">EBOS — $297</a></li>
+        <li><a href="#programs">Revenue Architecture</a></li>
+        <li><a href="#programs">Territory Strategy</a></li>
+        <li><a href="#apply">Apply Now</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="#cai">C-Ai Assistant</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#about">About Conrad</a></li>
+        <li><a href="https://www.ambitiouslybybobo.com">By BoBo Site</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <ul>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="mailto:learn@ambitiouslyinstitute.com">Email</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Ambitiously Institute. All rights reserved.</span>
+    <span>Built on authority. Not algorithms.</span>
+  </div>
+</footer>
+
+<script>
+  // ── NAV ──
+  const hamburger = document.getElementById('hamburger');
+  const navLinks  = document.getElementById('navLinks');
+  hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+  document.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+  // ── FAQ ──
+  document.querySelectorAll('.faq-item').forEach(item => {
+    item.querySelector('.faq-q').addEventListener('click', () => item.classList.toggle('open'));
+  });
+
+  // ── C-AI ──
+  const CAI_URL = 'https://YOUR_API_GATEWAY_URL/prod'; // Replace after sam deploy
+  const CAI_KEY = 'YOUR_API_KEY';                      // Replace after sam deploy
+
+  const caiMessages = document.getElementById('caiMessages');
+  const caiInput    = document.getElementById('caiInput');
+  const caiSend     = document.getElementById('caiSend');
+  const caiThinking = document.getElementById('caiThinking');
+
+  function addMsg(text, type) {
+    const div = document.createElement('div');
+    div.className = `msg msg-${type}`;
+    div.textContent = text;
+    caiMessages.appendChild(div);
+    caiMessages.scrollTop = caiMessages.scrollHeight;
+  }
+
+  async function sendToCAI() {
+    const q = caiInput.value.trim();
+    if (!q) return;
+    addMsg(q, 'user');
+    caiInput.value = '';
+    caiSend.disabled = true;
+    caiThinking.style.display = 'block';
+    try {
+      const res = await fetch(`${CAI_URL}/ask`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'x-api-key': CAI_KEY },
+        body: JSON.stringify({ question: q, context: { page: 'institute-home', role: 'visitor' } })
+      });
+      const data = await res.json();
+      addMsg(data.answer || 'C-Ai is unavailable right now. Email us at learn@ambitiouslyinstitute.com', 'ai');
+    } catch {
+      addMsg('C-Ai is temporarily offline. Email learn@ambitiouslyinstitute.com for assistance.', 'ai');
+    } finally {
+      caiSend.disabled = false;
+      caiThinking.style.display = 'none';
+    }
+  }
+
+  caiSend.addEventListener('click', sendToCAI);
+  caiInput.addEventListener('keydown', e => { if (e.key === 'Enter') sendToCAI(); });
+
+  // ── APPLY FORM ──
+  document.getElementById('applyForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const btn = this.querySelector('button[type=submit]');
+    btn.textContent = 'Submitting…'; btn.disabled = true;
+    const payload = {
+      fullName: document.getElementById('aName').value,
+      email:    document.getElementById('aEmail').value,
+      phone:    document.getElementById('aPhone').value,
+      city:     document.getElementById('aCity').value,
+      role:     document.getElementById('aRole').value,
+      program:  document.getElementById('aProgram').value,
+      challenge:document.getElementById('aChallenge').value,
+      source:   'institute-application',
+    };
+    try {
+      await fetch(`${CAI_URL}/contacts`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'x-api-key': CAI_KEY },
+        body: JSON.stringify(payload)
+      });
+      document.getElementById('applySuccess').style.display = 'block';
+      this.reset();
+    } catch {
+      document.getElementById('applyError').style.display = 'block';
+    } finally {
+      btn.textContent = 'Submit Application'; btn.disabled = false;
+    }
+  });
+</script>
+</body>
+</html>

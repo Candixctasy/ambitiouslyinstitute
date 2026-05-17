@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ambitiously By BoBo — The A List Membership</title>
+  <meta name="description" content="The A List by Ambitiously By BoBo. Every product is formulated based on your skin's real behaviour — not trends. Personalized skincare powered by C-Ai intelligence." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --black:  #080808;
+      --dark:   #0f0f0f;
+      --panel:  #111111;
+      --gold:   #C9A84C;
+      --gold2:  #E8C96A;
+      --gold3:  #8B6914;
+      --ivory:  #F0EBE0;
+      --muted:  #7A7068;
+      --serif:  'Cormorant Garamond', Georgia, serif;
+      --sans:   'DM Sans', sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--black); color: var(--ivory); font-family: var(--sans); font-weight: 300; line-height: 1.7; overflow-x: hidden; }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.4rem 5rem;
+      background: rgba(8,8,8,0.97);
+      border-bottom: 1px solid rgba(201,168,76,0.15);
+    }
+    .nav-logo { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; }
+    .nav-monogram {
+      width: 40px; height: 40px; border: 1px solid var(--gold); border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .nav-monogram svg { width: 22px; height: 22px; }
+    .nav-wordmark { font-family: var(--serif); font-size: 1rem; font-weight: 400; color: var(--gold); letter-spacing: 0.12em; text-transform: uppercase; }
+    .nav-links { display: flex; gap: 2.5rem; align-items: center; }
+    .nav-links a { font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(240,235,224,0.7); text-decoration: none; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { padding: 0.55rem 1.6rem; border: 1px solid var(--gold); color: var(--gold); font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; background: transparent; cursor: pointer; transition: all 0.25s; font-family: var(--sans); }
+    .nav-cta:hover { background: var(--gold); color: var(--black); }
+    .nav-hamburger { display: none; background: none; border: none; cursor: pointer; }
+    .nav-hamburger span { display: block; width: 22px; height: 1px; background: var(--gold); margin: 5px 0; }
+
+    /* ORNAMENTS */
+    .ornament { display: flex; align-items: center; justify-content: center; gap: 1rem; margin: 0.5rem 0; }
+    .ornament-line { flex: 1; max-width: 120px; height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+    .diamond-sm { width: 10px; height: 10px; background: var(--gold); transform: rotate(45deg); opacity: 0.8; }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      background: radial-gradient(ellipse at 50% 60%, #1a1408 0%, #0a0800 45%, #080808 100%);
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 8rem 2rem 5rem; position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% 80%, rgba(201,168,76,0.07) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-the { font-family: var(--serif); font-style: italic; font-weight: 300; font-size: clamp(2.5rem, 6vw, 5rem); color: var(--gold); line-height: 0.8; }
+    .hero-alist {
+      font-family: var(--serif); font-weight: 500; font-size: clamp(5rem, 15vw, 13rem); line-height: 0.85;
+      background: linear-gradient(180deg, var(--gold2) 0%, var(--gold) 50%, var(--gold3) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+      filter: drop-shadow(0 4px 30px rgba(201,168,76,0.4)); letter-spacing: 0.05em;
+    }
+    .hero-divider { display: flex; align-items: center; gap: 1rem; width: 100%; max-width: 340px; margin: 0.8rem auto; }
+    .hero-divider span { flex: 1; height: 1px; background: var(--gold); opacity: 0.5; }
+    .hero-diamond-icon { width: 18px; height: 18px; border: 1.5px solid var(--gold); transform: rotate(45deg); opacity: 0.9; }
+    .hero-membership { font-size: clamp(0.75rem, 2vw, 0.95rem); letter-spacing: 0.45em; text-transform: uppercase; color: var(--ivory); font-weight: 300; margin-top: 0.5rem; }
+    .hero-sub { margin-top: 2.5rem; max-width: 480px; font-family: var(--serif); font-style: italic; font-size: clamp(1.1rem, 2.5vw, 1.4rem); color: rgba(240,235,224,0.75); line-height: 1.6; }
+    .hero-cta-row { margin-top: 3rem; display: flex; gap: 1.2rem; flex-wrap: wrap; justify-content: center; }
+    .btn-gold { padding: 1rem 2.8rem; background: transparent; border: 1px solid var(--gold); color: var(--gold); font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase; cursor: pointer; transition: all 0.25s; font-family: var(--sans); text-decoration: none; display: inline-block; }
+    .btn-gold:hover { background: rgba(201,168,76,0.1); }
+    .btn-gold-fill { padding: 1rem 2.8rem; background: var(--gold); color: var(--black); border: 1px solid var(--gold); font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase; cursor: pointer; transition: all 0.25s; font-family: var(--sans); text-decoration: none; display: inline-block; font-weight: 500; }
+    .btn-gold-fill:hover { opacity: 0.85; }
+    .btn-sm { padding: 0.6rem 1.5rem; font-size: 0.65rem; }
+
+    /* SECTION BASE */
+    section { padding: 6rem 2rem; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .section-label { font-size: 0.68rem; letter-spacing: 0.35em; text-transform: uppercase; color: var(--gold); font-weight: 400; margin-bottom: 0.5rem; }
+    .section-title { font-family: var(--serif); font-weight: 400; font-size: clamp(2.2rem, 5vw, 3.8rem); line-height: 1.1; background: linear-gradient(180deg, var(--gold2) 0%, var(--gold) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 1rem; }
+    .section-copy { color: rgba(240,235,224,0.65); font-size: 1rem; max-width: 540px; line-height: 1.8; }
+
+    /* HOW IT WORKS */
+    .how-section { background: var(--dark); border-top: 1px solid rgba(201,168,76,0.12); border-bottom: 1px solid rgba(201,168,76,0.12); text-align: center; }
+    .how-title { font-size: clamp(0.8rem, 2vw, 0.95rem); letter-spacing: 0.4em; text-transform: uppercase; color: var(--gold); font-weight: 400; }
+    .how-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; position: relative; margin-top: 3rem; }
+    .how-steps::before { content: ''; position: absolute; top: 3rem; left: 12%; right: 12%; height: 1px; background: linear-gradient(90deg, transparent, var(--gold), var(--gold), var(--gold), transparent); opacity: 0.2; }
+    .how-step { padding: 1rem; }
+    .how-icon { width: 60px; height: 60px; margin: 0 auto 1.2rem; display: flex; align-items: center; justify-content: center; }
+    .how-icon svg { width: 100%; height: 100%; }
+    .how-step-title { font-size: 0.65rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.6rem; font-weight: 400; }
+    .how-step-copy { font-size: 0.85rem; color: rgba(240,235,224,0.55); line-height: 1.6; }
+
+    /* MEMBERSHIP */
+    .membership-section { background: radial-gradient(ellipse 70% 60% at 60% 50%, #1a1408 0%, #0a0800 50%, #080808 100%); }
+    .membership-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .membership-benefits { list-style: none; margin: 2rem 0 2.5rem; }
+    .membership-benefits li { padding: 0.6rem 0; border-bottom: 1px solid rgba(201,168,76,0.1); font-size: 0.95rem; color: rgba(240,235,224,0.75); display: flex; align-items: center; gap: 0.8rem; }
+    .membership-benefits li::before { content: ''; display: block; width: 5px; height: 5px; background: var(--gold); border-radius: 50%; flex-shrink: 0; }
+    .membership-benefits li span { color: var(--gold); }
+    .product-stack { display: flex; flex-direction: column; align-items: flex-end; gap: 1rem; }
+    .product-mock { background: linear-gradient(145deg, #1c1c1c, #0d0d0d); border: 1px solid rgba(201,168,76,0.2); padding: 2rem 1.5rem; text-align: center; min-width: 180px; }
+    .product-mock:first-child { align-self: flex-start; margin-right: 3rem; }
+    .product-mock:last-child { margin-right: 1.5rem; }
+    .product-mock-label { font-family: var(--serif); font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); display: block; margin-bottom: 0.3rem; }
+    .product-mock-name { font-family: var(--serif); font-size: 1.2rem; color: var(--ivory); }
+    .product-mock-mark { width: 30px; height: 30px; margin: 0.6rem auto 0; border: 1px solid rgba(201,168,76,0.4); display: flex; align-items: center; justify-content: center; transform: rotate(45deg); }
+    .product-mock-mark span { display: block; transform: rotate(-45deg); font-family: var(--serif); font-size: 0.65rem; color: var(--gold); }
+
+    /* POSITIONING */
+    .position-section { text-align: center; background: linear-gradient(180deg, var(--black) 0%, #0d0a04 50%, var(--black) 100%); border-top: 1px solid rgba(201,168,76,0.1); }
+    .position-statement { font-family: var(--serif); font-style: italic; font-size: clamp(1.6rem, 4vw, 2.8rem); color: rgba(240,235,224,0.9); line-height: 1.4; max-width: 680px; margin: 0 auto 2.5rem; }
+    .position-statement strong { font-style: normal; color: var(--gold); }
+
+    /* PYRAMID */
+    .pyramid-section { background: var(--dark); }
+    .pyramid-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+    .pyramid-visual { position: relative; }
+    .pyramid-tier {
+      display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1rem;
+      padding: 1.2rem 1.5rem; border: 1px solid rgba(201,168,76,0.15); cursor: pointer;
+      transition: all 0.25s; background: rgba(255,255,255,0.02);
+    }
+    .pyramid-tier:hover, .pyramid-tier.selected { border-color: var(--gold); background: rgba(201,168,76,0.06); }
+    .pyramid-tier.selected .pyramid-tier-name { color: var(--gold); }
+    .pyramid-tier-water { font-family: var(--serif); font-size: 1.3rem; color: rgba(201,168,76,0.4); min-width: 3.5rem; text-align: right; }
+    .pyramid-tier.selected .pyramid-tier-water { color: var(--gold); opacity: 0.8; }
+    .pyramid-tier-info {}
+    .pyramid-tier-name { font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; font-weight: 400; margin-bottom: 0.2rem; }
+    .pyramid-tier-desc { font-size: 0.82rem; color: rgba(240,235,224,0.45); }
+    .pyramid-right {}
+    .pyramid-right h3 { font-family: var(--serif); font-size: 1.6rem; color: var(--gold); margin-bottom: 1rem; }
+    .pyramid-right p { font-size: 0.9rem; color: rgba(240,235,224,0.65); margin-bottom: 1.5rem; line-height: 1.7; }
+    .scent-row, .pack-row, .sourcing-row { margin-bottom: 1rem; }
+    .scent-row label, .pack-row label, .sourcing-row label { font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); display: block; margin-bottom: 0.4rem; }
+    .option-pills { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .pill { padding: 0.4rem 1rem; border: 1px solid rgba(201,168,76,0.25); font-size: 0.75rem; color: rgba(240,235,224,0.6); cursor: pointer; transition: all 0.2s; border-radius: 0; background: none; font-family: var(--sans); }
+    .pill:hover, .pill.selected { border-color: var(--gold); color: var(--gold); background: rgba(201,168,76,0.06); }
+    .sourcing-group-label { font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.3rem; margin-top: 0.6rem; }
+    .pyramid-note { font-size: 0.75rem; color: rgba(240,235,224,0.35); margin-top: 0.8rem; font-style: italic; }
+    .charitable-toggle { display: flex; align-items: flex-start; gap: 0.8rem; margin-top: 1.5rem; padding: 1rem; border: 1px solid rgba(201,168,76,0.15); }
+    .charitable-toggle input[type=checkbox] { accent-color: var(--gold); width: 16px; height: 16px; flex-shrink: 0; margin-top: 2px; }
+    .charitable-toggle-text { font-size: 0.82rem; color: rgba(240,235,224,0.65); line-height: 1.5; }
+    .charitable-toggle-text strong { color: var(--gold); font-weight: 400; }
+
+    /* INTAKE FORM */
+    .intake-section { background: var(--panel); }
+    .intake-form-wrap { max-width: 720px; margin: 0 auto; }
+    .step-indicators { display: flex; justify-content: center; gap: 0.5rem; margin-bottom: 3rem; }
+    .step-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(201,168,76,0.2); transition: all 0.3s; }
+    .step-dot.active { background: var(--gold); transform: scale(1.3); }
+    .step-dot.done { background: rgba(201,168,76,0.5); }
+    .form-step { display: none; animation: fadeIn 0.35s ease; }
+    .form-step.active { display: block; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .step-heading { font-family: var(--serif); font-size: 1.8rem; color: var(--gold); margin-bottom: 0.5rem; }
+    .step-sub { color: rgba(240,235,224,0.5); font-size: 0.88rem; margin-bottom: 2rem; }
+    .form-row { margin-bottom: 1.5rem; }
+    .form-row label { display: block; font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.5rem; }
+    .form-row input, .form-row select, .form-row textarea { width: 100%; padding: 0.85rem 1rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(201,168,76,0.2); color: var(--ivory); font-family: var(--sans); font-size: 0.9rem; outline: none; transition: border-color 0.2s; appearance: none; }
+    .form-row input:focus, .form-row select:focus, .form-row textarea:focus { border-color: var(--gold); }
+    .form-row select option { background: #1a1a1a; }
+    .form-row-half { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .range-row { display: flex; align-items: center; gap: 1rem; }
+    .range-row input[type=range] { flex: 1; padding: 0; border: none; background: transparent; accent-color: var(--gold); }
+    .range-val { min-width: 2rem; text-align: center; color: var(--gold); font-size: 0.9rem; }
+    .checkbox-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+    .checkbox-item { display: flex; align-items: center; gap: 0.6rem; cursor: pointer; }
+    .checkbox-item input[type=checkbox] { accent-color: var(--gold); width: 15px; height: 15px; }
+    .checkbox-item span { font-size: 0.88rem; color: rgba(240,235,224,0.7); }
+    .form-nav { display: flex; justify-content: space-between; margin-top: 2.5rem; gap: 1rem; }
+    .btn-prev { background: transparent; border: 1px solid rgba(201,168,76,0.3); color: rgba(240,235,224,0.5); padding: 0.85rem 2rem; font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; cursor: pointer; font-family: var(--sans); transition: all 0.2s; }
+    .btn-prev:hover { border-color: var(--gold); color: var(--gold); }
+    .referral-inputs { display: flex; flex-direction: column; gap: 0.6rem; }
+    .referral-input { width: 100%; padding: 0.75rem 1rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(201,168,76,0.15); color: var(--ivory); font-family: var(--sans); font-size: 0.88rem; outline: none; }
+    .referral-input:focus { border-color: var(--gold); }
+    .referral-note { font-size: 0.78rem; color: rgba(240,235,224,0.35); margin-top: 0.5rem; font-style: italic; }
+    .intake-result { display: none; margin-top: 2.5rem; padding: 2rem; border: 1px solid rgba(201,168,76,0.25); background: rgba(201,168,76,0.04); }
+    .intake-result-title { font-family: var(--serif); color: var(--gold); font-size: 1.3rem; margin-bottom: 1rem; }
+    .intake-result-body { font-size: 0.9rem; color: rgba(240,235,224,0.75); line-height: 1.7; }
+
+    /* TIERS */
+    .tiers-section { background: var(--black); }
+    .tiers-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+    .tier-card { padding: 3.5rem 3rem; border: 1px solid rgba(201,168,76,0.15); background: var(--panel); position: relative; overflow: hidden; }
+    .tier-card.featured { border-color: rgba(201,168,76,0.4); background: linear-gradient(145deg, #121007, #0d0b06); }
+    .tier-card.featured::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+    .tier-badge { font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--black); background: var(--gold); display: inline-block; padding: 0.25rem 0.9rem; margin-bottom: 1.2rem; }
+    .tier-name { font-family: var(--serif); font-size: 2rem; color: var(--gold); margin-bottom: 0.3rem; }
+    .tier-sub { font-size: 0.82rem; color: rgba(240,235,224,0.45); margin-bottom: 2rem; }
+    .tier-features { list-style: none; margin-bottom: 2.5rem; }
+    .tier-features li { padding: 0.55rem 0; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.88rem; color: rgba(240,235,224,0.7); display: flex; align-items: center; gap: 0.7rem; }
+    .tier-features li::before { content: ''; display: block; width: 4px; height: 4px; background: var(--gold); border-radius: 50%; flex-shrink: 0; }
+    .tier-gate { font-size: 0.75rem; color: rgba(240,235,224,0.35); margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.05); font-style: italic; }
+
+    /* FOUNDATION */
+    .foundation-section { text-align: center; background: linear-gradient(180deg, #050402 0%, #0a0800 50%, #050402 100%); border-top: 1px solid rgba(201,168,76,0.1); border-bottom: 1px solid rgba(201,168,76,0.1); }
+    .foundation-title { font-family: var(--serif); font-size: clamp(1.8rem, 4vw, 3rem); color: var(--gold); margin-bottom: 0.5rem; }
+    .foundation-sub { font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(240,235,224,0.4); margin-bottom: 2rem; }
+    .foundation-copy { font-family: var(--serif); font-style: italic; font-size: clamp(1.1rem, 2.5vw, 1.5rem); color: rgba(240,235,224,0.8); max-width: 620px; margin: 0 auto 1.5rem; line-height: 1.6; }
+    .foundation-detail { font-size: 0.85rem; color: rgba(240,235,224,0.4); max-width: 500px; margin: 0 auto; }
+
+    /* PRO FORM */
+    .pro-section { background: var(--dark); }
+    .pro-form { max-width: 620px; }
+    .pro-note { font-size: 0.8rem; color: rgba(240,235,224,0.4); margin-top: 0.5rem; font-style: italic; }
+
+    /* FOOTER */
+    footer { background: #050505; border-top: 1px solid rgba(201,168,76,0.1); padding: 4rem 2rem 2rem; text-align: center; }
+    .footer-mark { font-family: var(--serif); font-style: italic; font-size: 1.6rem; color: var(--gold); margin-bottom: 1rem; }
+    .footer-links { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0; }
+    .footer-links a { font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(240,235,224,0.35); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-legal { font-size: 0.72rem; color: rgba(240,235,224,0.2); margin-top: 2rem; }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      nav { padding: 1.2rem 2rem; }
+      .nav-links { display: none; }
+      .nav-hamburger { display: block; }
+      .how-steps { grid-template-columns: 1fr 1fr; }
+      .membership-grid { grid-template-columns: 1fr; }
+      .product-stack { display: none; }
+      .tiers-grid { grid-template-columns: 1fr; }
+      .pyramid-wrap { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      nav { padding: 1rem 1.5rem; }
+      .how-steps { grid-template-columns: 1fr; }
+      .checkbox-grid { grid-template-columns: 1fr; }
+      .form-row-half { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="/">
+    <div class="nav-monogram">
+      <svg viewBox="0 0 22 22" fill="none"><path d="M11 3L7 14h2.5l.8-2.2h3.4l.8 2.2H17L13 3h-2zm0 3.2L12.8 10H9.2L11 6.2z" fill="#C9A84C"/><path d="M6 16h10" stroke="#C9A84C" stroke-width="0.6" opacity="0.4"/></svg>
+    </div>
+    <span class="nav-wordmark">Ambitiously By BoBo</span>
+  </a>
+  <div class="nav-links" id="navLinks">
+    <a href="#how-it-works">How It Works</a>
+    <a href="#membership">Membership</a>
+    <a href="#create">Create Your Formula</a>
+    <a href="#intake">Join</a>
+    <a href="#professional">Professional</a>
+    <button class="nav-cta" onclick="smoothTo('intake')">Enter The A List</button>
+  </div>
+  <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-the">The</div>
+  <div class="hero-alist">A LIST</div>
+  <div class="hero-divider"><span></span><div class="hero-diamond-icon"></div><span></span></div>
+  <div class="hero-membership">Membership</div>
+  <p class="hero-sub">Every product is formulated based on your skin's real behaviour — not trends.</p>
+  <div class="hero-cta-row">
+    <a href="#intake" class="btn-gold-fill">Enter The A List</a>
+    <a href="#how-it-works" class="btn-gold">How It Works</a>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-section" id="how-it-works">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:0;">
+      <div class="ornament"><div class="ornament-line"></div><div class="diamond-sm"></div><div class="ornament-line"></div></div>
+      <div class="how-title" style="margin-top:1rem;">How It Works</div>
+      <div class="ornament" style="margin-top:0.8rem;"><div class="ornament-line"></div><div class="diamond-sm"></div><div class="ornament-line"></div></div>
+    </div>
+    <div class="how-steps">
+      <div class="how-step">
+        <div class="how-icon"><svg viewBox="0 0 60 60" fill="none"><rect x="15" y="8" width="30" height="44" rx="2" stroke="#C9A84C" stroke-width="1.2"/><circle cx="30" cy="20" r="8" stroke="#C9A84C" stroke-width="1.2"/><path d="M20 36c0-5.5 4.5-8 10-8s10 2.5 10 8" stroke="#C9A84C" stroke-width="1.2"/></svg></div>
+        <div class="how-step-title">AI Skin Intake</div>
+        <p class="how-step-copy">Advanced intake including environmental triggers, sensory check, and skin history.</p>
+      </div>
+      <div class="how-step">
+        <div class="how-icon"><svg viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="5" stroke="#C9A84C" stroke-width="1.2"/><circle cx="15" cy="18" r="3.5" stroke="#C9A84C" stroke-width="1"/><circle cx="45" cy="18" r="3.5" stroke="#C9A84C" stroke-width="1"/><circle cx="15" cy="42" r="3.5" stroke="#C9A84C" stroke-width="1"/><circle cx="45" cy="42" r="3.5" stroke="#C9A84C" stroke-width="1"/><path d="M18 20L26 26M34 34L42 40M42 20L34 26M26 34L18 40" stroke="#C9A84C" stroke-width="0.8" opacity="0.6"/></svg></div>
+        <div class="how-step-title">Skin Intelligence Mapping</div>
+        <p class="how-step-copy">Your skin type, conditions, and behaviour are analyzed using C-Ai logic.</p>
+      </div>
+      <div class="how-step">
+        <div class="how-icon"><svg viewBox="0 0 60 60" fill="none"><ellipse cx="30" cy="28" rx="12" ry="16" stroke="#C9A84C" stroke-width="1.2"/><path d="M22 44c0 2 3.6 4 8 4s8-2 8-4" stroke="#C9A84C" stroke-width="1"/><path d="M26 20c1-3 3-5 4-5" stroke="#C9A84C" stroke-width="1" stroke-linecap="round"/><circle cx="38" cy="16" r="3" fill="#C9A84C" opacity="0.4"/></svg></div>
+        <div class="how-step-title">Ingredient Education</div>
+        <p class="how-step-copy">Only the most suitable ingredients are presented — nothing irrelevant.</p>
+      </div>
+      <div class="how-step">
+        <div class="how-icon"><svg viewBox="0 0 60 60" fill="none"><rect x="22" y="14" width="16" height="36" rx="1.5" stroke="#C9A84C" stroke-width="1.2"/><rect x="26" y="10" width="8" height="6" rx="1" stroke="#C9A84C" stroke-width="1"/><path d="M26 22h8M26 26h8M26 30h5" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/><text x="25" y="42" font-size="5.5" fill="#C9A84C" font-family="serif" opacity="0.8">A LIST</text></svg></div>
+        <div class="how-step-title">Custom Formulation</div>
+        <p class="how-step-copy">Build your products in real-time with guided intelligence.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MEMBERSHIP -->
+<section class="membership-section" id="membership">
+  <div class="container">
+    <div class="membership-grid">
+      <div>
+        <div class="section-label">The A List</div>
+        <h2 class="section-title">Membership</h2>
+        <div class="ornament" style="justify-content:flex-start;"><div style="width:60px;height:1px;background:var(--gold);opacity:0.5;"></div><div class="diamond-sm"></div><div style="width:60px;height:1px;background:var(--gold);opacity:0.5;"></div></div>
+        <ul class="membership-benefits" style="margin-top:1.5rem;">
+          <li>Personalized C-Ai formulation system</li>
+          <li>You pick your ingredients, formula base, scent &amp; packaging</li>
+          <li>Ongoing skin tracking (monthly check-ins)</li>
+          <li>Priority product access</li>
+          <li><span>10% off</span>&nbsp;all products &amp; services, always</li>
+          <li><span>30% off</span>&nbsp;birthday purchases <span style="color:rgba(240,235,224,0.4);font-size:0.82rem;">(day-of only)</span></li>
+          <li>Live how-to videos, right away</li>
+          <li>Learn pro salon services you can do at home</li>
+        </ul>
+        <a href="#intake" class="btn-gold-fill">Enter The A List</a>
+      </div>
+      <div class="product-stack">
+        <div class="product-mock"><span class="product-mock-label">A List</span><div class="product-mock-name">Essence No. 1</div><div class="product-mock-mark"><span>A</span></div></div>
+        <div class="product-mock" style="align-self:flex-end;"><span class="product-mock-label">A List</span><div class="product-mock-name">Serum</div><div class="product-mock-mark"><span>A</span></div></div>
+        <div class="product-mock" style="align-self:center;"><span class="product-mock-label">A List</span><div class="product-mock-name">Cream</div><div class="product-mock-mark"><span>A</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POSITIONING -->
+<section class="position-section" style="text-align:center;background:linear-gradient(180deg,var(--black) 0%,#0d0a04 50%,var(--black) 100%);border-top:1px solid rgba(201,168,76,0.1);padding:6rem 2rem;">
+  <div class="container">
+    <div class="ornament"><div class="ornament-line"></div><div class="diamond-sm"></div><div class="ornament-line"></div></div>
+    <p class="position-statement" style="margin-top:2rem;">The industry ships 30,000 products a year.<br><strong>85% fail.</strong><br>Yours won't be one of them.</p>
+    <p class="section-copy" style="margin:0 auto 2.5rem;text-align:center;">Every A List formulation is built for one skin — yours. Not a demographic, not a trend, not a shelf slot. C-Ai blends modern cosmetic chemistry with botanical heritage ingredients — the Science × Heritage approach that wins.</p>
+    <a href="#create" class="btn-gold-fill">Create Your Formula</a>
+  </div>
+</section>
+
+<!-- CREATE YOUR FORMULA (PYRAMID) -->
+<section class="pyramid-section" id="create">
+  <div class="container">
+    <div style="margin-bottom:3rem;">
+      <div class="section-label">Build Your Formula</div>
+      <h2 class="section-title">You Choose Everything</h2>
+      <p class="section-copy">Pick your base, your ingredients, how it smells, and your packaging. C-Ai won't let you put things in that don't work together. All using sustainable, biodegradable-compatible ingredients.</p>
+    </div>
+    <div class="pyramid-wrap">
+      <div class="pyramid-visual">
+        <div style="font-size:0.65rem;letter-spacing:0.25em;text-transform:uppercase;color:rgba(201,168,76,0.5);margin-bottom:1rem;text-align:right;padding-right:1rem;">Water Content</div>
+        <div class="pyramid-tier selected" onclick="selectTier(this,'essence')" data-tier="essence">
+          <div class="pyramid-tier-water">70–80%</div>
+          <div class="pyramid-tier-info">
+            <div class="pyramid-tier-name">Essence</div>
+            <div class="pyramid-tier-desc">Hydrating &amp; Lightweight — toner/dropper delivery</div>
+          </div>
+        </div>
+        <div class="pyramid-tier" onclick="selectTier(this,'serum')" data-tier="serum">
+          <div class="pyramid-tier-water">60–70%</div>
+          <div class="pyramid-tier-info">
+            <div class="pyramid-tier-name">Serum</div>
+            <div class="pyramid-tier-desc">Concentrated &amp; Silky — the correction layer</div>
+          </div>
+        </div>
+        <div class="pyramid-tier" onclick="selectTier(this,'cream')" data-tier="cream">
+          <div class="pyramid-tier-water">50–60%</div>
+          <div class="pyramid-tier-info">
+            <div class="pyramid-tier-name">Cream</div>
+            <div class="pyramid-tier-desc">Rich &amp; Nourishing — locks in treatment layers</div>
+          </div>
+        </div>
+        <div class="pyramid-tier" onclick="selectTier(this,'gel')" data-tier="gel">
+          <div class="pyramid-tier-water">Gel</div>
+          <div class="pyramid-tier-info">
+            <div class="pyramid-tier-name">Gel</div>
+            <div class="pyramid-tier-desc">Ultra-light — oily, acne-prone, sensitive skin</div>
+          </div>
+        </div>
+        <div class="pyramid-tier" onclick="selectTier(this,'mousse')" data-tier="mousse">
+          <div class="pyramid-tier-water">Mousse</div>
+          <div class="pyramid-tier-info">
+            <div class="pyramid-tier-name">Mousse</div>
+            <div class="pyramid-tier-desc">Aerated emulsion — texture-sensitive clients</div>
+          </div>
+        </div>
+        <div style="text-align:center;margin-top:1rem;font-family:var(--serif);font-size:1.3rem;color:rgba(201,168,76,0.3);letter-spacing:0.2em;">AMBITIOUSLY</div>
+      </div>
+      <div class="pyramid-right">
+        <h3 id="selected-tier-name">Essence</h3>
+        <p id="selected-tier-desc">Best for dehydrated, sensitive, reactive, or post-treatment skin. C-Ai will build around a lightweight humectant base — precise hydration without weight.</p>
+        <div class="scent-row">
+          <label>Scent Profile</label>
+          <div class="option-pills">
+            <button class="pill selected" onclick="selectPill(this,'scent','unscented')">Unscented</button>
+            <button class="pill" onclick="selectPill(this,'scent','botanical')">Light Botanical</button>
+            <button class="pill" onclick="selectPill(this,'scent','signature')">Signature BoBo</button>
+          </div>
+        </div>
+        <div class="pack-row">
+          <label>Packaging</label>
+          <div class="option-pills">
+            <button class="pill selected" onclick="selectPill(this,'packaging','glass')">Glass</button>
+            <button class="pill" onclick="selectPill(this,'packaging','aluminium')">Aluminium</button>
+            <button class="pill" onclick="selectPill(this,'packaging','pcr')">PCR Plastic</button>
+          </div>
+        </div>
+        <div class="sourcing-row">
+          <label>Ingredient Sourcing <span style="font-size:0.6rem;color:var(--muted);font-weight:300;letter-spacing:0.1em;">(select all that apply)</span></label>
+          <div class="sourcing-group-label">Heritage &amp; Origin</div>
+          <div class="option-pills" style="margin-bottom:0.5rem;">
+            <button class="pill" onclick="toggleSourcing(this,'botanical')">Botanical</button>
+            <button class="pill" onclick="toggleSourcing(this,'herbal')">Herbal</button>
+            <button class="pill" onclick="toggleSourcing(this,'wildcrafted')">Wild Crafted</button>
+            <button class="pill" onclick="toggleSourcing(this,'organic')">Organic</button>
+            <button class="pill" onclick="toggleSourcing(this,'raw')">Raw</button>
+            <button class="pill" onclick="toggleSourcing(this,'cold-pressed')">Cold Pressed</button>
+          </div>
+          <div class="sourcing-group-label">Values &amp; Standards</div>
+          <div class="option-pills">
+            <button class="pill" onclick="toggleSourcing(this,'cruelty-free')">Cruelty Free</button>
+            <button class="pill" onclick="toggleSourcing(this,'vegan')">Vegan</button>
+            <button class="pill" onclick="toggleSourcing(this,'gluten-free')">Gluten Free</button>
+            <button class="pill" onclick="toggleSourcing(this,'clinical')">Clinical Grade</button>
+            <button class="pill" onclick="toggleSourcing(this,'pharmaceutical')">Pharmaceutical Grade</button>
+          </div>
+        </div>
+        <div class="charitable-toggle">
+          <input type="checkbox" id="charitable" onchange="formulaPrefs.charitable=this.checked" />
+          <div class="charitable-toggle-text">
+            <strong>Give with every product.</strong> A percentage of profit from my formula goes to <strong>The Ginette N. BoBo Foundation</strong> to fund access and community care.
+          </div>
+        </div>
+        <p class="pyramid-note">Your selections are saved to your skin profile and used in C-Ai formulation. Complete the intake below to get your personalized formula.</p>
+        <div style="margin-top:1.5rem;"><a href="#intake" class="btn-gold-fill">Start My Intake</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTAKE FORM -->
+<section class="intake-section" id="intake">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:3rem;">
+      <div class="section-label">C-Ai Skin Intelligence</div>
+      <h2 class="section-title">Your A List Intake</h2>
+      <p class="section-copy" style="margin:0 auto;">Answer honestly. C-Ai reads the full picture — the more specific you are, the more precise your formulation.</p>
+    </div>
+    <div class="intake-form-wrap">
+      <div class="step-indicators">
+        <div class="step-dot active" id="dot-0"></div>
+        <div class="step-dot" id="dot-1"></div>
+        <div class="step-dot" id="dot-2"></div>
+        <div class="step-dot" id="dot-3"></div>
+        <div class="step-dot" id="dot-4"></div>
+      </div>
+
+      <!-- Step 0: Basics + Birthday -->
+      <div class="form-step active" id="step-0">
+        <div class="step-heading">The Basics</div>
+        <p class="step-sub">Your details and how we celebrate you.</p>
+        <div class="form-row"><label>Full Name</label><input type="text" id="f-name" placeholder="Your name" /></div>
+        <div class="form-row"><label>Email</label><input type="email" id="f-email" placeholder="your@email.com" /></div>
+        <div class="form-row">
+          <label>Birthday <span style="color:rgba(240,235,224,0.3);font-size:0.65rem;">(unlocks 30% birthday discount, day-of)</span></label>
+          <input type="date" id="f-birthday" style="color-scheme:dark;" />
+        </div>
+        <div class="form-row">
+          <label>How did you hear about The A List?</label>
+          <input type="text" id="f-source" placeholder="Friend, social media, Institute…" />
+        </div>
+        <div class="form-row">
+          <label>Referred by a member? Enter their email</label>
+          <input type="email" id="f-referredby" placeholder="their@email.com (optional)" />
+        </div>
+        <div class="form-nav" style="justify-content:flex-end;">
+          <button class="btn-gold-fill" onclick="nextStep()">Continue &rarr;</button>
+        </div>
+      </div>
+
+      <!-- Step 1: Refer 5 Friends -->
+      <div class="form-step" id="step-1">
+        <div class="step-heading">Earn Through Referrals</div>
+        <p class="step-sub">Text 5 people and tell them — put their email below so they can join too. Every confirmed referral earns credit toward your next product.</p>
+        <div class="form-row">
+          <label>Friends' Emails <span style="color:rgba(240,235,224,0.3);">(up to 5)</span></label>
+          <div class="referral-inputs">
+            <input class="referral-input" id="ref-1" type="email" placeholder="friend1@email.com" />
+            <input class="referral-input" id="ref-2" type="email" placeholder="friend2@email.com" />
+            <input class="referral-input" id="ref-3" type="email" placeholder="friend3@email.com" />
+            <input class="referral-input" id="ref-4" type="email" placeholder="friend4@email.com" />
+            <input class="referral-input" id="ref-5" type="email" placeholder="friend5@email.com" />
+          </div>
+          <p class="referral-note">Each friend who joins The A List earns you product credit. They enter your email as their referral — the loop grows.</p>
+        </div>
+        <div class="form-nav">
+          <button class="btn-prev" onclick="prevStep()">&larr; Back</button>
+          <button class="btn-gold-fill" onclick="nextStep()">Continue &rarr;</button>
+        </div>
+      </div>
+
+      <!-- Step 2: Environment + Sensory -->
+      <div class="form-step" id="step-2">
+        <div class="step-heading">Environment &amp; Sensory</div>
+        <p class="step-sub">Your climate shapes your skin more than most people realize.</p>
+        <div class="form-row">
+          <label>Climate</label>
+          <select id="f-climate"><option value="">Select your climate</option><option>Humid tropical</option><option>Dry continental</option><option>Temperate (seasonal)</option><option>Cold northern</option><option>Coastal / marine</option></select>
+        </div>
+        <div class="form-row">
+          <label>Daily Sun Exposure</label>
+          <select id="f-uv"><option value="">Select</option><option>Minimal (mostly indoors)</option><option>Moderate (1–2 hrs outdoor)</option><option>High (3+ hrs outdoor)</option></select>
+        </div>
+        <div class="form-row">
+          <label>Skin Tightness <span id="tightness-val" style="color:var(--gold);margin-left:0.5rem;">5</span></label>
+          <div class="range-row"><span style="font-size:0.75rem;color:var(--muted);">None</span><input type="range" min="1" max="10" value="5" id="f-tightness" oninput="document.getElementById('tightness-val').textContent=this.value" /><span style="font-size:0.75rem;color:var(--muted);">Constant</span></div>
+        </div>
+        <div class="form-row">
+          <label>Oiliness <span id="oiliness-val" style="color:var(--gold);margin-left:0.5rem;">5</span></label>
+          <div class="range-row"><span style="font-size:0.75rem;color:var(--muted);">None</span><input type="range" min="1" max="10" value="5" id="f-oiliness" oninput="document.getElementById('oiliness-val').textContent=this.value" /><span style="font-size:0.75rem;color:var(--muted);">Extreme</span></div>
+        </div>
+        <div class="form-row">
+          <label>Sensitivity (redness, stinging, reaction)</label>
+          <select id="f-sensitivity"><option value="none">None</option><option value="mild">Mild — occasional</option><option value="moderate">Moderate — regular</option><option value="severe">Severe — most products react</option></select>
+        </div>
+        <div class="form-row">
+          <label>Primary Skin Goals</label>
+          <div class="checkbox-grid">
+            <label class="checkbox-item"><input type="checkbox" value="clear acne" class="goal"><span>Clear acne</span></label>
+            <label class="checkbox-item"><input type="checkbox" value="reduce fine lines" class="goal"><span>Reduce fine lines</span></label>
+            <label class="checkbox-item"><input type="checkbox" value="even skin tone" class="goal"><span>Even skin tone</span></label>
+            <label class="checkbox-item"><input type="checkbox" value="hydration" class="goal"><span>Deep hydration</span></label>
+            <label class="checkbox-item"><input type="checkbox" value="reduce sensitivity" class="goal"><span>Reduce sensitivity</span></label>
+            <label class="checkbox-item"><input type="checkbox" value="anti-aging" class="goal"><span>Anti-aging</span></label>
+            <label class="checkbox-item"><input type="checkbox" value="hyperpigmentation" class="goal"><span>Hyperpigmentation</span></label>
+            <label class="checkbox-item"><input type="checkbox" value="barrier repair" class="goal"><span>Barrier repair</span></label>
+          </div>
+        </div>
+        <div class="form-nav">
+          <button class="btn-prev" onclick="prevStep()">&larr; Back</button>
+          <button class="btn-gold-fill" onclick="nextStep()">Continue &rarr;</button>
+        </div>
+      </div>
+
+      <!-- Step 3: History -->
+      <div class="form-step" id="step-3">
+        <div class="step-heading">Skin History</div>
+        <p class="step-sub">What C-Ai needs to know before formulating anything.</p>
+        <div class="form-row"><label>Current Treatments or Prescriptions</label><input type="text" id="f-treatments" placeholder="e.g. retinol, tretinoin, oral antibiotics, none" /></div>
+        <div class="form-row"><label>Known Allergies or Sensitivities</label><input type="text" id="f-allergies" placeholder="e.g. fragrance, lanolin, sulphates, none" /></div>
+        <div class="form-row"><label>Medications that affect skin</label><input type="text" id="f-medications" placeholder="e.g. birth control, accutane history, none" /></div>
+        <div class="form-row">
+          <label>Pregnancy or nursing?</label>
+          <select id="f-pregnancy"><option value="no">No</option><option value="pregnant">Currently pregnant</option><option value="nursing">Currently nursing</option><option value="planning">Planning pregnancy</option></select>
+        </div>
+        <div class="form-row"><label>Anything else C-Ai should know?</label><textarea id="f-notes" rows="3" placeholder="Skin behaves differently in winter, flares under stress, etc."></textarea></div>
+        <div class="form-nav">
+          <button class="btn-prev" onclick="prevStep()">&larr; Back</button>
+          <button class="btn-gold-fill" onclick="submitIntake()">Run C-Ai Analysis &rarr;</button>
+        </div>
+      </div>
+
+      <!-- Step 4: Result -->
+      <div class="form-step" id="step-4">
+        <div class="step-heading" style="text-align:center;">C-Ai Analysis</div>
+        <p class="step-sub" style="text-align:center;">Your personalized skin intelligence report.</p>
+        <div class="intake-result" id="intake-result">
+          <div class="intake-result-title">Your Skin Intelligence Profile</div>
+          <div class="intake-result-body" id="intake-result-body">Analyzing…</div>
+        </div>
+        <div style="text-align:center;margin-top:2.5rem;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+          <a href="#membership" class="btn-gold-fill">Enter The A List</a>
+          <a href="#professional" class="btn-gold">Professional Tier</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIERS -->
+<section class="tiers-section" id="tiers">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:3rem;">
+      <div class="section-label">Choose Your Access</div>
+      <h2 class="section-title">A List Tiers</h2>
+    </div>
+    <div class="tiers-grid">
+      <div class="tier-card featured">
+        <div class="tier-badge">Consumer</div>
+        <div class="tier-name">The A List</div>
+        <p class="tier-sub">Retail products + services for clients who want precision skincare.</p>
+        <ul class="tier-features">
+          <li>Personalized C-Ai skin formulation</li>
+          <li>Pick your formula, scent &amp; eco packaging</li>
+          <li>Ongoing skin tracking (monthly check-ins)</li>
+          <li>Priority access to new products</li>
+          <li>10% off all retail products + services, always</li>
+          <li>30% birthday discount (day-of)</li>
+          <li>Live how-to videos — free, right away</li>
+          <li>Pro salon services you can do at home</li>
+        </ul>
+        <a href="#intake" class="btn-gold-fill">Enter The A List</a>
+      </div>
+      <div class="tier-card">
+        <div class="tier-badge" style="background:transparent;border:1px solid var(--gold);color:var(--gold);">Professional</div>
+        <div class="tier-name">A List Pro</div>
+        <p class="tier-sub">Professional treatment products at wholesale — for licensed practitioners and Institute graduates.</p>
+        <ul class="tier-features">
+          <li>30% wholesale on all treatment products</li>
+          <li>20% birthday bonus (stacks)</li>
+          <li>Pro-only formulations and product lines</li>
+          <li>C-Ai formulation for client protocols</li>
+          <li>Magic Mirror skin analysis integration</li>
+          <li>EBOS cohort priority access</li>
+        </ul>
+        <a href="#professional" class="btn-gold">Apply for Pro Access</a>
+        <p class="tier-gate">Requires professional license or proof of Institute EBOS completion. Status: pending verification on approval.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE GINETTE N. BOBO FOUNDATION -->
+<section class="foundation-section" id="foundation">
+  <div class="container">
+    <div class="ornament"><div class="ornament-line"></div><div class="diamond-sm"></div><div class="ornament-line"></div></div>
+    <div class="foundation-title" style="margin-top:2rem;">The Ginette N. BoBo Foundation</div>
+    <div class="foundation-sub">Built into every product</div>
+    <p class="foundation-copy">"Would you like to keep it if a percentage of profit from every product goes towards something that matters?"</p>
+    <p class="foundation-detail">A portion of profit from every A List product with charitable giving enabled goes directly to The Ginette N. BoBo Foundation — funding access and community care. You choose it when you build your formula.</p>
+    <div style="margin-top:2.5rem;"><a href="#create" class="btn-gold">Build Your Formula</a></div>
+  </div>
+</section>
+
+<!-- PROFESSIONAL APPLICATION -->
+<section class="pro-section" id="professional">
+  <div class="container">
+    <div class="section-label">Professional A-List</div>
+    <h2 class="section-title">Pro Access</h2>
+    <p class="section-copy" style="margin-bottom:2.5rem;">For licensed beauty professionals and Ambitiously Institute EBOS graduates. Reviewed within 48 hours.</p>
+    <div class="pro-form">
+      <div class="form-row"><label>Full Name</label><input type="text" id="pro-name" placeholder="Your name" /></div>
+      <div class="form-row"><label>Email</label><input type="email" id="pro-email" placeholder="your@email.com" /></div>
+      <div class="form-row"><label>Business Name</label><input type="text" id="pro-biz" placeholder="Your salon, clinic, or practice" /></div>
+      <div class="form-row">
+        <label>Professional License Number</label>
+        <input type="text" id="pro-license" placeholder="License # or leave blank if EBOS graduate" />
+        <p class="pro-note">No license? Provide your EBOS completion date below.</p>
+      </div>
+      <div class="form-row"><label>EBOS Completion Date (if applicable)</label><input type="text" id="pro-ebos" placeholder="e.g. March 2025" /></div>
+      <div class="form-row"><label>Why are you applying?</label><textarea id="pro-why" rows="3" placeholder="Your practice, what you treat, what you need access to."></textarea></div>
+      <button class="btn-gold-fill" onclick="submitProApp()" style="margin-top:0.5rem;">Submit Pro Application</button>
+      <div id="pro-success" style="display:none;margin-top:1.5rem;padding:1.2rem;border:1px solid rgba(201,168,76,0.3);color:var(--gold);font-size:0.88rem;">Application received. You'll hear back within 48 hours.</div>
+      <div id="pro-error" style="display:none;margin-top:1rem;color:#e06060;font-size:0.85rem;"></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-mark">Ambitiously By BoBo</div>
+  <div style="font-size:0.7rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold);opacity:0.6;">The A List Membership</div>
+  <div class="footer-links">
+    <a href="#how-it-works">How It Works</a>
+    <a href="#membership">Membership</a>
+    <a href="#create">Create Your Formula</a>
+    <a href="#intake">Join</a>
+    <a href="#foundation">Foundation</a>
+    <a href="#professional">Professional</a>
+    <a href="https://www.ambitiouslyinstitute.com" target="_blank" rel="noopener">Institute</a>
+  </div>
+  <div class="footer-legal">&copy; 2025 Ambitiously By BoBo. All rights reserved. Toronto, Canada.</div>
+</footer>
+
+<script>
+  const CAI_URL = 'https://YOUR_API_GATEWAY_URL/prod'; // Replace after sam deploy
+  const CAI_KEY = 'YOUR_API_KEY';                      // Replace after sam deploy
+
+  // ── STATE ────────────────────────────────────────────────────────────────
+  const formulaPrefs = { tier: 'essence', scent: 'unscented', packaging: 'glass', charitable: false, sourcing: [] };
+
+  function toggleSourcing(btn, val) {
+    btn.classList.toggle('selected');
+    const idx = formulaPrefs.sourcing.indexOf(val);
+    if (idx === -1) formulaPrefs.sourcing.push(val);
+    else formulaPrefs.sourcing.splice(idx, 1);
+  }
+
+  // ── NAV ──────────────────────────────────────────────────────────────────
+  document.getElementById('hamburger').addEventListener('click', () => {
+    const nl = document.getElementById('navLinks');
+    nl.style.display = nl.style.display === 'flex' ? 'none' : 'flex';
+  });
+  function smoothTo(id) { document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }); }
+
+  // ── PYRAMID SELECTOR ─────────────────────────────────────────────────────
+  const tierDesc = {
+    essence: { name: 'Essence', desc: 'Best for dehydrated, sensitive, reactive, or post-treatment skin. C-Ai will build around a lightweight humectant base — precise hydration without weight.' },
+    serum:   { name: 'Serum',   desc: 'The correction layer. Best for targeted treatment — acne, hyperpigmentation, aging, barrier repair. C-Ai carries meaningful active concentrations here.' },
+    cream:   { name: 'Cream',   desc: 'Rich and nourishing. Best for dry, compromised barrier, cold climate, or mature skin. Applied last — seals in all treatment layers beneath.' },
+    gel:     { name: 'Gel',     desc: 'Ultra-lightweight, high skin tolerance. Best for oily, acne-prone, or sensitivity-reactive clients who need actives without heaviness.' },
+    mousse:  { name: 'Mousse',  desc: 'Aerated emulsion — the lightest delivery format. Suited for oily skin, body application, or clients with texture sensitivity.' },
+  };
+
+  function selectTier(el, tier) {
+    document.querySelectorAll('.pyramid-tier').forEach(t => t.classList.remove('selected'));
+    el.classList.add('selected');
+    formulaPrefs.tier = tier;
+    document.getElementById('selected-tier-name').textContent = tierDesc[tier].name;
+    document.getElementById('selected-tier-desc').textContent = tierDesc[tier].desc;
+  }
+
+  function selectPill(el, type, value) {
+    el.closest('.option-pills').querySelectorAll('.pill').forEach(p => p.classList.remove('selected'));
+    el.classList.add('selected');
+    formulaPrefs[type] = value;
+  }
+
+  // ── MULTI-STEP FORM ──────────────────────────────────────────────────────
+  let currentStep = 0;
+  const totalSteps = 5;
+
+  function goToStep(n) {
+    document.getElementById('step-' + currentStep).classList.remove('active');
+    document.getElementById('dot-' + currentStep).classList.remove('active');
+    document.getElementById('dot-' + currentStep).classList.add('done');
+    currentStep = n;
+    document.getElementById('step-' + currentStep).classList.add('active');
+    document.getElementById('dot-' + currentStep).classList.add('active');
+    document.getElementById('intake').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function nextStep() { if (currentStep < totalSteps - 1) goToStep(currentStep + 1); }
+  function prevStep() { if (currentStep > 0) goToStep(currentStep - 1); }
+
+  // ── SUBMIT INTAKE ─────────────────────────────────────────────────────────
+  async function submitIntake() {
+    goToStep(4);
+    const resultEl = document.getElementById('intake-result');
+    const bodyEl   = document.getElementById('intake-result-body');
+    resultEl.style.display = 'block';
+    bodyEl.innerHTML = '<span style="color:var(--gold);">C-Ai is analyzing your skin…</span>';
+
+    const name     = document.getElementById('f-name').value.trim();
+    const email    = document.getElementById('f-email').value.trim();
+    const birthday = document.getElementById('f-birthday').value;
+    const referredBy = document.getElementById('f-referredby').value.trim();
+    const goals    = Array.from(document.querySelectorAll('.goal:checked')).map(c => c.value);
+
+    // Parse birthday
+    let birthdayMonth, birthdayDay;
+    if (birthday) { const d = new Date(birthday); birthdayMonth = d.getUTCMonth() + 1; birthdayDay = d.getUTCDate(); }
+
+    const intake = {
+      environment: { climate: document.getElementById('f-climate').value, uvIndex: document.getElementById('f-uv').value },
+      sensory: { tightness: parseInt(document.getElementById('f-tightness').value), oiliness: parseInt(document.getElementById('f-oiliness').value), sensitivity: document.getElementById('f-sensitivity').value },
+      history: { treatments: document.getElementById('f-treatments').value, allergies: document.getElementById('f-allergies').value, medications: document.getElementById('f-medications').value, pregnancyNursing: document.getElementById('f-pregnancy').value, notes: document.getElementById('f-notes').value },
+      goals,
+      formulaPreferences: { ...formulaPrefs },
+    };
+
+    // Collect referral emails
+    const referredEmails = [1,2,3,4,5].map(i => document.getElementById('ref-'+i)?.value?.trim()).filter(Boolean).filter(e => e.includes('@'));
+
+    // Save to DB in parallel
+    const saves = [];
+    if (email) {
+      saves.push(
+        fetch(`${CAI_URL}/contacts`, { method:'POST', headers:{'Content-Type':'application/json','x-api-key':CAI_KEY}, body: JSON.stringify({ email, name, source: 'alist-intake', birthday }) }).catch(()=>{}),
+        fetch(`${CAI_URL}/alist/members`, { method:'POST', headers:{'Content-Type':'application/json','x-api-key':CAI_KEY}, body: JSON.stringify({ email, name, birthday, birthdayMonth, birthdayDay, referredBy: referredBy||undefined, formulaPreferences: formulaPrefs, charitable: formulaPrefs.charitable }) }).catch(()=>{}),
+        fetch(`${CAI_URL}/bybobo/ski-assessments`, { method:'POST', headers:{'Content-Type':'application/json','x-api-key':CAI_KEY}, body: JSON.stringify({ email, name, ...intake }) }).catch(()=>{}),
+      );
+      if (referredEmails.length) {
+        saves.push(fetch(`${CAI_URL}/alist/referrals`, { method:'POST', headers:{'Content-Type':'application/json','x-api-key':CAI_KEY}, body: JSON.stringify({ referrerEmail: email, referredEmails }) }).catch(()=>{}));
+      }
+    }
+    await Promise.allSettled(saves);
+
+    // Run C-Ai
+    try {
+      const res = await fetch(`${CAI_URL}/alist/skin-intake`, { method:'POST', headers:{'Content-Type':'application/json','x-api-key':CAI_KEY}, body: JSON.stringify({ intake }) });
+      if (!res.ok) throw new Error();
+      const data = await res.json();
+      try {
+        const parsed = JSON.parse(data.intakeSummary);
+        bodyEl.innerHTML = formatSkinProfile(parsed, name);
+      } catch { bodyEl.textContent = data.intakeSummary; }
+    } catch {
+      bodyEl.innerHTML = `Your intake has been saved${name ? ', ' + name : ''}. Our team will follow up with your personalized skin intelligence report within 24 hours.${referredEmails.length ? '<br><br>Your referral invitations have been sent.' : ''}`;
+    }
+  }
+
+  function formatSkinProfile(data, name) {
+    const g = name ? `<strong style="color:var(--gold);">${name}</strong>, here is your C-Ai skin intelligence summary.<br><br>` : '';
+    let h = g;
+    if (data.skinSignals?.length) h += `<div style="margin-bottom:1rem;"><div style="color:var(--gold);font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:0.4rem;">Primary Skin Signals</div>${data.skinSignals.map(s=>`• ${s}`).join('<br>')}</div>`;
+    if (data.sensoryProfile) h += `<div style="margin-bottom:1rem;"><div style="color:var(--gold);font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:0.4rem;">Sensory Profile</div>${Object.entries(data.sensoryProfile).map(([k,v])=>`• ${k}: ${v}`).join('<br>')}</div>`;
+    if (data.environmentalFactors?.length) h += `<div style="margin-bottom:1rem;"><div style="color:var(--gold);font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:0.4rem;">Environmental Factors</div>${data.environmentalFactors.map(f=>`• ${f}`).join('<br>')}</div>`;
+    if (data.redFlags?.length) h += `<div style="margin-bottom:1rem;"><div style="color:#e8a0a0;font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:0.4rem;">Red Flags — Review Before Formulation</div>${data.redFlags.map(f=>`• ${f}`).join('<br>')}</div>`;
+    if (data.confidenceScore != null) h += `<div style="font-size:0.78rem;color:rgba(240,235,224,0.4);margin-top:1rem;">C-Ai Confidence: ${data.confidenceScore}/100</div>`;
+    return h || JSON.stringify(data, null, 2);
+  }
+
+  // ── PRO APPLICATION ───────────────────────────────────────────────────────
+  async function submitProApp() {
+    const name = document.getElementById('pro-name').value.trim();
+    const email = document.getElementById('pro-email').value.trim();
+    const license = document.getElementById('pro-license').value.trim();
+    const ebos = document.getElementById('pro-ebos').value.trim();
+    const why = document.getElementById('pro-why').value.trim();
+    const biz = document.getElementById('pro-biz').value.trim();
+    if (!name || !email) { showProError('Name and email are required.'); return; }
+    document.getElementById('pro-error').style.display = 'none';
+    try {
+      const res = await fetch(`${CAI_URL}/alist/pro/members`, { method:'POST', headers:{'Content-Type':'application/json','x-api-key':CAI_KEY}, body: JSON.stringify({ name, email, businessName: biz, licenseNumber: license||undefined, ebosCompleted: ebos?true:undefined, ebosDate: ebos||undefined, applicationNote: why }) });
+      if (!res.ok) { const e = await res.json(); throw new Error(e.error||'Submission failed'); }
+      document.getElementById('pro-success').style.display = 'block';
+    } catch(e) { showProError(e.message||'An error occurred. Please try again.'); }
+  }
+
+  function showProError(msg) {
+    const el = document.getElementById('pro-error');
+    el.textContent = msg; el.style.display = 'block';
+  }
+</script>
+</body>
+</html>
