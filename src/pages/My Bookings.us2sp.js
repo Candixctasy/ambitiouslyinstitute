@@ -1,10 +1,25 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+// Ambitiously Institute — My Bookings page
 
-$w.onReady(function () {
-    // Write your JavaScript here
+import wixLocation from 'wix-location';
+import { currentMember } from 'wix-members';
 
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+$w.onReady(async function () {
+    const member = await currentMember.getMember().catch(() => null);
+    if (!member) {
+        wixLocation.to('/login?redirect=/my-bookings');
+        return;
+    }
+    initBookNowButton();
 });
+
+function initBookNowButton() {
+    // Wix Bookings renders the booking list automatically via the My Bookings widget.
+    // This handles any standalone CTA buttons on the page.
+    try {
+        $w('#bookNewSessionBtn').onClick(() => wixLocation.to('/schedule'));
+    } catch (_) {}
+
+    try {
+        $w('#browseProgramsBtn').onClick(() => wixLocation.to('/plans-pricing'));
+    } catch (_) {}
+}

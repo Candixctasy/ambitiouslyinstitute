@@ -1,10 +1,40 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+// Ambitiously Institute — Event Info (single event detail) page
 
-$w.onReady(function () {
-    // Write your JavaScript here
+import wixLocation from 'wix-location';
+import { currentMember } from 'wix-members';
 
-    // To select an element by ID use: $w('#elementID')
+$w.onReady(async function () {
+    const member = await currentMember.getMember().catch(() => null);
+    const isLoggedIn = !!member;
 
-    // Click 'Preview' to run your code
+    initRsvpButton(isLoggedIn);
+    initShareButton();
 });
+
+function initRsvpButton(isLoggedIn) {
+    try {
+        $w('#rsvpBtn').onClick(() => {
+            if (!isLoggedIn) {
+                wixLocation.to('/login?redirect=' + encodeURIComponent(wixLocation.url));
+                return;
+            }
+            // Wix Events handles RSVP natively via its built-in widget.
+            // This click handler covers custom CTA buttons outside the widget.
+            $w('#eventRsvpWidget').scrollTo();
+        });
+    } catch (_) {}
+}
+
+function initShareButton() {
+    try {
+        $w('#shareBtn').onClick(() => {
+            if (navigator.share) {
+                navigator.share({ url: wixLocation.url });
+            } else {
+                navigator.clipboard.writeText(wixLocation.url);
+                $w('#shareFeedback').show();
+                setTimeout(() => $w('#shareFeedback').hide(), 2000);
+            }
+        });
+    } catch (_) {}
+}

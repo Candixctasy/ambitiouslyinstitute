@@ -1,10 +1,35 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+// Ambitiously Institute — Service Page (individual service detail)
 
-$w.onReady(function () {
-    // Write your JavaScript here
+import wixLocation from 'wix-location';
+import { currentMember } from 'wix-members';
 
-    // To select an element by ID use: $w('#elementID')
+$w.onReady(async function () {
+    const member = await currentMember.getMember().catch(() => null);
+    const isLoggedIn = !!member;
 
-    // Click 'Preview' to run your code
+    initBookingButton(isLoggedIn);
+    initRelatedServices();
 });
+
+function initBookingButton(isLoggedIn) {
+    try {
+        $w('#bookNowBtn').onClick(() => {
+            if (!isLoggedIn) {
+                wixLocation.to('/login?redirect=' + encodeURIComponent(wixLocation.url));
+                return;
+            }
+            // Wix Bookings handles the booking flow via its native widget.
+            $w('#bookingWidget').scrollTo();
+        });
+    } catch (_) {}
+}
+
+function initRelatedServices() {
+    try {
+        $w('#viewAllServicesBtn').onClick(() => wixLocation.to('/schedule'));
+    } catch (_) {}
+
+    try {
+        $w('#viewPricingBtn').onClick(() => wixLocation.to('/plans-pricing'));
+    } catch (_) {}
+}
