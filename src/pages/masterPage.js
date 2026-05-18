@@ -2,8 +2,12 @@ import { currentMember } from 'wix-members';
 import wixLocation from 'wix-location';
 import { getAListProfile } from 'backend/alist.web';
 import { getActiveDiscount } from 'backend/alist.web';
+import { initVercelAnalytics } from 'public/analytics.js';
 
 $w.onReady(async function () {
+    // Initialize Vercel Analytics
+    initVercelAnalytics();
+    
     await initNav();
     await initMemberState();
 });
