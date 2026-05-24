@@ -318,7 +318,7 @@ async function getDiscount(email, tier = "consumer") {
     };
 }
 
-function checkBirthday(month, day) {
+export function checkBirthday(month, day) {
     if (!month || !day) return false;
     const today = new Date();
     return today.getMonth() + 1 === Number(month) && today.getDate() === Number(day);

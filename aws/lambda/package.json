@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "type": "module",
   "description": "C-Ai and data Lambda handlers for Ambitiously Institute + By BoBo A List",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
     "@aws-sdk/client-dynamodb": "^3.0.0",
     "@aws-sdk/client-secrets-manager": "^3.0.0",
     "@aws-sdk/util-dynamodb": "^3.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0"
   }
 }
