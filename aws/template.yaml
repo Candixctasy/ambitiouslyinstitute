@@ -132,6 +132,12 @@ Resources:
             TableName: !Ref ReferralsTable
         - DynamoDBCrudPolicy:
             TableName: !Ref EncyclopediaTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref SubscriptionsTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref AffiliatesTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref AffiliateConversionsTable
       Environment:
         Variables:
           CONTACTS_TABLE: !Ref ContactsTable
@@ -145,6 +151,9 @@ Resources:
           SKIN_TRACKING_TABLE: !Ref SkinTrackingTable
           REFERRALS_TABLE: !Ref ReferralsTable
           ENCYCLOPEDIA_TABLE: !Ref EncyclopediaTable
+          SUBSCRIPTIONS_TABLE: !Ref SubscriptionsTable
+          AFFILIATES_TABLE: !Ref AffiliatesTable
+          AFFILIATE_CONVERSIONS_TABLE: !Ref AffiliateConversionsTable
       Events:
         InstituteEnrollments:
           Type: Api
@@ -269,6 +278,111 @@ Resources:
           Properties:
             RestApiId: !Ref AmbitiouslyApi
             Path: /bybobo/encyclopedia/{slug}
+            Method: GET
+        # Ecosystem integration routes
+        EcosystemStudentKit:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /ecosystem/student-kit
+            Method: GET
+        EcosystemDualRecommend:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /ecosystem/dual-recommend
+            Method: POST
+        EcosystemProgressCoupon:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /ecosystem/progress-coupon
+            Method: POST
+        EcosystemGradPerks:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /ecosystem/grad-perks
+            Method: GET
+        EcosystemIngredientProducts:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /ecosystem/ingredient-products
+            Method: GET
+        EcosystemProTiers:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /ecosystem/pro-tiers
+            Method: GET
+        EcosystemProEnroll:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /ecosystem/pro-enroll
+            Method: POST
+        # Subscribe & Save routes
+        SubscriptionsCreate:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /subscriptions
+            Method: POST
+        SubscriptionsGet:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /subscriptions
+            Method: GET
+        SubscriptionsCancel:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /subscriptions/cancel
+            Method: POST
+        SubscriptionsUpdateInterval:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /subscriptions/update-interval
+            Method: POST
+        SubscriptionsRenewalReminders:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /subscriptions/send-renewal-reminders
+            Method: POST
+        # Affiliate program routes
+        AffiliatesCreate:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /affiliates
+            Method: POST
+        AffiliatesClick:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /affiliates/click
+            Method: POST
+        AffiliatesConversion:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /affiliates/conversion
+            Method: POST
+        AffiliatesDashboard:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /affiliates/dashboard
+            Method: GET
+        AffiliatesConversions:
+          Type: Api
+          Properties:
+            RestApiId: !Ref AmbitiouslyApi
+            Path: /affiliates/conversions
             Method: GET
 
 # ── DynamoDB Tables ───────────────────────────────────────────────────────────
@@ -454,6 +568,62 @@ Resources:
               KeyType: RANGE
           Projection:
             ProjectionType: ALL
+
+  SubscriptionsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-subscriptions
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: email
+          AttributeType: S
+        - AttributeName: subscriptionId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: email
+          KeyType: HASH
+        - AttributeName: subscriptionId
+          KeyType: RANGE
+      TimeToLiveSpecification:
+        AttributeName: ttl
+        Enabled: true
+
+  AffiliatesTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-affiliates
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: email
+          AttributeType: S
+        - AttributeName: affiliateCode
+          AttributeType: S
+      KeySchema:
+        - AttributeName: email
+          KeyType: HASH
+      GlobalSecondaryIndexes:
+        - IndexName: code-index
+          KeySchema:
+            - AttributeName: affiliateCode
+              KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+
+  AffiliateConversionsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ambitiously-affiliate-conversions
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: affiliateCode
+          AttributeType: S
+        - AttributeName: convertedAt
+          AttributeType: S
+      KeySchema:
+        - AttributeName: affiliateCode
+          KeyType: HASH
+        - AttributeName: convertedAt
+          KeyType: RANGE
 
 # ── Outputs ───────────────────────────────────────────────────────────────────
 
