@@ -89,10 +89,10 @@ const INGREDIENT_INTELLIGENCE_BLOCK = {
 ━━━ CRITICAL INCOMPATIBILITIES — NEVER COMBINE IN THE SAME FORMULA OR SAME ROUTINE STEP ━━━
 
 RETINOL / RETINOIDS + AHAs (glycolic, lactic, mandelic, tartaric)
-→ Compounded exfoliation → severe barrier disruption and chemical irritation. ALWAYS separate.
+→ Compounded exfoliation → severe acid mantle disruption and chemical irritation. ALWAYS separate.
 
 RETINOL / RETINOIDS + BHAs (salicylic acid, willow bark extract)
-→ Compounded exfoliant-driven cell turnover with acid → barrier breakdown. ALWAYS separate.
+→ Compounded exfoliant-driven cell turnover with acid → acid mantle breakdown. ALWAYS separate.
 
 RETINOL / RETINOIDS + Benzoyl Peroxide
 → BPO oxidizes and fully deactivates retinol. Never in same formula or same step.
@@ -126,7 +126,7 @@ NIACINAMIDE + pH Below 5 with Heat
 → Converts to niacin (nicotinic acid) → flushing. Keep niacinamide formulas at pH 5–7.
 
 HIGH-DOSE AHA + HIGH-DOSE BHA in same formula
-→ Compounded acid burden → severe irritation, barrier compromise. Choose one primary exfoliant.
+→ Compounded acid burden → severe irritation, acid mantle compromise. Choose one primary exfoliant.
 
 TEA TREE OIL (undiluted) + Any skin
 → Never apply undiluted. Chemical burn risk. Maximum 5% leave-on. Avoid with retinoids on sensitive skin.
@@ -138,7 +138,7 @@ SEA BUCKTHORN OIL / CO2 Extract + Color-critical formulas
 → Intense orange/yellow carotenoid pigment stains skin and formula. Maximum 1–5%.
 
 BROMELAIN or PAPAIN (enzyme exfoliants) + AHAs/BHAs at therapeutic %
-→ Enzymatic + acid exfoliation = compounded barrier disruption. Use enzymes as a standalone exfoliant step.
+→ Enzymatic + acid exfoliation = compounded acid mantle disruption. Use enzymes as a standalone exfoliant step.
 
 HELIX ASPERSA (snail mucin) + Vegan Declarations
 → Animal-derived. Never include in any vegan-declared formula.
@@ -175,20 +175,20 @@ Anti-PIH: Alpha Arbutin (2%), Tranexamic Acid (2–5%), Kojic Acid (1%)
 Non-comedogenic oils ONLY: Hemp Seed Oil, Rosehip Oil (low %), Jojoba (wax ester — best option)
 AVOID: Heavy butters (cocoa, shea, mango at high %), high oleic oils (avocado, olive) at high %, fragrance >0.5%
 
-DRY / BARRIER-COMPROMISED:
+DRY / acid mantle-compromised:
 Humectants: Sodium Hyaluronate (0.1–2%), Glycerin (3–10%), Polyglutamic Acid, Betaine, Sodium PCA
-Barrier lipids: Ceramide NP, Ceramide EG, Squalane, Cholesterol
+intercellular lipids: Ceramide NP, Ceramide EG, Squalane, Cholesterol
 Rich emollients: Avocado Oil, Olive Oil, Shea Butter, Meadowfoam Seed Oil, Cupuacu Butter, Baobab Oil
 Repair actives: Allantoin, Panthenol (B5), Beta Glucan, Oat Extract, Colostrum
-AVOID: High-concentration AHAs or retinoids before barrier is restored — repair first
+AVOID: High-concentration AHAs or retinoids before acid mantle is restored — repair first
 
 SENSITIVE / REACTIVE / ROSACEA:
 Primary calming: Centella Asiatica, Madecassoside, Aloe Vera, Beta Glucan, Allantoin, Ectoin
-Barrier: Ceramides NP/EG, Squalane, Oat Extract, Colloidal Oat
+Acid mantle support: Ceramides NP/EG, Squalane, Oat Extract, Colloidal Oat
 Gentle-only actives: Bakuchiol (retinol alternative), Gluconolactone PHA, Azelaic Acid (10% is tolerated)
 Anti-redness: Feverfew (parthenolide-free extract), Licorice Root Extract, Ectoin, Sea Lavender Extract
 Hydration: Sodium Hyaluronate, Polyglutamic Acid, Betaine, Rose Hydrosol
-AVOID: AHAs at therapeutic %, retinol until barrier is confirmed intact, fragrance >0.5%, tea tree >0.5%, citrus oils, ginger extract (warming)
+AVOID: AHAs at therapeutic %, retinol until acid mantle is confirmed intact, fragrance >0.5%, tea tree >0.5%, citrus oils, ginger extract (warming)
 
 MATURE / AGING:
 Gold standard actives: Retinol (0.025–1% PM), Vitamin C (10–20% AM), Niacinamide (5–10%)
@@ -206,7 +206,7 @@ Lightweight emollients: Jojoba Oil, Rosehip Oil, Hemp Seed Oil
 
 DEHYDRATED (oily or normal skin that lacks water, not oil):
 Water-binding: Multi-weight Sodium Hyaluronate, Polyglutamic Acid, Sodium PCA, Betaine, Sea Moss Extract
-Barrier sealing: Squalane (final layer), Ceramides
+Acid mantle sealing: Squalane (final layer), Ceramides
 Ferment-based NMF support: Galactomyces Ferment Filtrate, Bifida Ferment Lysate, Lactobacillus Ferment
 NOTE: Dehydration ≠ dry skin type. Oily dehydrated skin needs humectants but NOT heavy oils or butters.
 
@@ -229,15 +229,15 @@ Anti-inflammatory: Centella Asiatica, Allantoin, Madecassoside, Willow Bark Extr
 Retinol (PM — normalizes follicular keratinization)
 Post-breakout PIH: Alpha Arbutin, Tranexamic Acid, Niacinamide, Vitamin C
 
-BARRIER REPAIR / ECZEMA / COMPROMISED SKIN:
+acid mantle restoration / ECZEMA / COMPROMISED SKIN:
 Ceramides NP + EG (essential ratio: ceramide, cholesterol, fatty acid = 1:1:1)
 Colloidal Oat Extract / Beta Glucan — calm and protect
 Allantoin — stimulate cell renewal without irritation
 Panthenol / Vitamin B5 — wound healing, moisture retention
 Polyglutamic Acid, Sodium PCA, Betaine — restore NMF (Natural Moisturizing Factor)
 Squalane, Meadowfoam Seed Oil, Borage/Evening Primrose (GLA — anti-inflammatory omega-6)
-Ectoin — protect against environmental stressors during barrier recovery
-RULE: No AHAs, retinoids, vitamin C, or fragrances on a severely compromised barrier. Repair FIRST.
+Ectoin — protect against environmental stressors during acid mantle recovery
+RULE: No AHAs, retinoids, vitamin C, or fragrances on a severely compromised acid mantle. Repair FIRST.
 
 ANTI-AGING / FIRMNESS:
 Peptide complex: Matrixyl + GHK-Cu (alternate PM nights) + Argireline (crow's feet/expression lines)
@@ -284,12 +284,12 @@ const SKIN_SYSTEM_BLOCKS = [
 COMPETITIVE POSITIONING (2026 Gen AI data):
 When AI models like Gemini and ChatGPT recommend skincare, the top performers are:
 CeraVe (100%), SkinCeuticals (96%), La Roche-Posay (94%), Paula's Choice (89%), The Ordinary (84%).
-The pattern: science-backed, ingredient-transparent, barrier-first brands win. These brands win because they explain WHY an ingredient is there.
+The pattern: science-backed, ingredient-transparent, acid mantle integrity-focused brands win. These brands win because they explain WHY an ingredient is there.
 C-Ai does what those brands do — but personalized to one skin, not a demographic.
 A List formulations must meet or exceed the clinical transparency of SkinCeuticals and the ingredient literacy of Paula's Choice. If a client can't understand why each ingredient is in their formula, C-Ai has failed.
 
 THE AMBITIOUSLY FORMULATION PYRAMID:
-All A List products are built on one of three bases — chosen based on barrier status, hydration need, and skin behaviour:
+All A List products are built on one of three bases — chosen based on acid mantle status, hydration need, and skin behaviour:
 
 ESSENCE (70–80% water)
 - Hydrating & Lightweight
@@ -299,19 +299,19 @@ ESSENCE (70–80% water)
 
 SERUM (60–70% water)
 - Concentrated & Silky
-- Best for: targeted correction — acne, hyperpigmentation, aging, barrier repair
+- Best for: targeted correction — acne, hyperpigmentation, aging, acid mantle restoration
 - Can carry meaningful % of actives (niacinamide, vitamin C, AHA/BHA, peptides)
 - Delivery: dropper, pump
 
 CREAM (50–60% water)
 - Rich & Nourishing
-- Best for: dry, compromised barrier, cold climate, mature skin
+- Best for: dry, compromised acid mantle, cold climate, mature skin
 - Occlusive layer — applied last, locks in treatment layers
 - Delivery: jar, airless pump
 
 FORMULATION RULES:
-- Never exceed what the skin's current barrier status can tolerate.
-- Barrier health is Step 0. No actives on a severely compromised barrier — repair first.
+- Never exceed what the skin's current acid mantle status can tolerate.
+- acid mantle integrity is Step 0. No actives on a severely compromised acid mantle — repair first.
 - Ingredient interactions must be checked: retinoids + AHAs, vitamin C + niacinamide timing, benzoyl peroxide + retinol, etc.
 - Pregnancy/nursing: flag and exclude all category C/D ingredients (retinoids, salicylic acid >2%, hydroquinone).
 - All formulations use sustainable, biodegradable-compatible ingredients. No ingredients that harm aquatic environments (certain UV filters, microplastics, certain preservatives).
@@ -322,9 +322,9 @@ THE BY BOBO BOTANICAL HERITAGE LIBRARY:
 The 2026 Gen AI beauty data identifies "Hybrid: Science → Heritage" as the winning positioning. By BoBo formulations blend modern cosmetic chemistry (the pyramid) with a curated botanical ingredient library drawn from traditional herbal apothecary. When formulating, consider these botanicals alongside synthetic actives where clinically appropriate:
 
 SKIN-ACTIVE BOTANICALS (topical applications):
-- Aloe Vera: humectant, soothing, wound support, post-treatment barrier calm
+- Aloe Vera: humectant, soothing, wound support, post-treatment acid mantle support
 - Chamomile (Matricaria): bisabolol/apigenin — anti-inflammatory, redness reduction, sensitive skin
-- Calendula: wound healing, barrier lipid support, eczema-prone skin
+- Calendula: wound healing, intercellular lipid support, eczema-prone skin
 - Tea Tree (Melaleuca): terpinen-4-ol — antimicrobial, acne, folliculitis (max 5% topical)
 - Lavender: antimicrobial, calming (fragrance allergen at >0.5% — flag for sensitive skin)
 - Arnica: anti-inflammatory, post-procedure (external only; not on broken skin)
@@ -332,10 +332,10 @@ SKIN-ACTIVE BOTANICALS (topical applications):
 - Elderberry (Sambucus): antioxidant, anthocyanins, brightening
 - Ginkgo Biloba: antioxidant, microcirculation support, aging skin
 - Ginseng: adaptogen, fatigue-related skin dullness, anti-aging
-- Echinacea: immune-modulating topically, barrier support
+- Echinacea: immune-modulating topically, acid mantle support
 - Bearberry (Uva Ursi): arbutin — tyrosinase inhibition, hyperpigmentation (gentler than hydroquinone)
 - Dandelion: antioxidant, rich in vitamins A/C/K, brightening
-- Borage: GLA (gamma-linolenic acid) — barrier lipid, eczema, dry inflamed skin
+- Borage: GLA (gamma-linolenic acid) — intercellular lipid, eczema, dry inflamed skin
 - Horsetail (Equisetum): silica — collagen support, skin firmness
 - Goldenrod: anti-inflammatory, astringent for oily/acne skin
 - Lemon Balm (Melissa): antiviral, calming, sensitive and stressed skin
@@ -483,7 +483,7 @@ async function handleSkinIntake(client, { intake = {} }) {
   "skinSignals": [],           // primary observable patterns
   "environmentalFactors": [],  // climate/UV/humidity impacts
   "sensoryProfile": {},        // tightness, oiliness, sensitivity, texture findings
-  "redFlags": [],              // conflicts, medication interactions, barrier concerns
+  "redFlags": [],              // conflicts, medication interactions, acid mantle concerns
   "confidenceScore": 0         // 0-100, lower if data is sparse
 }
 
@@ -509,9 +509,9 @@ async function handleSkinIntelligence(client, { profile = {} }) {
   "fitzpatrickScale": 0,        // 1-6
   "primaryConditions": [],      // acne, hyperpigmentation, rosacea, perioral dermatitis, aging, etc.
   "behaviorPatterns": [],       // what this skin does under stress, hormonal shifts, seasonal change
-  "barrierStatus": "",          // intact | compromised | severely compromised
+  "acidMantleStatus": "",          // intact | compromised | severely compromised
   "hydrationLevel": "",         // adequate | dehydrated | severely dehydrated
-  "treatmentReadiness": "",     // exactly what this skin can tolerate right now, and what to address first if barrier is compromised
+  "treatmentReadiness": "",     // exactly what this skin can tolerate right now, and what to address first if acid mantle is compromised
   "curationRationale": ""       // one sentence: why restraint in formulation matters for this specific skin
 }
 
@@ -577,7 +577,7 @@ async function handleFormulate(client, { skinMap = {}, selectedIngredients = [],
     const pyramidContext = {
         essence: "ESSENCE tier (70-80% water): hydrating & lightweight. Prioritise humectants and skin-identical hydrators. Do not attempt to carry high concentrations of oil-soluble actives.",
         serum:   "SERUM tier (60-70% water): concentrated & silky. This is the correction layer — carry meaningful actives at therapeutic concentrations.",
-        cream:   "CREAM tier (50-60% water): rich & nourishing. Occlusive layer applied last. Focus on barrier lipids, emollients, and locking in the treatment layers beneath.",
+        cream:   "CREAM tier (50-60% water): rich & nourishing. Occlusive layer applied last. Focus on intercellular lipids, emollients, and locking in the treatment layers beneath.",
         gel:     "GEL base: water-based with gelling agent. Lightweight, high skin tolerance. Good for acne-prone, oily, and sensitive skin.",
         mousse:  "MOUSSE base: aerated emulsion. Ultra-light delivery. Suited for oily skin, body application, or texture-sensitive clients.",
         toner:   "TONER: functional pre-serum step. pH prep, light exfoliation, or hydration. Not a rinse — designed to stay on skin.",
