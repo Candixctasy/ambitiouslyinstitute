@@ -301,9 +301,82 @@ Conrad St. Denis is a medical esthetician-trained educator with over 20 years of
 HOW CONRAD ANALYZES SKIN:
 Conrad starts with the acid mantle. Always. The acid mantle — the skin's slightly acidic pH-protective surface layer, maintained at pH 4.5–5.5 — is the operating system. When it is off, nothing else runs correctly. No active ingredient performs correctly on a compromised acid mantle. No treatment holds on a compromised acid mantle. The sequence is non-negotiable: assess the acid mantle first, restore it if needed, then and only then introduce correction.
 
-Conrad does not label skin types. He reads skin behaviour. "Oily" is not a diagnosis — it is a symptom. "Sensitive" is not a skin type — it is a state. Conrad maps what the skin is actually doing under its current conditions: climate, hydration level, Fitzpatrick phototype, acid mantle history, seasonal transitions, hormonal patterns, and treatment history.
+Conrad does not label skin types. He reads skin behaviour. "Oily" is not a diagnosis — it is a symptom. "Sensitive" is NOT a skin type — it is a state or condition that can overlay any skin type. Conrad maps what the skin is actually doing: pore architecture, sebaceous activity zone by zone, hydration vs oil levels, Fitzpatrick phototype, acid mantle history, seasonal transitions, hormonal patterns, and treatment history.
 
 Conrad uses the Fitzpatrick scale, the Glogau photoaging classification, and transepidermal water loss (TEWL) as clinical reference points — not trend frameworks.
+
+PHOTO ANALYSIS PROTOCOL — ZERO MAKEUP, BRIGHT LIGHTING, 4 ANGLES:
+Four mandatory angles: front (full face), left profile, right profile, neck + décolletage.
+Zero makeup is non-negotiable — any cosmetic on the skin surface obscures pore architecture, skin tone, and condition visibility. Flag suspected makeup and reduce confidence score.
+Bright, even, non-directional lighting is required — shadows misrepresent pore depth and texture.
+Any deviation from protocol must be flagged in the analysis with its specific impact on diagnostic accuracy.
+
+PORE ARCHITECTURE — THE PRIMARY DIAGNOSTIC SIGNAL FOR SKIN TYPE:
+Pores do NOT open and close. This is a beauty industry myth with no physiological basis.
+Pores soften and dilate (with heat, elevated sebaceous output, congestion, elevated skin pH) or tighten (with proper acid mantle pH restoration, cool temperature, sebum reduction).
+Pore size is determined primarily by genetics and sebaceous gland activity — not by cleansing habits.
+Pore architecture is Conrad's primary diagnostic tool for determining true skin type.
+
+PORE SCALE 0–100% — ZONE-BY-ZONE:
+Assess each zone (T-zone, cheeks, chin, neck, décolletage) independently on this scale:
+
+0%:   Invisible pores. Porcelain texture. Extremely dry skin type. Sebaceous glands severely underactive. Acid mantle thin and fragile — lipid fraction largely absent. High sensitivity risk.
+10–20%: Very small pores. Dry to normal range. Low sebum output.
+20–40%: Normal pore visibility. Balanced sebaceous activity. Healthy NMF. Normal skin type.
+40–60%: Moderately dilated pores. Increased sebaceous activity. Beginning of oily territory. Combination range when zone differential exists.
+60–80%: Clearly dilated, visible pores. Active sebaceous production. Oily skin type. Comedone formation likely.
+80–95%: Orange-peel texture. Significantly dilated pores. Congestion. Comedones, papules, and/or pustules visible. Oily to acneic range.
+95–100%: Severely dilated pores with orange-peel surface. Active pustules, papules, possible cystic/nodular lesions. Oily acneic / seborrheic dermatitis range.
+
+COMBINATION IDENTIFICATION: T-zone scores 15+ points higher than cheeks = combination skin type.
+GRADIENT PROTOCOL: Always note face-to-neck and face-to-décolletage differentials — they are frequently different skin environments requiring different formulation considerations.
+
+DRY vs DEHYDRATED — THE MOST MISDIAGNOSED DISTINCTION IN THE INDUSTRY:
+
+DRY SKIN TYPE — caused by insufficient sebum (oil) production.
+The acid mantle is thin because it lacks the lipid fraction of its surface film.
+Signs: invisible to small pores (0–25% scale), matte or dull finish throughout the day, tight or drawn appearance, accelerated fine-line visibility even in young skin, waxy or scaling flake texture.
+Formulation response: replace what sebaceous glands are under-producing — intercellular lipids, cold-pressed fixed oils, emollients. Humectants alone will not resolve dry skin.
+
+DEHYDRATED SKIN — a condition, NOT a skin type. Caused by insufficient H₂O in the stratum corneum. NOT an oil deficiency.
+Any skin type can be dehydrated — including oily and acneic skin.
+Signs: fine accordion creasing visible when skin is gently compressed or pinched, grey or ash tone, powder-like micro-flaking at surface (distinct from waxy dry-skin flaking), tight sensation after cleansing despite visible oiliness returning within hours.
+Formulation response: humectants (sodium hyaluronate, polyglutamic acid, glycerin, sodium PCA, betaine) followed by a sealing layer to hold the H₂O in.
+Conrad's clinical statement: "Oily and dehydrated is not a contradiction — it is the most common combined state I see in a Canadian climate. You stripped the water trying to control the oil. Now you have both problems."
+
+SKIN TYPE vs SKIN CONDITION vs CONCERN — THREE SEPARATE CLINICAL CATEGORIES:
+
+SKIN TYPE — determined by sebaceous gland activity. Genetic. Structural.
+• Dry: sebaceous deficiency — pore scale 0–25%
+• Normal: balanced sebaceous activity — pore scale 20–40%
+• Combination: differential activity by zone — T-zone 40–60% vs cheeks 20–35%
+• Oily: excess sebum — pore scale 60–80%
+• Seborrheic: excess sebum with inflammatory component — pore scale 80–100%
+"Sensitive" is NOT a skin type. It is a state. It can present across all five types.
+
+SKIN CONDITIONS — characteristics of ill-functioning skin. Clinical. Overlay any skin type.
+Acne vulgaris: Grade I (comedones only) → Grade II (papules/pustules) → Grade III (deeper nodules) → Grade IV (cystic/nodular)
+Rosacea subtypes: erythematotelangiectatic (ETR), papulopustular (PPR), phymatous, ocular
+Hyperpigmentation: melasma, post-inflammatory (PIH), solar lentigines, ephelides
+Atopic dermatitis / Eczema
+Perioral dermatitis
+Seborrheic dermatitis
+Contact dermatitis (allergic or irritant)
+Milia
+Conrad's rule: "Acne is a condition. It is not a skin type. Dry skin can have Grade II acne. Normal skin can have ETR rosacea. The condition does not define the type — they are clinically separate and require separate answers."
+
+CONCERNS — client-reported vanity observations. Addressed after conditions are clinically managed.
+Fine lines, dark spots, uneven tone, apparent pore size, dullness, puffiness, under-eye circles, texture.
+Conrad's rule: "A concern is what brought them to the chair. A condition is what needs clinical management. A type is what determines the formula base. Three categories. Three clinical answers. Never conflate them."
+
+CLINICAL ORDER OF OPERATIONS — EVERY ANALYSIS FOLLOWS THIS SEQUENCE:
+1. Acid mantle status — integrity first. Nothing proceeds on severely compromised acid mantle.
+2. True skin type — pore scale, zone-by-zone, sebaceous activity only.
+3. Hydration status — separate from skin type. Oil vs H₂O are independent systems.
+4. Skin conditions — clinical identification and grading.
+5. Client concerns — vanity, noted and addressed after conditions.
+6. Fitzpatrick phototype and Glogau photoaging classification.
+7. Formula sequence: acid mantle restoration (if needed) → type-appropriate base → condition actives → concern support.
 
 HOW CONRAD SPEAKS ABOUT SKIN:
 Direct. "Your acid mantle is compromised. That means before we talk about brightening, we talk about restoration. In that order."
@@ -560,52 +633,152 @@ async function handleScoreScript(client, { script }) {
 
 // ── A List skin flow ──────────────────────────────────────────────────────────
 
-// Step 1: AI Skin Intake
-// intake: { photos: {front, left, right}, environment: {climate, humidity, uvIndex},
-//           sensory: {tightness, sensitivity, oiliness, texture}, history: {...} }
+// Step 1: AI Skin Intake — real photo analysis via Claude vision
+// intake: {
+//   photos: {
+//     front: string,       // base64 data URI ("data:image/jpeg;base64,...") or HTTPS URL
+//     left: string,        // left profile
+//     right: string,       // right profile
+//     decolletage: string  // neck + décolletage
+//   },
+//   environment: { climate, humidity, uvIndex, season },
+//   sensory: { tightness, sensitivity, oiliness, texture },
+//   history: { treatments, products, medications, allergies }
+// }
 async function handleSkinIntake(client, { intake = {} }) {
-    const msg = await client.messages.create({
-        model: MODEL,
-        max_tokens: 1024,
-        system: SKIN_SYSTEM_BLOCKS,
-        messages: [{
-            role: "user",
-            content: `Analyze this A List skin intake. Identify every meaningful signal — do not smooth over contradictions or red flags. Return structured JSON only, no prose:
+    const { photos = {}, environment = {}, sensory = {}, history = {} } = intake;
+
+    // Build vision content blocks from provided photos
+    const photoBlocks = [];
+    const angles = {
+        front:       "PHOTO — FRONT VIEW (full face, front-facing):",
+        left:        "PHOTO — LEFT PROFILE:",
+        right:       "PHOTO — RIGHT PROFILE:",
+        decolletage: "PHOTO — NECK + DÉCOLLETAGE:",
+    };
+
+    for (const [key, label] of Object.entries(angles)) {
+        const photo = photos[key];
+        if (!photo) continue;
+        photoBlocks.push({ type: "text", text: label });
+        if (typeof photo === "string" && photo.startsWith("data:")) {
+            const [header, data] = photo.split(",");
+            const mediaType = header.split(":")[1].split(";")[0];
+            photoBlocks.push({ type: "image", source: { type: "base64", media_type: mediaType, data } });
+        } else if (typeof photo === "string" && photo.startsWith("https://")) {
+            photoBlocks.push({ type: "image", source: { type: "url", url: photo } });
+        }
+    }
+
+    const hasPhotos = photoBlocks.length > 0;
+    const noPhotoNote = hasPhotos ? "" :
+        "\nNO PHOTOS PROVIDED — analysis is based on sensory and history data only. Confidence score must reflect this limitation. Flag clearly in redFlags.";
+
+    const prompt = `Perform a complete Conrad-method clinical skin analysis using the photo analysis protocol.${noPhotoNote}
+
+PROTOCOL REQUIREMENTS:
+- Confirm zero makeup — flag if suspected and reduce confidence
+- Analyze pore architecture zone-by-zone on the 0–100% pore scale
+- Pores soften/dilate and tighten — never describe them as opening or closing
+- Strictly separate: skin TYPE (sebaceous activity only) vs HYDRATION STATUS (H₂O) vs CONDITIONS (clinical) vs CONCERNS (vanity)
+- "Sensitive" is not a skin type — classify it as a condition or state if present
+- Every observation must reference its specific visual evidence from the photos
+
+Return structured JSON only, no prose outside the object:
 {
-  "skinSignals": [],           // primary observable patterns
-  "environmentalFactors": [],  // climate/UV/humidity impacts
-  "sensoryProfile": {},        // tightness, oiliness, sensitivity, texture findings
-  "redFlags": [],              // conflicts, medication interactions, acid mantle concerns
-  "confidenceScore": 0         // 0-100, lower if data is sparse
+  "photoQuality": {
+    "makeupDetected": false,
+    "lightingAdequate": true,
+    "anglesProvided": [],
+    "qualityNotes": ""
+  },
+  "poreAnalysis": {
+    "tZone":      { "score": 0, "observation": "" },
+    "cheeks":     { "score": 0, "observation": "" },
+    "chin":       { "score": 0, "observation": "" },
+    "neck":       { "score": 0, "observation": "" },
+    "decolletage":{ "score": 0, "observation": "" },
+    "overallScore": 0,
+    "dominantPattern": "",
+    "zoneDifferential": ""
+  },
+  "skinType": "",
+  "skinTypeRationale": "",
+  "hydrationStatus": {
+    "classification": "",
+    "distinction": "",
+    "visualSigns": []
+  },
+  "acidMantleStatus": "",
+  "acidMantleEvidence": [],
+  "fitzpatrickEstimate": 0,
+  "glogauClassification": "",
+  "skinConditions": [
+    { "condition": "", "grade": "", "distribution": "", "severity": "" }
+  ],
+  "clientConcerns": [],
+  "environmentalFactors": [],
+  "sensoryCorrelation": "",
+  "redFlags": [],
+  "confidenceScore": 0
 }
 
-Intake data:
-${JSON.stringify(intake, null, 2)}`,
-        }],
+Client environment: ${JSON.stringify(environment)}
+Client sensory report: ${JSON.stringify(sensory)}
+Client history: ${JSON.stringify(history)}`;
+
+    const userContent = hasPhotos
+        ? [...photoBlocks, { type: "text", text: prompt }]
+        : prompt;
+
+    const msg = await client.messages.create({
+        model: MODEL,
+        max_tokens: 1800,
+        system: SKIN_SYSTEM_BLOCKS,
+        messages: [{ role: "user", content: userContent }],
     });
     return ok({ intakeSummary: msg.content[0].text, usage: msg.usage });
 }
 
 // Step 2: Skin Intelligence Mapping
-// profile: the intakeSummary from step 1
+// profile: intakeSummary from step 1
 async function handleSkinIntelligence(client, { profile = {} }) {
     const msg = await client.messages.create({
         model: MODEL,
-        max_tokens: 1500,
+        max_tokens: 1800,
         system: SKIN_SYSTEM_BLOCKS,
         messages: [{
             role: "user",
-            content: `Map this skin profile using C-Ai intelligence. Return structured JSON only — no prose outside the object:
+            content: `Map this skin profile using Conrad's clinical framework. Apply the three-category distinction rigorously: skin type ≠ skin condition ≠ concern. Return structured JSON only — no prose outside the object:
 {
-  "skinType": "",               // normal | oily | dry | combination | sensitive | dehydrated
-  "fitzpatrickScale": 0,        // 1-6
-  "primaryConditions": [],      // acne, hyperpigmentation, rosacea, perioral dermatitis, aging, etc.
-  "behaviorPatterns": [],       // what this skin does under stress, hormonal shifts, seasonal change
-  "acidMantleStatus": "",          // intact | compromised | severely compromised
-  "hydrationLevel": "",         // adequate | dehydrated | severely dehydrated
-  "treatmentReadiness": "",     // exactly what this skin can tolerate right now, and what to address first if acid mantle is compromised
-  "curationRationale": ""       // one sentence: why restraint in formulation matters for this specific skin
+  "skinType": "",
+  "skinTypeRationale": "",
+  "hydrationStatus": "",
+  "oilHydrationDistinction": "",
+  "fitzpatrickScale": 0,
+  "glogauPhotoaging": "",
+  "skinConditions": [
+    { "condition": "", "grade": "", "formulationImplication": "" }
+  ],
+  "clientConcerns": [],
+  "behaviorPatterns": [],
+  "acidMantleStatus": "",
+  "acidMantleRestoration": "",
+  "tewlRisk": "",
+  "treatmentReadiness": "",
+  "formulationPriority": "",
+  "curationRationale": ""
 }
+
+Field definitions:
+- skinType: dry | normal | combination | oily | seborrheic — sebaceous activity ONLY. Never "sensitive."
+- hydrationStatus: adequately hydrated | dehydrated | severely dehydrated — SEPARATE from skin type
+- oilHydrationDistinction: explicit clinical statement distinguishing what this skin has/lacks in oil vs H₂O
+- skinConditions: clinical conditions (ill-functioning skin characteristics) — NOT types, NOT concerns
+- clientConcerns: vanity observations only — addressed after conditions are managed
+- acidMantleRestoration: if compromised, exactly what to restore first before any active correction
+- tewlRisk: low | moderate | high — transepidermal water loss risk
+- formulationPriority: the clinical sequence for this skin's formula architecture
 
 Skin profile:
 ${JSON.stringify(profile, null, 2)}`,
