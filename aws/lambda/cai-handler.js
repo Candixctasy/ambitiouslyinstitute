@@ -2,29 +2,50 @@
 // Serves both Ambitiously Institute (consultation/education AI) and
 // By BoBo A List (skin intelligence: intake → mapping → ingredients → formulation).
 //
-// Secrets Manager secret: ambitiously/anthropic-api-key
-// Env vars set by SAM: CLAUDE_MODEL, ALLOWED_ORIGIN, ANTHROPIC_SECRET_NAME
+// AI backbone: AWS Bedrock (cross-region inference) — Claude via IAM role, no external API keys.
+// Photo analysis: AWS Rekognition pre-processes skin photos (face detection, quality, landmarks)
+//   before Claude performs the full Conrad-method esthetic read.
+// Storage: S3 for persistent photo storage; photos can arrive as S3 keys or inline base64.
+// Env vars set by SAM: BEDROCK_MODEL_ID, BEDROCK_REGION, PHOTO_BUCKET, ALLOWED_ORIGIN
 
-import Anthropic from "@anthropic-ai/sdk";
 import {
-    SecretsManagerClient,
-    GetSecretValueCommand,
-} from "@aws-sdk/client-secrets-manager";
+    BedrockRuntimeClient,
+    InvokeModelCommand,
+} from "@aws-sdk/client-bedrock-runtime";
+import {
+    RekognitionClient,
+    DetectFacesCommand,
+} from "@aws-sdk/client-rekognition";
+import {
+    S3Client,
+    GetObjectCommand,
+} from "@aws-sdk/client-s3";
 
-const secrets = new SecretsManagerClient({ region: "ca-central-1" });
-let _anthropicKey = null;
-
-async function getAnthropicKey() {
-    if (_anthropicKey) return _anthropicKey;
-    const res = await secrets.send(
-        new GetSecretValueCommand({ SecretId: process.env.ANTHROPIC_SECRET_NAME })
-    );
-    _anthropicKey = res.SecretString;
-    return _anthropicKey;
-}
-
-const MODEL = process.env.CLAUDE_MODEL || "claude-sonnet-4-6";
+const BEDROCK_REGION = process.env.BEDROCK_REGION || "us-east-1";
+const MODEL_ID       = process.env.BEDROCK_MODEL_ID || "us.anthropic.claude-3-5-sonnet-20241022-v2:0";
+const PHOTO_BUCKET   = process.env.PHOTO_BUCKET || "";
 const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || "*";
+
+const bedrock     = new BedrockRuntimeClient({ region: BEDROCK_REGION });
+const rekognition = new RekognitionClient({ region: "ca-central-1" });
+const s3          = new S3Client({ region: "ca-central-1" });
+
+async function callClaude({ max_tokens, system, messages, temperature = 0.7 }) {
+    const cmd = new InvokeModelCommand({
+        modelId: MODEL_ID,
+        contentType: "application/json",
+        accept: "application/json",
+        body: JSON.stringify({
+            anthropic_version: "bedrock-2023-05-31",
+            max_tokens,
+            system,
+            messages,
+            temperature,
+        }),
+    });
+    const res = await bedrock.send(cmd);
+    return JSON.parse(new TextDecoder().decode(res.body));
+}
 
 const CORS = {
     "Access-Control-Allow-Origin": ALLOWED_ORIGIN,
@@ -541,20 +562,18 @@ export const handler = async (event) => {
     }
 
     const path = event.path || event.rawPath || "/";
-    const key = await getAnthropicKey();
-    const client = new Anthropic({ apiKey: key });
 
     try {
         // Institute routes
-        if (path.endsWith("/ask")) return await handleAsk(client, body);
-        if (path.endsWith("/recommend")) return await handleRecommend(client, body);
-        if (path.endsWith("/score-script")) return await handleScoreScript(client, body);
+        if (path.endsWith("/ask")) return await handleAsk(body);
+        if (path.endsWith("/recommend")) return await handleRecommend(body);
+        if (path.endsWith("/score-script")) return await handleScoreScript(body);
 
         // A List skin flow routes
-        if (path.endsWith("/alist/skin-intake")) return await handleSkinIntake(client, body);
-        if (path.endsWith("/alist/skin-intelligence")) return await handleSkinIntelligence(client, body);
-        if (path.endsWith("/alist/ingredients")) return await handleIngredients(client, body);
-        if (path.endsWith("/alist/formulate")) return await handleFormulate(client, body);
+        if (path.endsWith("/alist/skin-intake")) return await handleSkinIntake(body);
+        if (path.endsWith("/alist/skin-intelligence")) return await handleSkinIntelligence(body);
+        if (path.endsWith("/alist/ingredients")) return await handleIngredients(body);
+        if (path.endsWith("/alist/formulate")) return await handleFormulate(body);
 
         return err(404, "Unknown route");
     } catch (e) {
@@ -565,12 +584,11 @@ export const handler = async (event) => {
 
 // ── Institute routes ──────────────────────────────────────────────────────────
 
-async function handleAsk(client, { question, context = {} }) {
+async function handleAsk({ question, context = {} }) {
     if (!question?.trim()) return err(400, "question is required");
     const system = [...INSTITUTE_SYSTEM_BLOCKS];
     if (context.role) system.push({ type: "text", text: `User context — role: ${context.role}, page: ${context.page || "unknown"}.` });
-    const msg = await client.messages.create({
-        model: MODEL,
+    const msg = await callClaude({
         max_tokens: 1024,
         system,
         messages: [{ role: "user", content: question }],
@@ -578,9 +596,8 @@ async function handleAsk(client, { question, context = {} }) {
     return ok({ answer: msg.content[0].text, usage: msg.usage });
 }
 
-async function handleRecommend(client, { profile = {} }) {
-    const msg = await client.messages.create({
-        model: MODEL,
+async function handleRecommend({ profile = {} }) {
+    const msg = await callClaude({
         max_tokens: 1024,
         system: INSTITUTE_SYSTEM_BLOCKS,
         messages: [{
@@ -591,10 +608,9 @@ async function handleRecommend(client, { profile = {} }) {
     return ok({ recommendations: msg.content[0].text, usage: msg.usage });
 }
 
-async function handleScoreScript(client, { script }) {
+async function handleScoreScript({ script }) {
     if (!script?.trim()) return err(400, "script is required");
-    const msg = await client.messages.create({
-        model: MODEL,
+    const msg = await callClaude({
         max_tokens: 1500,
         system: INSTITUTE_SYSTEM_BLOCKS,
         messages: [{
@@ -619,10 +635,26 @@ async function handleScoreScript(client, { script }) {
 //   sensory: { tightness, sensitivity, oiliness, texture },
 //   history: { treatments, products, medications, allergies }
 // }
-async function handleSkinIntake(client, { intake = {} }) {
-    const { photos = {}, environment = {}, sensory = {}, history = {} } = intake;
+async function handleSkinIntake({ intake = {} }) {
+    const { photos = {}, photoKeys = {}, environment = {}, sensory = {}, history = {} } = intake;
 
-    // Build vision content blocks from provided photos
+    // Resolve photos: load from S3 when keys are provided (preferred path — photos persist in S3)
+    const resolvedPhotos = { ...photos };
+    for (const [angle, s3Key] of Object.entries(photoKeys)) {
+        if (s3Key && !resolvedPhotos[angle]) {
+            const loaded = await loadPhotoFromS3(s3Key);
+            if (loaded) resolvedPhotos[angle] = loaded;
+        }
+    }
+
+    // Rekognition pre-analysis on front photo — objective measurements before C-Ai's esthetic read
+    let rekognitionContext = "";
+    if (resolvedPhotos.front) {
+        const rekData = await analyzeWithRekognition(resolvedPhotos.front, photoKeys.front);
+        if (rekData) rekognitionContext = `\nREKOGNITION PRE-ANALYSIS (front view — objective measurements before clinical read):\n${rekData}`;
+    }
+
+    // Build vision content blocks from resolved photos
     const photoBlocks = [];
     const angles = {
         front:       "PHOTO — FRONT VIEW (full face, front-facing):",
@@ -632,7 +664,7 @@ async function handleSkinIntake(client, { intake = {} }) {
     };
 
     for (const [key, label] of Object.entries(angles)) {
-        const photo = photos[key];
+        const photo = resolvedPhotos[key];
         if (!photo) continue;
         photoBlocks.push({ type: "text", text: label });
         if (typeof photo === "string" && photo.startsWith("data:")) {
@@ -648,7 +680,7 @@ async function handleSkinIntake(client, { intake = {} }) {
     const noPhotoNote = hasPhotos ? "" :
         "\nNO PHOTOS PROVIDED — analysis is based on sensory and history data only. Confidence score must reflect this limitation. Flag clearly in redFlags.";
 
-    const prompt = `Perform a complete Conrad-method clinical skin analysis using the photo analysis protocol.${noPhotoNote}
+    const prompt = `Perform a complete Conrad-method clinical skin analysis using the photo analysis protocol.${noPhotoNote}${rekognitionContext}
 
 PROTOCOL REQUIREMENTS:
 - Confirm zero makeup — flag if suspected and reduce confidence
@@ -705,8 +737,7 @@ Client history: ${JSON.stringify(history)}`;
         ? [...photoBlocks, { type: "text", text: prompt }]
         : prompt;
 
-    const msg = await client.messages.create({
-        model: MODEL,
+    const msg = await callClaude({
         max_tokens: 1800,
         system: SKIN_SYSTEM_BLOCKS,
         messages: [{ role: "user", content: userContent }],
@@ -716,9 +747,8 @@ Client history: ${JSON.stringify(history)}`;
 
 // Step 2: Skin Intelligence Mapping
 // profile: intakeSummary from step 1
-async function handleSkinIntelligence(client, { profile = {} }) {
-    const msg = await client.messages.create({
-        model: MODEL,
+async function handleSkinIntelligence({ profile = {} }) {
+    const msg = await callClaude({
         max_tokens: 1800,
         system: SKIN_SYSTEM_BLOCKS,
         messages: [{
@@ -765,7 +795,7 @@ ${JSON.stringify(profile, null, 2)}`,
 // skinMap: result from step 2, goals: array, sourcing: array of client sourcing standards
 // ingredientCatalog: optional array of encyclopedia entries {slug, name, inciName, bestForSkinTypes,
 //   bestForConcerns, incompatibilities, maxUseLevel, heatSensitive, irritationRisk, sacredTraditions}
-async function handleIngredients(client, { skinMap = {}, goals = [], sourcing = [], ingredientCatalog = [] }) {
+async function handleIngredients({ skinMap = {}, goals = [], sourcing = [], ingredientCatalog = [] }) {
     const sourcingLine = sourcing.length
         ? `\nINGREDIENT SOURCING REQUIREMENTS: The client has declared the following standards — ALL ingredient selections must comply: ${sourcing.join(", ")}. Flag any ingredient that cannot meet a declared standard and propose a compliant alternative.`
         : "";
@@ -778,8 +808,7 @@ async function handleIngredients(client, { skinMap = {}, goals = [], sourcing = 
           }`
         : "";
 
-    const msg = await client.messages.create({
-        model: MODEL,
+    const msg = await callClaude({
         max_tokens: 1800,
         system: SKIN_SYSTEM_BLOCKS,
         messages: [{
@@ -809,7 +838,7 @@ Client goals: ${goals.join(", ")}`,
 // ingredientDetails: optional array of encyclopedia entries for the selected ingredients
 //   — if provided, C-Ai uses the actual maxUseLevel, heatSensitive, incompatibilities, and
 //     bestForConcerns data rather than relying solely on training knowledge
-async function handleFormulate(client, { skinMap = {}, selectedIngredients = [], productType, preferences = {}, ingredientDetails = [] }) {
+async function handleFormulate({ skinMap = {}, selectedIngredients = [], productType, preferences = {}, ingredientDetails = [] }) {
     if (!productType) return err(400, "productType is required");
 
     // Map product type to pyramid tier context
@@ -841,8 +870,7 @@ async function handleFormulate(client, { skinMap = {}, selectedIngredients = [],
           }\n`
         : "";
 
-    const msg = await client.messages.create({
-        model: MODEL,
+    const msg = await callClaude({
         max_tokens: 2048,
         system: SKIN_SYSTEM_BLOCKS,
         messages: [{
@@ -891,7 +919,58 @@ Additional preferences: ${JSON.stringify(preferences)}`,
     return ok({ formula: msg.content[0].text, usage: msg.usage });
 }
 
-// ── Helpers ───────────────────────────────────────────────────────────────────
+
+// ── AWS service helpers ───────────────────────────────────────────────────────
+
+async function loadPhotoFromS3(s3Key) {
+    if (!PHOTO_BUCKET || !s3Key) return null;
+    try {
+        const res = await s3.send(new GetObjectCommand({ Bucket: PHOTO_BUCKET, Key: s3Key }));
+        const chunks = [];
+        for await (const chunk of res.Body) chunks.push(chunk);
+        const mediaType = res.ContentType || "image/jpeg";
+        return `data:${mediaType};base64,${Buffer.concat(chunks).toString("base64")}`;
+    } catch (e) {
+        console.error(`S3 load failed [${s3Key}]:`, e.message);
+        return null;
+    }
+}
+
+async function analyzeWithRekognition(photo, s3Key) {
+    try {
+        let imageParam;
+        if (s3Key && PHOTO_BUCKET) {
+            imageParam = { S3Object: { Bucket: PHOTO_BUCKET, Name: s3Key } };
+        } else if (typeof photo === "string" && photo.startsWith("data:")) {
+            imageParam = { Bytes: Buffer.from(photo.split(",")[1], "base64") };
+        } else {
+            return null;
+        }
+
+        const res = await rekognition.send(new DetectFacesCommand({ Image: imageParam, Attributes: ["ALL"] }));
+        if (!res.FaceDetails?.length) return "No face detected by Rekognition — confirm photo angle and lighting.";
+
+        const f = res.FaceDetails[0];
+        const q = f.Quality || {};
+        const p = f.Pose   || {};
+        const a = f.AgeRange || {};
+
+        return [
+            `• Image quality: Brightness ${(q.Brightness || 0).toFixed(1)}/100, Sharpness ${(q.Sharpness || 0).toFixed(1)}/100`,
+            `• Face pose: Yaw ${(p.Yaw || 0).toFixed(1)}° (left/right), Pitch ${(p.Pitch || 0).toFixed(1)}° (up/down), Roll ${(p.Roll || 0).toFixed(1)}°`,
+            `• Rekognition estimated age range: ${a.Low || "?"}–${a.High || "?"} years (cross-reference with Glogau)`,
+            `• Detection confidence: ${(f.Confidence || 0).toFixed(1)}%`,
+            f.Sunglasses?.Value ? `• ⚠ Sunglasses detected — periorbital and lateral canthus zone analysis limited` : null,
+            f.EyesOpen?.Value === false ? `• ⚠ Eyes closed — periorbital region analysis limited` : null,
+            f.MouthOpen?.Value ? `• Mouth open — lower face measurements may be slightly affected` : null,
+        ].filter(Boolean).join("\n");
+    } catch (e) {
+        console.error("Rekognition error:", e.message);
+        return null;
+    }
+}
+
+// ── Response helpers ─────────────────────────────────────────────────────────
 
 function ok(data) {
     return { statusCode: 200, headers: CORS, body: JSON.stringify(data) };
