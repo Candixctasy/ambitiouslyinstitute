@@ -130,3 +130,41 @@ export const getActiveDiscount = webMethod(
     async (email, tier = "consumer") =>
         dbRequest("GET", `/alist/discount?email=${encodeURIComponent(email)}&tier=${tier}`)
 );
+
+// ── Referrals ──────────────────────────────────────────────────────────────────
+// Viral loop: member submits up to 5 friend emails → friends enter funnel →
+// referral credited when friend joins → credit toward free products.
+// referredEmails: string[] — up to 5 email addresses
+
+export const saveReferrals = webMethod(
+    Permissions.SiteMember,
+    async (referrerEmail, referredEmails) =>
+        dbRequest("POST", "/alist/referrals", { referrerEmail, referredEmails })
+);
+
+export const getReferralStats = webMethod(
+    Permissions.SiteMember,
+    async (email) =>
+        dbRequest("GET", `/alist/referrals?email=${encodeURIComponent(email)}`)
+);
+
+// ── Ingredient encyclopedia ────────────────────────────────────────────────────
+// Public: education-first browsable library of all By BoBo ingredients.
+
+export const getIngredientLibrary = webMethod(
+    Permissions.Anyone,
+    async ({ category, sourcing, skinType, search, limit = 50 } = {}) => {
+        const qs = new URLSearchParams();
+        if (category) qs.set("category", category);
+        if (sourcing) qs.set("sourcing", sourcing);
+        if (skinType) qs.set("skinType", skinType);
+        if (search)   qs.set("search", search);
+        qs.set("limit", String(limit));
+        return dbRequest("GET", `/bybobo/encyclopedia?${qs}`);
+    }
+);
+
+export const getIngredientDetail = webMethod(
+    Permissions.Anyone,
+    async (slug) => dbRequest("GET", `/bybobo/encyclopedia/${encodeURIComponent(slug)}`)
+);
