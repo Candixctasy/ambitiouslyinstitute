@@ -43,7 +43,13 @@
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Indigenous North American",
+        "TCM",
+        "European folk"
+      ]
     },
     {
       "slug": "calendula-extract",
@@ -88,7 +94,13 @@
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Egyptian",
+        "Greek/Roman",
+        "European folk"
+      ]
     },
     {
       "slug": "chamomile-extract",
@@ -133,7 +145,13 @@
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Egyptian",
+        "Greek/Roman",
+        "European folk"
+      ]
     },
     {
       "slug": "green-tea-extract",
@@ -178,7 +196,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Chinese",
+        "Japanese ceremonial",
+        "Taoist"
+      ]
     },
     {
       "slug": "witch-hazel-hydrosol",
@@ -223,7 +247,11 @@
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Indigenous North American"
+      ]
     },
     {
       "slug": "sea-buckthorn-oil",
@@ -268,7 +296,13 @@
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Tibetan Medicine",
+        "Mongolian",
+        "Ayurvedic"
+      ]
     },
     {
       "slug": "turmeric-root",
@@ -313,7 +347,14 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic",
+        "Hindu sacred",
+        "Ancient Indian",
+        "Buddhist"
+      ]
     },
     {
       "slug": "arnica-montana",
@@ -358,7 +399,12 @@
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Indigenous European",
+        "Germanic herbal"
+      ]
     },
     {
       "slug": "helichrysum-extract",
@@ -403,7 +449,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": true
+      "sacredBiblical": true,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Greek/Roman",
+        "Mediterranean sacred",
+        "Biblical region"
+      ]
     },
     {
       "slug": "lavender-extract",
@@ -448,7 +500,14 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": true
+      "sacredBiblical": true,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Egyptian",
+        "Roman",
+        "Biblical",
+        "Greek"
+      ]
     },
     {
       "slug": "aloe-vera-gel",
@@ -493,7 +552,14 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": true
+      "sacredBiblical": true,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Egyptian",
+        "Biblical",
+        "Ayurvedic",
+        "Greek/Roman"
+      ]
     },
     {
       "slug": "jojoba-oil",
@@ -538,7 +604,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Indigenous North American",
+        "Tohono O'odham",
+        "Seri"
+      ]
     },
     {
       "slug": "rosehip-seed-oil",
@@ -583,7 +655,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Indigenous North American",
+        "TCM",
+        "European folk"
+      ]
     },
     {
       "slug": "frankincense-extract",
@@ -628,7 +706,15 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": true
+      "sacredBiblical": true,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Biblical",
+        "Ancient Egyptian",
+        "Sumerian",
+        "Babylonian",
+        "Zoroastrian"
+      ]
     },
     {
       "slug": "myrrh-extract",
@@ -673,7 +759,15 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": true
+      "sacredBiblical": true,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Biblical",
+        "Ancient Egyptian",
+        "Sumerian",
+        "Babylonian",
+        "Islamic"
+      ]
     },
     {
       "slug": "prickly-pear-seed-oil",
@@ -718,7 +812,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Aztec/Maya",
+        "Mesoamerican Indigenous",
+        "North African Berber"
+      ]
     },
     {
       "slug": "marula-oil",
@@ -763,7 +863,13 @@
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "African Indigenous",
+        "San peoples",
+        "Bantu traditional"
+      ]
     },
     {
       "slug": "kokum-butter",
@@ -808,7 +914,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic",
+        "Indian traditional"
+      ]
     },
     {
       "slug": "shea-butter",
@@ -853,7 +964,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "West African sacred",
+        "Indigenous African"
+      ]
     },
     {
       "slug": "argan-oil",
@@ -898,7 +1014,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Berber/Amazigh sacred",
+        "North African Indigenous"
+      ]
     },
     {
       "slug": "evening-primrose-oil",
@@ -943,7 +1064,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Indigenous North American",
+        "European folk"
+      ]
     },
     {
       "slug": "squalane",
@@ -988,7 +1114,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "hemp-seed-oil",
@@ -1033,7 +1161,14 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Chinese",
+        "Scythian sacred",
+        "Ayurvedic",
+        "Indigenous"
+      ]
     },
     {
       "slug": "pomegranate-oil",
@@ -1078,7 +1213,14 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Biblical",
+        "Ancient Persian",
+        "Ancient Greek",
+        "Ayurvedic"
+      ]
     },
     {
       "slug": "carrot-seed-oil",
@@ -1123,7 +1265,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic",
+        "Ancient European",
+        "Greek/Roman"
+      ]
     },
     {
       "slug": "sea-kelp-extract",
@@ -1168,7 +1316,13 @@
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Celtic/Irish",
+        "Indigenous Pacific",
+        "Indigenous Atlantic"
+      ]
     },
     {
       "slug": "spirulina",
@@ -1213,7 +1367,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Aztec/Maya",
+        "Ancient African (Chad/Sahel)"
+      ]
     },
     {
       "slug": "hyaluronic-acid",
@@ -1258,7 +1417,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "vegetable-glycerin",
@@ -1303,7 +1464,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "neem-oil",
@@ -1348,7 +1511,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic",
+        "Hindu sacred",
+        "Ancient Indian"
+      ]
     },
     {
       "slug": "tea-tree-oil",
@@ -1393,7 +1562,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Bundjalung Aboriginal",
+        "Indigenous Australian"
+      ]
     },
     {
       "slug": "gotu-kola-extract",
@@ -1438,7 +1612,14 @@
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic (Brahmi)",
+        "TCM",
+        "Buddhist",
+        "Sri Lankan traditional"
+      ]
     },
     {
       "slug": "bakuchiol",
@@ -1483,7 +1664,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic",
+        "Ancient Indian sacred"
+      ]
     },
     {
       "slug": "squalene",
@@ -1528,7 +1714,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "blue-tansy-oil",
@@ -1573,7 +1761,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "North African",
+        "Moroccan traditional"
+      ]
     },
     {
       "slug": "helix-aspersa-extract",
@@ -1618,7 +1811,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Egyptian",
+        "Ancient Greek"
+      ]
     },
     {
       "slug": "azelaic-acid",
@@ -1663,7 +1861,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "salicylic-acid",
@@ -1708,7 +1908,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Sumerian (willow)",
+        "Ancient Egyptian",
+        "Greek (Hippocrates)"
+      ]
     },
     {
       "slug": "lactic-acid",
@@ -1753,7 +1959,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "mandelic-acid",
@@ -1798,7 +2006,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "niacinamide",
@@ -1843,7 +2053,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "panthenol",
@@ -1888,7 +2100,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "l-ascorbic-acid",
@@ -1933,7 +2147,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "ferulic-acid",
@@ -1978,7 +2194,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "resveratrol",
@@ -2023,7 +2241,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Greek/Roman",
+        "Dionysian tradition"
+      ]
     },
     {
       "slug": "peptides",
@@ -2068,7 +2291,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "ceramides",
@@ -2113,7 +2338,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "cholesterol",
@@ -2158,7 +2385,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "phospholipids",
@@ -2203,7 +2432,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "sarcosine",
@@ -2248,7 +2479,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "ethylhexylglycerin",
@@ -2293,7 +2526,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "meadowfoam-seed-oil",
@@ -2352,7 +2587,11 @@
       "packagingCompatibility": "",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Indigenous North American"
+      ]
     },
     {
       "slug": "black-seed-oil",
@@ -2411,7 +2650,13 @@
       "packagingCompatibility": "",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Egyptian",
+        "Islamic sacred",
+        "Biblical (Isaiah 28)"
+      ]
     },
     {
       "slug": "murumuru-butter",
@@ -2470,7 +2715,11 @@
       "packagingCompatibility": "",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Amazonian Indigenous"
+      ]
     },
     {
       "slug": "glycolic-acid",
@@ -2531,7 +2780,9 @@
       "phWindowHigh": 4,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "copper-peptides",
@@ -2590,7 +2841,9 @@
       "packagingCompatibility": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "decyl-glucoside",
@@ -2649,7 +2902,9 @@
       "packagingCompatibility": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "saccharomyces-ferment-filtrate",
@@ -2708,7 +2963,9 @@
       "packagingCompatibility": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "tamanu-oil",
@@ -2755,7 +3012,13 @@
       "lowImpactProcessing": true,
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Polynesian sacred",
+        "Southeast Asian traditional",
+        "Melanesian"
+      ]
     },
     {
       "slug": "rose-hydrosol",
@@ -2803,7 +3066,14 @@
       "lowImpactProcessing": true,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Persian",
+        "Roman",
+        "Middle Eastern",
+        "Ottoman"
+      ]
     },
     {
       "slug": "turmeric-extract",
@@ -2851,7 +3121,14 @@
       "lowImpactProcessing": true,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic",
+        "Hindu sacred",
+        "Ancient Indian",
+        "Buddhist"
+      ]
     },
     {
       "slug": "aloe-vera",
@@ -2899,7 +3176,14 @@
       "regenerativeAgricultureFit": true,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": true
+      "sacredBiblical": true,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Egyptian",
+        "Biblical",
+        "Ayurvedic",
+        "Greek/Roman"
+      ]
     },
     {
       "slug": "tranexamic-acid",
@@ -2955,7 +3239,9 @@
       "maxUseLevel": 5,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "alpha-arbutin",
@@ -3013,7 +3299,9 @@
       "maxUseLevel": 2,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "retinol",
@@ -3069,7 +3357,9 @@
       "maxUseLevel": 1,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "matrixyl",
@@ -3125,7 +3415,9 @@
       "maxUseLevel": 5,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "argireline",
@@ -3181,7 +3473,9 @@
       "maxUseLevel": 10,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "coco-glucoside",
@@ -3237,7 +3531,9 @@
       "maxUseLevel": 15,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "sodium-cocoyl-isethionate",
@@ -3293,7 +3589,9 @@
       "maxUseLevel": 50,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "sunflower-lecithin",
@@ -3349,7 +3647,9 @@
       "maxUseLevel": 5,
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "tocopherol",
@@ -3405,7 +3705,9 @@
       "maxUseLevel": 2,
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "rosemary-extract",
@@ -3461,7 +3763,14 @@
       "maxUseLevel": 1,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Roman",
+        "Greek",
+        "Mediterranean",
+        "European folk"
+      ]
     },
     {
       "slug": "lactobacillus-ferment",
@@ -3517,7 +3826,9 @@
       "maxUseLevel": 10,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "kombucha",
@@ -3573,7 +3884,12 @@
       "maxUseLevel": 95,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Chinese (220 BCE)",
+        "Manchurian shamanic"
+      ]
     },
     {
       "slug": "birch-sap-extract",
@@ -3629,7 +3945,14 @@
       "maxUseLevel": 100,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Norse",
+        "Celtic",
+        "Indigenous North American",
+        "Slavic"
+      ]
     },
     {
       "slug": "maple-leaf-extract",
@@ -3685,7 +4008,13 @@
       "maxUseLevel": 5,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Indigenous North American",
+        "Anishinaabe",
+        "First Nations"
+      ]
     },
     {
       "slug": "ceramide-np",
@@ -3741,7 +4070,9 @@
       "maxUseLevel": 3,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "licorice-root-extract",
@@ -3797,7 +4128,15 @@
       "maxUseLevel": 5,
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "TCM",
+        "Ayurvedic",
+        "Ancient Egyptian",
+        "Greek/Roman",
+        "Sumerian"
+      ]
     },
     {
       "slug": "avocado-oil",
@@ -3841,7 +4180,12 @@
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Aztec/Maya",
+        "Mesoamerican Indigenous"
+      ]
     },
     {
       "slug": "camellia-seed-oil",
@@ -3885,7 +4229,13 @@
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Japanese",
+        "Ancient Chinese",
+        "Geisha tradition"
+      ]
     },
     {
       "slug": "baobab-oil",
@@ -3929,7 +4279,13 @@
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "African sacred",
+        "Sub-Saharan Indigenous",
+        "Tree of Life tradition"
+      ]
     },
     {
       "slug": "borage-seed-oil",
@@ -3973,7 +4329,13 @@
       "canadianRelevance": "<p>Borage is commercially grown in Saskatchewan and Manitoba, making it one of Canada's more significant specialty oil crops for cosmetic use.</p>",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Roman",
+        "Middle Eastern",
+        "European folk"
+      ]
     },
     {
       "slug": "raspberry-seed-oil",
@@ -4017,7 +4379,9 @@
       "canadianRelevance": "<p>British Columbia is a major raspberry growing region — raspberry seed oil represents Canadian agricultural upcycling at its best.</p>",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "moringa-oil",
@@ -4061,7 +4425,13 @@
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Egyptian",
+        "Ayurvedic",
+        "African traditional"
+      ]
     },
     {
       "slug": "mango-butter",
@@ -4104,7 +4474,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic",
+        "Indian traditional"
+      ]
     },
     {
       "slug": "cocoa-butter",
@@ -4147,7 +4522,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Aztec/Maya",
+        "Mesoamerican sacred"
+      ]
     },
     {
       "slug": "cupuacu-butter",
@@ -4190,7 +4570,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "centella-asiatica-extract",
@@ -4234,7 +4616,14 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic",
+        "TCM",
+        "Sri Lankan traditional",
+        "Sinhalese folk"
+      ]
     },
     {
       "slug": "oat-extract",
@@ -4277,7 +4666,13 @@
       "canadianRelevance": "<p>Canadian oats from Saskatchewan prairies are among the world's finest. Canada is a global oat supplier — Canadian oat extract supports local agricultural economies.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Celtic",
+        "Greek/Roman",
+        "European folk"
+      ]
     },
     {
       "slug": "tremella-mushroom-extract",
@@ -4320,7 +4715,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "TCM",
+        "Taoist",
+        "Ancient Chinese"
+      ]
     },
     {
       "slug": "sea-moss-extract",
@@ -4363,7 +4764,13 @@
       "canadianRelevance": "<p>Nova Scotia and Newfoundland are significant wild-harvest regions for Chondrus crispus — using Canadian sea moss directly supports Atlantic fishing communities.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Celtic/Irish",
+        "Indigenous Atlantic",
+        "Caribbean folk"
+      ]
     },
     {
       "slug": "hibiscus-extract",
@@ -4406,7 +4813,14 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "West African",
+        "Ayurvedic",
+        "Ancient Egyptian",
+        "Caribbean folk"
+      ]
     },
     {
       "slug": "chaga-mushroom-extract",
@@ -4449,7 +4863,13 @@
       "canadianRelevance": "<p>Canadian boreal forests (Ontario, Quebec, BC) are among the world's finest chaga growing environments. Supporting Canadian wild-harvest chaga directly funds Indigenous and rural forest communities across northern Canada.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Siberian shamanic",
+        "Slavic traditional",
+        "Indigenous North American"
+      ]
     },
     {
       "slug": "beta-glucan",
@@ -4492,7 +4912,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "kojic-acid",
@@ -4535,7 +4957,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "allantoin",
@@ -4578,7 +5002,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient European (comfrey)",
+        "Celtic knitbone tradition"
+      ]
     },
     {
       "slug": "sodium-hyaluronate",
@@ -4621,7 +5050,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "betaine",
@@ -4664,7 +5095,9 @@
       "canadianRelevance": "<p>Alberta sugar beets are processed for betaine by-products — Canadian-sourced betaine is available from local sugar processing facilities.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "adenosine",
@@ -4707,7 +5140,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "madecassoside",
@@ -4750,7 +5185,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic",
+        "TCM"
+      ]
     },
     {
       "slug": "zinc-pca",
@@ -4793,7 +5233,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "palmitoyl-tripeptide-1",
@@ -4836,7 +5278,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "palmitoyl-tetrapeptide-7",
@@ -4879,7 +5323,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "ghk-cu",
@@ -4922,7 +5368,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "bifida-ferment-lysate",
@@ -4965,7 +5413,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "galactomyces-ferment-filtrate",
@@ -5008,7 +5458,11 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Japanese sake tradition"
+      ]
     },
     {
       "slug": "phenoxyethanol",
@@ -5051,7 +5505,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "xanthan-gum",
@@ -5094,7 +5550,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "apricot-kernel-oil",
@@ -5137,7 +5595,14 @@
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Silk Road ancient",
+        "Persian",
+        "Middle Eastern",
+        "Ayurvedic"
+      ]
     },
     {
       "slug": "sweet-almond-oil",
@@ -5180,7 +5645,13 @@
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic",
+        "Ancient Mediterranean",
+        "Middle Eastern"
+      ]
     },
     {
       "slug": "pumpkin-seed-oil",
@@ -5223,7 +5694,12 @@
       "canadianRelevance": "<p>Ontario and Quebec grow significant squash and pumpkin crops — Canadian pumpkin seed oil supports local agricultural byproduct utilization.</p>",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Indigenous North American",
+        "Mesoamerican"
+      ]
     },
     {
       "slug": "watermelon-seed-oil",
@@ -5266,7 +5742,12 @@
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Kalahari San peoples",
+        "North African ancient"
+      ]
     },
     {
       "slug": "cloudberry-seed-oil",
@@ -5309,7 +5790,13 @@
       "canadianRelevance": "<p>One of Canada's most unique indigenous botanical oils — exclusively from the Canadian north and Scandinavian arctic. A defining ingredient in any 'truly Canadian' luxury skincare line.</p>",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Inuit",
+        "First Nations",
+        "Northern Indigenous"
+      ]
     },
     {
       "slug": "labrador-tea-extract",
@@ -5352,7 +5839,14 @@
       "canadianRelevance": "<p>Labrador tea is exclusively Canadian in its primary range. An extraordinary opportunity for 'made in Canada' botanical differentiation that no other country can replicate.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Cree",
+        "Ojibwe",
+        "Inuit",
+        "Indigenous Canadian"
+      ]
     },
     {
       "slug": "willow-bark-extract",
@@ -5395,7 +5889,14 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Sumerian (3500 BCE)",
+        "Ancient Egyptian",
+        "Greek (Hippocrates)",
+        "Biblical"
+      ]
     },
     {
       "slug": "gluconolactone",
@@ -5438,7 +5939,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "glyceryl-stearate",
@@ -5481,7 +5984,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "sodium-levulinate",
@@ -5524,7 +6029,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "maracuja-oil",
@@ -5567,7 +6074,12 @@
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Amazonian Indigenous",
+        "Brazilian folk"
+      ]
     },
     {
       "slug": "sacha-inchi-oil",
@@ -5610,7 +6122,13 @@
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Incan",
+        "Amazonian Indigenous",
+        "Andean sacred"
+      ]
     },
     {
       "slug": "broccoli-seed-oil",
@@ -5653,7 +6171,9 @@
       "canadianRelevance": "<p>British Columbia and Ontario broccoli farms provide high-quality organic broccoli seed oil — a true Canadian ingredient option for clean beauty formulations.</p>",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "ashwagandha-extract",
@@ -5696,7 +6216,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic sacred",
+        "Ancient Indian",
+        "Vedic"
+      ]
     },
     {
       "slug": "elderberry-extract",
@@ -5739,7 +6265,14 @@
       "canadianRelevance": "<p>Wild Canadian elderberry grows abundantly across southern Ontario and Quebec — supporting local wild-harvest economies and bringing a Canadian botanical story to every formula.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Norse",
+        "Celtic",
+        "Indigenous North American",
+        "European folk"
+      ]
     },
     {
       "slug": "pomegranate-extract",
@@ -5782,7 +6315,14 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": true
+      "sacredBiblical": true,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Biblical",
+        "Ancient Greek (Persephone)",
+        "Persian",
+        "Ayurvedic"
+      ]
     },
     {
       "slug": "milk-thistle-extract",
@@ -5825,7 +6365,13 @@
       "canadianRelevance": "<p>Milk thistle has naturalized widely in southern Canada — Canadian-sourced milk thistle extract is increasingly viable as the plant's range expands.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Greek/Roman",
+        "Middle Eastern",
+        "European folk"
+      ]
     },
     {
       "slug": "echinacea-extract",
@@ -5868,7 +6414,14 @@
       "canadianRelevance": "<p>Echinacea is native to the Canadian prairies — supporting Canadian prairie agriculture and honoring Indigenous plant knowledge traditions.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Indigenous North American",
+        "Lakota",
+        "Cheyenne",
+        "Crow"
+      ]
     },
     {
       "slug": "maca-root-extract",
@@ -5911,7 +6464,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Incan",
+        "Andean sacred",
+        "Pre-Columbian"
+      ]
     },
     {
       "slug": "schisandra-extract",
@@ -5954,7 +6513,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "TCM",
+        "Taoist",
+        "Ancient Chinese imperial"
+      ]
     },
     {
       "slug": "reishi-mushroom-extract",
@@ -5997,7 +6562,14 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "TCM",
+        "Taoist sacred",
+        "Ancient Chinese (4000 years)",
+        "Korean traditional"
+      ]
     },
     {
       "slug": "snap-8-peptide",
@@ -6040,7 +6612,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "tripeptide-29",
@@ -6083,7 +6657,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "zinc-oxide",
@@ -6125,7 +6701,9 @@
       "incompatibilities": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "sodium-pca",
@@ -6167,7 +6745,9 @@
       "incompatibilities": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "inulin",
@@ -6209,7 +6789,9 @@
       "incompatibilities": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "colostrum",
@@ -6249,7 +6831,14 @@
       "transparencyStatement": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Indian",
+        "Vedic",
+        "Greek/Roman",
+        "traditional cultures globally"
+      ]
     },
     {
       "slug": "cetearyl-alcohol",
@@ -6291,7 +6880,9 @@
       "incompatibilities": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "hydroxyethylcellulose",
@@ -6331,7 +6922,9 @@
       "transparencyStatement": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "citric-acid",
@@ -6371,7 +6964,9 @@
       "transparencyStatement": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "blackcurrant-seed-oil",
@@ -6414,7 +7009,12 @@
       "canadianRelevance": "<p>British Columbia produces significant blackcurrant crops — Canadian blackcurrant seed oil supports local agricultural byproduct utilization.</p>",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Celtic/European folk",
+        "Slavic traditional"
+      ]
     },
     {
       "slug": "sea-buckthorn-co2",
@@ -6457,7 +7057,9 @@
       "canadianRelevance": "<p>Saskatchewan is establishing itself as North America's sea buckthorn center — Canadian prairie-grown sea buckthorn is a genuine point of domestic botanical differentiation.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "ylang-ylang-essential-oil",
@@ -6500,7 +7102,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Southeast Asian",
+        "Filipino sacred",
+        "Indonesian traditional"
+      ]
     },
     {
       "slug": "neroli-essential-oil",
@@ -6543,7 +7151,14 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Persian",
+        "Arabic",
+        "Roman",
+        "Ottoman"
+      ]
     },
     {
       "slug": "alpha-lipoic-acid",
@@ -6586,7 +7201,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "ellagic-acid",
@@ -6629,7 +7246,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "clary-sage-extract",
@@ -6672,7 +7291,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient European",
+        "Mediterranean",
+        "European folk medicine"
+      ]
     },
     {
       "slug": "magnesium-ascorbyl-phosphate",
@@ -6715,7 +7340,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "niacinamide-b3",
@@ -6758,7 +7385,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "vitamin-k2",
@@ -6801,7 +7430,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "lactobionic-acid",
@@ -6844,7 +7475,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "bromelain",
@@ -6887,7 +7520,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Mesoamerican Indigenous",
+        "Caribbean folk",
+        "South American"
+      ]
     },
     {
       "slug": "papain",
@@ -6930,7 +7569,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Mesoamerican Indigenous",
+        "Caribbean folk",
+        "Central American"
+      ]
     },
     {
       "slug": "polyglutamic-acid",
@@ -6973,7 +7618,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "ceramide-eg",
@@ -7016,7 +7663,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "bakuchiol-advance",
@@ -7059,7 +7708,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic",
+        "Ancient Indian sacred"
+      ]
     },
     {
       "slug": "sea-kelp-bioferment",
@@ -7102,7 +7756,13 @@
       "canadianRelevance": "<p>BC's Pacific kelp forests are among the world's finest — Canadian coast kelp bioferment directly supports sustainable coastal marine economies and BC Indigenous communities.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Indigenous Pacific",
+        "Indigenous Atlantic coastal",
+        "Celtic"
+      ]
     },
     {
       "slug": "rose-damascena-extract",
@@ -7145,7 +7805,15 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": true
+      "sacredBiblical": true,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Persian",
+        "Middle Eastern",
+        "Roman",
+        "Ottoman",
+        "Biblical region"
+      ]
     },
     {
       "slug": "turmeric-co2-extract",
@@ -7188,7 +7856,14 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ayurvedic",
+        "Hindu sacred",
+        "Ancient Indian (4000 years)",
+        "Buddhist"
+      ]
     },
     {
       "slug": "acetyl-glucosamine",
@@ -7231,7 +7906,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "sea-buckthorn-berry-oil",
@@ -7274,7 +7951,13 @@
       "canadianRelevance": "<p>Saskatchewan is the emerging North American center for sea buckthorn cultivation — truly Canadian prairie botanical with a 1,000-year heritage story.</p>",
       "coldPressed": true,
       "raw": true,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Tibetan Medicine",
+        "Mongolian sacred",
+        "Himalayan Indigenous"
+      ]
     },
     {
       "slug": "willow-herb-extract",
@@ -7317,7 +8000,15 @@
       "canadianRelevance": "<p>Fireweed is one of Canada's most emblematic native plants — wild-harvested willowherb extract is an extraordinary Canadian botanical differentiation story.</p>",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Indigenous Canadian",
+        "Cree",
+        "Ojibwe",
+        "Dene",
+        "Métis"
+      ]
     },
     {
       "slug": "peptide-complex-eg4",
@@ -7360,7 +8051,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "phytic-acid",
@@ -7403,7 +8096,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Japanese rice tradition",
+        "East Asian folk"
+      ]
     },
     {
       "slug": "ectoin",
@@ -7446,7 +8144,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "sea-lavender-extract",
@@ -7489,7 +8189,12 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Mediterranean coastal",
+        "Greek/Roman"
+      ]
     },
     {
       "slug": "helichrysum-italicum-oil",
@@ -7532,7 +8237,13 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Ancient Greek",
+        "Roman",
+        "Mediterranean sacred"
+      ]
     },
     {
       "slug": "polyhydroxy-acid-complex",
@@ -7575,7 +8286,9 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false
+      "sacredBiblical": false,
+      "sacredAncient": false,
+      "sacredTraditions": []
     },
     {
       "slug": "spikenard-extract",
@@ -7619,7 +8332,14 @@
       "transparencyStatement": "<p>We source spikenard exclusively from certified sustainable Himalayan cooperatives where harvest is strictly limited to protect the endangered wild population. This is one of the rarest and most expensive botanicals in the world — authentic sourcing is the only ethical option. We pay premium prices to support conservation-linked harvesting programs in Nepal.</p>",
       "historicalUseNotes": "<p>Called 'nard' throughout the ancient world — mentioned in Song of Solomon 1:12, 4:13-14, and in the Gospels as the costly perfume Mary Magdalene used to anoint Jesus. Used in ancient Egyptian sacred ceremonies, in Ayurvedic medicine for over 5,000 years for nervous system and skin conditions, and in ancient Roman perfumery. Traded along the Silk Road at the price of gold.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Biblical",
+        "Ayurvedic",
+        "Ancient Indian",
+        "Ancient Persian"
+      ]
     },
     {
       "slug": "hyssop-extract",
@@ -7662,7 +8382,14 @@
       "transparencyStatement": "<p>We source certified organic hyssop from Mediterranean farms in the traditional biblical growing region. Wild-harvest from protected populations in Israel and Jordan sourced with local community benefit programs.</p>",
       "historicalUseNotes": "<p>Mentioned 12 times in the Bible. Used in the Passover ceremony (Exodus 12:22), the purification of lepers (Leviticus 14:4), and at the Crucifixion (John 19:29). Hippocrates used it medicinally in 400 BCE. One of the oldest continuously used medicinal herbs in human history.</p>",
       "incompatibilities": "Essential oil fraction — IFRA limits apply; use diluted only",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Biblical",
+        "Ancient Greek (Hippocrates)",
+        "Ancient Middle Eastern",
+        "Jewish ceremonial"
+      ]
     },
     {
       "slug": "cedarwood-extract",
@@ -7705,7 +8432,14 @@
       "transparencyStatement": "<p>We source certified sustainable Atlas cedar from Moroccan forests under FSC management. No Cedrus libani (endangered Lebanese cedar) is used. Traditional Moroccan forest cooperative partnerships.</p>",
       "historicalUseNotes": "<p>Mentioned 70+ times in the Bible. Solomon's Temple paneled entirely in Lebanese cedar. Ancient Egyptians used cedar oil in mummification — cedar-coated coffins from 4,500 years ago still carry the distinctive cedar fragrance. Used medicinally in Sumerian clay tablets dating to 3,000 BCE.</p>",
       "incompatibilities": "IFRA limits apply for essential oil fraction",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Biblical",
+        "Ancient Egyptian",
+        "Sumerian",
+        "Ancient Mesopotamian"
+      ]
     }
   ]
 }
