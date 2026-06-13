@@ -49,7 +49,8 @@
         "Indigenous North American",
         "TCM",
         "European folk"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "calendula-extract",
@@ -100,7 +101,8 @@
         "Ancient Egyptian",
         "Greek/Roman",
         "European folk"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "chamomile-extract",
@@ -151,7 +153,8 @@
         "Ancient Egyptian",
         "Greek/Roman",
         "European folk"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "green-tea-extract",
@@ -202,7 +205,8 @@
         "Ancient Chinese",
         "Japanese ceremonial",
         "Taoist"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "witch-hazel-hydrosol",
@@ -251,7 +255,8 @@
       "sacredAncient": true,
       "sacredTraditions": [
         "Indigenous North American"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "sea-buckthorn-oil",
@@ -301,8 +306,10 @@
       "sacredTraditions": [
         "Tibetan Medicine",
         "Mongolian",
-        "Ayurvedic"
-      ]
+        "Ayurvedic",
+        "Tartarian"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "turmeric-root",
@@ -354,7 +361,8 @@
         "Hindu sacred",
         "Ancient Indian",
         "Buddhist"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "arnica-montana",
@@ -404,7 +412,8 @@
       "sacredTraditions": [
         "Indigenous European",
         "Germanic herbal"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "helichrysum-extract",
@@ -455,7 +464,8 @@
         "Ancient Greek/Roman",
         "Mediterranean sacred",
         "Biblical region"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "lavender-extract",
@@ -507,7 +517,8 @@
         "Roman",
         "Biblical",
         "Greek"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "aloe-vera-gel",
@@ -558,8 +569,10 @@
         "Ancient Egyptian",
         "Biblical",
         "Ayurvedic",
-        "Greek/Roman"
-      ]
+        "Greek/Roman",
+        "Ancient Hebrew / Torah"
+      ],
+      "yhwhBeloved": true
     },
     {
       "slug": "jojoba-oil",
@@ -610,7 +623,8 @@
         "Indigenous North American",
         "Tohono O'odham",
         "Seri"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "rosehip-seed-oil",
@@ -661,7 +675,8 @@
         "Indigenous North American",
         "TCM",
         "European folk"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "frankincense-extract",
@@ -713,8 +728,10 @@
         "Ancient Egyptian",
         "Sumerian",
         "Babylonian",
-        "Zoroastrian"
-      ]
+        "Zoroastrian",
+        "Ancient Hebrew / Torah"
+      ],
+      "yhwhBeloved": true
     },
     {
       "slug": "myrrh-extract",
@@ -766,8 +783,10 @@
         "Ancient Egyptian",
         "Sumerian",
         "Babylonian",
-        "Islamic"
-      ]
+        "Islamic",
+        "Ancient Hebrew / Torah"
+      ],
+      "yhwhBeloved": true
     },
     {
       "slug": "prickly-pear-seed-oil",
@@ -818,7 +837,8 @@
         "Aztec/Maya",
         "Mesoamerican Indigenous",
         "North African Berber"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "marula-oil",
@@ -869,7 +889,8 @@
         "African Indigenous",
         "San peoples",
         "Bantu traditional"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "kokum-butter",
@@ -919,7 +940,8 @@
       "sacredTraditions": [
         "Ayurvedic",
         "Indian traditional"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "shea-butter",
@@ -969,7 +991,8 @@
       "sacredTraditions": [
         "West African sacred",
         "Indigenous African"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "argan-oil",
@@ -1019,7 +1042,8 @@
       "sacredTraditions": [
         "Berber/Amazigh sacred",
         "North African Indigenous"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "evening-primrose-oil",
@@ -1069,7 +1093,8 @@
       "sacredTraditions": [
         "Indigenous North American",
         "European folk"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "squalane",
@@ -1116,7 +1141,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "hemp-seed-oil",
@@ -1167,8 +1193,10 @@
         "Ancient Chinese",
         "Scythian sacred",
         "Ayurvedic",
-        "Indigenous"
-      ]
+        "Indigenous",
+        "Tartarian"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "pomegranate-oil",
@@ -1213,14 +1241,16 @@
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
-      "sacredBiblical": false,
+      "sacredBiblical": true,
       "sacredAncient": true,
       "sacredTraditions": [
         "Biblical",
         "Ancient Persian",
         "Ancient Greek",
-        "Ayurvedic"
-      ]
+        "Ayurvedic",
+        "Ancient Hebrew / Torah"
+      ],
+      "yhwhBeloved": true
     },
     {
       "slug": "carrot-seed-oil",
@@ -1271,7 +1301,8 @@
         "Ayurvedic",
         "Ancient European",
         "Greek/Roman"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "sea-kelp-extract",
@@ -1322,7 +1353,8 @@
         "Celtic/Irish",
         "Indigenous Pacific",
         "Indigenous Atlantic"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "spirulina",
@@ -1372,7 +1404,8 @@
       "sacredTraditions": [
         "Aztec/Maya",
         "Ancient African (Chad/Sahel)"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "hyaluronic-acid",
@@ -1419,7 +1452,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "vegetable-glycerin",
@@ -1466,7 +1500,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "neem-oil",
@@ -1517,7 +1552,8 @@
         "Ayurvedic",
         "Hindu sacred",
         "Ancient Indian"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "tea-tree-oil",
@@ -1567,7 +1603,8 @@
       "sacredTraditions": [
         "Bundjalung Aboriginal",
         "Indigenous Australian"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "gotu-kola-extract",
@@ -1619,7 +1656,8 @@
         "TCM",
         "Buddhist",
         "Sri Lankan traditional"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "bakuchiol",
@@ -1669,7 +1707,8 @@
       "sacredTraditions": [
         "Ayurvedic",
         "Ancient Indian sacred"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "squalene",
@@ -1716,7 +1755,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "blue-tansy-oil",
@@ -1766,7 +1806,8 @@
       "sacredTraditions": [
         "North African",
         "Moroccan traditional"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "helix-aspersa-extract",
@@ -1816,7 +1857,8 @@
       "sacredTraditions": [
         "Ancient Egyptian",
         "Ancient Greek"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "azelaic-acid",
@@ -1863,7 +1905,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "salicylic-acid",
@@ -1914,7 +1957,8 @@
         "Sumerian (willow)",
         "Ancient Egyptian",
         "Greek (Hippocrates)"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "lactic-acid",
@@ -1961,7 +2005,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "mandelic-acid",
@@ -2008,7 +2053,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "niacinamide",
@@ -2055,7 +2101,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "panthenol",
@@ -2102,7 +2149,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "l-ascorbic-acid",
@@ -2149,7 +2197,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "ferulic-acid",
@@ -2196,7 +2245,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "resveratrol",
@@ -2246,7 +2296,8 @@
       "sacredTraditions": [
         "Ancient Greek/Roman",
         "Dionysian tradition"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "peptides",
@@ -2293,7 +2344,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "ceramides",
@@ -2340,7 +2392,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "cholesterol",
@@ -2387,7 +2440,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "phospholipids",
@@ -2434,7 +2488,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "sarcosine",
@@ -2481,7 +2536,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "ethylhexylglycerin",
@@ -2528,7 +2584,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "meadowfoam-seed-oil",
@@ -2591,7 +2648,8 @@
       "sacredAncient": true,
       "sacredTraditions": [
         "Indigenous North American"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "black-seed-oil",
@@ -2656,7 +2714,8 @@
         "Ancient Egyptian",
         "Islamic sacred",
         "Biblical (Isaiah 28)"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "murumuru-butter",
@@ -2719,7 +2778,8 @@
       "sacredAncient": true,
       "sacredTraditions": [
         "Amazonian Indigenous"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "glycolic-acid",
@@ -2782,7 +2842,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "copper-peptides",
@@ -2843,7 +2904,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "decyl-glucoside",
@@ -2904,7 +2966,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "saccharomyces-ferment-filtrate",
@@ -2965,7 +3028,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "tamanu-oil",
@@ -3018,7 +3082,8 @@
         "Polynesian sacred",
         "Southeast Asian traditional",
         "Melanesian"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "rose-hydrosol",
@@ -3073,7 +3138,8 @@
         "Roman",
         "Middle Eastern",
         "Ottoman"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "turmeric-extract",
@@ -3128,7 +3194,8 @@
         "Hindu sacred",
         "Ancient Indian",
         "Buddhist"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "aloe-vera",
@@ -3182,8 +3249,10 @@
         "Ancient Egyptian",
         "Biblical",
         "Ayurvedic",
-        "Greek/Roman"
-      ]
+        "Greek/Roman",
+        "Ancient Hebrew / Torah"
+      ],
+      "yhwhBeloved": true
     },
     {
       "slug": "tranexamic-acid",
@@ -3241,7 +3310,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "alpha-arbutin",
@@ -3301,7 +3371,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "retinol",
@@ -3359,7 +3430,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "matrixyl",
@@ -3417,7 +3489,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "argireline",
@@ -3475,7 +3548,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "coco-glucoside",
@@ -3533,7 +3607,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "sodium-cocoyl-isethionate",
@@ -3591,7 +3666,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "sunflower-lecithin",
@@ -3649,7 +3725,8 @@
       "raw": true,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "tocopherol",
@@ -3707,7 +3784,8 @@
       "raw": true,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "rosemary-extract",
@@ -3769,8 +3847,10 @@
         "Ancient Roman",
         "Greek",
         "Mediterranean",
-        "European folk"
-      ]
+        "European folk",
+        "Tartarian"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "lactobacillus-ferment",
@@ -3828,7 +3908,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "kombucha",
@@ -3888,8 +3969,10 @@
       "sacredAncient": true,
       "sacredTraditions": [
         "Ancient Chinese (220 BCE)",
-        "Manchurian shamanic"
-      ]
+        "Manchurian shamanic",
+        "Tartarian"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "birch-sap-extract",
@@ -3951,8 +4034,11 @@
         "Ancient Norse",
         "Celtic",
         "Indigenous North American",
-        "Slavic"
-      ]
+        "Slavic",
+        "Tartarian",
+        "Native American sacred"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "maple-leaf-extract",
@@ -4014,7 +4100,8 @@
         "Indigenous North American",
         "Anishinaabe",
         "First Nations"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "ceramide-np",
@@ -4072,7 +4159,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "licorice-root-extract",
@@ -4135,8 +4223,10 @@
         "Ayurvedic",
         "Ancient Egyptian",
         "Greek/Roman",
-        "Sumerian"
-      ]
+        "Sumerian",
+        "Tartarian"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "avocado-oil",
@@ -4185,7 +4275,8 @@
       "sacredTraditions": [
         "Aztec/Maya",
         "Mesoamerican Indigenous"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "camellia-seed-oil",
@@ -4235,7 +4326,8 @@
         "Ancient Japanese",
         "Ancient Chinese",
         "Geisha tradition"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "baobab-oil",
@@ -4285,7 +4377,8 @@
         "African sacred",
         "Sub-Saharan Indigenous",
         "Tree of Life tradition"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "borage-seed-oil",
@@ -4335,7 +4428,8 @@
         "Ancient Roman",
         "Middle Eastern",
         "European folk"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "raspberry-seed-oil",
@@ -4381,7 +4475,8 @@
       "raw": true,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "moringa-oil",
@@ -4431,7 +4526,8 @@
         "Ancient Egyptian",
         "Ayurvedic",
         "African traditional"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "mango-butter",
@@ -4479,7 +4575,8 @@
       "sacredTraditions": [
         "Ayurvedic",
         "Indian traditional"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "cocoa-butter",
@@ -4527,7 +4624,8 @@
       "sacredTraditions": [
         "Aztec/Maya",
         "Mesoamerican sacred"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "cupuacu-butter",
@@ -4572,7 +4670,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "centella-asiatica-extract",
@@ -4623,7 +4722,8 @@
         "TCM",
         "Sri Lankan traditional",
         "Sinhalese folk"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "oat-extract",
@@ -4672,7 +4772,8 @@
         "Ancient Celtic",
         "Greek/Roman",
         "European folk"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "tremella-mushroom-extract",
@@ -4721,7 +4822,8 @@
         "TCM",
         "Taoist",
         "Ancient Chinese"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "sea-moss-extract",
@@ -4770,7 +4872,8 @@
         "Celtic/Irish",
         "Indigenous Atlantic",
         "Caribbean folk"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "hibiscus-extract",
@@ -4820,7 +4923,8 @@
         "Ayurvedic",
         "Ancient Egyptian",
         "Caribbean folk"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "chaga-mushroom-extract",
@@ -4868,8 +4972,11 @@
       "sacredTraditions": [
         "Siberian shamanic",
         "Slavic traditional",
-        "Indigenous North American"
-      ]
+        "Indigenous North American",
+        "Tartarian",
+        "Native American sacred"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "beta-glucan",
@@ -4914,7 +5021,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "kojic-acid",
@@ -4959,7 +5067,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "allantoin",
@@ -5007,7 +5116,8 @@
       "sacredTraditions": [
         "Ancient European (comfrey)",
         "Celtic knitbone tradition"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "sodium-hyaluronate",
@@ -5052,7 +5162,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "betaine",
@@ -5097,7 +5208,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "adenosine",
@@ -5142,7 +5254,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "madecassoside",
@@ -5190,7 +5303,8 @@
       "sacredTraditions": [
         "Ayurvedic",
         "TCM"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "zinc-pca",
@@ -5235,7 +5349,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "palmitoyl-tripeptide-1",
@@ -5280,7 +5395,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "palmitoyl-tetrapeptide-7",
@@ -5325,7 +5441,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "ghk-cu",
@@ -5370,7 +5487,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "bifida-ferment-lysate",
@@ -5415,7 +5533,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "galactomyces-ferment-filtrate",
@@ -5462,7 +5581,8 @@
       "sacredAncient": true,
       "sacredTraditions": [
         "Ancient Japanese sake tradition"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "phenoxyethanol",
@@ -5507,7 +5627,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "xanthan-gum",
@@ -5552,7 +5673,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "apricot-kernel-oil",
@@ -5602,7 +5724,8 @@
         "Persian",
         "Middle Eastern",
         "Ayurvedic"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "sweet-almond-oil",
@@ -5651,7 +5774,8 @@
         "Ayurvedic",
         "Ancient Mediterranean",
         "Middle Eastern"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "pumpkin-seed-oil",
@@ -5699,7 +5823,8 @@
       "sacredTraditions": [
         "Indigenous North American",
         "Mesoamerican"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "watermelon-seed-oil",
@@ -5747,7 +5872,8 @@
       "sacredTraditions": [
         "Kalahari San peoples",
         "North African ancient"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "cloudberry-seed-oil",
@@ -5796,7 +5922,8 @@
         "Inuit",
         "First Nations",
         "Northern Indigenous"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "labrador-tea-extract",
@@ -5845,8 +5972,10 @@
         "Cree",
         "Ojibwe",
         "Inuit",
-        "Indigenous Canadian"
-      ]
+        "Indigenous Canadian",
+        "Native American sacred"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "willow-bark-extract",
@@ -5895,8 +6024,11 @@
         "Sumerian (3500 BCE)",
         "Ancient Egyptian",
         "Greek (Hippocrates)",
-        "Biblical"
-      ]
+        "Biblical",
+        "Tartarian",
+        "Native American sacred"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "gluconolactone",
@@ -5941,7 +6073,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "glyceryl-stearate",
@@ -5986,7 +6119,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "sodium-levulinate",
@@ -6031,7 +6165,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "maracuja-oil",
@@ -6079,7 +6214,8 @@
       "sacredTraditions": [
         "Amazonian Indigenous",
         "Brazilian folk"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "sacha-inchi-oil",
@@ -6128,7 +6264,8 @@
         "Incan",
         "Amazonian Indigenous",
         "Andean sacred"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "broccoli-seed-oil",
@@ -6173,7 +6310,8 @@
       "raw": true,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "ashwagandha-extract",
@@ -6222,7 +6360,8 @@
         "Ayurvedic sacred",
         "Ancient Indian",
         "Vedic"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "elderberry-extract",
@@ -6271,8 +6410,11 @@
         "Ancient Norse",
         "Celtic",
         "Indigenous North American",
-        "European folk"
-      ]
+        "European folk",
+        "Tartarian",
+        "Native American sacred"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "pomegranate-extract",
@@ -6321,8 +6463,10 @@
         "Biblical",
         "Ancient Greek (Persephone)",
         "Persian",
-        "Ayurvedic"
-      ]
+        "Ayurvedic",
+        "Ancient Hebrew / Torah"
+      ],
+      "yhwhBeloved": true
     },
     {
       "slug": "milk-thistle-extract",
@@ -6371,7 +6515,8 @@
         "Ancient Greek/Roman",
         "Middle Eastern",
         "European folk"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "echinacea-extract",
@@ -6420,8 +6565,11 @@
         "Indigenous North American",
         "Lakota",
         "Cheyenne",
-        "Crow"
-      ]
+        "Crow",
+        "Tartarian",
+        "Native American sacred"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "maca-root-extract",
@@ -6470,7 +6618,8 @@
         "Incan",
         "Andean sacred",
         "Pre-Columbian"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "schisandra-extract",
@@ -6518,8 +6667,10 @@
       "sacredTraditions": [
         "TCM",
         "Taoist",
-        "Ancient Chinese imperial"
-      ]
+        "Ancient Chinese imperial",
+        "Tartarian"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "reishi-mushroom-extract",
@@ -6568,8 +6719,10 @@
         "TCM",
         "Taoist sacred",
         "Ancient Chinese (4000 years)",
-        "Korean traditional"
-      ]
+        "Korean traditional",
+        "Tartarian"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "snap-8-peptide",
@@ -6614,7 +6767,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "tripeptide-29",
@@ -6659,7 +6813,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "zinc-oxide",
@@ -6703,7 +6858,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "sodium-pca",
@@ -6747,7 +6903,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "inulin",
@@ -6791,7 +6948,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "colostrum",
@@ -6838,7 +6996,8 @@
         "Vedic",
         "Greek/Roman",
         "traditional cultures globally"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "cetearyl-alcohol",
@@ -6882,7 +7041,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "hydroxyethylcellulose",
@@ -6924,7 +7084,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "citric-acid",
@@ -6966,7 +7127,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "blackcurrant-seed-oil",
@@ -7014,7 +7176,8 @@
       "sacredTraditions": [
         "Celtic/European folk",
         "Slavic traditional"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "sea-buckthorn-co2",
@@ -7059,7 +7222,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "ylang-ylang-essential-oil",
@@ -7108,7 +7272,8 @@
         "Ancient Southeast Asian",
         "Filipino sacred",
         "Indonesian traditional"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "neroli-essential-oil",
@@ -7158,7 +7323,8 @@
         "Arabic",
         "Roman",
         "Ottoman"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "alpha-lipoic-acid",
@@ -7203,7 +7369,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "ellagic-acid",
@@ -7248,7 +7415,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "clary-sage-extract",
@@ -7297,7 +7465,8 @@
         "Ancient European",
         "Mediterranean",
         "European folk medicine"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "magnesium-ascorbyl-phosphate",
@@ -7342,7 +7511,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "niacinamide-b3",
@@ -7387,7 +7557,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "vitamin-k2",
@@ -7432,7 +7603,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "lactobionic-acid",
@@ -7477,7 +7649,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "bromelain",
@@ -7526,7 +7699,8 @@
         "Mesoamerican Indigenous",
         "Caribbean folk",
         "South American"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "papain",
@@ -7575,7 +7749,8 @@
         "Mesoamerican Indigenous",
         "Caribbean folk",
         "Central American"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "polyglutamic-acid",
@@ -7620,7 +7795,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "ceramide-eg",
@@ -7665,7 +7841,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "bakuchiol-advance",
@@ -7713,7 +7890,8 @@
       "sacredTraditions": [
         "Ayurvedic",
         "Ancient Indian sacred"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "sea-kelp-bioferment",
@@ -7762,7 +7940,8 @@
         "Indigenous Pacific",
         "Indigenous Atlantic coastal",
         "Celtic"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "rose-damascena-extract",
@@ -7812,8 +7991,10 @@
         "Middle Eastern",
         "Roman",
         "Ottoman",
-        "Biblical region"
-      ]
+        "Biblical region",
+        "Ancient Hebrew / Torah"
+      ],
+      "yhwhBeloved": true
     },
     {
       "slug": "turmeric-co2-extract",
@@ -7863,7 +8044,8 @@
         "Hindu sacred",
         "Ancient Indian (4000 years)",
         "Buddhist"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "acetyl-glucosamine",
@@ -7908,7 +8090,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "sea-buckthorn-berry-oil",
@@ -7956,8 +8139,10 @@
       "sacredTraditions": [
         "Tibetan Medicine",
         "Mongolian sacred",
-        "Himalayan Indigenous"
-      ]
+        "Himalayan Indigenous",
+        "Tartarian"
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "willow-herb-extract",
@@ -8008,7 +8193,8 @@
         "Ojibwe",
         "Dene",
         "Métis"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "peptide-complex-eg4",
@@ -8053,7 +8239,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "phytic-acid",
@@ -8101,7 +8288,8 @@
       "sacredTraditions": [
         "Ancient Japanese rice tradition",
         "East Asian folk"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "ectoin",
@@ -8146,7 +8334,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "sea-lavender-extract",
@@ -8194,7 +8383,8 @@
       "sacredTraditions": [
         "Ancient Mediterranean coastal",
         "Greek/Roman"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "helichrysum-italicum-oil",
@@ -8243,7 +8433,8 @@
         "Ancient Greek",
         "Roman",
         "Mediterranean sacred"
-      ]
+      ],
+      "yhwhBeloved": false
     },
     {
       "slug": "polyhydroxy-acid-complex",
@@ -8288,7 +8479,8 @@
       "raw": false,
       "sacredBiblical": false,
       "sacredAncient": false,
-      "sacredTraditions": []
+      "sacredTraditions": [],
+      "yhwhBeloved": false
     },
     {
       "slug": "spikenard-extract",
@@ -8338,8 +8530,10 @@
         "Biblical",
         "Ayurvedic",
         "Ancient Indian",
-        "Ancient Persian"
-      ]
+        "Ancient Persian",
+        "Ancient Hebrew / Torah"
+      ],
+      "yhwhBeloved": true
     },
     {
       "slug": "hyssop-extract",
@@ -8388,8 +8582,10 @@
         "Biblical",
         "Ancient Greek (Hippocrates)",
         "Ancient Middle Eastern",
-        "Jewish ceremonial"
-      ]
+        "Jewish ceremonial",
+        "Ancient Hebrew / Torah"
+      ],
+      "yhwhBeloved": true
     },
     {
       "slug": "cedarwood-extract",
@@ -8438,8 +8634,664 @@
         "Biblical",
         "Ancient Egyptian",
         "Sumerian",
-        "Ancient Mesopotamian"
-      ]
+        "Ancient Mesopotamian",
+        "Ancient Hebrew / Torah",
+        "Native American sacred"
+      ],
+      "yhwhBeloved": true
+    },
+    {
+      "slug": "rhodiola-rosea-extract",
+      "name": "Rhodiola Rosea Extract",
+      "inciName": "Rhodiola Rosea Root Extract",
+      "category": "Botanical",
+      "sourceForm": "extract",
+      "processingMethod": "standardized extraction",
+      "origin": "botanical",
+      "primaryFunction": "adaptogenic anti-stress, anti-fatigue, skin resilience",
+      "secondaryFunctions": "antioxidant, anti-aging, cortisol regulation, skin energy support, anti-inflammatory",
+      "bestForConcerns": "stress-related aging, fatigue skin, loss of radiance, cortisol damage",
+      "bestForSkinTypes": "stressed, mature, aging, all types",
+      "useCases": "adaptogenic serum, anti-stress treatment, radiance moisturizer, energy skin care",
+      "maxUseLevel": 3,
+      "heatSensitive": false,
+      "solubility": "water-soluble",
+      "irritationRisk": "very low",
+      "isPublished": "true",
+      "vegan": true,
+      "glutenFree": true,
+      "wildcrafted": true,
+      "organic": true,
+      "crueltyFree": true,
+      "ethicallySourced": true,
+      "biodegradable": true,
+      "canadianSourced": false,
+      "coldPressed": false,
+      "raw": false,
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Tartarian",
+        "Siberian shamanic",
+        "Scythian sacred",
+        "Viking/Norse",
+        "Mongolian",
+        "Tibetan Medicine",
+        "Arctic Indigenous",
+        "Soviet ethnomedicine"
+      ],
+      "ancientIngredient": true,
+      "traditionalSystem": "Siberian/Tartarian folk",
+      "positioning": "clinical",
+      "educationWhat": "<p>Rhodiola rosea (Golden Root, Arctic Root, Rose Root) is an adaptogenic herb that grows in the cold, high-altitude regions of Siberia, the Carpathian Mountains, and the Arctic. It contains rosavins, salidroside, and tyrosol — compounds that provide the most extensively studied adaptogenic effects in cosmetic dermatology. Vikings, Siberian shamans, Scythian warriors, and Mongolian healers all documented its use for endurance, resilience, and longevity. Soviet researchers conducted over 180 studies on rhodiola as part of Cold War performance enhancement research.</p>",
+      "educationWhere": "<p>Genuine Rhodiola rosea grows only in harsh, high-altitude conditions — Siberia (the heart of historical Tartary), the Carpathian Mountains, Scandinavia, the Arctic, and high Himalayan regions. Siberian wild-harvest Rhodiola from the Altai Mountains is considered the finest cosmetic grade — the Altai region was the geographic heart of the ancient Tartarian/Scythian cultures. The plant's extreme cold-adaptation produces its highest concentrations of rosavins and salidroside.</p>",
+      "educationHow": "<p>Rhodiola's salidroside and rosavins activate Nrf2 antioxidant pathways in skin cells, increasing superoxide dismutase and catalase production. Salidroside specifically inhibits MAO (monoamine oxidase) and regulates cortisol through HPA axis modulation — directly counteracting stress-skin aging. In skin cells, rhodiola activates heat shock proteins (HSPs) — the cellular stress response proteins that protect proteins from denaturation under environmental stress. This makes rhodiola uniquely effective for skin exposed to cold, UV, pollution, and emotional stress.</p>",
+      "educationWhy": "<p>The Tartarian/Siberian peoples who used rhodiola lived under the most extreme environmental conditions on earth — brutal cold, intense summer UV, harsh winds. The adaptogenic resilience they cultivated from this plant is exactly what modern urban skin needs to resist the chronic environmental and emotional stressors that accelerate aging.</p>",
+      "educationWhen": "<p>Use at 0.5-3% in adaptogenic and anti-stress serums. AM application for daytime stress protection. Synergistic with other adaptogens (ashwagandha, chaga, reishi, schisandra) for a comprehensive adaptogenic formula.</p>",
+      "consumerAnalogy": "Rhodiola is the golden root of Siberia — forged in the harshest conditions on earth, used by Viking warriors and Mongolian shamans for endurance and resilience, now delivering that same ancient toughness directly to your skin.",
+      "professionalAnalogy": "Rhodiola rosea's salidroside provides HPA axis-mediated cortisol regulation alongside Nrf2-activated endogenous antioxidant upregulation and HSP induction — a comprehensive cellular stress-resistance mechanism validated in over 180 peer-reviewed studies, adapted from the most extreme-environment plant in cosmetic botany.",
+      "transparencyStatement": "<p>We wild-harvest Rhodiola rosea from certified sustainable Altai Mountain programs in Siberia — the ancestral territory of the Tartarian/Scythian healing traditions. Rosavin content standardized to 3% + salidroside 1% by HPLC. Supporting Altai Indigenous community sustainable harvest economies.</p>",
+      "historicalUseNotes": "<p>Called 'golden root' by Siberian shamans who guarded its location as a sacred secret for centuries. Viking warriors took it before battle. Mongolian physicians reserved it for royalty. Soviet Cold War researchers conducted 180+ studies on it for cosmonaut and athlete performance. The Chinese emperor sent expeditions to Siberia specifically to obtain Rhodiola for the imperial court.</p>",
+      "incompatibilities": "",
+      "canadianRelevance": "",
+      "yhwhBeloved": false
+    },
+    {
+      "slug": "yarrow-extract",
+      "name": "Yarrow Extract",
+      "inciName": "Achillea Millefolium Extract",
+      "category": "Botanical",
+      "sourceForm": "extract",
+      "processingMethod": "steam distillation / aqueous extraction",
+      "origin": "botanical",
+      "primaryFunction": "wound healing, astringent, anti-inflammatory",
+      "secondaryFunctions": "antimicrobial, pore tightening, sebum balancing, sacred warrior medicine",
+      "bestForConcerns": "wound healing, enlarged pores, oiliness, redness, acne",
+      "bestForSkinTypes": "oily, acne-prone, sensitive, all types",
+      "useCases": "astringent toner, pore-tightening serum, wound healing, sacred formula",
+      "maxUseLevel": 3,
+      "heatSensitive": false,
+      "solubility": "water-soluble",
+      "irritationRisk": "low",
+      "isPublished": "true",
+      "vegan": true,
+      "glutenFree": true,
+      "wildcrafted": true,
+      "organic": true,
+      "crueltyFree": true,
+      "ethicallySourced": true,
+      "biodegradable": true,
+      "canadianSourced": true,
+      "coldPressed": false,
+      "raw": false,
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "sacredTraditions": [
+        "Tartarian",
+        "Scythian sacred",
+        "Ancient Greek",
+        "Celtic",
+        "Norse/Viking",
+        "Indigenous North American",
+        "Slavic",
+        "European folk",
+        "Native American sacred"
+      ],
+      "ancientIngredient": true,
+      "traditionalSystem": "Eurasian steppe/Tartarian",
+      "positioning": "eco",
+      "educationWhat": "<p>Yarrow (Achillea millefolium) is named after the Greek hero Achilles, who used it to staunch the wounds of his soldiers — earning its name 'herba militaris' (military herb) in ancient Rome. It grows across the entire Eurasian steppe (the heart of Tartary) and North America. It contains achillicin, azulene, flavonoids (apigenin, luteolin), and salicylic acid — providing potent wound-healing, anti-inflammatory, astringent, and antimicrobial properties used across every Eurasian civilization.</p>",
+      "educationWhere": "<p>Yarrow grows wild across the entire Tartarian steppe — from Eastern Europe through Siberia to the Pacific coast — as well as across North America. It is one of the most geographically widespread medicinal plants on earth. The Scythian nomads of the Eurasian steppe (the ancestral Tartarian culture) used yarrow extensively. Wild-harvest yarrow from the Siberian Altai region and from Canadian prairies are both premium sources.</p>",
+      "educationHow": "<p>Yarrow's azulene (formed from chamazulene during steam distillation) provides potent anti-inflammatory activity comparable to chamomile's azulene. Achillicin and flavonoids provide hemostatic (blood-stopping) activity that explains its ancient battlefield wound use. Astringent tannins tighten pores and reduce excess oil. Salicylic acid contributes gentle BHA-like exfoliation. Together: a traditional wound-healer that also functions as a modern pore-minimizing, anti-inflammatory skin tonic.</p>",
+      "educationWhen": "<p>Use at 0.5-3% in astringent toners, pore-minimizing serums, and healing formulas. IFRA limits apply for essential oil fraction. Can be used daily for oily skin. Wildcrafted Canadian yarrow available from prairie regions.</p>",
+      "consumerAnalogy": "Yarrow is the warrior herb — used to heal battle wounds across the entire ancient world, from Greek heroes to Scythian horsemen, its astringent and healing power works just as well on modern skin concerns.",
+      "professionalAnalogy": "Achillea millefolium's azulene, achillicin, and flavonoid complex provides dual anti-inflammatory and hemostatic activity alongside tannin-mediated astringency and salicylate-contribution exfoliation — a multimechanism traditional wound healer with documented efficacy across every major pre-modern medical tradition.",
+      "transparencyStatement": "<p>We wild-harvest yarrow from certified sustainable Canadian prairies and Altai Mountain Siberian programs. Grown wild across Canada — supporting prairie wild-harvest economies. No cultivation needed — growing wild in pristine environments.</p>",
+      "historicalUseNotes": "<p>Named for Achilles of Troy. Used by Scythian shamans, Celtic druids, Norse healers, Chinese and Ayurvedic physicians, Indigenous North American nations, and literally every major civilization on earth for wound healing and skin conditions. One of the most universally documented medicinal plants across human history — found in archaeological sites dating to 60,000 BCE (Neanderthal burial sites show yarrow pollen).</p>",
+      "incompatibilities": "IFRA limits for essential oil fraction; potential sensitizer in some individuals — patch test recommended",
+      "canadianRelevance": "<p>Yarrow grows wild across every Canadian province and territory — from BC coastal meadows to Newfoundland shores, from prairies to boreal forest edges. One of Canada's most widespread wild medicinal plants.</p>",
+      "yhwhBeloved": false
+    },
+    {
+      "slug": "olive-oil",
+      "name": "Olive Oil",
+      "inciName": "Olea Europaea (Olive) Fruit Oil",
+      "category": "Emollient / Carrier Oil",
+      "sourceForm": "Cold-pressed virgin oil",
+      "processingMethod": "Cold-pressed",
+      "origin": "Olea europaea fruit — Mediterranean, Middle East, Israel",
+      "primaryFunction": "Deep emollient, skin barrier restoration, antioxidant protection",
+      "secondaryFunctions": [
+        "Occlusive",
+        "Anti-inflammatory",
+        "Antioxidant",
+        "Wound healing"
+      ],
+      "bestForConcerns": [
+        "Dry skin",
+        "Mature skin",
+        "Eczema",
+        "Inflamed skin",
+        "Cracked skin",
+        "Barrier damage"
+      ],
+      "bestForSkinTypes": [
+        "Dry",
+        "Mature",
+        "Normal"
+      ],
+      "useCases": [
+        "Body oils",
+        "Hair treatments",
+        "Balms",
+        "Cleansing oils",
+        "Massage oils",
+        "Salves"
+      ],
+      "maxUseLevel": "100%",
+      "heatSensitive": true,
+      "solubility": "Oil-soluble",
+      "irritationRisk": "Low",
+      "isPublished": true,
+      "vegan": true,
+      "glutenFree": true,
+      "wildcrafted": false,
+      "organic": true,
+      "crueltyFree": true,
+      "ethicallySourced": true,
+      "biodegradable": true,
+      "canadianSourced": false,
+      "ancientIngredient": true,
+      "coldPressed": true,
+      "raw": true,
+      "sacredBiblical": true,
+      "sacredAncient": true,
+      "yhwhBeloved": true,
+      "sacredTraditions": [
+        "Ancient Hebrew / Torah",
+        "Ancient Greek",
+        "Ancient Roman",
+        "Ancient Egyptian",
+        "Ayurvedic",
+        "Mediterranean sacred"
+      ],
+      "educationWhat": "Olive oil is a rich emollient pressed from Olea europaea fruit, loaded with oleic acid (55–85%), squalene, and antioxidant polyphenols. It has nourished skin and hair across civilizations for over 6,000 years.",
+      "educationWhere": "Grown throughout the Mediterranean basin, the Levant (modern Israel, Palestine, Jordan, Lebanon), North Africa, and southern Europe. Israel's olive groves are among the most ancient in the world — some trees in Gethsemane are estimated at over 900 years old.",
+      "educationHow": "Cold-pressed extraction from ripe olives preserves heat-sensitive polyphenols, oleocanthal, and squalene. Extra-virgin grade retains the highest bioactive content. Used as both a standalone skin treatment and a carrier for botanical infusions.",
+      "educationWhy": "Oleic acid's small molecular profile allows deep skin penetration, restoring lipid layers and preventing transepidermal water loss. Hydroxytyrosol and oleuropein polyphenols deliver measurable antioxidant protection against UV-induced oxidative stress.",
+      "educationWhen": "Ideal for body oils, nighttime face oils for mature or dry skin, cleansing balms, lip treatments, and scalp conditioning. Best applied to slightly damp skin to lock in moisture. Use organic cold-pressed for best results.",
+      "consumerAnalogy": "Think of olive oil as the original luxury skincare oil — liquid gold that has softened skin since ancient times, from Mediterranean queens to Temple priests.",
+      "professionalAnalogy": "A high-oleic carrier with a fatty acid profile that mirrors the skin's natural sebum; used at 1–30% in emollients and cleansing oils for barrier repair and lipid replenishment.",
+      "transparencyStatement": "Certified organic, cold-pressed, extra-virgin where possible. Rich in oleic acid, squalene, and polyphenols. No hexane extraction. Heavy — best blended with lighter oils for face formulations.",
+      "historicalUseNotes": "YHWH commanded olive oil as the base of the Holy Anointing Oil in Exodus 30:24 — \"a hin of olive oil.\" Priests and kings were anointed with olive oil. Kings David and Solomon were anointed with it. Psalm 23:5 — \"you anoint my head with oil.\" Used in Temple lamp fuel (Exodus 27:20), grain offerings (Leviticus 2:1), and skin anointing throughout the Torah. Ancient Egyptians used it in cosmetic ointments. Greeks and Romans used it in athletic training and bathing. One of humanity's oldest cultivated plants.",
+      "incompatibilities": [
+        "Avoid in formulations requiring very light texture",
+        "Can comedogenically challenge acne-prone skin in high concentrations"
+      ],
+      "canadianRelevance": "Imported — not grown in Canada but widely available through Canadian fair-trade suppliers and certified organic sources. Standard in Canadian artisan skincare."
+    },
+    {
+      "slug": "cinnamon-bark-extract",
+      "name": "Cinnamon Bark Extract",
+      "inciName": "Cinnamomum zeylanicum (Cinnamon) Bark Extract",
+      "category": "Botanical / Antimicrobial",
+      "sourceForm": "Steam-distilled essential oil or CO2 extract",
+      "processingMethod": "Steam distillation / CO2 extraction",
+      "origin": "Cinnamomum zeylanicum bark — Sri Lanka, India, ancient Spice Routes",
+      "primaryFunction": "Antimicrobial, warming circulation-stimulant, antioxidant",
+      "secondaryFunctions": [
+        "Anti-inflammatory",
+        "Antifungal",
+        "Preservative-boosting",
+        "Scalp stimulant"
+      ],
+      "bestForConcerns": [
+        "Scalp health",
+        "Antimicrobial needs",
+        "Sluggish circulation",
+        "Antioxidant protection",
+        "Acne"
+      ],
+      "bestForSkinTypes": [
+        "Oily",
+        "Acne-prone",
+        "Normal"
+      ],
+      "useCases": [
+        "Scalp serums",
+        "Hair growth formulas",
+        "Lip plumpers (low %)",
+        "Antimicrobial formulas",
+        "Beard oils"
+      ],
+      "maxUseLevel": "0.5% (essential oil — sensitizing above this)",
+      "heatSensitive": true,
+      "solubility": "Oil-soluble (essential oil) / Water-soluble (hydro extract)",
+      "irritationRisk": "Moderate-High",
+      "isPublished": true,
+      "vegan": true,
+      "glutenFree": true,
+      "wildcrafted": false,
+      "organic": true,
+      "crueltyFree": true,
+      "ethicallySourced": true,
+      "biodegradable": true,
+      "canadianSourced": false,
+      "ancientIngredient": true,
+      "coldPressed": false,
+      "raw": false,
+      "sacredBiblical": true,
+      "sacredAncient": true,
+      "yhwhBeloved": true,
+      "sacredTraditions": [
+        "Ancient Hebrew / Torah",
+        "Ancient Egyptian",
+        "Ayurvedic",
+        "Ancient Chinese",
+        "Ancient Spice Routes sacred"
+      ],
+      "educationWhat": "Cinnamon bark extract comes from Cinnamomum zeylanicum (true cinnamon / Ceylon cinnamon), rich in cinnamaldehyde, eugenol, and linalool. It delivers powerful antimicrobial, antioxidant, and circulation-stimulating activity. One of the world's most ancient and sacred spices.",
+      "educationWhere": "Native to Sri Lanka and southern India. Traded along ancient spice routes through Arabia to Israel, Egypt, and Greece. So rare and precious in ancient times it was worth more than gold by weight.",
+      "educationHow": "Steam distillation of the inner bark (not the cassia outer bark) yields the essential oil. Used in formulations at very low concentrations (0.05–0.5%) for antimicrobial and circulation benefits. Acts as a natural preservative booster in cosmetic formulas.",
+      "educationWhy": "Cinnamaldehyde inhibits bacterial and fungal growth by disrupting cell membranes. It also stimulates blood flow, making it effective in scalp serums for hair growth. Antioxidant polyphenols protect against oxidative skin aging.",
+      "educationWhen": "Best for scalp treatments, beard oils, lip-plumping formulas (very low %), or antimicrobial boosters. Avoid on sensitive or inflamed skin. Always dilute — the essential oil is a known sensitizer at higher concentrations.",
+      "consumerAnalogy": "Think of cinnamon bark extract as the sacred spice king — a warming, protective botanical so precious in ancient times it was literally worth more than gold, now delivering antimicrobial and circulation benefits to your scalp and skin.",
+      "professionalAnalogy": "A cinnamaldehyde-rich botanical used at 0.05–0.5% for preservative-boosting and circulation stimulation. High sensitization potential requires IFRA/RIFM compliance review before use in leave-on formulations.",
+      "transparencyStatement": "True Ceylon cinnamon (C. zeylanicum), not cassia (C. cassia / aromaticum). Organically sourced. Cinnamal content is a known sensitizer — formulated responsibly at safe use levels. Not for use on broken or inflamed skin.",
+      "historicalUseNotes": "YHWH commanded cinnamon in the Holy Anointing Oil: Exodus 30:23 — \"250 shekels of sweet cinnamon (kinamon).\" One of only 5 ingredients YHWH specified. Ancient Egyptians used cinnamon in embalming and sacred oils. Listed in Song of Songs 4:14 as a prized garden spice of the beloved. So rare in ancient Israel it arrived via caravan from the East, making it a mark of royalty and holiness. Herodotus wrote that cinnamon was guarded by \"great winged birds\" and could only be obtained through special effort — such was its mystique.",
+      "incompatibilities": [
+        "Avoid with sensitive/reactive skin",
+        "Do not combine with high concentrations of other sensitizing actives",
+        "Keep below 0.5% in leave-on products"
+      ],
+      "canadianRelevance": "Imported spice and botanical extract available through Canadian certified organic suppliers. Widely used in Canadian artisan hair care and scalp products."
+    },
+    {
+      "slug": "cassia-extract",
+      "name": "Cassia Extract",
+      "inciName": "Cinnamomum cassia (Cassia) Bark Extract",
+      "category": "Botanical / Antimicrobial",
+      "sourceForm": "CO2 extract or steam-distilled essential oil",
+      "processingMethod": "CO2 extraction / Steam distillation",
+      "origin": "Cinnamomum cassia bark — China, Southeast Asia, ancient spice trade",
+      "primaryFunction": "Antimicrobial, warming, antioxidant, circulation-stimulating",
+      "secondaryFunctions": [
+        "Anti-inflammatory",
+        "Antifungal",
+        "Astringent",
+        "Preservative-boosting"
+      ],
+      "bestForConcerns": [
+        "Antimicrobial",
+        "Scalp circulation",
+        "Antioxidant protection",
+        "Oily skin",
+        "Dandruff"
+      ],
+      "bestForSkinTypes": [
+        "Oily",
+        "Normal",
+        "Combination"
+      ],
+      "useCases": [
+        "Scalp treatments",
+        "Hair growth serums",
+        "Antimicrobial formulas",
+        "Beard oils"
+      ],
+      "maxUseLevel": "0.2% (highly sensitizing — use with caution)",
+      "heatSensitive": true,
+      "solubility": "Oil-soluble",
+      "irritationRisk": "High",
+      "isPublished": true,
+      "vegan": true,
+      "glutenFree": true,
+      "wildcrafted": false,
+      "organic": true,
+      "crueltyFree": true,
+      "ethicallySourced": true,
+      "biodegradable": true,
+      "canadianSourced": false,
+      "ancientIngredient": true,
+      "coldPressed": false,
+      "raw": false,
+      "sacredBiblical": true,
+      "sacredAncient": true,
+      "yhwhBeloved": true,
+      "sacredTraditions": [
+        "Ancient Hebrew / Torah",
+        "Ancient Chinese",
+        "Ancient Egyptian",
+        "Ayurvedic",
+        "Ancient Spice Routes sacred"
+      ],
+      "educationWhat": "Cassia (Cinnamomum cassia) is the Chinese cinnamon, producing a bark extract richer in cinnamaldehyde than Ceylon cinnamon. It carries powerful antimicrobial, antifungal, and warming properties and is one of the oldest medicinal spices known to humanity.",
+      "educationWhere": "Native to southern China and Southeast Asia. Traded throughout the ancient spice routes, reaching Israel, Egypt, and the Mediterranean thousands of years before the Common Era. In ancient times the word \"cassia\" (kiddah in Hebrew) referred to this specific aromatic bark.",
+      "educationHow": "CO2 extraction preserves the full spectrum of aromatic compounds including cinnamaldehyde, p-cymene, and linalool. Used at very low concentrations in cosmetics for antimicrobial, warming, and sensory effects. Must be diluted in a carrier oil or emulsion base.",
+      "educationWhy": "Cinnamaldehyde acts as a broad-spectrum antimicrobial, inhibiting Staphylococcus aureus, Candida albicans, and other skin pathogens. Warming sensation aids scalp blood flow for follicle stimulation. Antioxidant polyphenols protect against lipid peroxidation.",
+      "educationWhen": "Ideal in scalp serums, dandruff treatments, beard grooming oils, and antimicrobial boosters. Use extreme caution with sensitive skin — patch test essential. Not suitable for leave-on facial products without extensive safety testing.",
+      "consumerAnalogy": "Cassia extract is the ancient sacred bark that purified temples, annointed kings, and protected skin for millennia — a powerfully protective botanical from the spice roads of antiquity.",
+      "professionalAnalogy": "High-cinnamaldehyde botanical extract for antimicrobial use at 0.05–0.2%. IFRA/REACH regulated due to sensitization potential. Consider encapsulation or PEG-modification for reduced irritation in leave-on formulas.",
+      "transparencyStatement": "Cinnamomum cassia, not to be confused with Ceylon cinnamon. Organically sourced. High irritation potential requires professional formulation expertise. Not recommended for sensitive skin. Maximum use levels strictly observed.",
+      "historicalUseNotes": "YHWH commanded cassia as the fourth ingredient in the Holy Anointing Oil: Exodus 30:24 — \"500 shekels of cassia (kiddah).\" This was the largest quantity of any single spice in the formula. Psalm 45:8 — \"All your robes are fragrant with myrrh and aloes and cassia.\" Ancient Chinese medicine has used cassia bark for over 4,000 years. Dioscorides (1st century CE) described cassia as one of the world's most prized medicinal spices. Used in ancient Egyptian temple rites and embalming formulas.",
+      "incompatibilities": [
+        "Highly sensitizing — never use undiluted",
+        "Avoid on sensitive, reactive, or inflamed skin",
+        "Do not combine with other high-sensitization actives"
+      ],
+      "canadianRelevance": "Imported — available through Canadian organic ingredient suppliers. Used in professional-grade Canadian scalp care and aromatherapy formulations."
+    },
+    {
+      "slug": "calamus-extract",
+      "name": "Calamus / Sweet Flag Extract",
+      "inciName": "Acorus calamus (Sweet Flag) Root Extract",
+      "category": "Botanical / Sacred",
+      "sourceForm": "CO2 extract or dried root powder",
+      "processingMethod": "CO2 extraction / Solvent extraction",
+      "origin": "Acorus calamus root — India, Eastern Europe, North America wetlands",
+      "primaryFunction": "Calming, anti-inflammatory, aromatic carrier in sacred formulas",
+      "secondaryFunctions": [
+        "Antimicrobial",
+        "Analgesic",
+        "Antioxidant",
+        "Nervine",
+        "Scalp conditioning"
+      ],
+      "bestForConcerns": [
+        "Scalp health",
+        "Anti-inflammatory",
+        "Sacred / ritual skincare",
+        "Calm irritated skin",
+        "Aromatic formulas"
+      ],
+      "bestForSkinTypes": [
+        "All",
+        "Sensitive",
+        "Mature"
+      ],
+      "useCases": [
+        "Sacred skincare",
+        "Scalp oils",
+        "Ritual perfumes",
+        "Botanical hair oils",
+        "Aromatherapy blends"
+      ],
+      "maxUseLevel": "1% (CO2 extract)",
+      "heatSensitive": true,
+      "solubility": "Oil-soluble / Water-soluble depending on extraction",
+      "irritationRisk": "Low-Moderate",
+      "isPublished": true,
+      "vegan": true,
+      "glutenFree": true,
+      "wildcrafted": true,
+      "organic": true,
+      "crueltyFree": true,
+      "ethicallySourced": true,
+      "biodegradable": true,
+      "canadianSourced": true,
+      "ancientIngredient": true,
+      "coldPressed": false,
+      "raw": false,
+      "sacredBiblical": true,
+      "sacredAncient": true,
+      "yhwhBeloved": true,
+      "sacredTraditions": [
+        "Ancient Hebrew / Torah",
+        "Ayurvedic",
+        "Native American sacred",
+        "Ancient Chinese",
+        "Ancient Greek",
+        "Ancient Egyptian"
+      ],
+      "educationWhat": "Calamus (Acorus calamus), also called Sweet Flag, is an aromatic wetland plant with a warm, spicy, woody scent. Its root extract contains beta-asarone, acorone, and terpenes with documented anti-inflammatory, antimicrobial, and nerve-calming properties. It grows wild in Canadian wetlands.",
+      "educationWhere": "Found throughout temperate wetlands: India (used in Ayurveda as \"vacha\"), China (used in TCM as \"shui chang pu\"), Eastern Europe (Tartarian folk medicine), and across North America where First Nations peoples used it as medicine. Canada has wild calamus populations from coast to coast.",
+      "educationHow": "Root rhizomes are harvested, dried, and CO2-extracted to preserve bioactive terpenes. Used as a low-percentage active in scalp oils, botanical perfumes, and sacred skincare formulas. Its warm, sweet-spicy aroma makes it a natural fixative in fragrance blends.",
+      "educationWhy": "Beta-asarone delivers anti-inflammatory and antimicrobial effects. Calamus soothes irritated scalp tissue and supports blood flow to follicles. Its aromatic compounds act as natural fixatives in botanical perfume work, extending fragrance longevity.",
+      "educationWhen": "Best in sacred skincare formulas, ritual anointing oils, scalp-focused botanical treatments, and aromatic botanical perfume blends. A small amount goes a long way — its scent profile is distinctive and powerful.",
+      "consumerAnalogy": "Think of calamus as the sacred aromatic root that YHWH himself chose for the most holy anointing formula — a plant so revered it grew in temple gardens, Ayurvedic pharmacopeias, and indigenous North American medicine simultaneously.",
+      "professionalAnalogy": "A beta-asarone-containing rhizome extract with fixative aromatic properties and anti-inflammatory activity. Used at 0.5–1% in oil-based formulas. Note: asarone content varies by species — source from reputable suppliers specifying Acorus calamus for cosmetic use.",
+      "transparencyStatement": "Wild-crafted or organic calamus root extract. Canadian-sourced where possible from sustainable wetland harvesting. Calamus has a complex regulatory history — formulated in compliance with current cosmetic regulations. Not for internal use.",
+      "historicalUseNotes": "YHWH commanded \"fragrant cane\" (kaneh bosem — קָנֶה בֹשֶׂם) as the third spice in the Holy Anointing Oil: Exodus 30:23 — \"250 shekels of fragrant cane.\" Many Torah scholars and historians identify kaneh bosem as calamus (Acorus calamus). Used in Ayurveda as vacha for thousands of years for memory, speech, and nervous system support. First Nations peoples across North America chewed calamus root for respiratory conditions and used it in ceremonial preparations. Ancient Chinese TCM called it one of the \"50 fundamental herbs.\" Tatars and Eastern European folk healers used it as a protective plant. Truly global sacred herb.",
+      "incompatibilities": [
+        "Avoid with known asarone sensitivity",
+        "Use within regulatory limits for cosmetic applications"
+      ],
+      "canadianRelevance": "Wild calamus grows throughout Canadian wetlands (Ontario, Quebec, Atlantic provinces, BC). One of the few Torah-sacred plants with genuine Canadian wild-crafted availability. Indigenous Nations across Canada have used it in traditional medicine for centuries."
+    },
+    {
+      "slug": "galbanum-resin",
+      "name": "Galbanum Resin Extract",
+      "inciName": "Ferula galbaniflua (Galbanum) Resin Extract",
+      "category": "Botanical Resin / Sacred Aromatic",
+      "sourceForm": "Resin extract / CO2 extract",
+      "processingMethod": "Solvent extraction / CO2 extraction of resin exudate",
+      "origin": "Ferula galbaniflua stems — Persia (Iran), Central Asia, Middle East",
+      "primaryFunction": "Anti-inflammatory, wound healing, aromatic fixative in sacred perfume formulas",
+      "secondaryFunctions": [
+        "Antifungal",
+        "Antibacterial",
+        "Skin regenerating",
+        "Analgesic",
+        "Antioxidant"
+      ],
+      "bestForConcerns": [
+        "Wound healing",
+        "Anti-inflammatory",
+        "Sacred / ritual skincare",
+        "Mature skin",
+        "Scar tissue"
+      ],
+      "bestForSkinTypes": [
+        "Mature",
+        "Dry",
+        "Normal",
+        "Damaged"
+      ],
+      "useCases": [
+        "Sacred anointing oils",
+        "Wound healing salves",
+        "Perfume fixatives",
+        "Ritual skincare",
+        "Anti-aging serums"
+      ],
+      "maxUseLevel": "1%",
+      "heatSensitive": true,
+      "solubility": "Oil-soluble",
+      "irritationRisk": "Low",
+      "isPublished": true,
+      "vegan": true,
+      "glutenFree": true,
+      "wildcrafted": true,
+      "organic": false,
+      "crueltyFree": true,
+      "ethicallySourced": true,
+      "biodegradable": true,
+      "canadianSourced": false,
+      "ancientIngredient": true,
+      "coldPressed": false,
+      "raw": true,
+      "sacredBiblical": true,
+      "sacredAncient": true,
+      "yhwhBeloved": true,
+      "sacredTraditions": [
+        "Ancient Hebrew / Torah",
+        "Ancient Persian",
+        "Ancient Greek",
+        "Ancient Egyptian",
+        "Ancient Roman"
+      ],
+      "educationWhat": "Galbanum is a precious resinous gum exuded from Ferula galbaniflua, a giant fennel species native to Persia. The resin is rich in pinene, cadinene, and undecyl-3-butenyl ketone, giving it powerful anti-inflammatory, wound-healing, and aromatic properties. One of the rarest sacred resins.",
+      "educationWhere": "Harvested by scoring the stems of Ferula galbaniflua plants in Iran, Afghanistan, and the Levant. The resin bleeds out naturally and is collected. Ancient supply routes ran from Persia through the Spice Roads to Israel and Egypt. Still harvested using traditional methods today.",
+      "educationHow": "Raw resin is collected from plant stems, then solvent-extracted or CO2-extracted to produce a standardized cosmetic ingredient. Used at very low concentrations in perfumery as a fixative that prevents top notes from volatilizing too quickly. In skincare it delivers anti-inflammatory and regenerative effects.",
+      "educationWhy": "Galbanum's monoterpene and sesquiterpene content provides anti-inflammatory effects comparable to pharmaceutical references in some studies. Its wound-healing properties accelerate tissue regeneration. In sacred perfumery its unique green, earthy, balsamic note is irreplaceable.",
+      "educationWhen": "Best in sacred skincare formulas, wound-healing balms, ritual anointing oils, and artisan natural perfumes. A classic fixative in fine fragrance — a tiny amount extends the life of an entire blend. Use at 0.1–0.5% in functional skincare.",
+      "consumerAnalogy": "Galbanum is the mysterious sacred resin YHWH commanded for the Holy Incense — rare, ancient, almost impossible to replicate synthetically, with a green-earthy-balsamic note and genuine healing power.",
+      "professionalAnalogy": "A monoterpene-rich resin extract for perfumery (fixative) and anti-inflammatory formulation. Unique green-woody odor profile — one of the few natural fixatives with genuine chemical anchoring of top notes. Use at 0.1–1% depending on application.",
+      "transparencyStatement": "Wild-harvested from traditional Persian/Iranian sources using sustainable resin-tapping methods. One of the world's rarest botanical cosmetic ingredients. Non-toxic, non-sensitizing at recommended use levels.",
+      "historicalUseNotes": "YHWH commanded galbanum as one of four sacred spices in the Holy Temple Incense: Exodus 30:34 — \"Take sweet spices, stacte, onycha, and galbanum (chelbenah — חֶלְבְּנָה), these sweet spices with pure frankincense.\" The ancient Israelites burned this incense before YHWH daily — it was the sacred scent of the Tabernacle and Temple. Hippocrates (460 BCE) documented galbanum for wound healing and inflammation. Dioscorides listed it in Materia Medica. Ancient Egyptians used it in kyphi (sacred temple incense). Truly one of the rarest and holiest botanical ingredients on earth.",
+      "incompatibilities": [
+        "Can be a skin sensitizer in rare cases — patch test recommended",
+        "Avoid synthetic fragrance combinations that may destabilize the resin"
+      ],
+      "canadianRelevance": "Imported from Iran and the Middle East. Available through specialty natural perfumery and botanical ingredient suppliers worldwide. Used in artisan Canadian sacred and natural perfumery."
+    },
+    {
+      "slug": "sweetgrass-extract",
+      "name": "Sweetgrass Extract",
+      "inciName": "Hierochloe odorata (Sweetgrass) Leaf Extract",
+      "category": "Botanical / Sacred Native American",
+      "sourceForm": "Hydro-glycerin extract or infused oil",
+      "processingMethod": "Hydro-glycerin extraction or slow oil infusion",
+      "origin": "Hierochloe odorata — North American prairies, Canadian boreal regions",
+      "primaryFunction": "Anti-inflammatory, antioxidant, calming, sacred ceremonial herb",
+      "secondaryFunctions": [
+        "Antimicrobial",
+        "Humectant (glycerin carrier)",
+        "Skin-soothing",
+        "Aromatic"
+      ],
+      "bestForConcerns": [
+        "Sensitive skin",
+        "Inflammation",
+        "Redness",
+        "Sacred skincare",
+        "Antioxidant protection",
+        "Calming"
+      ],
+      "bestForSkinTypes": [
+        "Sensitive",
+        "Normal",
+        "Combination",
+        "All"
+      ],
+      "useCases": [
+        "Sacred skincare serums",
+        "Toners",
+        "Calming face mists",
+        "Ritual body oils",
+        "Indigenous-inspired formulas"
+      ],
+      "maxUseLevel": "5% (extract)",
+      "heatSensitive": true,
+      "solubility": "Water-soluble (hydro-glycerin) / Oil-soluble (oil infusion)",
+      "irritationRisk": "Very Low",
+      "isPublished": true,
+      "vegan": true,
+      "glutenFree": true,
+      "wildcrafted": true,
+      "organic": true,
+      "crueltyFree": true,
+      "ethicallySourced": true,
+      "biodegradable": true,
+      "canadianSourced": true,
+      "ancientIngredient": true,
+      "coldPressed": false,
+      "raw": true,
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "yhwhBeloved": false,
+      "sacredTraditions": [
+        "Native American sacred",
+        "First Nations Canadian sacred",
+        "Plains Nations sacred",
+        "Ojibwe sacred",
+        "Cree sacred",
+        "Lakota sacred",
+        "Métis traditional"
+      ],
+      "educationWhat": "Sweetgrass (Hierochloe odorata) is a sacred ceremonial grass revered across virtually all North American Indigenous cultures. Its vanilla-like coumarin scent comes from coumarin glycosides that also deliver antioxidant and anti-inflammatory activity in skincare applications.",
+      "educationWhere": "Grows throughout the Canadian prairies, boreal forests, and Great Plains of North America. Sacred to the Cree, Ojibwe, Lakota, Blackfoot, Anishinaabe, Mi'kmaq, and many other Nations. Harvested in long braids, it is one of the Four Sacred Plants alongside tobacco, cedar, and sage.",
+      "educationHow": "Traditionally braided and burned as smudge, or infused in carrier oils and water for topical use. For cosmetic extraction, fresh or dried grass is extracted via slow oil infusion or hydro-glycerin methods to capture coumarin compounds, flavonoids, and aromatic constituents.",
+      "educationWhy": "Coumarin compounds in sweetgrass have demonstrated anti-inflammatory and antioxidant activity in research settings. The calming aroma has well-documented psychophysiological effects — reducing cortisol and supporting nervous system balance. A genuinely calming sacred botanical for skin and spirit.",
+      "educationWhen": "Beautiful in ceremonial or sacred-themed skincare lines, calming toners, face mists, ritual body oils, and smudge-inspired aromatic products. Aligns with Indigenous-inspired beauty concepts when sourced with respect and community partnership.",
+      "consumerAnalogy": "Sweetgrass is the sacred braided grass that Indigenous peoples across Canada and the US have burned to invite positive energy for thousands of years — now bringing its calming, antioxidant power to your skincare ritual.",
+      "professionalAnalogy": "A coumarin-bearing aromatic grass extract with anti-inflammatory flavonoids. Used at 1–5% in hydro-glycerin or oil-infusion form. Unique aromatic and spiritual positioning for Indigenous-inspired luxury skincare lines. Source ethically — partner with Indigenous harvesters.",
+      "transparencyStatement": "Wild-crafted in Canadian prairies in partnership with Indigenous harvesters. One of the Four Sacred Plants of many First Nations. Sourced with deep cultural respect — we do not claim ownership of this plant's sacred traditions. Benefit-sharing with source communities.",
+      "historicalUseNotes": "Sweetgrass is one of the Four Sacred Plants in numerous Indigenous North American traditions (alongside tobacco, cedar, and sage). The Cree call it \"Wiiskaapimizh.\" The Ojibwe \"Mashkodewashk.\" Burned to purify space and invite positive spiritual energy. Used in healing ceremonies, smudging rituals, and passed down through generations as one of the most precious gifts of the land. In skincare it represents a connection to the land, the ancestors, and the healing intelligence of North American botanicals.",
+      "incompatibilities": [
+        "Coumarin content — check applicable regulatory limits for leave-on products (IFRA/EU)"
+      ],
+      "canadianRelevance": "Deeply Canadian — grows in every province and territory. One of the sacred plants of First Nations peoples from coast to coast. Canadian artisan brands committed to reconciliation can partner with Indigenous communities for ethical harvesting. Arguably the most distinctly Canadian sacred botanical."
+    },
+    {
+      "slug": "uva-ursi-extract",
+      "name": "Bearberry / Uva Ursi Extract",
+      "inciName": "Arctostaphylos uva-ursi (Bearberry) Leaf Extract",
+      "category": "Botanical / Brightening",
+      "sourceForm": "Standardized arbutin extract or water-glycerin extract",
+      "processingMethod": "Water or hydro-glycerin extraction",
+      "origin": "Arctostaphylos uva-ursi leaves — Canada, Northern US, Northern Europe, Siberia",
+      "primaryFunction": "Skin brightening, hyperpigmentation reduction via natural arbutin",
+      "secondaryFunctions": [
+        "Antioxidant",
+        "Antimicrobial",
+        "Anti-inflammatory",
+        "Astringent"
+      ],
+      "bestForConcerns": [
+        "Hyperpigmentation",
+        "Dark spots",
+        "Uneven skin tone",
+        "Post-inflammatory hyperpigmentation",
+        "Sun spots"
+      ],
+      "bestForSkinTypes": [
+        "All",
+        "Oily",
+        "Combination",
+        "Mature"
+      ],
+      "useCases": [
+        "Brightening serums",
+        "Dark spot treatments",
+        "Even-tone toners",
+        "Exfoliating formulas",
+        "Pigmentation creams"
+      ],
+      "maxUseLevel": "3%",
+      "heatSensitive": false,
+      "solubility": "Water-soluble",
+      "irritationRisk": "Low",
+      "isPublished": true,
+      "vegan": true,
+      "glutenFree": true,
+      "wildcrafted": true,
+      "organic": true,
+      "crueltyFree": true,
+      "ethicallySourced": true,
+      "biodegradable": true,
+      "canadianSourced": true,
+      "ancientIngredient": true,
+      "coldPressed": false,
+      "raw": false,
+      "sacredBiblical": false,
+      "sacredAncient": true,
+      "yhwhBeloved": false,
+      "sacredTraditions": [
+        "Native American sacred",
+        "First Nations Canadian sacred",
+        "Cree traditional medicine",
+        "Ojibwe traditional medicine",
+        "Plains Nations traditional medicine",
+        "Siberian traditional medicine",
+        "Celtic traditional medicine"
+      ],
+      "educationWhat": "Bearberry (Arctostaphylos uva-ursi) leaves contain arbutin (a natural glycoside that inhibits tyrosinase) making it one of nature's most effective and gentle skin brighteners. Also rich in hydroquinone glycosides, flavonoids, and tannins. Called \"kinnikinnick\" by many First Nations peoples.",
+      "educationWhere": "A hardy shrub of the boreal forest and northern tundra — grows abundantly across Canada from Labrador to British Columbia. Also found in Scandinavia, Siberia, and northern Europe. A truly circumpolar plant with deep Indigenous medical history on multiple continents.",
+      "educationHow": "Leaves are harvested in autumn when arbutin content peaks, then water or hydro-glycerin extracted. The resulting extract contains a standardized percentage of arbutin — the key brightening compound. Can also be steam-extracted to produce a hydrosol component.",
+      "educationWhy": "Alpha-arbutin (derived from uva ursi) inhibits melanin synthesis by blocking tyrosinase enzyme activity — the same pathway as synthetic hydroquinone but gentler, with lower irritation risk. Tannins provide astringency; antioxidant flavonoids protect against free-radical-induced pigmentation.",
+      "educationWhen": "Excellent in brightening serums, targeted dark spot treatments, toners, and pigmentation-focused moisturizers. Works synergistically with vitamin C, niacinamide, and kojic acid. Use morning and evening — stable across pH ranges.",
+      "consumerAnalogy": "Think of bearberry as nature's brightening secret — the sacred northern plant that First Nations peoples have used for thousands of years, now proven by science to contain the same brightening compound as expensive synthetic ingredients.",
+      "professionalAnalogy": "Natural arbutin source standardized to 3–10% arbutin content. Tyrosinase inhibitor with gentler profile than synthetic hydroquinone. Use at 1–3% in brightening formulas, compatible with most pH ranges and other brightening actives.",
+      "transparencyStatement": "Wild-crafted from Canadian boreal forests or certified organically grown. Standardized for arbutin content. Ethical harvesting from non-endangered populations. Deep cultural significance to Indigenous peoples — sourced with community partnership wherever possible.",
+      "historicalUseNotes": "Known as \"kinnikinnick\" among many Plains Nations peoples (Cree, Blackfoot, Anishinaabe), bearberry was one of the most important medicinal plants in North American Indigenous medicine — used for urinary tract health, wound healing, and as a sacred smoking herb mixed with tobacco in ceremonial pipes. The name \"kinnikinnick\" means \"what is mixed\" in Algonquian languages. Across Siberia and Northern Europe it was similarly used in folk medicine for thousands of years. In skincare, its natural arbutin content makes it a modern functional brightener directly derived from ancient medicine traditions.",
+      "incompatibilities": [
+        "Check with alpha-arbutin (additive effect — both inhibit tyrosinase)",
+        "Avoid in formulas with pH below 3.5 (hydrolysis of arbutin)"
+      ],
+      "canadianRelevance": "One of the most abundant and iconic Canadian boreal plants. Grows in every province and territory. Deep significance in First Nations medicine. Available from Canadian wild-crafting cooperatives and certified organic suppliers. A pride ingredient for Canadian-made sacred skincare."
     }
-  ]
+  ],
+  "lastUpdated": "2026-06-13",
+  "version": "1.1"
 }
