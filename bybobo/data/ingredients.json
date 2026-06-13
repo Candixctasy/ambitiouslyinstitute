@@ -42,7 +42,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "calendula-extract",
@@ -86,7 +87,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "chamomile-extract",
@@ -130,7 +132,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "green-tea-extract",
@@ -174,7 +177,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "witch-hazel-hydrosol",
@@ -218,7 +222,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "sea-buckthorn-oil",
@@ -262,7 +267,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "turmeric-root",
@@ -306,7 +312,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "arnica-montana",
@@ -350,7 +357,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "helichrysum-extract",
@@ -394,7 +402,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": true
     },
     {
       "slug": "lavender-extract",
@@ -438,7 +447,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": true
     },
     {
       "slug": "aloe-vera-gel",
@@ -482,7 +492,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": true
     },
     {
       "slug": "jojoba-oil",
@@ -526,7 +537,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "rosehip-seed-oil",
@@ -570,7 +582,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "frankincense-extract",
@@ -614,7 +627,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": true
     },
     {
       "slug": "myrrh-extract",
@@ -658,7 +672,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": true
     },
     {
       "slug": "prickly-pear-seed-oil",
@@ -702,7 +717,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "marula-oil",
@@ -746,7 +762,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "kokum-butter",
@@ -790,7 +807,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "shea-butter",
@@ -834,7 +852,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "argan-oil",
@@ -878,7 +897,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "evening-primrose-oil",
@@ -922,7 +942,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "squalane",
@@ -966,7 +987,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "hemp-seed-oil",
@@ -1010,7 +1032,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "pomegranate-oil",
@@ -1054,7 +1077,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "carrot-seed-oil",
@@ -1098,7 +1122,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "sea-kelp-extract",
@@ -1142,7 +1167,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "spirulina",
@@ -1186,7 +1212,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "hyaluronic-acid",
@@ -1230,7 +1257,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "vegetable-glycerin",
@@ -1274,7 +1302,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "neem-oil",
@@ -1318,7 +1347,8 @@
       "incompatibilities": "Use only in dilution. High concentrations may cause irritation.",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "tea-tree-oil",
@@ -1362,7 +1392,8 @@
       "incompatibilities": "Use only in dilution. High concentrations may cause irritation.",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "gotu-kola-extract",
@@ -1406,7 +1437,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "bakuchiol",
@@ -1450,7 +1482,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "squalene",
@@ -1494,7 +1527,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "blue-tansy-oil",
@@ -1538,7 +1572,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "helix-aspersa-extract",
@@ -1582,7 +1617,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "azelaic-acid",
@@ -1626,7 +1662,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "salicylic-acid",
@@ -1670,7 +1707,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "lactic-acid",
@@ -1714,7 +1752,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "mandelic-acid",
@@ -1758,7 +1797,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "niacinamide",
@@ -1802,7 +1842,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "panthenol",
@@ -1846,7 +1887,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "l-ascorbic-acid",
@@ -1890,7 +1932,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "ferulic-acid",
@@ -1934,7 +1977,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "resveratrol",
@@ -1978,7 +2022,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "peptides",
@@ -2022,7 +2067,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "ceramides",
@@ -2066,7 +2112,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "cholesterol",
@@ -2110,7 +2157,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "phospholipids",
@@ -2154,7 +2202,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "sarcosine",
@@ -2198,7 +2247,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "ethylhexylglycerin",
@@ -2242,7 +2292,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "meadowfoam-seed-oil",
@@ -2300,7 +2351,8 @@
       "carbonImpactNotes": "",
       "packagingCompatibility": "",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "black-seed-oil",
@@ -2358,7 +2410,8 @@
       "carbonImpactNotes": "",
       "packagingCompatibility": "",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "murumuru-butter",
@@ -2416,7 +2469,8 @@
       "carbonImpactNotes": "",
       "packagingCompatibility": "",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "glycolic-acid",
@@ -2476,7 +2530,8 @@
       "phWindowLow": 3,
       "phWindowHigh": 4,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "copper-peptides",
@@ -2534,7 +2589,8 @@
       "carbonImpactNotes": "",
       "packagingCompatibility": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "decyl-glucoside",
@@ -2592,7 +2648,8 @@
       "carbonImpactNotes": "",
       "packagingCompatibility": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "saccharomyces-ferment-filtrate",
@@ -2650,7 +2707,8 @@
       "carbonImpactNotes": "",
       "packagingCompatibility": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "tamanu-oil",
@@ -2696,7 +2754,8 @@
       "traceableSupplyChain": true,
       "lowImpactProcessing": true,
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "rose-hydrosol",
@@ -2743,7 +2802,8 @@
       "traceableSupplyChain": true,
       "lowImpactProcessing": true,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "turmeric-extract",
@@ -2790,7 +2850,8 @@
       "traceableSupplyChain": true,
       "lowImpactProcessing": true,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "aloe-vera",
@@ -2837,7 +2898,8 @@
       "lowImpactProcessing": true,
       "regenerativeAgricultureFit": true,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": true
     },
     {
       "slug": "tranexamic-acid",
@@ -2892,7 +2954,8 @@
       "canadianRelevance": "",
       "maxUseLevel": 5,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "alpha-arbutin",
@@ -2949,7 +3012,8 @@
       "phWindowHigh": 7,
       "maxUseLevel": 2,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "retinol",
@@ -3004,7 +3068,8 @@
       "canadianRelevance": "",
       "maxUseLevel": 1,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "matrixyl",
@@ -3059,7 +3124,8 @@
       "canadianRelevance": "",
       "maxUseLevel": 5,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "argireline",
@@ -3114,7 +3180,8 @@
       "canadianRelevance": "",
       "maxUseLevel": 10,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "coco-glucoside",
@@ -3169,7 +3236,8 @@
       "canadianRelevance": "",
       "maxUseLevel": 15,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "sodium-cocoyl-isethionate",
@@ -3224,7 +3292,8 @@
       "canadianRelevance": "",
       "maxUseLevel": 50,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "sunflower-lecithin",
@@ -3279,7 +3348,8 @@
       "canadianRelevance": "",
       "maxUseLevel": 5,
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "tocopherol",
@@ -3334,7 +3404,8 @@
       "canadianRelevance": "",
       "maxUseLevel": 2,
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "rosemary-extract",
@@ -3389,7 +3460,8 @@
       "canadianRelevance": "",
       "maxUseLevel": 1,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "lactobacillus-ferment",
@@ -3444,7 +3516,8 @@
       "canadianRelevance": "",
       "maxUseLevel": 10,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "kombucha",
@@ -3499,7 +3572,8 @@
       "canadianRelevance": "",
       "maxUseLevel": 95,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "birch-sap-extract",
@@ -3554,7 +3628,8 @@
       "canadianRelevance": "<p>Betula papyrifera (paper birch) is one of Canada's most widespread trees, growing across every province. Canadian birch sap is harvested by small producers in Ontario, Quebec, and the Maritime provinces during the spring thaw. The Canadian boreal forest is the largest intact forest on earth, and sustainable birch sap harvesting supports forest-based livelihoods without any tree removal.</p>",
       "maxUseLevel": 100,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "maple-leaf-extract",
@@ -3609,7 +3684,8 @@
       "canadianRelevance": "<p>Canada is the world's leading producer of maple products. The sugar maple (Acer saccharum) is Canada's national tree and appears on the Canadian flag. Maple leaf extract research is led by Canadian university partnerships. Using the leaves — traditionally waste — creates a new revenue stream for Canadian maple producers while delivering a uniquely Canadian anti-aging ingredient with no equivalent in any other botanical tradition.</p>",
       "maxUseLevel": 5,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "ceramide-np",
@@ -3664,7 +3740,8 @@
       "canadianRelevance": "",
       "maxUseLevel": 3,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "licorice-root-extract",
@@ -3719,7 +3796,8 @@
       "canadianRelevance": "",
       "maxUseLevel": 5,
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "avocado-oil",
@@ -3762,7 +3840,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "camellia-seed-oil",
@@ -3805,7 +3884,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "baobab-oil",
@@ -3848,7 +3928,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "borage-seed-oil",
@@ -3891,7 +3972,8 @@
       "incompatibilities": "Highly susceptible to oxidation — avoid extended heat or air exposure",
       "canadianRelevance": "<p>Borage is commercially grown in Saskatchewan and Manitoba, making it one of Canada's more significant specialty oil crops for cosmetic use.</p>",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "raspberry-seed-oil",
@@ -3934,7 +4016,8 @@
       "incompatibilities": "Oxidizes rapidly — nitrogen-flush packaging recommended",
       "canadianRelevance": "<p>British Columbia is a major raspberry growing region — raspberry seed oil represents Canadian agricultural upcycling at its best.</p>",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "moringa-oil",
@@ -3977,7 +4060,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "mango-butter",
@@ -4019,7 +4103,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "cocoa-butter",
@@ -4061,7 +4146,8 @@
       "incompatibilities": "Comedogenic — avoid in facial formulas for acne-prone skin",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "cupuacu-butter",
@@ -4103,7 +4189,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "centella-asiatica-extract",
@@ -4146,7 +4233,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "oat-extract",
@@ -4188,7 +4276,8 @@
       "incompatibilities": "Contains gluten — contraindicated in formulas marketed as gluten-free",
       "canadianRelevance": "<p>Canadian oats from Saskatchewan prairies are among the world's finest. Canada is a global oat supplier — Canadian oat extract supports local agricultural economies.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "tremella-mushroom-extract",
@@ -4230,7 +4319,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "sea-moss-extract",
@@ -4272,7 +4362,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Nova Scotia and Newfoundland are significant wild-harvest regions for Chondrus crispus — using Canadian sea moss directly supports Atlantic fishing communities.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "hibiscus-extract",
@@ -4314,7 +4405,8 @@
       "incompatibilities": "Natural AHA activity — use sun protection; avoid simultaneous use with high-concentration synthetic acids",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "chaga-mushroom-extract",
@@ -4356,7 +4448,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Canadian boreal forests (Ontario, Quebec, BC) are among the world's finest chaga growing environments. Supporting Canadian wild-harvest chaga directly funds Indigenous and rural forest communities across northern Canada.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "beta-glucan",
@@ -4398,7 +4491,8 @@
       "incompatibilities": "Oat-derived beta-glucan contains gluten — specify yeast-derived for gluten-free formulas",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "kojic-acid",
@@ -4440,7 +4534,8 @@
       "incompatibilities": "May cause contact sensitization at concentrations >2%; avoid in formulas with high ascorbic acid (pH conflict)",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "allantoin",
@@ -4482,7 +4577,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "sodium-hyaluronate",
@@ -4524,7 +4620,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "betaine",
@@ -4566,7 +4663,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Alberta sugar beets are processed for betaine by-products — Canadian-sourced betaine is available from local sugar processing facilities.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "adenosine",
@@ -4608,7 +4706,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "madecassoside",
@@ -4650,7 +4749,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "zinc-pca",
@@ -4692,7 +4792,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "palmitoyl-tripeptide-1",
@@ -4734,7 +4835,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "palmitoyl-tetrapeptide-7",
@@ -4776,7 +4878,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "ghk-cu",
@@ -4818,7 +4921,8 @@
       "incompatibilities": "Incompatible with high-concentration ascorbic acid (>10%) — copper reduction destroys peptide complex",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "bifida-ferment-lysate",
@@ -4860,7 +4964,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "galactomyces-ferment-filtrate",
@@ -4902,7 +5007,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "phenoxyethanol",
@@ -4944,7 +5050,8 @@
       "incompatibilities": "Avoid in products specifically for infants and around the diaper area per EU recommendations",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "xanthan-gum",
@@ -4986,7 +5093,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "apricot-kernel-oil",
@@ -5028,7 +5136,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "sweet-almond-oil",
@@ -5070,7 +5179,8 @@
       "incompatibilities": "Tree nut allergy consideration — not recommended for confirmed tree nut allergy sufferers",
       "canadianRelevance": "",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "pumpkin-seed-oil",
@@ -5112,7 +5222,8 @@
       "incompatibilities": "Oxidizes at moderate rate — nitrogen packaging recommended",
       "canadianRelevance": "<p>Ontario and Quebec grow significant squash and pumpkin crops — Canadian pumpkin seed oil supports local agricultural byproduct utilization.</p>",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "watermelon-seed-oil",
@@ -5154,7 +5265,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "cloudberry-seed-oil",
@@ -5196,7 +5308,8 @@
       "incompatibilities": "Oxidizes quickly — nitrogen-flush packaging essential",
       "canadianRelevance": "<p>One of Canada's most unique indigenous botanical oils — exclusively from the Canadian north and Scandinavian arctic. A defining ingredient in any 'truly Canadian' luxury skincare line.</p>",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "labrador-tea-extract",
@@ -5238,7 +5351,8 @@
       "incompatibilities": "External use only — ledol is toxic at high oral doses",
       "canadianRelevance": "<p>Labrador tea is exclusively Canadian in its primary range. An extraordinary opportunity for 'made in Canada' botanical differentiation that no other country can replicate.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "willow-bark-extract",
@@ -5280,7 +5394,8 @@
       "incompatibilities": "Aspirin allergy contraindication — salicin converts to salicylate; caution for aspirin-sensitive individuals",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "gluconolactone",
@@ -5322,7 +5437,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "glyceryl-stearate",
@@ -5364,7 +5480,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "sodium-levulinate",
@@ -5406,7 +5523,8 @@
       "incompatibilities": "Activity drops significantly above pH 5.5 — not suitable for alkaline formulas",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "maracuja-oil",
@@ -5448,7 +5566,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "sacha-inchi-oil",
@@ -5490,7 +5609,8 @@
       "incompatibilities": "Very susceptible to oxidation — nitrogen packaging and cold chain mandatory",
       "canadianRelevance": "",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "broccoli-seed-oil",
@@ -5532,7 +5652,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>British Columbia and Ontario broccoli farms provide high-quality organic broccoli seed oil — a true Canadian ingredient option for clean beauty formulations.</p>",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "ashwagandha-extract",
@@ -5574,7 +5695,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "elderberry-extract",
@@ -5616,7 +5738,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Wild Canadian elderberry grows abundantly across southern Ontario and Quebec — supporting local wild-harvest economies and bringing a Canadian botanical story to every formula.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "pomegranate-extract",
@@ -5658,7 +5781,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": true
     },
     {
       "slug": "milk-thistle-extract",
@@ -5700,7 +5824,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Milk thistle has naturalized widely in southern Canada — Canadian-sourced milk thistle extract is increasingly viable as the plant's range expands.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "echinacea-extract",
@@ -5742,7 +5867,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Echinacea is native to the Canadian prairies — supporting Canadian prairie agriculture and honoring Indigenous plant knowledge traditions.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "maca-root-extract",
@@ -5784,7 +5910,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "schisandra-extract",
@@ -5826,7 +5953,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "reishi-mushroom-extract",
@@ -5868,7 +5996,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "snap-8-peptide",
@@ -5910,7 +6039,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "tripeptide-29",
@@ -5952,7 +6082,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "zinc-oxide",
@@ -5993,7 +6124,8 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "sodium-pca",
@@ -6034,7 +6166,8 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "inulin",
@@ -6075,7 +6208,8 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "colostrum",
@@ -6114,7 +6248,8 @@
       "professionalAnalogy": "Not vegan — clearly labeled",
       "transparencyStatement": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "cetearyl-alcohol",
@@ -6155,7 +6290,8 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "hydroxyethylcellulose",
@@ -6194,7 +6330,8 @@
       "professionalAnalogy": "",
       "transparencyStatement": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "citric-acid",
@@ -6233,7 +6370,8 @@
       "professionalAnalogy": "",
       "transparencyStatement": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "blackcurrant-seed-oil",
@@ -6275,7 +6413,8 @@
       "incompatibilities": "Oxidizes rapidly — nitrogen packaging essential",
       "canadianRelevance": "<p>British Columbia produces significant blackcurrant crops — Canadian blackcurrant seed oil supports local agricultural byproduct utilization.</p>",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "sea-buckthorn-co2",
@@ -6317,7 +6456,8 @@
       "incompatibilities": "Intense orange-red pigment — use at <0.5% to avoid formula discoloration",
       "canadianRelevance": "<p>Saskatchewan is establishing itself as North America's sea buckthorn center — Canadian prairie-grown sea buckthorn is a genuine point of domestic botanical differentiation.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "ylang-ylang-essential-oil",
@@ -6359,7 +6499,8 @@
       "incompatibilities": "Potential sensitizer at >1% — IFRA limits must be respected; patch test for sensitive skin",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "neroli-essential-oil",
@@ -6401,7 +6542,8 @@
       "incompatibilities": "IFRA limits apply — max 0.7% leave-on (skin sensitization); phototoxicity concern at high concentrations",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "alpha-lipoic-acid",
@@ -6443,7 +6585,8 @@
       "incompatibilities": "Light and air sensitive — nitrogen-flush dark packaging essential",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "ellagic-acid",
@@ -6485,7 +6628,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "clary-sage-extract",
@@ -6527,7 +6671,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "magnesium-ascorbyl-phosphate",
@@ -6569,7 +6714,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "niacinamide-b3",
@@ -6611,7 +6757,8 @@
       "incompatibilities": "High doses of ascorbic acid (>20%) may convert niacinamide to nicotinic acid — use in separate steps for vitamin C + niacinamide combination",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "vitamin-k2",
@@ -6653,7 +6800,8 @@
       "incompatibilities": "Anticoagulant medication users should consult physician — topical absorption is low but documented",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "lactobionic-acid",
@@ -6695,7 +6843,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "bromelain",
@@ -6737,7 +6886,8 @@
       "incompatibilities": "Heat-sensitive — denatured above 60°C; avoid hot water contact in use",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "papain",
@@ -6779,7 +6929,8 @@
       "incompatibilities": "Latex allergy contraindication — papain shares allergenic epitopes with natural rubber latex (Hevea brasiliensis)",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "polyglutamic-acid",
@@ -6821,7 +6972,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "ceramide-eg",
@@ -6863,7 +7015,8 @@
       "incompatibilities": "Must be formulated in physiologically balanced ratio with cholesterol and fatty acids for structural benefit",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "bakuchiol-advance",
@@ -6905,7 +7058,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "sea-kelp-bioferment",
@@ -6947,7 +7101,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>BC's Pacific kelp forests are among the world's finest — Canadian coast kelp bioferment directly supports sustainable coastal marine economies and BC Indigenous communities.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "rose-damascena-extract",
@@ -6989,7 +7144,8 @@
       "incompatibilities": "IFRA limits apply for essential oil fraction in leave-on products",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": true
     },
     {
       "slug": "turmeric-co2-extract",
@@ -7031,7 +7187,8 @@
       "incompatibilities": "Yellow-orange pigment — colors formulas; use intentionally or at <0.2%",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "acetyl-glucosamine",
@@ -7073,7 +7230,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "sea-buckthorn-berry-oil",
@@ -7115,7 +7273,8 @@
       "incompatibilities": "Intense orange pigment — colors formulas orange at >0.5%; plan formulation accordingly",
       "canadianRelevance": "<p>Saskatchewan is the emerging North American center for sea buckthorn cultivation — truly Canadian prairie botanical with a 1,000-year heritage story.</p>",
       "coldPressed": true,
-      "raw": true
+      "raw": true,
+      "sacredBiblical": false
     },
     {
       "slug": "willow-herb-extract",
@@ -7157,7 +7316,8 @@
       "incompatibilities": "",
       "canadianRelevance": "<p>Fireweed is one of Canada's most emblematic native plants — wild-harvested willowherb extract is an extraordinary Canadian botanical differentiation story.</p>",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "peptide-complex-eg4",
@@ -7199,7 +7359,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "phytic-acid",
@@ -7241,7 +7402,8 @@
       "incompatibilities": "Grain-derived — note for grain-sensitive consumers",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "ectoin",
@@ -7283,7 +7445,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "sea-lavender-extract",
@@ -7325,7 +7488,8 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "helichrysum-italicum-oil",
@@ -7367,7 +7531,8 @@
       "incompatibilities": "IFRA limits apply (max 0.7% leave-on); potential sensitizer at >1%",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
     },
     {
       "slug": "polyhydroxy-acid-complex",
@@ -7409,7 +7574,138 @@
       "incompatibilities": "",
       "canadianRelevance": "",
       "coldPressed": false,
-      "raw": false
+      "raw": false,
+      "sacredBiblical": false
+    },
+    {
+      "slug": "spikenard-extract",
+      "name": "Spikenard Extract",
+      "inciName": "Nardostachys Jatamansi Root Extract",
+      "category": "Botanical",
+      "sourceForm": "extract",
+      "processingMethod": "CO2 supercritical extraction",
+      "origin": "botanical",
+      "primaryFunction": "sacred ancient calming, anti-inflammatory, emotional skin care",
+      "secondaryFunctions": "anti-aging, antioxidant, grounding, nervous system calming, antimicrobial",
+      "bestForConcerns": "stress-related skin, aging, sensitivity, sacred ritual care",
+      "bestForSkinTypes": "sensitive, mature, stressed, all types",
+      "useCases": "sacred ritual serum, luxury anti-aging, calming treatment",
+      "maxUseLevel": 2,
+      "heatSensitive": false,
+      "solubility": "oil-soluble",
+      "irritationRisk": "very low",
+      "isPublished": "true",
+      "vegan": true,
+      "glutenFree": true,
+      "wildcrafted": true,
+      "organic": true,
+      "crueltyFree": true,
+      "ethicallySourced": true,
+      "biodegradable": true,
+      "canadianSourced": false,
+      "coldPressed": false,
+      "raw": false,
+      "sacredBiblical": true,
+      "ancientIngredient": true,
+      "traditionalSystem": "Ayurvedic, Biblical",
+      "positioning": "luxury",
+      "educationWhat": "<p>Spikenard (Nardostachys jatamansi) is one of the most sacred aromatic plants in human history — mentioned by name in the Song of Solomon, and the costly perfume used by Mary of Bethany to anoint Jesus' feet (Mark 14:3, John 12:3). Botanically, it is a flowering plant of the valerian family native to the Himalayan mountains. It contains sesquiterpenes (jatamansone, nardostachone), iridoids (nardosinone), and coumarins that provide potent anti-inflammatory, calming, and anti-aging properties.</p>",
+      "educationWhere": "<p>Spikenard grows only at high altitude (3,000-5,000 meters) in the Himalayan mountains of Nepal, India, and Bhutan. It is considered endangered due to overharvesting — sustainable and certified ethical sourcing is essential. The root and rhizome contain the highest concentration of bioactives. In biblical times, it was transported via the Silk Road from the Himalayas to the Middle East and Mediterranean at extraordinary expense — one jar cost 300 denarii (a year's wages).</p>",
+      "educationHow": "<p>Jatamansone and nardostachone provide potent sedative and anti-anxiety activity through GABA receptor modulation — reducing cortisol-mediated skin damage from stress. Anti-inflammatory sesquiterpenes inhibit inflammatory pathways with efficacy comparable to pharmaceutical anti-inflammatories. Antifungal and antibacterial activity from coumarin compounds. The combined effect on skin is calming, anti-aging, and deeply conditioning.</p>",
+      "educationWhy": "<p>Spikenard addresses the connection between emotional state and skin health that modern dermatology increasingly validates — elevated stress hormones directly accelerate skin aging. The same calming properties that made spikenard sacred for millennia translate directly into skin benefits for stress-reactive and aging skin.</p>",
+      "educationWhen": "<p>Use at 0.5-2% in luxury and sacred-ritual focused serums. PM application for maximum calming benefit. Always diluted — never neat on skin. The fragrance itself has documented anxiolytic effect through olfactory-limbic pathways.</p>",
+      "consumerAnalogy": "Spikenard is the most sacred botanical in the ancient world — the precious perfume that anointed kings and was poured over the feet of Jesus by Mary of Bethany. 2,000 years later, its calming and anti-aging properties are being validated by modern skin science.",
+      "professionalAnalogy": "Nardostachys jatamansi extract provides GABA receptor-mediated anxiolytic activity alongside sesquiterpene anti-inflammatory and jatamansone-mediated cortisol suppression — addressing stress-skin aging pathways through both olfactory and topical mechanisms.",
+      "transparencyStatement": "<p>We source spikenard exclusively from certified sustainable Himalayan cooperatives where harvest is strictly limited to protect the endangered wild population. This is one of the rarest and most expensive botanicals in the world — authentic sourcing is the only ethical option. We pay premium prices to support conservation-linked harvesting programs in Nepal.</p>",
+      "historicalUseNotes": "<p>Called 'nard' throughout the ancient world — mentioned in Song of Solomon 1:12, 4:13-14, and in the Gospels as the costly perfume Mary Magdalene used to anoint Jesus. Used in ancient Egyptian sacred ceremonies, in Ayurvedic medicine for over 5,000 years for nervous system and skin conditions, and in ancient Roman perfumery. Traded along the Silk Road at the price of gold.</p>",
+      "incompatibilities": "",
+      "canadianRelevance": ""
+    },
+    {
+      "slug": "hyssop-extract",
+      "name": "Hyssop Extract",
+      "inciName": "Hyssopus Officinalis Extract",
+      "category": "Botanical",
+      "sourceForm": "extract",
+      "processingMethod": "steam distillation / aqueous extraction",
+      "origin": "botanical",
+      "primaryFunction": "sacred purifying botanical, antimicrobial, anti-inflammatory",
+      "secondaryFunctions": "expectorant, antioxidant, wound cleansing, sacred ritual",
+      "bestForConcerns": "skin purification, wound healing, acne, inflammation",
+      "bestForSkinTypes": "oily, acne-prone, sensitive, all types",
+      "useCases": "purifying serum, cleansing treatment, sacred botanical formula",
+      "maxUseLevel": 2,
+      "heatSensitive": false,
+      "solubility": "water-soluble",
+      "irritationRisk": "low",
+      "isPublished": "true",
+      "vegan": true,
+      "glutenFree": true,
+      "wildcrafted": true,
+      "organic": true,
+      "crueltyFree": true,
+      "ethicallySourced": true,
+      "biodegradable": true,
+      "canadianSourced": false,
+      "coldPressed": false,
+      "raw": false,
+      "sacredBiblical": true,
+      "ancientIngredient": true,
+      "traditionalSystem": "Biblical, Greek, European herbal",
+      "positioning": "clinical",
+      "educationWhat": "<p>Hyssop (Hyssopus officinalis) is one of the most revered herbs in the Bible — used for ritual purification (Psalm 51:7: 'Purge me with hyssop, and I shall be clean'), in the Passover ceremony (Exodus 12:22), and at the Crucifixion (John 19:29). It contains rosmarinic acid, flavonoids (diosmin, hesperidin), and marrubiin — providing potent antioxidant, anti-inflammatory, and antimicrobial properties that validate its ancient use for purification.</p>",
+      "educationWhere": "<p>Native to the Mediterranean and Middle East — grows wild on rocky, dry slopes throughout Israel, Jordan, Lebanon, and the Mediterranean basin. The hyssop of the Bible (ezov in Hebrew) likely refers to this species or possibly Origanum syriacum. Cultivated across Europe and North America; wild-harvest from Mediterranean regions maintains the authentic biblical provenance.</p>",
+      "educationHow": "<p>Rosmarinic acid provides potent antioxidant activity and inhibits prostaglandin synthesis for anti-inflammatory benefit. Marrubiin stimulates epithelial cell regeneration — explaining traditional wound-healing use. Antimicrobial essential oil components (pinocamphone, isopinocamphone) provide broad-spectrum activity against skin pathogens. The combination makes hyssop a genuinely purifying botanical in the scientific as well as spiritual sense.</p>",
+      "educationWhen": "<p>Use at 0.5-2% in purifying and cleansing formulas. Best in cleansers, toners, and purifying masks. Can be used daily for oily and acne-prone skin. IFRA limits apply for essential oil fraction.</p>",
+      "consumerAnalogy": "Hyssop has been called the purification herb for 3,000 years — its use in biblical ritual purification ceremonies is validated by modern science showing genuine antimicrobial and skin-cleansing properties that make it nature's most spiritually resonant cleanser.",
+      "professionalAnalogy": "Hyssop extract provides rosmarinic acid-mediated antioxidant and COX-inhibitory anti-inflammatory activity alongside marrubiin-stimulated epithelial regeneration and pinocamphone antimicrobial activity — a scientifically grounded basis for its 3,000-year sacred purification tradition.",
+      "transparencyStatement": "<p>We source certified organic hyssop from Mediterranean farms in the traditional biblical growing region. Wild-harvest from protected populations in Israel and Jordan sourced with local community benefit programs.</p>",
+      "historicalUseNotes": "<p>Mentioned 12 times in the Bible. Used in the Passover ceremony (Exodus 12:22), the purification of lepers (Leviticus 14:4), and at the Crucifixion (John 19:29). Hippocrates used it medicinally in 400 BCE. One of the oldest continuously used medicinal herbs in human history.</p>",
+      "incompatibilities": "Essential oil fraction — IFRA limits apply; use diluted only",
+      "canadianRelevance": ""
+    },
+    {
+      "slug": "cedarwood-extract",
+      "name": "Cedarwood Extract",
+      "inciName": "Cedrus Atlantica Bark Extract",
+      "category": "Botanical",
+      "sourceForm": "extract",
+      "processingMethod": "steam distillation",
+      "origin": "botanical",
+      "primaryFunction": "sacred grounding botanical, anti-seborrheic, scalp stimulating",
+      "secondaryFunctions": "anti-inflammatory, antimicrobial, emotional grounding, hair growth",
+      "bestForConcerns": "dandruff, scalp health, oiliness, stress-related hair loss, sacred care",
+      "bestForSkinTypes": "oily, combination, scalp, all types",
+      "useCases": "sacred formula, scalp treatment, anti-dandruff, grounding serum",
+      "maxUseLevel": 2,
+      "heatSensitive": false,
+      "solubility": "oil-soluble",
+      "irritationRisk": "low",
+      "isPublished": "true",
+      "vegan": true,
+      "glutenFree": true,
+      "wildcrafted": false,
+      "organic": true,
+      "crueltyFree": true,
+      "ethicallySourced": true,
+      "biodegradable": true,
+      "canadianSourced": false,
+      "coldPressed": false,
+      "raw": false,
+      "sacredBiblical": true,
+      "ancientIngredient": true,
+      "traditionalSystem": "Biblical, Ancient Egyptian, Sumerian",
+      "positioning": "luxury",
+      "educationWhat": "<p>Cedar is mentioned more than 70 times in the Bible — Solomon's Temple was built of Lebanese cedar (1 Kings 5-6), cedar was used in the purification of lepers (Leviticus 14), and cedar oil was used by ancient Egyptians in embalming and perfumery. Atlas cedar (Cedrus atlantica) is the closest relative to the biblical Cedrus libani. It contains cedrol, cedrene, and atlantone — sesquiterpenes with anti-seborrheic, anti-inflammatory, and hair growth-stimulating properties.</p>",
+      "educationWhere": "<p>The biblical 'cedars of Lebanon' (Cedrus libani) are now rare and protected. Atlas cedar (Cedrus atlantica) from the Atlas Mountains of Morocco is the primary commercial source and is considered a close botanical relative. Morocco's certified sustainable cedar forests are the ethical source for cosmetic-grade cedarwood.</p>",
+      "educationHow": "<p>Cedrol and cedrene provide anti-seborrheic activity by normalizing sebaceous gland function — making cedarwood particularly effective for dandruff (seborrheic dermatitis) and oily scalp conditions. Atlantone has demonstrated hair follicle-stimulating properties, increasing dermal papilla cell proliferation. Anti-inflammatory sesquiterpenes reduce scalp inflammation associated with dandruff.</p>",
+      "educationWhen": "<p>Use at 0.5-2% in scalp and hair care formulas (IFRA limits apply). Also effective in facial serums targeting oiliness. The grounding, woody fragrance provides anxiolytic benefit through olfactory pathways.</p>",
+      "consumerAnalogy": "Cedar oil carries 3,000 years of sacred use — from Solomon's Temple to Egyptian sacred ceremonies to modern scalp care. The same grounding, purifying properties that made it sacred in the ancient world make it effective for scalp health and oil-balance today.",
+      "professionalAnalogy": "Cedrus atlantica sesquiterpenes (cedrol, cedrene, atlantone) provide anti-seborrheic activity through sebaceous gland normalization alongside atlantone-mediated dermal papilla cell proliferation for hair follicle stimulation — a scientifically grounded basis for ancient cedar's scalp therapeutic tradition.",
+      "transparencyStatement": "<p>We source certified sustainable Atlas cedar from Moroccan forests under FSC management. No Cedrus libani (endangered Lebanese cedar) is used. Traditional Moroccan forest cooperative partnerships.</p>",
+      "historicalUseNotes": "<p>Mentioned 70+ times in the Bible. Solomon's Temple paneled entirely in Lebanese cedar. Ancient Egyptians used cedar oil in mummification — cedar-coated coffins from 4,500 years ago still carry the distinctive cedar fragrance. Used medicinally in Sumerian clay tablets dating to 3,000 BCE.</p>",
+      "incompatibilities": "IFRA limits apply for essential oil fraction",
+      "canadianRelevance": ""
     }
   ]
 }
