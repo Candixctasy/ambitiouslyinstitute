@@ -39,7 +39,11 @@
       "transparencyStatement": "Wildcrafted from Canadian prairie dog rose bushes. Hand-harvested at peak ripeness. Cold-pressed within 24 hours.",
       "historicalUseNotes": "<p>Used by Indigenous Peoples for centuries for wound healing and scars. Medieval European herbalists prized it. Traditional Chinese Medicine values for regeneration and vitality.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
@@ -91,7 +95,11 @@
       "transparencyStatement": "Organically grown and wildcrafted from Canadian heritage gardens. Harvested at full bloom.",
       "historicalUseNotes": "<p>Called \"Mary's Gold\" in medieval monasteries. Traditional midwifery remedy for centuries. Valued in Ayurveda and Traditional Chinese Medicine.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
@@ -143,7 +151,11 @@
       "transparencyStatement": "Organic German chamomile from Canadian gardens. Hand-harvested. Cold-infused.",
       "historicalUseNotes": "<p>One of oldest herbs used by Egyptians, Greeks, Romans. Traditional \"mother herb\" in European folk medicine.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
@@ -195,7 +207,11 @@
       "transparencyStatement": "Organic, shade-grown matcha-grade from pristine farms. Hand-picked spring buds. Raw processing.",
       "historicalUseNotes": "<p>5,000 years in Chinese and Japanese medicine. Sacred in tea ceremonies. Valued in Ayurveda for protection.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -247,7 +263,10 @@
       "transparencyStatement": "Wildcrafted from native North American forests. Sustainably harvested. Water-infused.",
       "historicalUseNotes": "<p>Traditionally used by Indigenous Peoples for wound healing. Early colonists adopted from Native herbalists.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at recommended cosmetic use concentrations",
+        "Always patch test for individuals with known sensitivities to this botanical family"
+      ],
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
@@ -297,7 +316,10 @@
       "transparencyStatement": "Organic from pristine Canadian Arctic. Cold-pressed to preserve bioactive compounds.",
       "historicalUseNotes": "<p>Used in Traditional Chinese Medicine for thousands of years. Tibetan herbalists valued for longevity.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Intense orange color stains formulas and skin — use at maximum 3–5%",
+        "High PUFA content — short shelf life; requires antioxidant (Tocopherol) stabilization"
+      ],
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
@@ -350,7 +372,11 @@
       "transparencyStatement": "Organic turmeric from pristine farms. Raw root powder retains all phytocompounds.",
       "historicalUseNotes": "<p>Sacred in Ayurveda for 4,000+ years. Traditional haldi paste used in Indian wedding ceremonies for radiance.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -403,7 +429,11 @@
       "transparencyStatement": "Organically grown and wildcrafted from pristine mountain regions. Harvested at peak bloom.",
       "historicalUseNotes": "<p>Used by Swiss mountain climbers for bruising and strain. Traditional European herbalism and homeopathy.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
@@ -454,7 +484,11 @@
       "transparencyStatement": "Organically grown in pristine Mediterranean regions. Hand-harvested. Carefully extracted.",
       "historicalUseNotes": "<p>Valued in Mediterranean medicine for centuries. Used to celebrate eternal beauty. Greek herbalists prized for resilience.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -506,7 +540,11 @@
       "transparencyStatement": "Organic lavender from pristine fields. Hand-harvested at peak bloom. Steam-distilled or cold-infused.",
       "historicalUseNotes": "<p>Ancient Romans used in bathing rituals. Medieval herbalists prized for nervous system and skin balance.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Fragrance allergen at concentrations >0.5% — flag for sensitive skin",
+        "Do not combine with other high-fragrance-allergen components where cumulative dose exceeds safety thresholds",
+        "Linalool can oxidize — use in antioxidant-stabilized formulas"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -559,7 +597,11 @@
       "transparencyStatement": "Organic aloe from pristine desert regions. Cold-extracted gel. Raw to preserve enzymes.",
       "historicalUseNotes": "<p>Cleopatra used for beauty. Ancient Egyptians called \"plant of immortality\". Ayurvedic and Chinese medicine staple.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -613,7 +655,10 @@
       "transparencyStatement": "Organic jojoba from pristine desert regions. Cold-pressed for purity. Light golden color.",
       "historicalUseNotes": "<p>Used by indigenous desert peoples for centuries. Prized for matching skin's natural chemistry.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Technically a wax ester, not an oil — exceptional stability with very low sensitization risk",
+        "Virtually no incompatibilities — one of the most universally compatible carrier \"oils\""
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -665,7 +710,11 @@
       "transparencyStatement": "Organic rosehip from pristine South American sources. Cold-pressed. Deep golden-red color.",
       "historicalUseNotes": "<p>Used in South American traditional medicine for centuries. Valued for skin regeneration and healing.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -717,7 +766,10 @@
       "transparencyStatement": "Organic frankincense resin from pristine Arabian sources. Carefully extracted. True sacred source.",
       "historicalUseNotes": "<p>One of the three gifts to baby Jesus. Valued in Ayurveda, TCM, and Middle Eastern medicine for millennia.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Fragrance allergen component — flag for sensitive skin at higher concentrations",
+        "Generally very compatible as a botanical anti-inflammatory"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -772,7 +824,10 @@
       "transparencyStatement": "Organic myrrh resin from pristine sources. Carefully extracted. True sacred source.",
       "historicalUseNotes": "<p>Given at Jesus's birth. Used in Egyptian mummification. Valued in Ayurveda and TCM for millennia.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Fragrance allergen component at higher concentrations",
+        "Generally very compatible as antimicrobial and anti-inflammatory botanical"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -827,7 +882,11 @@
       "transparencyStatement": "Organic prickly pear from pristine desert regions. Cold-pressed by hand. Precious yield.",
       "historicalUseNotes": "<p>Used by Bedouins and indigenous cultures for centuries. Prized for skin protection and regeneration.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -879,7 +938,10 @@
       "transparencyStatement": "Organic marula from pristine African sources. Cold-pressed sustainably.",
       "historicalUseNotes": "<p>Used by African tribes for centuries. Sacred tree fruit for beauty and healing.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "High oleic acid — may feel heavy for very oily skin at high concentrations",
+        "Generally very stable and compatible — naturally high in antioxidants"
+      ],
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
@@ -931,7 +993,11 @@
       "transparencyStatement": "Organic kokum from pristine Indian sources. Raw butter. Sustainable harvesting.",
       "historicalUseNotes": "<p>Used in Indian Ayurvedic beauty for centuries. Sacred tree fruit prized for skin healing.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -982,7 +1048,11 @@
       "transparencyStatement": "Organic shea from pristine African sources. Raw butter. Fair-trade sustainable.",
       "historicalUseNotes": "<p>Used in African cultures for millennia. Sacred tree for beauty, protection, and healing.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1033,7 +1103,10 @@
       "transparencyStatement": "Organic argan from pristine Moroccan sources. Cold-pressed sustainably. Fair-trade.",
       "historicalUseNotes": "<p>Used by Berber women for centuries. Sacred tree oil for beauty and healing.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "High oleic acid content — may be heavy for very oily skin at high concentrations",
+        "Generally very stable — one of the longer shelf-life oils with antioxidant tocopherols naturally present"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1084,7 +1157,11 @@
       "transparencyStatement": "Organic evening primrose from pristine sources. Cold-pressed. Precious yield.",
       "historicalUseNotes": "<p>Used in traditional herbalism for hormonal and skin balance for centuries.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Short shelf life — high GLA content oxidizes rapidly",
+        "Requires antioxidant stabilization",
+        "Keep below 40°C in formulation"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1135,7 +1212,11 @@
       "transparencyStatement": "Organic plant-derived squalane. Ethical, sustainable sourcing. Clean and pure.",
       "historicalUseNotes": "<p>Modern plant-derived alternative to shark-sourced squalene. Supports sustainable beauty.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Apply as a final layer (occlusive) — if applied first, it may prevent water-phase actives from absorbing effectively",
+        "Virtually no incompatibilities — one of the most stable and safe cosmetic emollients",
+        "Ensure source is olive-derived or Amaranthus-derived (NOT shark-derived) for vegan compliance"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1183,7 +1264,11 @@
       "transparencyStatement": "Organic hemp from pristine sources. Cold-pressed. No THC content.",
       "historicalUseNotes": "<p>Used in traditional Chinese medicine. Sacred in many cultures for health and beauty.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Short shelf life — high polyunsaturated fatty acid content is prone to oxidation",
+        "Requires antioxidant stabilization; keep refrigerated after opening",
+        "Keep below 40°C during formulation"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1237,7 +1322,11 @@
       "transparencyStatement": "Organic pomegranate from pristine sources. Cold-pressed from seeds. Precious yield.",
       "historicalUseNotes": "<p>Symbol of fertility and regeneration in ancient cultures. Prized in Middle Eastern beauty traditions.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1291,7 +1380,11 @@
       "transparencyStatement": "Organic carrot seed from pristine sources. Cold-pressed. Golden-orange hue.",
       "historicalUseNotes": "<p>Used in traditional herbalism for skin health and sun protection for centuries.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1343,7 +1436,11 @@
       "transparencyStatement": "Organic kelp from pristine Canadian ocean waters. Sustainably wildcrafted.",
       "historicalUseNotes": "<p>Used in Japanese and Korean beauty traditions for millennia. Sacred ocean plant.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
@@ -1395,7 +1492,11 @@
       "transparencyStatement": "Organic spirulina from pristine sources. Raw processing. Nutrient-dense.",
       "historicalUseNotes": "<p>Valued by Aztecs as sacred superfood. Used in traditional beauty and nutrition.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1446,7 +1547,10 @@
       "transparencyStatement": "Plant-fermented hyaluronic acid. Vegan sourcing. Cruelty-free production.",
       "historicalUseNotes": "<p>Modern botanical extraction of naturally-occurring compound. Supports skin's own moisture retention.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid without occlusive in very dry environments — humectant without sealant draws transepidermal moisture outward",
+        "Generally very compatible with all actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1494,7 +1598,11 @@
       "transparencyStatement": "Plant-derived glycerin from organic sources. Clean extraction. Pure and safe.",
       "historicalUseNotes": "<p>Traditional humectant used in herbalism for centuries. Safe and gentle.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Always follow with an occlusive or emollient in dry climates to prevent transepidermal moisture loss",
+        "Avoid very high alcohol concentrations in same formula — alcohol dehydration works against humectant function",
+        "Generally very compatible with all actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1542,7 +1650,12 @@
       "transparencyStatement": "Organic neem from pristine Indian sources. Cold-pressed. Powerful concentrate.",
       "historicalUseNotes": "<p>Valued in Ayurvedic medicine for thousands of years. Sacred tree for healing.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "Use only in dilution. High concentrations may cause irritation.",
+      "incompatibilities": [
+        "Always dilute — high concentrations cause significant irritation",
+        "Strong sulfur-like odor may be incompatible with fragrance-sensitive formulas",
+        "Do not apply to broken or severely compromised skin undiluted",
+        "Avoid near eyes"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1594,7 +1707,13 @@
       "transparencyStatement": "Organic tea tree from pristine Australian sources. Sustainably harvested. Pure essential oil.",
       "historicalUseNotes": "<p>Used by Australian Indigenous peoples for centuries. Prized for wound healing and antisepsis.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "Use only in dilution. High concentrations may cause irritation.",
+      "incompatibilities": [
+        "Never use undiluted on skin — severe irritation and potential chemical burn",
+        "Do not combine with high-concentration AHAs or retinoids on sensitive skin — compounded irritation",
+        "Avoid on open wounds or severely compromised barrier",
+        "Do not use near eyes",
+        "Maximum 5% topical concentration for leave-on products"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1645,7 +1764,11 @@
       "transparencyStatement": "Organic gotu kola from pristine Asian sources. Wildcrafted sustainably. Potent extract.",
       "historicalUseNotes": "<p>Valued in TCM and Ayurveda for skin health and longevity. Used in Indonesian beauty traditions.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
       "coldPressed": false,
       "raw": false,
@@ -1698,7 +1821,11 @@
       "transparencyStatement": "Organic bakuchiol from pristine plant sources. Plant-derived extraction. Modern science.",
       "historicalUseNotes": "<p>Derived from Ayurvedic plant (Babchi). Modern retinol alternative without irritation.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid stacking with high-concentration AHAs or BHAs — bakuchiol provides retinol-like cell turnover; adding acids compounds the exfoliant load for sensitive skin",
+        "Generally one of the most compatible retinol alternatives — chosen specifically for sensitive skin",
+        "Avoid in formulas with benzoyl peroxide — unnecessary oxidative load"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1749,7 +1876,11 @@
       "transparencyStatement": "Organic squalene from olive sources. Ethical, vegan extraction. Pure and clean.",
       "historicalUseNotes": "<p>Mimics skin's natural lipid production. Gentle support for barrier function.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1797,7 +1928,11 @@
       "transparencyStatement": "Organic blue tansy from pristine Moroccan sources. Rare wildcrafted. True treasure.",
       "historicalUseNotes": "<p>Traditional Moroccan beauty secret. Valued for skin healing and balance.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1848,7 +1983,11 @@
       "transparencyStatement": "Ethically produced modern alternative to snail mucin. Vegan-friendly. Sustainable.",
       "historicalUseNotes": "<p>Garden snail secretion traditionally used. Modern vegan alternative maintains benefits.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "NOT vegan — snail mucin is an animal-derived ingredient; exclude from all vegan formulations",
+        "Avoid at very low pH (below 4) — glycoproteins and growth factors in mucin degrade",
+        "Generally compatible with most cosmetic actives at neutral to slightly acidic pH"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1899,7 +2038,11 @@
       "transparencyStatement": "Barley-derived azelaic acid. Fermentation process. Modern botanical science.",
       "historicalUseNotes": "<p>Derived from grain fermentation. Modern botanical with proven efficacy.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid direct layering with high-concentration retinoids without barrier assessment — both drive cell turnover",
+        "Separate from very high-concentration AHAs — additive exfoliant effect",
+        "Generally well-tolerated — can be used AM or PM, compatible with most actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1947,7 +2090,13 @@
       "transparencyStatement": "Willow bark-derived salicylic acid. Pure extraction. Gentle sourcing.",
       "historicalUseNotes": "<p>Derived from willow bark used in traditional herbalism. Modern extraction for efficacy.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Never combine with retinoids in the same formula — compounded exfoliation and barrier damage",
+        "Avoid stacking with multiple AHAs at high concentrations in the same step — compounded acid burden",
+        "Do not combine with high-concentration zinc oxide — salt formation alters formula texture",
+        "PM use only — photosensitizing",
+        "Do not use on broken, weeping, or severely compromised skin"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -1999,7 +2148,12 @@
       "transparencyStatement": "Plant-fermented lactic acid. Vegan extraction. Clean and pure.",
       "historicalUseNotes": "<p>Traditional milk-based beauty treatments. Modern plant fermentation for vegan option.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Never combine with retinoids in the same application — compounded barrier disruption",
+        "Separate from niacinamide by routine — low pH causes niacin conversion",
+        "Avoid stacking with BHAs (salicylic acid) at therapeutic concentrations in the same step",
+        "PM use preferred — increases photosensitivity; daily SPF required"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -2047,7 +2201,12 @@
       "transparencyStatement": "Almond-derived mandelic acid. Pure botanical extraction. Gentle and effective.",
       "historicalUseNotes": "<p>Derived from bitter almonds. Traditional use in beauty preparations.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Never combine with retinoids in same application — compounded barrier disruption",
+        "Separate from niacinamide by routine — low pH causes niacin conversion",
+        "PM use preferred — photosensitizing",
+        "Gentler than glycolic for darker skin types (lower PIH risk) but still requires SPF compliance"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -2095,7 +2254,11 @@
       "transparencyStatement": "Yeast-fermented niacinamide. Vegan production. Pure and potent.",
       "historicalUseNotes": "<p>Modern botanical-derived vitamin. Foundational skin nutrient.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Separate from pure vitamin C (L-ascorbic acid) by at least 30 minutes (different routines preferred) — at elevated temperatures they can form niacin causing skin flushing; less of a concern in well-formulated modern products but traditional guidance still applies",
+        "Avoid formulating in pH below 5 with heat exposure — converts to niacin",
+        "One of the most stackable actives — compatible with retinoids, peptides, AHAs, BHAs, ceramides, and most other ingredients"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -2143,7 +2306,10 @@
       "transparencyStatement": "Plant-derived panthenol. Pure botanical extraction. Clean production.",
       "historicalUseNotes": "<p>Modern botanical extraction of naturally-occurring compound.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Virtually no known incompatibilities — one of the most universally compatible cosmetic actives",
+        "Compatible with retinoids, acids, peptides, and all skin types"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -2191,7 +2357,11 @@
       "transparencyStatement": "Plant-fermented L-ascorbic acid. Stabilized for efficacy. Pure and potent.",
       "historicalUseNotes": "<p>Modern extraction of naturally-occurring compound. Stable, effective form.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid combining with strong oxidizing agents",
+        "Check pH stability range for specific vitamin form being used",
+        "Generally compatible with most standard cosmetic actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -2239,7 +2409,11 @@
       "transparencyStatement": "Rice bran-derived ferulic acid. Pure extraction. Potent antioxidant.",
       "historicalUseNotes": "<p>Botanical antioxidant from nature's preserved seeds.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid combining with strong oxidizing agents",
+        "Check pH stability range for specific vitamin form being used",
+        "Generally compatible with most standard cosmetic actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -2287,7 +2461,11 @@
       "transparencyStatement": "Grape skin-derived resveratrol. Pure extraction. Potent antioxidant.",
       "historicalUseNotes": "<p>From grapes used in traditional medicine. Modern extraction for purity.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid combining with strong oxidizing agents",
+        "Check pH stability range for specific vitamin form being used",
+        "Generally compatible with most standard cosmetic actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -2338,7 +2516,11 @@
       "transparencyStatement": "Plant-derived peptides. Ethical extraction. Biotechnological precision.",
       "historicalUseNotes": "<p>Modern botanical science extracting naturally-occurring compounds.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid very low pH formulas (below 4) — peptide bond stability concern",
+        "Do not combine with benzoyl peroxide — oxidizes peptide bonds",
+        "Generally compatible with niacinamide, hyaluronic acid, ceramides, and most actives at pH 4.5–7"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -2386,7 +2568,10 @@
       "transparencyStatement": "Plant-derived ceramides. Pure botanical extraction. Barrier-essential.",
       "historicalUseNotes": "<p>Modern extraction of skin-identical lipids.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at recommended cosmetic use concentrations",
+        "Always patch test for individuals with known sensitivities to this botanical family"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -2434,7 +2619,10 @@
       "transparencyStatement": "Plant-derived cholesterol. Pure extraction. Barrier-essential.",
       "historicalUseNotes": "<p>Modern extraction of naturally-occurring lipid.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at recommended cosmetic use concentrations",
+        "Always patch test for individuals with known sensitivities to this botanical family"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -2482,7 +2670,10 @@
       "transparencyStatement": "Plant-derived phospholipids. Pure extraction. Barrier-supportive.",
       "historicalUseNotes": "<p>Modern extraction of naturally-occurring compounds.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at recommended cosmetic use concentrations",
+        "Always patch test for individuals with known sensitivities to this botanical family"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -2530,7 +2721,10 @@
       "transparencyStatement": "Amino acid-derived sarcosine. Natural extraction. Gentle and effective.",
       "historicalUseNotes": "<p>Modern botanical extraction for gentle cleansing.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at recommended cosmetic use concentrations",
+        "Always patch test for individuals with known sensitivities to this botanical family"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -2578,7 +2772,11 @@
       "transparencyStatement": "Plant-derived ethylhexylglycerin. Natural extraction. Clean preservation.",
       "historicalUseNotes": "<p>Modern botanical alternative to synthetic preservatives.</p>",
       "heroImageUrl": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Always follow with an occlusive or emollient in dry climates to prevent transepidermal moisture loss",
+        "Avoid very high alcohol concentrations in same formula — alcohol dehydration works against humectant function",
+        "Generally very compatible with all actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -2637,7 +2835,11 @@
       "transparencyStatement": "<p>Meadowfoam is one of the most environmentally responsible oil crops in existence. Grown exclusively in Oregon's Willamette Valley using rain-fed agriculture with no irrigation, no pesticides, and in rotation with grass seed crops that restore soil nitrogen. The entire plant is used — seeds for oil, plant matter for compost. Carbon footprint is minimal due to local processing. Fully biodegradable. What we are still learning: whether meadowfoam cultivation can be expanded to Canadian climates with similar fatty acid yield.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "waterUseProfile": "",
       "carbonImpactNotes": "",
@@ -2701,7 +2903,11 @@
       "transparencyStatement": "<p>Our black seed oil is cold-pressed from Egyptian-grown Nigella sativa seeds, sourced from a single-origin cooperative in the Nile Delta region. The seeds are harvested at full maturity and pressed within 48 hours of harvest to maximize thymoquinone content. No solvent extraction, no refinement, no deodorization. The oil is tested for thymoquinone concentration (minimum 2.5%) and heavy metal contamination before acceptance. Fully biodegradable. What we are still learning: the optimal thymoquinone concentration for topical cosmetic efficacy versus potential for photosensitization at higher doses.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=1200",
       "historicalUseNotes": "<p>Seeds found in Tutankhamun's tomb (1323 BCE). Referenced in the Ebers Papyrus (1550 BCE). Called 'Habbatus Sauda' in Islamic traditional medicine. Documented in Ayurveda as kalonji for skin conditions for over 2,500 years.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "waterUseProfile": "",
       "carbonImpactNotes": "",
@@ -2767,7 +2973,11 @@
       "transparencyStatement": "<p>Sourced from wild-harvested murumuru palms in the Brazilian Amazon. Seeds are collected after natural fruit drop — no trees are felled. Processing is done by local riverine communities and Indigenous cooperatives, providing economic incentives for forest conservation. The trade directly supports standing-forest economics as an alternative to cattle ranching and logging. Cold-pressed without solvents. Fully biodegradable. What we are still learning: the long-term sustainability of scaling wild-harvest murumuru without putting pressure on forest ecosystems.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "waterUseProfile": "",
       "carbonImpactNotes": "",
@@ -2831,7 +3041,14 @@
       "transparencyStatement": "<p>Cosmetic-grade glycolic acid is typically derived from sugar cane via controlled fermentation or synthesized from chloroacetic acid. We prioritize sugar cane-derived glycolic acid where traceability to sustainable agriculture is documented. The sugar cane sourcing supports renewable agriculture. Glycolic acid itself is biodegradable and non-bioaccumulative. Packaging must be airless or opaque to maintain pH stability. What we are still learning: the optimal free-acid percentage for efficacy versus irritation across diverse skin tones, particularly Fitzpatrick IV-VI where post-inflammatory hyperpigmentation risk is elevated.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "<p>Do not combine with retinoids, L-ascorbic acid, or other direct acids in the same application. Can destabilize niacinamide if pH difference is extreme (though modern formulations have largely resolved this). Increases photosensitivity — requires daily SPF.</p>",
+      "incompatibilities": [
+        "Never combine with retinol or retinoids in the same application — compounded exfoliation causes severe barrier disruption and chemical irritation",
+        "Never combine with benzoyl peroxide in the same formula — both are irritants and combined use causes barrier breakdown",
+        "Separate from niacinamide by 30+ minutes (use different routines if possible) — low-pH environment converts niacinamide to niacin, causing skin flushing",
+        "Separate from vitamin C (L-ascorbic acid) by routine — competing pH requirements and compounded acid burden",
+        "PM use only — AHAs increase photosensitivity; always follow with SPF the next morning",
+        "Do not apply to a compromised, broken, or severely dehydrated barrier"
+      ],
       "canadianRelevance": "",
       "waterUseProfile": "",
       "carbonImpactNotes": "",
@@ -2895,7 +3112,13 @@
       "transparencyStatement": "<p>GHK-Cu is produced via solid-phase peptide synthesis in pharmaceutical-grade laboratories. It is nature-identical — the exact same molecule found in human blood plasma — but not derived from biological tissue. No animal testing, no animal-derived materials. The copper is sourced from mineral copper salts. The synthesis process is low-waste and solvent-recoverable. Fully biodegradable. What we are still learning: optimal delivery systems for enhanced dermal penetration, the interaction profile with retinoid receptors, and long-term collagen remodeling outcomes beyond 12 months of continuous use.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "<p>Do not use with direct acids (AHAs, BHAs, L-ascorbic acid) in the same routine. Copper ions can catalyze oxidation of L-ascorbic acid, rendering both ingredients less effective. Alternate on different nights. Compatible with niacinamide, retinoids (alternate nights), hyaluronic acid, peptides.</p>",
+      "incompatibilities": [
+        "Never combine with direct acids (AHAs, BHAs, L-ascorbic acid) in the same step — acid environment degrades copper-peptide complex",
+        "Never combine with vitamin C (L-ascorbic acid) — ascorbic acid chelates copper, rendering the peptide biologically inactive",
+        "Avoid benzoyl peroxide — oxidizes peptide bonds",
+        "PM use only — separate from vitamin C by at least 8 hours",
+        "Do not use in the same routine as retinol without assessment — both drive cell turnover; alternate nights recommended"
+      ],
       "canadianRelevance": "",
       "waterUseProfile": "",
       "carbonImpactNotes": "",
@@ -2957,7 +3180,10 @@
       "transparencyStatement": "<p>Manufactured from non-GMO corn starch-derived glucose and coconut-derived fatty alcohols through an established green chemistry process. No petroleum derivatives, no ethoxylation, no sulfation. The molecule is 100% biodegradable in natural waterways within 28 days — it does not persist in the environment or bioaccumulate. Packaging compatibility is excellent (stable in all standard cosmetic containers). What we are still learning: whether domestic Canadian corn starch sourcing can replace imported corn in manufacturing to reduce the transportation carbon footprint of this ingredient.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Alkaline pH (7–9.5) — not suitable for low-pH actives (retinoids, AHAs, vitamin C) in the same formula without pH adjustment",
+        "Generally very gentle and skin-compatible at correct pH"
+      ],
       "canadianRelevance": "",
       "waterUseProfile": "",
       "carbonImpactNotes": "",
@@ -3019,7 +3245,10 @@
       "transparencyStatement": "<p>Saccharomyces cerevisiae is one of the most thoroughly studied organisms in biology — its genome was the first eukaryotic genome fully sequenced. The fermentation process is controlled, reproducible, and waste-efficient: spent yeast biomass is used as animal feed or compost. No animal testing. No animal-derived ingredients. The ferment filtrate is inherently biodegradable. Packaging should be opaque or UV-protected to preserve B-vitamin stability. What we are still learning: the specific strain-level differences in bioactive profiles between different Saccharomyces strains, and how fermentation medium (rice vs. soy vs. barley) affects the final filtrate composition.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1585159812596-fac104f2f069?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid at very low pH (below 3.5) — protein and bioactive degradation in filtrate",
+        "Generally compatible with most cosmetic actives"
+      ],
       "canadianRelevance": "",
       "waterUseProfile": "",
       "carbonImpactNotes": "",
@@ -3083,7 +3312,12 @@
         "Southeast Asian traditional",
         "Melanesian"
       ],
-      "yhwhBeloved": false
+      "yhwhBeloved": false,
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ]
     },
     {
       "slug": "rose-hydrosol",
@@ -3139,7 +3373,11 @@
         "Middle Eastern",
         "Ottoman"
       ],
-      "yhwhBeloved": false
+      "yhwhBeloved": false,
+      "incompatibilities": [
+        "Slight fragrance content — flag for highly sensitive or fragrance-reactive skin",
+        "Generally one of the gentlest and most compatible botanical waters"
+      ]
     },
     {
       "slug": "turmeric-extract",
@@ -3195,7 +3433,12 @@
         "Ancient Indian",
         "Buddhist"
       ],
-      "yhwhBeloved": false
+      "yhwhBeloved": false,
+      "incompatibilities": [
+        "Stains skin and formulas yellow-orange — use encapsulated form or at very low concentration (0.5–1%)",
+        "Avoid in formulas where color neutrality is required",
+        "Phototoxicity risk at very high concentrations — use with SPF guidance"
+      ]
     },
     {
       "slug": "aloe-vera",
@@ -3252,7 +3495,12 @@
         "Greek/Roman",
         "Ancient Hebrew / Torah"
       ],
-      "yhwhBeloved": true
+      "yhwhBeloved": true,
+      "incompatibilities": [
+        "Always follow with an occlusive or emollient in dry climates to prevent transepidermal moisture loss",
+        "Avoid very high alcohol concentrations in same formula — alcohol dehydration works against humectant function",
+        "Generally very compatible with all actives"
+      ]
     },
     {
       "slug": "tranexamic-acid",
@@ -3303,7 +3551,11 @@
       "transparencyStatement": "<p>Tranexamic acid is a synthetic molecule produced through established pharmaceutical manufacturing processes. It is not derived from animal sources. The synthesis is well-understood and waste-efficient. Biodegradable in wastewater treatment systems. No photosensitivity risk. What we are still learning: optimal topical concentration ceiling for cosmetic applications, the long-term safety profile of continuous topical use beyond 12 months, and the potential for combining topical and micro-needling-delivered TXA for enhanced dermal penetration in resistant melasma.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally very compatible — stable across pH 4–7",
+        "Avoid combining in the same step with very high-dose AHAs (excess acid burden)",
+        "Compatible with niacinamide, vitamin C derivatives, peptides, and ceramides"
+      ],
       "canadianRelevance": "",
       "maxUseLevel": 5,
       "coldPressed": false,
@@ -3362,7 +3614,11 @@
       "transparencyStatement": "<p>Alpha-arbutin is produced through a clean biotechnological process using bacterial enzymes. No animal-derived materials. No environmental persistence concerns — the molecule is biodegradable. Not derived from hydroquinone feedstock in modern production (enzymatic transglucosylation of hydroquinone monohydrate). What we are still learning: the optimal pH range for formulation stability (alpha-arbutin is most stable at pH 5-7 but some acids can hydrolyze the glycosidic bond), and whether combining with specific peptides enhances dermal delivery.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "<p>Avoid formulating at pH below 4.5 — acidic conditions can hydrolyze the glucoside bond. Do not combine with strong AHAs/BHAs in the same application.</p>",
+      "incompatibilities": [
+        "Avoid pH below 3.5 — hydrolyzes to free hydroquinone at very low pH (regulatory concern in EU and some markets)",
+        "Generally very compatible — synergistic with vitamin C derivatives, niacinamide, and tranexamic acid for brightening",
+        "Do not combine with highly acidic formulas without pH buffering"
+      ],
       "canadianRelevance": "",
       "phWindowLow": 5,
       "phWindowHigh": 7,
@@ -3423,7 +3679,15 @@
       "transparencyStatement": "<p>Retinol is synthesized through a well-established industrial chemical process. It is not extracted from animal tissue in modern production. The molecule is identical to naturally occurring vitamin A but manufactured in controlled conditions for purity and stability. Retinol is biodegradable and does not persist in the environment. Must be packaged in opaque, airless containers — retinol degrades rapidly in light and air. What we are still learning: whether encapsulated retinol delivery systems (retinol in lipid nanoparticles) can achieve prescription-level efficacy with cosmetic-level tolerability, and the long-term collagen density outcomes beyond 24 months of continuous use.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "<p>Do not combine with AHAs, BHAs, benzoyl peroxide, or L-ascorbic acid in the same application. Increases photosensitivity. Avoid during pregnancy and breastfeeding (precautionary).</p>",
+      "incompatibilities": [
+        "Never combine with AHAs (glycolic, lactic, mandelic, tartaric) in the same application — severe compounded barrier disruption",
+        "Never combine with BHAs (salicylic acid, willow bark) in the same formula — compounded exfoliation and barrier damage",
+        "Never combine with benzoyl peroxide — BPO oxidizes and fully deactivates retinol",
+        "Separate from vitamin C (L-ascorbic acid) by using different routines — vitamin C requires pH 2.5–3.5; retinol requires pH 5–7; combining causes mutual destabilization",
+        "PM use only — retinol degrades under UV light and increases photosensitivity",
+        "Do not apply to a compromised, broken, or severely dehydrated barrier — address barrier repair first",
+        "Avoid with high-concentration tea tree oil or other sensitizing actives — compounded irritation"
+      ],
       "canadianRelevance": "",
       "maxUseLevel": 1,
       "coldPressed": false,
@@ -3482,7 +3746,10 @@
       "transparencyStatement": "<p>Matrixyl is produced through solid-phase peptide synthesis (SPPS) followed by palmitoyl conjugation. No animal-derived materials. The manufacturing process is well-established and waste-managed. Biodegradable. Stable across a wide pH range (3-8). What we are still learning: the optimal peptide concentration in consumer products (published studies used high concentrations, but many commercial products contain levels below the clinically studied range), and whether newer matrikine peptides offer meaningful improvement over the original Matrixyl formulation.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid direct combination in same formula with very high-concentration vitamin C (pH below 3.5) — peptide bond stability at very low pH",
+        "Generally stable across pH 4.5–7 and compatible with most skincare actives"
+      ],
       "canadianRelevance": "",
       "maxUseLevel": 5,
       "coldPressed": false,
@@ -3541,7 +3808,11 @@
       "transparencyStatement": "<p>Produced via solid-phase peptide synthesis. No animal-derived materials. Biodegradable. Stable in aqueous formulations at pH 5-7. What we are still learning: whether transdermal delivery enhancement (microneedling, iontophoresis) can increase the dermal concentration to levels approaching the in-vitro EC50, and the long-term safety profile of chronic neuromuscular modulation in the cosmetic context.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid highly acidic formulas (pH below 3.5) — peptide destabilization",
+        "Do not combine with benzoyl peroxide — oxidizes peptide bonds",
+        "Generally well-tolerated and compatible with most other actives"
+      ],
       "canadianRelevance": "",
       "maxUseLevel": 10,
       "coldPressed": false,
@@ -3600,7 +3871,10 @@
       "transparencyStatement": "<p>Manufactured from renewable coconut and corn feedstock through green chemistry. No petroleum derivatives. 100% biodegradable in natural waterways. No bioaccumulation. No aquatic toxicity at use concentrations. ECOCERT and COSMOS certified. What we are still learning: whether Canadian-grown corn starch can serve as a domestic glucose source for North American APG production, reducing transportation impact.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Slightly alkaline — not suitable with low-pH actives without pH adjustment",
+        "Generally very gentle — suitable for sensitive skin formulas"
+      ],
       "canadianRelevance": "",
       "maxUseLevel": 15,
       "coldPressed": false,
@@ -3659,7 +3933,10 @@
       "transparencyStatement": "<p>Derived from coconut fatty acids and isethionic acid through a clean esterification process. The solid format enables plastic-free, water-free product formats that reduce shipping weight by up to 80% compared to liquid equivalents. Biodegradable in wastewater treatment systems. No aquatic toxicity at use concentrations. What we are still learning: whether emerging solid-format manufacturing technologies can further reduce the energy footprint of SCI production.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid at pH below 4.5 — hydrolysis under acidic conditions",
+        "Generally very gentle — one of the mildest surfactants"
+      ],
       "canadianRelevance": "",
       "maxUseLevel": 50,
       "coldPressed": false,
@@ -3718,7 +3995,10 @@
       "transparencyStatement": "<p>Cold-pressed from non-GMO sunflower seeds. No hexane extraction (unlike most soy lecithin). Minimal processing. Fully biodegradable. Allergen-free. The sunflower is one of the most sustainable oilseed crops — drought-tolerant, pollinator-friendly, and nitrogen-fixing when rotated with grain crops. What we are still learning: the optimal phosphatidylcholine:phosphatidylethanolamine ratio for maximum liposomal stability and dermal delivery efficiency in topical cosmetic formulations.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1470509037663-253afd7f0f51?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Can promote rancidity in oil-heavy formulas without antioxidant stabilization",
+        "Generally very compatible — phospholipid emulsifier with skin-affinity"
+      ],
       "canadianRelevance": "",
       "maxUseLevel": 5,
       "coldPressed": true,
@@ -3777,7 +4057,11 @@
       "transparencyStatement": "<p>Our tocopherol is extracted from non-GMO sunflower seeds via cold-pressing and molecular distillation. No synthetic solvents. No palm-derived sourcing. The sunflower source is renewable, low-water-use, and pollinator-supporting. Fully biodegradable. What we are still learning: whether tocotrienol forms (particularly delta-tocotrienol) offer superior antioxidant protection in skin compared to the traditional alpha-tocopherol, and optimal delivery systems for enhanced dermal penetration.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1474979266404-7f28db8add64?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid combining with niacin derivatives at high temperatures — minor stability concern",
+        "Generally one of the most compatible antioxidants — recommended as antioxidant stabilizer for PUFA-rich oils",
+        "Oil-soluble only — does not dissolve in water-phase without ester form"
+      ],
       "canadianRelevance": "",
       "maxUseLevel": 2,
       "coldPressed": true,
@@ -3836,7 +4120,11 @@
       "transparencyStatement": "<p>CO2 extraction uses supercritical carbon dioxide as the solvent — no synthetic chemicals, no residue. The CO2 is recaptured and recycled after extraction. Rosemary is drought-tolerant, low-input, and grows well in poor Mediterranean soils. Fully biodegradable. The extract replaces synthetic antioxidants (BHT, BHA, TBHQ) that have environmental persistence and bioaccumulation concerns. What we are still learning: whether rosemary cultivars grown in different Mediterranean microclimates produce meaningfully different carnosic acid concentrations.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1515586000433-45c4a8bbc824?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid combining with strong oxidizing agents",
+        "Check pH stability range for specific vitamin form being used",
+        "Generally compatible with most standard cosmetic actives"
+      ],
       "canadianRelevance": "",
       "maxUseLevel": 1,
       "coldPressed": false,
@@ -3901,7 +4189,10 @@
       "transparencyStatement": "<p>Lactobacillus fermentation is a clean, well-understood bioprocess that has been used in food production for millennia. The ferment is produced in controlled bioreactors, pasteurized (killing the bacteria while preserving metabolites), and filtered. No animal-derived growth media. The spent culture medium is biodegradable. What we are still learning: strain-specific metabolite differences (Lactobacillus rhamnosus vs. L. plantarum vs. L. acidophilus produce different bacteriocin and SCFA profiles), and whether personalized probiotic approaches (matching specific strains to individual microbiome profiles) represent the next generation of microbiome skincare.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1585159812596-fac104f2f069?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid at very low pH or high heat — destroys probiotic-like bioactives in filtrate",
+        "Generally compatible with humectants, ceramides, and most cosmetic actives"
+      ],
       "canadianRelevance": "",
       "maxUseLevel": 10,
       "coldPressed": false,
@@ -3960,7 +4251,10 @@
       "transparencyStatement": "<p>Kombucha fermentation is a zero-waste process: tea leaves are composted, the SCOBY propagates indefinitely without external inputs, and the ferment is the product. The process requires minimal energy (ambient temperature fermentation). No synthetic inputs. Fully biodegradable. What we are still learning: the impact of tea source (black vs. green vs. white), sugar source (cane vs. honey), and fermentation duration on the final metabolite profile for cosmetic applications.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Already slightly acidic — check combined pH when formulating with additional acids",
+        "Generally compatible with most actives; ferment-based so avoid boiling temperatures"
+      ],
       "canadianRelevance": "",
       "maxUseLevel": 95,
       "coldPressed": false,
@@ -4023,7 +4317,10 @@
       "transparencyStatement": "<p>Harvested sustainably from Canadian boreal birch forests during the spring sap run. Tapping does not damage trees — the same trees can be tapped annually for decades. The harvest window (2-3 weeks) is non-negotiable and weather-dependent, making this a genuinely seasonal ingredient. No processing beyond cold filtration. Fully biodegradable. Zero agricultural inputs — the trees are wild. What we are still learning: whether controlled tapping pressure and timing can optimize the mineral and betulinic acid concentration of the sap, and whether Canadian birch sap has a measurably different mineral profile from Scandinavian birch sap due to soil composition differences.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1520263115673-610416f52ab6?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid high heat in formulation — volatile bioactives degrade",
+        "Generally very compatible — one of the gentlest botanical waters"
+      ],
       "canadianRelevance": "<p>Betula papyrifera (paper birch) is one of Canada's most widespread trees, growing across every province. Canadian birch sap is harvested by small producers in Ontario, Quebec, and the Maritime provinces during the spring thaw. The Canadian boreal forest is the largest intact forest on earth, and sustainable birch sap harvesting supports forest-based livelihoods without any tree removal.</p>",
       "maxUseLevel": 100,
       "coldPressed": false,
@@ -4089,7 +4386,11 @@
       "transparencyStatement": "<p>Maple leaves are harvested from sustainably managed Canadian sugar maple forests — the same forests that produce maple syrup. The leaves are a byproduct of the syrup industry — using them for extract creates value from what was previously waste. Water-based extraction uses no synthetic solvents. The entire process supports Canadian forestry livelihoods and forest conservation. Fully biodegradable. What we are still learning: the optimal leaf harvesting window for maximum GCG concentration, whether different Acer species (red maple, silver maple) produce comparable GCG profiles, and the scale-up pathway from laboratory research to commercial cosmetic ingredient supply.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "<p>Canada is the world's leading producer of maple products. The sugar maple (Acer saccharum) is Canada's national tree and appears on the Canadian flag. Maple leaf extract research is led by Canadian university partnerships. Using the leaves — traditionally waste — creates a new revenue stream for Canadian maple producers while delivering a uniquely Canadian anti-aging ingredient with no equivalent in any other botanical tradition.</p>",
       "maxUseLevel": 5,
       "coldPressed": false,
@@ -4152,7 +4453,10 @@
       "transparencyStatement": "<p>Ceramide NP is produced through biotech fermentation (yeast-based) or chemical synthesis — both yield nature-identical molecules with no animal-derived inputs. The manufacturing process is well-established and waste-managed. Biodegradable. The molecule is identical to what the human body produces. What we are still learning: the optimal ceramide subclass ratio for maximum barrier repair (human SC contains 12 ceramide subclasses in varying proportions — most commercial products use only 1-3), and whether personalized ceramide supplementation based on individual SC lipid profiling is feasible.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Requires formulation at appropriate temperature — ceramides need melting/lipid phase processing",
+        "Virtually no incompatibilities at cosmetic use levels — one of the most skin-compatible actives"
+      ],
       "canadianRelevance": "",
       "maxUseLevel": 3,
       "coldPressed": false,
@@ -4211,7 +4515,10 @@
       "transparencyStatement": "<p>Licorice root is water-extracted from sustainably cultivated or managed wild Glycyrrhiza glabra. The root takes 3-4 years to mature for harvest. No synthetic solvents in the extraction process. The spent root material is composted. Biodegradable. What we are still learning: whether licorice root cultivated in different terroirs (Chinese vs. Turkish vs. Iranian) produces meaningfully different glabridin:glycyrrhizin ratios, and the long-term safety profile of glycyrrhizin in leave-on topical formulations (glycyrrhizin at high systemic doses can cause pseudoaldosteronism, though topical cosmetic concentrations are far below this threshold).</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=1200",
       "historicalUseNotes": "<p>Documented in the Ebers Papyrus (1550 BCE), Shennong Bencao Jing (200 BCE), Charaka Samhita (300 BCE), and Dioscorides' De Materia Medica (50 CE). Used across Egyptian, Chinese, Greek, Indian, and Middle Eastern traditions for over 4,000 years.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid very high pH (>7) — glabridin stability decreases at alkaline pH",
+        "Generally compatible with most brightening actives — synergistic with niacinamide and vitamin C derivatives"
+      ],
       "canadianRelevance": "",
       "maxUseLevel": 5,
       "coldPressed": false,
@@ -4266,7 +4573,11 @@
       "professionalAnalogy": "Avocado oil functions as a high-oleic, sterol-rich lipid replenishment system with documented wound-healing activity. Its phytosterol content has demonstrated efficacy in clinical studies for atopic dermatitis symptom reduction.",
       "transparencyStatement": "<p>We source avocado oil from certified organic orchards in Mexico and South Africa. Cold-pressed from pulp only; no hexane solvents. Sustainable farming practices verified by third-party auditors.</p>",
       "historicalUseNotes": "<p>Mesoamerican civilizations used avocado pulp topically for skin healing and wound care for over 5,000 years. Aztec records document its use for dry skin and scalp conditions.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "High oleic acid content — may be comedogenic at high concentrations for acne-prone skin",
+        "Avoid in lightweight serums — heavy texture unsuitable without dilution",
+        "Keep below 40°C in formulation"
+      ],
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
@@ -4316,7 +4627,11 @@
       "professionalAnalogy": "Camellia seed oil's high-oleic, low molecular weight profile gives it superior transdermal delivery compared to heavier emollients while its polyphenol content provides measurable free radical scavenging activity.",
       "transparencyStatement": "<p>We source tsubaki oil from certified organic producers in Japan's Izu Islands. Cold-pressed and unrefined. Traditional extraction methods preserved. No chemical solvents or high-heat processing.</p>",
       "historicalUseNotes": "<p>Used by Japanese geisha for over 1,000 years as their primary beauty oil for hair, skin, and nails. Referenced in Japanese beauty texts dating to the Heian period.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
@@ -4367,7 +4682,10 @@
       "professionalAnalogy": "Baobab oil's approximately equal-thirds oleic/linoleic/palmitic profile provides a physiologically balanced lipid complement that mirrors the ideal triglyceride composition for optimal skin barrier function and elasticity maintenance.",
       "transparencyStatement": "<p>We source baobab oil from wild-harvest cooperatives in East Africa. Trees are never cultivated — fruit falls naturally. Extraction is done by community producers using cold-press methods. Fair trade certified supply chain.</p>",
       "historicalUseNotes": "<p>Called the 'Tree of Life' — African communities have used every part of the baobab for millennia. The oil has been used for skin protection against harsh sun and wind in arid climates for thousands of years.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Thick texture — blend with lighter oils for facial formulas",
+        "Generally very compatible and stable"
+      ],
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
@@ -4418,7 +4736,11 @@
       "professionalAnalogy": "Borage oil's GLA content (18-26%) provides topical delta-6-desaturase bypass, directly supplying DGLA precursors for prostaglandin E1 synthesis. Indicated for conditions where enzymatic GLA conversion is impaired, including atopic dermatitis and rosacea.",
       "transparencyStatement": "<p>We source borage oil from certified organic UK and Canadian farms. Cold-pressed and nitrogen-flushed immediately after extraction to preserve GLA integrity. Tested for peroxide values before use — any oil exceeding 10 mEq/kg is rejected.</p>",
       "historicalUseNotes": "<p>Medieval European herbalists used borage as 'the herb of gladness' — taken internally and applied topically for skin conditions, inflammation, and mood. Its skin-calming properties were documented in Roman texts.</p>",
-      "incompatibilities": "Highly susceptible to oxidation — avoid extended heat or air exposure",
+      "incompatibilities": [
+        "Short shelf life — very high GLA (gamma-linolenic acid) content oxidizes rapidly",
+        "Requires Tocopherol antioxidant stabilization",
+        "Keep below 40°C in formulation"
+      ],
       "canadianRelevance": "<p>Borage is commercially grown in Saskatchewan and Manitoba, making it one of Canada's more significant specialty oil crops for cosmetic use.</p>",
       "coldPressed": true,
       "raw": true,
@@ -4469,7 +4791,11 @@
       "professionalAnalogy": "Raspberry seed oil's alpha-linolenic acid content and tocopherol profile provide measurable photoprotective and anti-inflammatory benefits as part of a comprehensive photoprotection strategy. SPF 28-50 UV-B activity noted in vitro — requires combination with broad-spectrum mineral or chemical filters for complete protection.",
       "transparencyStatement": "<p>We source raspberry seed oil as a byproduct of Canadian raspberry processing — representing zero-waste extraction from food production. Cold-pressed in British Columbia. Certified organic where available.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "Oxidizes rapidly — nitrogen-flush packaging recommended",
+      "incompatibilities": [
+        "Short shelf life — high linolenic acid content prone to oxidation",
+        "Requires antioxidant stabilization",
+        "Do not heat above 40°C"
+      ],
       "canadianRelevance": "<p>British Columbia is a major raspberry growing region — raspberry seed oil represents Canadian agricultural upcycling at its best.</p>",
       "coldPressed": true,
       "raw": true,
@@ -4516,7 +4842,11 @@
       "professionalAnalogy": "Moringa oil's niaziminin content provides documented anti-pollutant activity via heavy metal chelation and inhibition of PM2.5 adhesion to skin surface proteins — a mechanism distinct from conventional antioxidant protection.",
       "transparencyStatement": "<p>We source moringa oil from fair-trade certified cooperatives in India and Ethiopia. Cold-pressed from organically grown seeds. Moringa cultivation actively improves soil health in arid regions — our sourcing directly supports land restoration programs.</p>",
       "historicalUseNotes": "<p>Used in ancient Egypt for skin protection and perfume fixation. Ayurvedic medicine has documented moringa oil use for over 3,000 years for skin conditions, wound healing, and hair growth.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
@@ -4566,7 +4896,11 @@
       "professionalAnalogy": "Mango butter's stearic/oleic balance provides dual-layer emolliency: stearic acid for surface film formation and TEWL reduction; oleic acid for transepidermal lipid delivery. Natural mild SPF activity makes it useful in day-focused formulations.",
       "transparencyStatement": "<p>We source mango butter from fair-trade certified processors in India who upcycle mango seed kernels from food production waste streams. Expeller-pressed without chemical solvents. Supporting zero-waste agricultural supply chains.</p>",
       "historicalUseNotes": "<p>Used in Ayurvedic medicine for centuries for skin conditions, wound healing, and as a base for herbal preparations. West African women have used mango butter for generations as a body moisturizer and hair conditioner.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -4615,7 +4949,9 @@
       "professionalAnalogy": "Cocoa butter's procyanidin content provides documented anti-fibrotic and anti-inflammatory activity with clinical evidence for scar and stretch mark improvement. Its high melting point (34-38°C) provides optimal body temperature-triggered emollient release.",
       "transparencyStatement": "<p>We exclusively source fair-trade certified cocoa butter from cooperatives in Ecuador and Ghana. We will not source from conventional supply chains given documented child labor concerns. Our butter is cold-processed to preserve polyphenol content.</p>",
       "historicalUseNotes": "<p>Theobroma cacao — 'food of the gods' — was sacred to the Aztec and Maya civilizations who used the fat topically for skin conditions and wound care. Spanish colonizers documented its skin uses in the 16th century.</p>",
-      "incompatibilities": "Comedogenic — avoid in facial formulas for acne-prone skin",
+      "incompatibilities": [
+        "Comedogenic — avoid in facial formulas for acne-prone skin"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -4664,7 +5000,11 @@
       "professionalAnalogy": "Cupuaçu butter's documented water absorption capacity (240% w/w) is mechanistically distinct from conventional emollients — it functions as a hydrophilic emollient, providing both barrier occlusion and active hydration delivery in a single ingredient.",
       "transparencyStatement": "<p>We source cupuaçu butter from Amazon forest communities under certified sustainable wild-harvest programs that directly fund rainforest conservation. Purchase of this ingredient creates direct economic incentive to preserve standing Amazon forest.</p>",
       "historicalUseNotes": "<p>Indigenous Amazonian communities have used cupuaçu fruit and seeds for centuries for food, medicine, and skin care. Traditional use for skin wounds, dry skin, and hair conditioning is well-documented.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -4711,7 +5051,10 @@
       "professionalAnalogy": "Centella asiatica's triterpenoids exert dual anti-inflammatory and pro-collagenic activity. Asiaticoside-mediated NF-κB suppression combined with TGF-β1-mediated collagen I/III upregulation provides the clinical basis for its efficacy in inflammatory skin conditions and post-procedure recovery.",
       "transparencyStatement": "<p>We use standardized centella asiatica extract from certified organic farms in India, titrated to minimum 80% combined triterpenoids (asiaticoside, madecassoside, asiatic acid, madecassic acid). Extraction uses water and ethanol — no harsh solvents.</p>",
       "historicalUseNotes": "<p>Called 'brahmi' in Ayurveda — one of the most revered healing herbs for over 3,000 years. Used to treat leprosy, psoriasis, and chronic wounds. In TCM, called 'ji xue cao' and used for cognitive function and wound healing.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid combining with high-concentration AHAs in the same step — acid may degrade triterpenoid compounds",
+        "Generally excellent compatibility — specifically formulated for sensitive skin"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -4762,7 +5105,11 @@
       "professionalAnalogy": "Oat extract's avenanthramides provide clinically validated NF-κB inhibition and histamine suppression, while beta-glucan delivers film-forming humectancy and ceramide precursor components for barrier restoration — making it one of the most comprehensively effective actives for atopic dermatitis management.",
       "transparencyStatement": "<p>We source certified organic oat extract from Canadian prairie farms in Saskatchewan. Gluten-contamination tested batch-by-batch. Aqueous extraction without solvents.</p>",
       "historicalUseNotes": "<p>Oat baths have been prescribed for skin conditions since ancient Roman times. Colloidal oatmeal became an official OTC skin protectant in the US in 2003, reflecting centuries of traditional use validated by modern science.</p>",
-      "incompatibilities": "Contains gluten — contraindicated in formulas marketed as gluten-free",
+      "incompatibilities": [
+        "GLUTEN-FREE WARNING: Not suitable for gluten-free formulations unless certified GF oat source (look for \"certified gluten-free\" INCI)",
+        "Avoid very high alcohol concentrations",
+        "Generally very compatible with sensitive-skin actives"
+      ],
       "canadianRelevance": "<p>Canadian oats from Saskatchewan prairies are among the world's finest. Canada is a global oat supplier — Canadian oat extract supports local agricultural economies.</p>",
       "coldPressed": false,
       "raw": false,
@@ -4812,7 +5159,11 @@
       "professionalAnalogy": "Tremella polysaccharides provide surface humectancy superior to hyaluronic acid at comparable concentrations due to their high molecular weight and unique branched structure that creates persistent hygroscopic films resistant to evaporation.",
       "transparencyStatement": "<p>We use sustainably cultivated tremella mushroom extract from certified organic mushroom farms in Taiwan. Extracted using hot water without chemical solvents. Certified vegan and gluten-free.</p>",
       "historicalUseNotes": "<p>In TCM, tremella has been called 'the mushroom of immortality' and 'the poor man's bird's nest' for over 2,000 years. The legendary concubine Yang Guifei of the Tang Dynasty reportedly used tremella preparations for her famously luminous skin.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -4862,7 +5213,11 @@
       "professionalAnalogy": "Chondrus crispus extract provides broad-spectrum mineral delivery (particularly zinc, magnesium, and sulfur) alongside polysaccharide film-forming activity, supporting enzymatic skin repair processes and surface conditioning simultaneously.",
       "transparencyStatement": "<p>We source sea moss extract from certified sustainable wild-harvesters on the coast of Nova Scotia. Harvest is limited to protect wild ecosystems. Cold water extraction without chemical processing.</p>",
       "historicalUseNotes": "<p>Irish and Scottish coastal communities have consumed and applied sea moss topically for centuries. During the Irish Famine (1845-1849), sea moss was a critical survival food. Traditional use for skin conditions, respiratory health, and general nourishment is extensively documented.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "<p>Nova Scotia and Newfoundland are significant wild-harvest regions for Chondrus crispus — using Canadian sea moss directly supports Atlantic fishing communities.</p>",
       "coldPressed": false,
       "raw": false,
@@ -4912,7 +5267,9 @@
       "professionalAnalogy": "Hibiscus sabdariffa extract provides natural malic and citric acid-mediated exfoliation alongside anthocyanin antioxidant activity and mucilage humectancy — a rare combination of active exfoliation and simultaneous barrier support in a single botanical extract.",
       "transparencyStatement": "<p>We source hibiscus extract from fair-trade certified farms in West Africa. Aqueous extraction only — no chemical solvents. The same farms supply both cosmetic and food-grade hibiscus, ensuring high safety standards.</p>",
       "historicalUseNotes": "<p>West African women have used hibiscus flowers for skin brightening and conditioning for centuries. In Ayurvedic medicine, hibiscus is used for hair growth and scalp conditions. Traditional Mexican and Caribbean use for skin lightening and anti-aging is extensively documented.</p>",
-      "incompatibilities": "Natural AHA activity — use sun protection; avoid simultaneous use with high-concentration synthetic acids",
+      "incompatibilities": [
+        "Natural AHA activity — use sun protection; avoid simultaneous use with high-concentration synthetic acids"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -4963,7 +5320,11 @@
       "professionalAnalogy": "Chaga extract provides the highest documented ORAC value of any cosmetic botanical, combining melanin-complex UV protection, betulinic acid melanogenesis regulation, and beta-glucan immunomodulation — a uniquely comprehensive anti-aging and photoprotective complex.",
       "transparencyStatement": "<p>We wild-harvest chaga from certified sustainable operations in northern Ontario's boreal birch forests. Harvest is limited to dead or dying trees only — living birch is never stripped. Dual water/ethanol extraction. Supporting Indigenous-led sustainable forest economies in northern Ontario.</p>",
       "historicalUseNotes": "<p>Siberian shamans called chaga 'gift from god' and 'mushroom of immortality' — used medicinally for over 4,000 years. First documented in Chinese medicine texts in the 16th century. World War II era Russian research documented its anti-tumor and adaptogenic properties.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "<p>Canadian boreal forests (Ontario, Quebec, BC) are among the world's finest chaga growing environments. Supporting Canadian wild-harvest chaga directly funds Indigenous and rural forest communities across northern Canada.</p>",
       "coldPressed": false,
       "raw": false,
@@ -5015,7 +5376,11 @@
       "professionalAnalogy": "Beta-glucan's (1,3/1,6) linkage enables Langerhans cell Dectin-1 receptor binding at the viable epidermis, triggering TGF-β1-mediated collagen synthesis and accelerated wound healing cascades — providing documented fibroblast-level anti-aging activity rather than surface-only humectancy.",
       "transparencyStatement": "<p>We use cosmetic-grade beta-glucan derived from controlled yeast fermentation. Consistent purity and molecular weight verified by HPLC. Vegan and cruelty-free.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "Oat-derived beta-glucan contains gluten — specify yeast-derived for gluten-free formulas",
+      "incompatibilities": [
+        "Avoid very high alcohol concentrations — can degrade polysaccharide structure",
+        "Generally very compatible — one of the most soothing and non-reactive cosmetic actives",
+        "Note: Oat-derived beta glucan is not certified gluten-free — exclude for gluten-free formulations unless certified GF oat source is used"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5061,7 +5426,11 @@
       "professionalAnalogy": "Kojic acid provides competitive copper chelation at the tyrosinase active site, achieving IC50 melanin inhibition at 10-50 μM concentrations. Its mechanism is distinct from HA-mediated competitive inhibition (arbutin) and oxidative interference (ascorbic acid), providing true synergy in combination brightening protocols.",
       "transparencyStatement": "<p>We use pharmaceutical-grade kojic acid from verified fermentation facilities. INCI documented. Tested for purity and absence of contaminants. Formulated at 1% — the minimum effective concentration — to reduce sensitization risk.</p>",
       "historicalUseNotes": "<p>Discovered as a fermentation byproduct in Japanese sake and soy sauce production. Workers in sake breweries were historically noted to have unusually even, bright skin on their hands — leading to investigation of kojic acid's skin-brightening properties.</p>",
-      "incompatibilities": "May cause contact sensitization at concentrations >2%; avoid in formulas with high ascorbic acid (pH conflict)",
+      "incompatibilities": [
+        "Unstable above pH 5.5 — do not combine with alkaline ingredients; browning and loss of activity",
+        "Avoid oxidizing agents — rapid degradation",
+        "Phototoxicity risk — use with daily SPF"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5107,7 +5476,10 @@
       "professionalAnalogy": "Allantoin's mechanism involves dual action: cell proliferation stimulation via purine receptor activation and mild keratolytic activity through intercellular cement disruption. Its demonstrated anti-irritant properties are well-suited for combination with potentially irritating actives (retinoids, alpha-hydroxy acids) in multi-active formulas.",
       "transparencyStatement": "<p>We use pharmaceutical-grade allantoin (>99% purity). While naturally occurring in comfrey root, we use pharmaceutical synthesis for consistency and safety — comfrey root contains pyrrolizidine alkaloids that are unsafe for topical use.</p>",
       "historicalUseNotes": "<p>Comfrey root (allantoin source) was called 'knitbone' in medieval European herbalism for its wound-healing and bone-setting properties. Its use for skin healing spans centuries.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid very low pH formulas (below 3.5) — allantoin degrades at extreme acidity",
+        "One of the most compatible cosmetic actives — highly stackable with retinoids, acids, peptides, and ceramides"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5156,7 +5528,11 @@
       "professionalAnalogy": "Sodium hyaluronate's reduced molecular weight (50-600 kDa) relative to high-MW HA provides transdermal penetration to viable epidermis, enabling direct engagement with the native dermal HA matrix and fibroblast CD44 receptors — providing genuinely dermal rather than surface-only hydration.",
       "transparencyStatement": "<p>We use fermentation-derived sodium hyaluronate from verified vegan production — no animal-derived HA. Multiple molecular weight fractions (high, medium, low) used for comprehensive depth-of-hydration delivery.</p>",
       "historicalUseNotes": "<p>Hyaluronic acid was first isolated from bovine vitreous humor in 1934. Its skin hydration role was characterized through the 1970s-80s. Vegan bacterial fermentation methods developed in the 1990s made it widely accessible without animal sourcing.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid using without an occlusive follow-up in low-humidity environments — high-MW HA draws moisture from the skin when the air is drier than the skin",
+        "Avoid very high alcohol concentrations in the same formula — alcohol dehydrates and counteracts HA's moisture-binding function",
+        "Generally one of the most compatible cosmetic ingredients"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5202,7 +5578,10 @@
       "professionalAnalogy": "Betaine's osmoprotectant mechanism provides cellular hydration maintenance under stress conditions while its surfactant-complexing properties measurably reduce the irritation index of anionic and cationic surfactant formulas — an underutilized multifunctional in sensitive skin product development.",
       "transparencyStatement": "<p>We source betaine from certified organic sugar beet fermentation in Europe. Produced from agricultural waste streams (beet molasses) — a sustainable, zero-new-land-use ingredient.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Essentially no known incompatibilities at cosmetic use levels",
+        "One of the most gentle and compatible humectants available"
+      ],
       "canadianRelevance": "<p>Alberta sugar beets are processed for betaine by-products — Canadian-sourced betaine is available from local sugar processing facilities.</p>",
       "coldPressed": false,
       "raw": false,
@@ -5248,7 +5627,11 @@
       "professionalAnalogy": "Adenosine exerts anti-aging effects through A2A/A3 receptor-mediated dual mechanism: upregulation of collagen I/III synthesis in dermal fibroblasts combined with MMP-1/3 inhibition — providing both anabolic and anti-catabolic activity in the dermal extracellular matrix.",
       "transparencyStatement": "<p>We use fermentation-derived pharmaceutical-grade adenosine verified by HPLC. Identical to endogenous human adenosine. Vegan, gluten-free, and cruelty-free.</p>",
       "historicalUseNotes": "<p>Adenosine's anti-wrinkle efficacy has been validated in peer-reviewed clinical studies since the 1990s. It is particularly well-studied in Korean dermatological research, forming the basis of the Korean regulatory approval for wrinkle improvement claims.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Stable at neutral to slightly acidic pH (4.5–7)",
+        "Avoid very low pH formulas (below 4) — potential degradation",
+        "Generally very compatible with peptides, niacinamide, and hyaluronic acid"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5294,7 +5677,10 @@
       "professionalAnalogy": "Isolated madecassoside provides quantifiable NF-κB inhibition (IC50 ~2.5 μM) combined with TGF-β1 collagen III induction — providing a defined therapeutic window for anti-inflammatory and wound healing applications not achievable with standardized whole-plant extract.",
       "transparencyStatement": "<p>We use >95% purity madecassoside from certified organic Centella asiatica farms in India. Extracted using pharmaceutical-grade methods. Third-party purity verified.</p>",
       "historicalUseNotes": "<p>The traditional Centella asiatica complex from which madecassoside derives has been used in Ayurvedic medicine for over 3,000 years for wound healing and skin disease treatment.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid very low pH formulas — triterpenoid stability concern at pH below 4",
+        "Highly compatible with ceramides, ectoin, and barrier-repair actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5343,7 +5729,10 @@
       "professionalAnalogy": "Zinc PCA provides dual-mechanism sebum control via zinc-mediated 5-alpha reductase inhibition (reducing local DHT-driven sebaceous gland stimulation) and direct antibacterial activity against C. acnes — addressing hormonal and microbial acne pathways simultaneously.",
       "transparencyStatement": "<p>We use pharmaceutical-grade zinc PCA. Consistent purity verified. Safe for daily use; formulated at 0.5% — effective concentration without over-suppressing the skin's natural oil balance.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid combining with high-concentration phytic acid — chelation may reduce zinc's sebum-regulating activity",
+        "Generally compatible with niacinamide, salicylic acid, and most oily-skin actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5389,7 +5778,10 @@
       "professionalAnalogy": "Palmitoyl Tripeptide-1 is the GHK-PA signal peptide that activates TGF-β1-mediated transcription of collagen I, III, fibronectin, and decorin in dermal fibroblasts. Clinical evidence includes >60% deep wrinkle reduction and documented ECM restructuring at 8 weeks in double-blind vehicle-controlled trials.",
       "transparencyStatement": "<p>We use clinically verified Palmitoyl Tripeptide-1 from European pharmaceutical synthesis facilities. Purity verified by HPLC. Used at clinically validated concentrations — not cosmetically relevant trace amounts.</p>",
       "historicalUseNotes": "<p>GHK tripeptide was first isolated from human plasma albumin in 1973 by biochemist Loren Pickart. Its wound-healing and collagen-stimulating properties were characterized through the 1980s-90s, leading to the development of palmitoylated cosmetic versions in the 2000s.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid very low pH formulas (below 3.5) — peptide bond stability concern",
+        "Compatible with niacinamide, hyaluronic acid, ceramides, and most standard actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5435,7 +5827,10 @@
       "professionalAnalogy": "Palmitoyl Tetrapeptide-7 functions as an IL-6 suppressor via GQPR receptor signaling — addressing the inflammaging pathway that drives MMP-mediated ECM degradation. Its synergy with Palmitoyl Tripeptide-1 creates true anabolic + anti-catabolic peptide combination therapy at the dermal level.",
       "transparencyStatement": "<p>We use clinically verified Palmitoyl Tetrapeptide-7 used at clinically validated concentrations in combination with Palmitoyl Tripeptide-1. Purity by HPLC. European synthesis.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid very low pH formulas (below 3.5)",
+        "Compatible with most actives when formulated at appropriate pH"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5481,7 +5876,11 @@
       "professionalAnalogy": "GHK-Cu provides the most comprehensively studied topical collagen-remodeling signal in cosmetic dermatology: simultaneous induction of collagen I/III/IV and elastin synthesis, MMP-mediated ECM remodeling, keratinocyte migration, and antioxidant upregulation via SOD2 transcription — a unique combination unavailable in any other single cosmetic active.",
       "transparencyStatement": "<p>We use pharmaceutical-grade Copper Tripeptide-1 (GHK-Cu) from European synthesis facilities. Blue-tinted solution indicates copper-chelated form. Purity by HPLC. Stored under nitrogen to preserve activity.</p>",
       "historicalUseNotes": "<p>GHK was first identified in human plasma by Dr. Loren Pickart at the University of California in 1973. Its copper-chelating form and wound-healing properties were characterized through decades of research from the 1970s-2000s.</p>",
-      "incompatibilities": "Incompatible with high-concentration ascorbic acid (>10%) — copper reduction destroys peptide complex",
+      "incompatibilities": [
+        "Never combine with direct acids (AHAs, BHAs) or vitamin C (L-ascorbic acid) in the same step — acid degrades copper complex",
+        "PM use only",
+        "Alternate nights with retinol — both drive cell turnover; combined use can over-stimulate and irritate"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5527,7 +5926,10 @@
       "professionalAnalogy": "Bifida ferment lysate provides postbiotic immunomodulatory activity through TLR-2/6 signaling normalization, shifting keratinocyte immune response from Th2 (allergic/reactive) toward Th1 (tolerogenic) — addressing the dysbiotic immune pattern that underlies atopic and sensitive skin conditions.",
       "transparencyStatement": "<p>We use pharmaceutical-grade Bifida Ferment Lysate from controlled fermentation. Vegan and cruelty-free. All bacterial strains are human-commensal — no environmental collection. Lot-to-lot consistency verified.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid at very low pH (below 3.5)",
+        "Generally well-tolerated and compatible with barrier-repair and anti-aging actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5573,7 +5975,10 @@
       "professionalAnalogy": "Galactomyces Ferment Filtrate provides multi-mechanism skin refinement: AHA-mediated cell turnover (from fermentation-produced lactic acid), B vitamin-supported metabolic skin function, and enzymatic desquamation assistance — clinical evidence supporting improvement in TEWL, texture, and luminosity in 4-8 week trials.",
       "transparencyStatement": "<p>We use cosmetic-grade Galactomyces Ferment Filtrate from controlled fermentation facilities. Vegan — produced without animal-derived fermentation media. Purity and B vitamin content verified by HPLC.</p>",
       "historicalUseNotes": "<p>Sake brewery workers in Japan were observed to have exceptionally young hands — this observation led to the discovery of Galactomyces ferment's skin properties in the 1970s, eventually commercialized as SK-II Pitera in the 1980s. One of the most influential discoveries in modern cosmetic dermatology.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid at very low pH (below 3.5) — galactomyces ferment actives degrade",
+        "Generally compatible with brightening and anti-aging formulas"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5621,7 +6026,11 @@
       "professionalAnalogy": "Phenoxyethanol at 0.5-1% provides bacteriostatic and fungistatic activity through cell membrane disruption, meeting EU and Health Canada cosmetic preservation efficacy standards (ISO 11930 challenge test). Synergistic use with caprylyl glycol reduces required concentration and sensitization risk.",
       "transparencyStatement": "<p>We use pharmaceutical-grade phenoxyethanol at the minimum effective concentration (0.5-0.75%). We test all formulas to ISO 11930 microbial challenge standards before release. We are transparent: this is a synthetic preservative, but it keeps products safe and prevents microbial contamination that would cause real skin harm.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "Avoid in products specifically for infants and around the diaper area per EU recommendations",
+      "incompatibilities": [
+        "Avoid at concentrations above 1% in leave-on products (EU Cosmetics Regulation limit)",
+        "Avoid in products for infants under 3 (French ANSM guidance)",
+        "Generally very compatible — broad-spectrum preservative, no pH restriction"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5667,7 +6076,11 @@
       "professionalAnalogy": "Xanthan gum's high molecular weight polysaccharide network provides pseudoplastic (shear-thinning) rheology modification with excellent phase stability for oil-in-water emulsions — the gold standard natural alternative to synthetic acrylate-based carbomers.",
       "transparencyStatement": "<p>We use certified organic xanthan gum from non-GMO corn fermentation. Produced using renewable agricultural inputs. Fully biodegradable. Certified vegan and gluten-free.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid combining with cationic polymers (e.g., cationic guar) — forms precipitate",
+        "Performance affected by very high salt concentrations",
+        "Generally very compatible with most cosmetic actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -5713,7 +6126,11 @@
       "professionalAnalogy": "Apricot kernel oil's oleic/linoleic ratio provides a balance of skin penetration and barrier reinforcement comparable to almond oil, with equivalent vitamin A and E content for antioxidant support.",
       "transparencyStatement": "<p>We source organic apricot kernel oil from Turkish cooperatives. Cold-pressed from dried apricot industry kernels — zero additional agricultural footprint. No chemical solvents.</p>",
       "historicalUseNotes": "<p>Traded along Silk Road routes for centuries. Traditional use in Central Asian and Middle Eastern skin and hair care documented for over 1,000 years.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
@@ -5764,7 +6181,9 @@
       "professionalAnalogy": "Sweet almond oil's oleic-dominant fatty acid profile provides effective emolliency with documented eczema improvement in randomized trials. High tocopherol content (25-40 mg/100g) provides meaningful antioxidant capacity in both topical and formulated applications.",
       "transparencyStatement": "<p>We source certified organic sweet almond oil from Spanish and Californian orchards. Cold-pressed only. Nut allergen note: almond oil from sweet almonds has very low allergenic protein content after cold-pressing, but we advise caution for those with tree nut allergies.</p>",
       "historicalUseNotes": "<p>Used in Ayurvedic medicine for over 3,000 years for skin nourishment, massage, and hair care. Mediterranean civilizations documented almond oil use for skin conditions since ancient Greece.</p>",
-      "incompatibilities": "Tree nut allergy consideration — not recommended for confirmed tree nut allergy sufferers",
+      "incompatibilities": [
+        "Tree nut allergy consideration — not recommended for confirmed tree nut allergy sufferers"
+      ],
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
@@ -5814,7 +6233,9 @@
       "professionalAnalogy": "Pumpkin seed oil's native zinc content provides topical 5-alpha reductase inhibition while its high linoleic fraction corrects the pathological linoleic deficiency in comedogenic sebum — addressing two distinct acne-promoting mechanisms in a single oil.",
       "transparencyStatement": "<p>We source organic pumpkin seed oil from Canadian growers as a byproduct of agricultural processing. Cold-pressed only. High zinc content verified by ICP-OES analysis.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "Oxidizes at moderate rate — nitrogen packaging recommended",
+      "incompatibilities": [
+        "Oxidizes at moderate rate — nitrogen packaging recommended"
+      ],
       "canadianRelevance": "<p>Ontario and Quebec grow significant squash and pumpkin crops — Canadian pumpkin seed oil supports local agricultural byproduct utilization.</p>",
       "coldPressed": true,
       "raw": true,
@@ -5863,7 +6284,11 @@
       "professionalAnalogy": "Watermelon seed oil's comedogenicity rating of 0-1 combined with its high linoleic fraction (55-65%) provides pore-dissolving emolliency — linoleic acid's amphiphilic properties allow sebum plug solubilization without comedogenic occlusion.",
       "transparencyStatement": "<p>We source watermelon seed oil from certified organic agricultural processing in West Africa. Seeds are a byproduct of watermelon food processing — zero new agricultural footprint.</p>",
       "historicalUseNotes": "<p>Used by North African desert communities for centuries as a skin and hair oil. Kalahari San peoples have used wild-harvested Citrullus lanatus for skin protection against extreme desert conditions for millennia.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Keep below 40°C during formulation — heat degrades fatty acid profile",
+        "Requires antioxidant stabilization (Tocopherol) if high in polyunsaturated fatty acids",
+        "May be comedogenic at high concentrations for acne-prone skin — assess fatty acid profile"
+      ],
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
@@ -5912,7 +6337,11 @@
       "professionalAnalogy": "Cloudberry seed oil's near-equal omega-3/6/9 profile is unique among cosmetic oils, providing comprehensive fatty acid replenishment across all three lipid classes simultaneously — particularly valuable for aging skin where all three omega classes are typically deficient.",
       "transparencyStatement": "<p>We wild-harvest cloudberry from Indigenous-led sustainable harvest programs in northern Quebec. This ingredient cannot be farmed — 100% of production comes from sustainable wild harvest in pristine boreal and tundra environments. Direct payment to Indigenous harvesters above market rate.</p>",
       "historicalUseNotes": "<p>Indigenous peoples of northern Canada have consumed and used cloudberries topically for centuries — for wound healing, as a vitamin C source during long winters, and as a skin conditioner. The berries are sacred in many northern Indigenous food traditions.</p>",
-      "incompatibilities": "Oxidizes quickly — nitrogen-flush packaging essential",
+      "incompatibilities": [
+        "Short shelf life — high omega-3 (alpha-linolenic acid) content is highly prone to oxidation",
+        "Requires Tocopherol or mixed tocopherol antioxidant stabilization",
+        "Cold-chain storage preferred"
+      ],
       "canadianRelevance": "<p>One of Canada's most unique indigenous botanical oils — exclusively from the Canadian north and Scandinavian arctic. A defining ingredient in any 'truly Canadian' luxury skincare line.</p>",
       "coldPressed": true,
       "raw": true,
@@ -5962,7 +6391,10 @@
       "professionalAnalogy": "Ledum groenlandicum extract provides flavonoid-mediated dual COX/LOX inhibition alongside ledol antimicrobial activity — a uniquely Canadian adaptogenic anti-inflammatory complex adapted to extreme environmental stressors.",
       "transparencyStatement": "<p>We wild-harvest Labrador tea under Indigenous-guided sustainable protocols in northern Ontario and Quebec. Population monitoring ensures no overharvest. Direct community payment to Indigenous harvesters. This ingredient is not farmed — all production is from managed wild populations.</p>",
       "historicalUseNotes": "<p>Used by Cree, Ojibwe, Inuit, and other First Nations peoples for centuries as a medicinal tea for colds, inflammation, and pain. European fur traders documented its use for respiratory conditions in the 1700s.</p>",
-      "incompatibilities": "External use only — ledol is toxic at high oral doses",
+      "incompatibilities": [
+        "Ledol and other sesquiterpene content — avoid high concentrations in leave-on products on very sensitive skin",
+        "Generally safe and compatible at cosmetic use concentrations (1–3%)"
+      ],
       "canadianRelevance": "<p>Labrador tea is exclusively Canadian in its primary range. An extraordinary opportunity for 'made in Canada' botanical differentiation that no other country can replicate.</p>",
       "coldPressed": false,
       "raw": false,
@@ -6014,7 +6446,11 @@
       "professionalAnalogy": "Salix alba bark extract provides pro-drug salicin that undergoes enzymatic beta-glucosidase-mediated conversion to salicylic acid at the skin surface — achieving BHA pore exfoliation with reduced immediate irritation compared to synthetic salicylic acid due to the rate-limited conversion step.",
       "transparencyStatement": "<p>We use certified organic willow bark extract from sustainably managed European sources. Aqueous extraction. Salicin content standardized and verified.</p>",
       "historicalUseNotes": "<p>Willow bark has been used medicinally since ancient Egypt and Sumeria for pain and inflammation. Hippocrates documented its use for fever and pain in 400 BCE. Aspirin was synthesized from willow's salicin in 1897 by Felix Hoffmann at Bayer.</p>",
-      "incompatibilities": "Aspirin allergy contraindication — salicin converts to salicylate; caution for aspirin-sensitive individuals",
+      "incompatibilities": [
+        "Do not layer with retinoids simultaneously — natural BHA activity compounds with retinoid-driven cell turnover",
+        "Avoid stacking with synthetic AHAs at high concentrations — compounded exfoliant load",
+        "Separate from vitamin C (L-ascorbic acid) in same step — pH conflict"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -6067,7 +6503,10 @@
       "professionalAnalogy": "Gluconolactone's large molecular weight restricts its penetration to the outermost stratum corneum layers — providing clinically validated exfoliation and barrier improvement (TEWL reduction) with demonstrated tolerability in rosacea and sensitive skin populations where conventional AHAs are contraindicated.",
       "transparencyStatement": "<p>We use pharmaceutical-grade gluconolactone from verified fermentation production. Tested for purity and absence of AHA contamination. Safe for daily use at therapeutic concentrations.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid combining with very high-concentration AHAs or BHAs at full therapeutic doses — additive acid burden even though PHAs are gentler",
+        "Separate from retinoids by routine if using at >5%"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -6113,7 +6552,10 @@
       "professionalAnalogy": "Glyceryl stearate SE (HLB ~5.5 with PEG-100 Stearate) or non-SE grade (HLB ~3.8) provides non-ionic emulsification for O/W systems with concurrent skin-conditioning activity — a preferred natural-origin emulsifier system for clean beauty formulation.",
       "transparencyStatement": "<p>We use RSPO-certified (no-deforestation) palm-derived or sunflower/rapeseed-derived glyceryl stearate. Biodegradable and vegan-certified. We specify palm-free options where sunflower-derived is available.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Self-emulsifying grade (SE) contains soap — avoid in formulas where soap traces are problematic",
+        "Generally very compatible — standard emulsifying ingredient"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -6159,7 +6601,10 @@
       "professionalAnalogy": "Sodium levulinate functions as a natural-origin preservation booster through membrane-disrupting organic acid activity, achieving ISO 11930 criteria in combination systems with sodium anisate and caprylyl glycol — the leading natural preservation system for pH 4.5-5.5 formulas.",
       "transparencyStatement": "<p>We use sodium levulinate derived from certified sustainable agricultural biomass fermentation. COSMOS-compliant natural preservative. Biodegradable.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "Activity drops significantly above pH 5.5 — not suitable for alkaline formulas",
+      "incompatibilities": [
+        "Most effective at pH 4–6; reduced efficacy above pH 6.5",
+        "Mild preservative — typically used in combination with other preservatives for full broad-spectrum coverage"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -6205,7 +6650,10 @@
       "professionalAnalogy": "Maracuja oil's linoleic dominance (65-70%) corrects the pathological oleic:linoleic imbalance in combination skin sebum, reducing comedogenic potential while carotenoid antioxidants provide photoprotective co-factor activity.",
       "transparencyStatement": "<p>We source organic maracuja oil from Brazilian cooperative farms. Cold-pressed from seeds recovered from juice production — agricultural byproduct utilization. No deforestation.</p>",
       "historicalUseNotes": "<p>Indigenous Amazonian peoples have used passion fruit and its seeds medicinally for centuries. The oil has been a traditional skin care ingredient in Brazilian folk medicine.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "High linoleic content — short shelf life; requires antioxidant stabilization",
+        "Keep below 40°C"
+      ],
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
@@ -6254,7 +6702,11 @@
       "professionalAnalogy": "Sacha inchi oil's ALA content (45-55%) provides the highest topical omega-3 delivery of any botanical oil, supporting EPA-mediated resolvin/protectin synthesis in skin for active inflammation resolution rather than passive suppression.",
       "transparencyStatement": "<p>We source certified organic sacha inchi oil from Peruvian Indigenous cooperative farms. Cold-pressed. Refrigerated supply chain to preserve ALA integrity. Peroxide value tested at receipt — any oil exceeding 5 mEq/kg rejected.</p>",
       "historicalUseNotes": "<p>Incan civilization used sacha inchi seeds as a food and medicinal oil for centuries. Peruvian traditional medicine documents its use for inflammatory skin conditions and wounds.</p>",
-      "incompatibilities": "Very susceptible to oxidation — nitrogen packaging and cold chain mandatory",
+      "incompatibilities": [
+        "Very high omega-3 content — extremely short shelf life; highly prone to oxidation",
+        "Requires strong antioxidant stabilization; store refrigerated",
+        "Do not heat above 35°C"
+      ],
       "canadianRelevance": "",
       "coldPressed": true,
       "raw": true,
@@ -6304,7 +6756,10 @@
       "professionalAnalogy": "Broccoli seed oil's erucic acid (C22:1) content creates a high-viscosity surface film with rheological properties similar to cyclopentasiloxane — providing natural silicone-equivalent slip and heat protection while sulforaphane precursors (glucoraphanin) activate dermal Nrf2 antioxidant responses.",
       "transparencyStatement": "<p>We source certified organic broccoli seed oil from Canadian and Italian farms. Cold-pressed from vegetable seed industry byproduct — zero new agricultural footprint. The natural, biodegradable silicone alternative.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally stable — erucic acid-rich profile resists oxidation better than high-PUFA oils",
+        "Avoid at high concentrations for acne-prone skin"
+      ],
       "canadianRelevance": "<p>British Columbia and Ontario broccoli farms provide high-quality organic broccoli seed oil — a true Canadian ingredient option for clean beauty formulations.</p>",
       "coldPressed": true,
       "raw": true,
@@ -6350,7 +6805,10 @@
       "professionalAnalogy": "Ashwagandha withanolides provide topical anti-glycation activity alongside HPA axis cortisol modulation — addressing the stress-cortisol-collagenase cascade that drives chronic stress-induced skin aging and barrier impairment.",
       "transparencyStatement": "<p>We use standardized ashwagandha extract from certified organic farms in Madhya Pradesh, India. Withanolide content standardized and verified. Traditional fair-trade supply chain with community benefit programs.</p>",
       "historicalUseNotes": "<p>One of the most important herbs in Ayurvedic medicine for over 3,000 years — called 'the king of Ayurveda' for its broad range of applications. Used for stress, vitality, strength, and skin health.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid at very high concentrations in formulas for acne-prone skin — adaptogen withanolides may slightly stimulate oil activity in some individuals",
+        "Generally very compatible — anti-inflammatory and adaptogenic botanical"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -6400,7 +6858,11 @@
       "professionalAnalogy": "Sambucus nigra anthocyanins provide some of the highest per-molecule ORAC values among cosmetic botanical actives, combined with documented tyrosinase inhibition and dual COX/LOX anti-inflammatory activity via quercetin and rutin — a comprehensive antioxidant/brightening complex.",
       "transparencyStatement": "<p>We source wild-harvested elderberry extract from certified sustainable operations in Ontario and Quebec, supporting Indigenous and rural community harvesters. Aqueous extraction without solvents.</p>",
       "historicalUseNotes": "<p>Elderberry has been a cornerstone of European and Indigenous North American folk medicine for centuries. Used for skin conditions, immune support, and 'the flower of all medicines' in European herbal traditions. Hippocrates called elderberry his 'medicine chest.'</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "<p>Wild Canadian elderberry grows abundantly across southern Ontario and Quebec — supporting local wild-harvest economies and bringing a Canadian botanical story to every formula.</p>",
       "coldPressed": false,
       "raw": false,
@@ -6453,7 +6915,11 @@
       "professionalAnalogy": "Pomegranate ellagitannins provide MMP-1 inhibition, tyrosinase inhibition, and urolithin-mediated phytoestrogen receptor agonism — making it uniquely positioned for peri- and post-menopausal skin formulations where declining estrogen drives collagen and barrier function deterioration.",
       "transparencyStatement": "<p>We source certified organic pomegranate extract from Iranian cooperative farms. Polyphenol content standardized and verified by HPLC. Traditional fair trade supply chain.</p>",
       "historicalUseNotes": "<p>Pomegranate is one of the oldest cultivated fruits — documented in ancient Egyptian, Persian, and Greek civilizations for skin, hair, and medicinal uses for over 5,000 years. The fruit appears in ancient Egyptian tomb paintings as a symbol of beauty and fertility.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -6505,7 +6971,11 @@
       "professionalAnalogy": "Silymarin's Nrf2-activating mechanism provides 'antioxidant amplification' by upregulating endogenous GPx, SOD, and catalase expression — a fundamentally different and synergistic approach to antioxidant protection compared to direct ROS-scavenging actives.",
       "transparencyStatement": "<p>We use standardized milk thistle extract (70-80% silymarin) from certified organic farms. Silymarin content verified by HPLC. Growing increasingly in southern Ontario — working toward Canadian-sourced supply.</p>",
       "historicalUseNotes": "<p>Milk thistle has been used medicinally for over 2,000 years — Pliny the Elder documented its liver-protective uses in 50 CE. Used in European folk medicine for skin conditions, liver support, and detoxification for centuries.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "<p>Milk thistle has naturalized widely in southern Canada — Canadian-sourced milk thistle extract is increasingly viable as the plant's range expands.</p>",
       "coldPressed": false,
       "raw": false,
@@ -6555,7 +7025,11 @@
       "professionalAnalogy": "Echinacea purpurea alkylamides provide CB2 receptor-mediated immunomodulation in skin, shifting the immune response toward resolution while echinacosides provide documented wound-healing and collagen-stimulating activity.",
       "transparencyStatement": "<p>We source certified organic echinacea from family farms in Ontario. Canadian prairie provenance. Traditional Indigenous uses honored through community benefit programs with Prairie First Nations.</p>",
       "historicalUseNotes": "<p>One of the most important medicinal plants used by North American Indigenous peoples — Lakota, Crow, and Cheyenne used echinacea for wounds, snakebites, toothaches, and infections. First documented by European botanists in the 1700s.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "<p>Echinacea is native to the Canadian prairies — supporting Canadian prairie agriculture and honoring Indigenous plant knowledge traditions.</p>",
       "coldPressed": false,
       "raw": false,
@@ -6608,7 +7082,11 @@
       "professionalAnalogy": "Lepidium meyenii macamides provide mitochondrial ATP synthesis enhancement in skin cells alongside glucosinolate-mediated antioxidant protection — supporting cellular energy availability for repair processes and providing adapted UV resistance mechanisms evolved in the highest UV environment on earth.",
       "transparencyStatement": "<p>We source certified organic Peruvian maca root extract from fair-trade cooperatives in the Junín plateau. Authentic altitude-grown material only — no lower-altitude substitution. Supporting Andean Indigenous community livelihoods.</p>",
       "historicalUseNotes": "<p>Maca has been cultivated in Peru for over 3,000 years. Incan warriors ate maca before battle for energy and endurance. Traditional use for fertility, strength, and skin vitality is documented in pre-Columbian records.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -6658,7 +7136,11 @@
       "professionalAnalogy": "Schisandra chinensis schisandrins provide hepatoprotective Nrf2 activation and glutathione S-transferase induction with direct topical antioxidant activity — supporting the endogenous detoxification capacity that underlies skin clarity and luminosity.",
       "transparencyStatement": "<p>We source premium certified organic schisandra extract from Northern China under traditional wild-managed harvest protocols. Schisandrin content standardized and verified. Traditional TCM supply chain with community benefit programs.</p>",
       "historicalUseNotes": "<p>One of the 50 fundamental herbs of TCM — documented for over 2,000 years as a tonic for skin radiance, vitality, and longevity. 'The herb of beauty' in Chinese traditional medicine.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -6709,7 +7191,11 @@
       "professionalAnalogy": "Reishi's ganoderic acid triterpenoids provide multi-pathway anti-inflammatory activity (histamine inhibition, cytokine suppression) while beta-glucans deliver Dectin-1 immunomodulation — a uniquely comprehensive adaptogenic active for stress-skin and inflammatory aging.",
       "transparencyStatement": "<p>We use sustainably cultivated reishi from certified organic mushroom farms in China. Dual water/ethanol extraction for complete bioactive capture. Vegan and cruelty-free.</p>",
       "historicalUseNotes": "<p>Called 'lingzhi' in China — used by Taoist practitioners for over 4,000 years for longevity and spiritual clarity. Used by Japanese emperors as the ultimate health tonic.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -6761,7 +7247,11 @@
       "professionalAnalogy": "Snap-8's SNARE complex competitive inhibition at the SNAP-25 binding site provides partial, reversible reduction of acetylcholine vesicle release efficiency — translating to clinically documented 63% expression wrinkle depth reduction with 28-day twice-daily application in randomized trials.",
       "transparencyStatement": "<p>We use pharmaceutical-grade Acetyl Octapeptide-3 at clinically validated concentrations. HPLC purity verified. Produced in Europe under pharmaceutical synthesis standards.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid highly acidic formulas (pH below 3.5)",
+        "Do not combine with oxidizing agents (benzoyl peroxide, high-concentration peroxides)",
+        "Compatible with niacinamide, hyaluronic acid, ceramides"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -6807,7 +7297,10 @@
       "professionalAnalogy": "Tripeptide-29 (Gly-Pro-Hyp) provides direct substrate supply of the collagen triple helix repeating unit — complementing signal peptide mechanisms by eliminating substrate rate limitation in fibroblast collagen synthesis.",
       "transparencyStatement": "<p>We use pharmaceutical-grade Tripeptide-29 at therapeutically relevant concentrations. HPLC verified. European synthesis.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid very low pH formulas — peptide stability",
+        "Compatible with most actives at pH 4.5–7"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -6853,7 +7346,11 @@
       "professionalAnalogy": "<p>We use non-nano zinc oxide verified at >100nm particle size. COSMOS-certified mineral UV filter. No nanoparticle risk. Reef-safe formulation grade.</p>",
       "transparencyStatement": "<p>Zinc oxide has been used as a topical healing and protective agent since ancient Egypt. Calamine lotion (zinc oxide + ferric oxide) has been used for skin conditions for over 200 years.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid combining with salicylic acid in high concentrations — salt formation can alter formula texture and reduce both actives' efficacy",
+        "Do not formulate at very low pH — zinc oxide is alkaline-stable; very acidic environment reduces its UV-filtering performance",
+        "Incompatible with strong acid-based active delivery systems (pH below 4)"
+      ],
       "coldPressed": false,
       "raw": false,
       "sacredBiblical": false,
@@ -6898,7 +7395,10 @@
       "professionalAnalogy": "<p>We use pharmaceutical-grade sodium PCA from verified fermentation-derived glutamic acid. Chemically identical to endogenous NMF component.</p>",
       "transparencyStatement": "",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid very high alcohol concentrations in same formula",
+        "Generally very compatible — natural moisturizing factor component"
+      ],
       "coldPressed": false,
       "raw": false,
       "sacredBiblical": false,
@@ -6943,7 +7443,10 @@
       "professionalAnalogy": "<p>We use certified organic chicory-derived inulin from European farms. Non-GMO. COSMOS-approved natural ingredient.</p>",
       "transparencyStatement": "",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid very high temperature processing — degrades prebiotic structure",
+        "Generally very compatible — prebiotic with low reactivity"
+      ],
       "coldPressed": false,
       "raw": false,
       "sacredBiblical": false,
@@ -6997,7 +7500,12 @@
         "Greek/Roman",
         "traditional cultures globally"
       ],
-      "yhwhBeloved": false
+      "yhwhBeloved": false,
+      "incompatibilities": [
+        "NOT vegan — bovine colostrum is an animal-derived ingredient; exclude from vegan formulations",
+        "Avoid at very low pH — growth factors and immunoglobulins denature at extreme acidity",
+        "Keep below 40°C during formulation — heat-sensitive bioactives"
+      ]
     },
     {
       "slug": "cetearyl-alcohol",
@@ -7036,7 +7544,10 @@
       "professionalAnalogy": "<p>We use palm-free cetearyl alcohol derived from certified organic coconut or rapeseed. COSMOS-compliant natural-origin ingredient. Biodegradable.</p>",
       "transparencyStatement": "",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid in formulas labeled as strictly alcohol-free (fatty alcohols are technically alcohols)",
+        "Generally very compatible — acts as emollient and emulsion stabilizer"
+      ],
       "coldPressed": false,
       "raw": false,
       "sacredBiblical": false,
@@ -7085,7 +7596,11 @@
       "sacredBiblical": false,
       "sacredAncient": false,
       "sacredTraditions": [],
-      "yhwhBeloved": false
+      "yhwhBeloved": false,
+      "incompatibilities": [
+        "Avoid combining with cationic surfactants at high concentrations — can cause precipitation",
+        "Generally very compatible — natural cellulose-derived thickener"
+      ]
     },
     {
       "slug": "citric-acid",
@@ -7128,7 +7643,12 @@
       "sacredBiblical": false,
       "sacredAncient": false,
       "sacredTraditions": [],
-      "yhwhBeloved": false
+      "yhwhBeloved": false,
+      "incompatibilities": [
+        "pH adjuster primarily — at high concentrations it becomes a mild AHA exfoliant",
+        "At concentrations above 5% as active, separate from retinoids as you would any AHA",
+        "Avoid at very high concentrations near eyes"
+      ]
     },
     {
       "slug": "blackcurrant-seed-oil",
@@ -7167,7 +7687,10 @@
       "professionalAnalogy": "Blackcurrant seed oil's SDA (stearidonic acid, C18:4) provides delta-6-desaturase-bypass EPA precursor activity — combining with GLA for dual-pathway anti-inflammatory fatty acid delivery superior to oils containing only GLA or ALA alone.",
       "transparencyStatement": "<p>We source certified organic blackcurrant seed oil from BC Canadian farms. Cold-pressed. Refrigerated supply chain.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "Oxidizes rapidly — nitrogen packaging essential",
+      "incompatibilities": [
+        "Short shelf life — high GLA and stearidonic acid content oxidizes rapidly",
+        "Requires antioxidant stabilization; refrigerate after opening"
+      ],
       "canadianRelevance": "<p>British Columbia produces significant blackcurrant crops — Canadian blackcurrant seed oil supports local agricultural byproduct utilization.</p>",
       "coldPressed": true,
       "raw": true,
@@ -7216,7 +7739,9 @@
       "professionalAnalogy": "Sea buckthorn CO2 extract provides the most complete carotenoid spectrum in cosmetics alongside omega-7 (palmitoleic) acid — whose structural similarity to surface skin lipids enables exceptional stratum corneum integration and wound-healing acceleration.",
       "transparencyStatement": "<p>We source sea buckthorn from sustainable wild-harvest and cultivated programs in Saskatchewan. CO2 supercritical extraction preserves full bioactive spectrum without heat or solvents.</p>",
       "historicalUseNotes": "<p>Used in Tibetan, Mongolian, and Chinese medicine for over 1,000 years. Sea buckthorn oil was used by Soviet cosmonauts to prevent radiation damage during space missions.</p>",
-      "incompatibilities": "Intense orange-red pigment — use at <0.5% to avoid formula discoloration",
+      "incompatibilities": [
+        "Intense orange-red pigment — use at <0.5% to avoid formula discoloration"
+      ],
       "canadianRelevance": "<p>Saskatchewan is establishing itself as North America's sea buckthorn center — Canadian prairie-grown sea buckthorn is a genuine point of domestic botanical differentiation.</p>",
       "coldPressed": false,
       "raw": false,
@@ -7262,7 +7787,11 @@
       "professionalAnalogy": "Ylang ylang essential oil's linalool content provides cortisol-mediated skin calming through olfactory HPA axis modulation alongside topical anti-inflammatory activity — a rare ingredient that works through both psychological and physiological skin pathways.",
       "transparencyStatement": "<p>We use extra-grade ylang ylang from Comoros Island organic farms. IFRA compliant concentrations. Sensitization risk disclosed — patch test recommended for sensitive skin users.</p>",
       "historicalUseNotes": "<p>Used in Indonesia and the Philippines for centuries in hair oils and as a bridal garland. The Comoros Islands economy has depended on ylang ylang cultivation for over 150 years.</p>",
-      "incompatibilities": "Potential sensitizer at >1% — IFRA limits must be respected; patch test for sensitive skin",
+      "incompatibilities": [
+        "Known fragrance allergen — avoid on sensitive, reactive, or allergy-prone skin",
+        "Do not exceed 0.8% in rinse-off and leave-on products (IFRA/RIFM limit)",
+        "Avoid combining with other sensitizing fragrance components where cumulative dose approaches regulatory limits"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7312,7 +7841,12 @@
       "professionalAnalogy": "Neroli oil's trans-nerolidol fraction provides documented cytophylactic activity — stimulating epidermal cell renewal — alongside antiseptic linalool and anxiolytic olfactory cortisol modulation, making it the rare functional luxury fragrance active.",
       "transparencyStatement": "<p>We source certified organic Tunisian neroli from traditional family farms in Nabeul. The premium price reflects genuine 1,000:1 flower-to-oil yield. No adulteration — verified by GC/MS analysis.</p>",
       "historicalUseNotes": "<p>Named after Anne Marie Orsini, Princess of Nerola, who used it as a perfume in 17th century Italy. Traditional use in North African wedding cosmetics for centuries. Distilled in Grasse since the 17th century.</p>",
-      "incompatibilities": "IFRA limits apply — max 0.7% leave-on (skin sensitization); phototoxicity concern at high concentrations",
+      "incompatibilities": [
+        "Do not apply before UV/sun exposure — furocoumarin compounds cause phototoxic burns (severe photosensitization)",
+        "PM use only in leave-on formulas, or use only if followed by high SPF",
+        "Known fragrance allergen — avoid on sensitive or reactive skin",
+        "IFRA-regulated; do not exceed recommended use level for the product category"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7363,7 +7897,11 @@
       "professionalAnalogy": "Alpha lipoic acid's amphiphilic structure provides universal cellular antioxidant coverage (both aqueous and lipid phase) alongside documented anti-glycation activity via aldose reductase inhibition and AGE formation suppression — a uniquely comprehensive oxidative stress management active.",
       "transparencyStatement": "<p>We use pharmaceutical-grade R-alpha lipoic acid (the naturally occurring enantiomer, more active than racemic ALA). HPLC purity verified. Dark glass packaging to prevent oxidation.</p>",
       "historicalUseNotes": "<p>Alpha lipoic acid was first isolated in 1951 by biochemists Reed and De Busk. Its role as a mitochondrial coenzyme was established in the 1960s. Cosmetic applications emerged in the 1990s through the research of Dr. Lester Packer at UC Berkeley.</p>",
-      "incompatibilities": "Light and air sensitive — nitrogen-flush dark packaging essential",
+      "incompatibilities": [
+        "Avoid in formulas with high-concentration metal ions — chelation can alter formula stability",
+        "Sensitive to oxidation — requires antioxidant-friendly formula environment (stable packaging, vitamin E co-formulation)",
+        "Some reports of irritation when combined with direct acids at therapeutic concentrations — separate by routine if using both"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7409,7 +7947,10 @@
       "professionalAnalogy": "Ellagic acid provides dual-mechanism melanogenesis control: competitive tyrosinase inhibition combined with MITF transcriptional suppression post-UV — addressing both enzyme activity and the upstream signaling cascade that drives post-inflammatory and UV-induced hyperpigmentation.",
       "transparencyStatement": "<p>We use pomegranate-derived ellagic acid from certified organic pomegranate processing waste streams. HPLC purity standardized. Supports zero-waste agricultural processing.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid formulating in pH above 7 — degradation at alkaline pH",
+        "Generally compatible with most brightening and antioxidant actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7455,7 +7996,11 @@
       "professionalAnalogy": "Sclareol's selective estrogen receptor modulation in dermal fibroblasts provides collagen-supportive and barrier-maintaining activity targeted to the estrogen-withdrawal mechanisms of menopausal skin — alongside anti-seborrheic androgen pathway modulation for hormonal acne.",
       "transparencyStatement": "<p>We use certified organic Provençal clary sage extract. CO2 or aqueous extraction to preserve sclareol integrity. Traditional fair trade supply chain.</p>",
       "historicalUseNotes": "<p>Used in European herbal medicine for centuries for women's conditions — 'clear eye' (clary) and hormonal balance. Traditional use for menopausal symptoms and skin conditions well documented.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7505,7 +8050,11 @@
       "professionalAnalogy": "MAP provides phosphatase-mediated intracellular vitamin C delivery with stability across pH 5.5-8 — eliminating the pH restriction (pH <3.5), oxidation instability, and sensitization concerns of L-ascorbic acid while maintaining clinically comparable collagen stimulation and brightening efficacy.",
       "transparencyStatement": "<p>We use pharmaceutical-grade MAP from Japanese synthesis facilities. HPLC purity verified. Water-stable form that maintains potency from batch to consumer use.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Separate from copper peptides by routine — ascorbic acid family can chelate copper",
+        "Avoid combining with benzoyl peroxide — oxidation",
+        "More pH-stable than L-ascorbic acid but still avoid strong alkaline ingredients"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7551,7 +8100,9 @@
       "professionalAnalogy": "Niacinamide's multi-pathway activity — melanosome transfer inhibition (brightening), ceramide/fatty acid synthesis upregulation (barrier), sebocyte normalization (sebum control), and PGE2/TSLP suppression (anti-inflammatory) — makes it arguably the broadest-acting single cosmetic active validated by peer-reviewed clinical evidence.",
       "transparencyStatement": "<p>We use pharmaceutical-grade fermentation-derived niacinamide. Water-stable, pH-stable active used at clinically validated concentrations. Thoroughly tested for compatibility with all formulas.</p>",
       "historicalUseNotes": "<p>Niacinamide deficiency causes pellagra — a disease of skin, gut, and brain. The connection between vitamin B3 and skin health has been recognized since niacin's discovery in the 1930s. Cosmetic application developed from 1990s onwards as clinical studies accumulated.</p>",
-      "incompatibilities": "High doses of ascorbic acid (>20%) may convert niacinamide to nicotinic acid — use in separate steps for vitamin C + niacinamide combination",
+      "incompatibilities": [
+        "High doses of ascorbic acid (>20%) may convert niacinamide to nicotinic acid — use in separate steps for vitamin C + niacinamide combination"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7597,7 +8148,10 @@
       "professionalAnalogy": "Vitamin K2 activates MGP (Matrix Gla Protein) carboxylation to inhibit soft tissue calcification of elastin fibers while its coagulation-support activity addresses periorbital capillary leakage — providing mechanistically unique anti-aging and dark circle reduction activity.",
       "transparencyStatement": "<p>We use natto fermentation-derived MK-7 vitamin K2. Vegan-certified fermentation process. HPLC purity verified. Fat-soluble — formulated in appropriate lipid carrier for bioavailability.</p>",
       "historicalUseNotes": "<p>Vitamin K was first described by Danish biochemist Henrik Dam in 1929 (K from 'Koagulation'). The distinct K2 isomer and its skin benefits were characterized through the 1990s-2000s.</p>",
-      "incompatibilities": "Anticoagulant medication users should consult physician — topical absorption is low but documented",
+      "incompatibilities": [
+        "Avoid formulas with strong oxidizing agents — vitamin K2 can be oxidized",
+        "Generally very compatible — used in combination with vitamin C and retinoids for anti-aging"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7643,7 +8197,10 @@
       "professionalAnalogy": "Lactobionic acid's high molecular weight (358 g/mol) limits exfoliative activity to the outermost stratum corneum layers while its polyhydroxy structure provides concurrent humectancy — validated in randomized studies as safe and effective for rosacea patients and other skin types that cannot tolerate conventional AHAs or BHAs.",
       "transparencyStatement": "<p>We use pharmaceutical-grade lactobionic acid from verified fermentation production. Tested for tolerability in sensitive and rosacea-affected skin. Formulated at physiological pH for optimal gentleness.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid combining with very high-concentration retinoids without barrier assessment first",
+        "Generally the gentlest exfoliant category — far fewer incompatibilities than AHAs or BHAs"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7689,7 +8246,12 @@
       "professionalAnalogy": "Bromelain's cysteine protease activity provides selective corneodesmosome proteolysis for enzymatic desquamation, operating independently of formula pH and avoiding the acid-dependent mechanism that limits AHA use in neutral to alkaline formulations.",
       "transparencyStatement": "<p>We use cosmetic-grade bromelain from pineapple stem byproduct. Agricultural waste valorization. Enzyme activity (GDU/g) verified by standardized assay. Certified vegan and organic.</p>",
       "historicalUseNotes": "<p>Pineapple has been used in South American folk medicine for wound healing and inflammation for centuries. Bromelain was first isolated from pineapple in 1891 by Venezuelan chemist Vicente Marcano.</p>",
-      "incompatibilities": "Heat-sensitive — denatured above 60°C; avoid hot water contact in use",
+      "incompatibilities": [
+        "Avoid combining with very high-concentration AHAs or BHAs — enzymatic exfoliation adds to acid-driven exfoliant load",
+        "Inactivated above 60°C — do not heat above 40°C in formulation",
+        "Do not use on broken or severely compromised skin — enzyme activity increases penetration",
+        "Avoid near eyes"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7739,7 +8301,12 @@
       "professionalAnalogy": "Papain's cysteine protease activity provides both corneodesmosome proteolysis and specific melanin-bound protein complex cleavage — contributing to both desquamation and hyperpigmentation reduction through dual substrate activity.",
       "transparencyStatement": "<p>We use cosmetic-grade papain from certified organic papaya cultivation. Enzyme activity standardized and verified. Latex allergy contraindication clearly labeled.</p>",
       "historicalUseNotes": "<p>Mesoamerican civilizations and Caribbean communities have used fresh papaya topically for skin brightening and wound healing for centuries. Traditional use for dark spots and scarring is extensively documented across Central America, India, and East Africa.</p>",
-      "incompatibilities": "Latex allergy contraindication — papain shares allergenic epitopes with natural rubber latex (Hevea brasiliensis)",
+      "incompatibilities": [
+        "Avoid combining with AHAs/BHAs at high concentrations — compounded enzymatic + acid exfoliation",
+        "Inactivated above 65°C — keep below 40°C in formulation",
+        "Avoid on broken skin",
+        "Latex allergy cross-reactivity possible for papaya-sensitive individuals"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7789,7 +8356,10 @@
       "professionalAnalogy": "PGA's polyanionic water-holding capacity (4-5x HA equivalents) combined with its hyaluronidase inhibitory activity provides a unique dual-mechanism hydration amplification — preserving endogenous HA while delivering superior exogenous humectancy.",
       "transparencyStatement": "<p>We use Japanese natto-derived polyglutamic acid from certified fermentation facilities. Vegan-certified process. Molecular weight verified by GPC analysis.</p>",
       "historicalUseNotes": "<p>Polyglutamic acid was first identified in the 1930s as a component of the protective outer layer of Bacillus anthracis spores. Its cosmetic skin hydration application was developed through Japanese natto fermentation research in the 1990s-2000s.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid very high alcohol concentrations — alcohol dehydration counteracts PGA's film-forming moisture retention",
+        "Generally excellent compatibility — one of the most stackable humectants"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7835,7 +8405,10 @@
       "professionalAnalogy": "Ceramide EG (Ceramide 1) is the structural ceramide responsible for omega-hydroxy lamellar body scaffold formation — its reduction in atopic dermatitis (up to 80%) represents a primary pathogenic mechanism, making topical replacement in physiological ceramide complex (1:1:1 ceramide:cholesterol:fatty acid) a mechanistically sound therapeutic intervention.",
       "transparencyStatement": "<p>We use plant-derived skin-identical Ceramide EG from biotransformation. Vegan-certified. Formulated in physiologically balanced ceramide complex (ceramide:cholesterol:fatty acid 1:1:1).</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "Must be formulated in physiologically balanced ratio with cholesterol and fatty acids for structural benefit",
+      "incompatibilities": [
+        "Process in lipid phase at appropriate temperature",
+        "No significant incompatibilities — skin-identical ingredient"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7881,7 +8454,11 @@
       "professionalAnalogy": "Bakuchiol's retinoid receptor agonism (RAR/RXR activation) without retinoic acid conversion provides collagen I/III/IV and fibronectin upregulation with MMP-1 suppression — demonstrating equivalent anti-wrinkle efficacy to 0.5% retinol in peer-reviewed RCT with superior tolerability and absence of photosensitivity or teratogenicity concerns.",
       "transparencyStatement": "<p>We use CO2-extracted certified organic bakuchiol from Indian farms. CO2 extraction preserves the full meroterpene complex. Clinically validated at 0.5-1%.</p>",
       "historicalUseNotes": "<p>Psoralea corylifolia (babchi) has been used in Ayurvedic medicine for over 3,000 years for skin conditions including vitiligo, psoriasis, and aging. Traditional Indian medicine documented its skin-renewing properties long before modern clinical validation.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -7930,7 +8507,10 @@
       "professionalAnalogy": "Macrocystis pyrifera ferment provides mineral bioavailability enhancement through polysaccharide hydrolysis during fermentation, combined with Lactobacillus metabolite production — delivering ocean mineral content in physiologically accessible form alongside microbiome-supportive postbiotic compounds.",
       "transparencyStatement": "<p>We source BC Pacific coast kelp from certified sustainable harvest operations. Fermented using controlled probiotic cultures. Supporting coastal BC marine economy.</p>",
       "historicalUseNotes": "<p>Coastal First Nations peoples of BC have harvested and consumed kelp for food, medicine, and skin care for thousands of years. Traditional use for skin conditions and wound healing is documented across Pacific coastal communities.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid at very low pH (below 3)",
+        "Generally compatible with most actives"
+      ],
       "canadianRelevance": "<p>BC's Pacific kelp forests are among the world's finest — Canadian coast kelp bioferment directly supports sustainable coastal marine economies and BC Indigenous communities.</p>",
       "coldPressed": false,
       "raw": false,
@@ -7980,7 +8560,10 @@
       "professionalAnalogy": "Rosa damascena extract provides multi-mechanism anti-aging activity through phenyl ethyl alcohol antimicrobial/anti-inflammatory activity, flavonoid antioxidant protection, and HPA axis cortisol modulation via olfactory pathway — a comprehensively functional luxury active that justifies its premium positioning.",
       "transparencyStatement": "<p>We use certified organic Bulgarian Rosa damascena extract from the Kazanlak Rose Valley. Flowers hand-picked at dawn by local cooperatives. True single-origin provenance documented. Supporting Bulgarian rose farming families.</p>",
       "historicalUseNotes": "<p>Rosa damascena has been cultivated for over 2,000 years. Rose water has been a luxury skincare staple since ancient Persia, Egypt, and Rome. The Rosa damascena cultivar is believed to have originated in Damascus (Syria) over 1,000 years ago.</p>",
-      "incompatibilities": "IFRA limits apply for essential oil fraction in leave-on products",
+      "incompatibilities": [
+        "Fragrance allergen (geraniol, citronellol content) — flag for sensitive skin",
+        "IFRA compliance required at higher concentrations"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -8033,7 +8616,10 @@
       "professionalAnalogy": "Curcumin's NF-κB inhibitory potency (IC50 ~7.4 μM) combined with tyrosinase inhibition, ROS scavenging, and C. acnes antibacterial activity makes turmeric CO2 extract the most comprehensively multi-mechanism anti-inflammatory/brightening botanical active supported by peer-reviewed literature.",
       "transparencyStatement": "<p>We use certified organic CO2-extracted turmeric from family farms in Andhra Pradesh, India. Curcuminoid content standardized to >95% by HPLC. Traditional Ayurvedic supply chain with community benefit programs.</p>",
       "historicalUseNotes": "<p>'Haldi' — turmeric — has been the cornerstone of Ayurvedic skin and beauty practice for over 4,000 years. Indian brides apply turmeric paste (Haldi ceremony) before their wedding for skin brightening and glow. Documented in Sanskrit texts as early as 250 BCE.</p>",
-      "incompatibilities": "Yellow-orange pigment — colors formulas; use intentionally or at <0.2%",
+      "incompatibilities": [
+        "Intense yellow color — stains; use at maximum 0.5–1% or in encapsulated form",
+        "Generally compatible with most actives at cosmetic use levels"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -8084,7 +8670,11 @@
       "professionalAnalogy": "NAG provides pro-tyrosinase glycosylation inhibition (preventing enzyme activation rather than inhibiting activated enzyme) alongside HA synthesis pathway support as a UDP-GlcNAc precursor — a mechanistically distinct brightening active with synergistic niacinamide combination potential.",
       "transparencyStatement": "<p>We use fermentation-derived vegan acetyl glucosamine — shellfish-free. Verified vegan. HPLC purity confirmed.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -8130,7 +8720,11 @@
       "professionalAnalogy": "Sea buckthorn berry oil's palmitoleic acid (C16:1, omega-7) content mirrors the fatty acid composition of human sebum — providing biomimetic stratum corneum integration alongside the highest carotenoid density of any cosmetic oil.",
       "transparencyStatement": "<p>We source Canadian prairie-grown sea buckthorn from Saskatchewan organic farms. Developing our Canadian botanical story while supporting prairie agricultural diversification.</p>",
       "historicalUseNotes": "<p>Used in Tibetan Medicine for over 1,000 years. Soviet cosmonauts used sea buckthorn oil to protect against space radiation. The berries appear in Greek mythology as the food of Pegasus.</p>",
-      "incompatibilities": "Intense orange pigment — colors formulas orange at >0.5%; plan formulation accordingly",
+      "incompatibilities": [
+        "Intense orange color — use at maximum 1–5%; will visibly tint skin and formula",
+        "High carotenoid and fatty acid content — short shelf life; requires antioxidant stabilization",
+        "Avoid in formulas where color neutrality is required"
+      ],
       "canadianRelevance": "<p>Saskatchewan is the emerging North American center for sea buckthorn cultivation — truly Canadian prairie botanical with a 1,000-year heritage story.</p>",
       "coldPressed": true,
       "raw": true,
@@ -8181,7 +8775,11 @@
       "professionalAnalogy": "Epilobium angustifolium oenothein B provides selective 5-alpha-reductase inhibition alongside potent anti-inflammatory activity — a uniquely dual-mechanism botanical active for conditions involving both androgen-driven sebaceous stimulation and inflammatory skin reaction.",
       "transparencyStatement": "<p>We wild-harvest Canadian fireweed from certified sustainable boreal forest sources in BC, Alberta, and Ontario. Indigenous-guided ethical harvest. Aqueous extraction. A uniquely Canadian botanical unavailable from any other country.</p>",
       "historicalUseNotes": "<p>Fireweed is the floral emblem of the Yukon Territory. Indigenous peoples across Canada used fireweed as food, medicine, and fiber for centuries. Traditional use for skin conditions and wound healing documented across multiple First Nations.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "<p>Fireweed is one of Canada's most emblematic native plants — wild-harvested willowherb extract is an extraordinary Canadian botanical differentiation story.</p>",
       "coldPressed": false,
       "raw": false,
@@ -8233,7 +8831,11 @@
       "professionalAnalogy": "Acetyl Tetrapeptide-5 reduces periorbital edema through dual mechanisms: anti-glycation activity reducing capillary protein cross-linking fragility, and angiopoietin/Tie2-mediated lymphatic drainage enhancement — providing documented 70% reduction in under-eye puffiness in clinical trials.",
       "transparencyStatement": "<p>We use pharmaceutical-grade Acetyl Tetrapeptide-5 at clinically validated concentrations. HPLC purity verified. European synthesis.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Avoid very low pH formulas (below 4) — peptide bond stability concern",
+        "Do not combine with benzoyl peroxide — oxidizes peptide bonds",
+        "Generally compatible with niacinamide, hyaluronic acid, ceramides, and most actives at pH 4.5–7"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -8279,7 +8881,11 @@
       "professionalAnalogy": "Phytic acid's hexaphosphate structure enables high-affinity iron and copper chelation — simultaneously preventing Fenton reaction-mediated oxidative stress and inhibiting tyrosinase copper cofactor activity for combined antioxidant and brightening efficacy at very low irritation potential.",
       "transparencyStatement": "<p>We use rice bran-derived phytic acid from certified organic Japanese rice processing. Zero-waste byproduct ingredient. Note: contains trace inositol from grain source — gluten-sensitive individuals should note grain origin.</p>",
       "historicalUseNotes": "<p>Rice bran has been used in Japanese skincare ('rice bran beauty' — komenuka bijin) for centuries. Japanese geisha and traditional beauties attributed their luminous skin partly to rice bran skin care.</p>",
-      "incompatibilities": "Grain-derived — note for grain-sensitive consumers",
+      "incompatibilities": [
+        "Avoid in formulas where zinc is the primary antimicrobial — phytic acid chelates zinc, reducing its activity",
+        "Avoid with mineral actives (zinc oxide at high %) in brightening formulas — chelation reduces efficacy",
+        "Generally compatible with brightening, AHA, and antioxidant actives"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -8328,7 +8934,11 @@
       "professionalAnalogy": "Ectoin's preferential exclusion mechanism creates a stabilizing hydration shell around biomolecules — validated in clinical studies for Langerhans cell protection under UV, anti-inflammatory efficacy comparable to hydrocortisone in SLS-challenge models, and microbiome stabilization under environmental stress.",
       "transparencyStatement": "<p>We use pharmaceutical-grade ectoin from certified fermentation production. Biotechnology ingredient — consistent, reproducible, and independent of agricultural supply chain vulnerabilities.</p>",
       "historicalUseNotes": "<p>Ectoin was first isolated from halophilic (salt-loving) bacteria in 1985 by German chemist Erwin Galinski. Its cosmetic potential was recognized in the 1990s. Today it is one of the most well-studied stress-protection actives in dermatological cosmetics.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Virtually no known incompatibilities — one of the most universally compatible cosmetic actives",
+        "Stable across pH 3–9, temperature stable, compatible with all skin types and most actives",
+        "Acts as a protective molecule around other actives — can actually enhance stability of surrounding ingredients"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -8374,7 +8984,11 @@
       "professionalAnalogy": "Sea lavender's tamarixetin and myricetin glycosides provide specific Maillard reaction inhibition — preventing AGE-mediated collagen cross-linking that drives firmness loss and sallowness in aging skin, complementing the UV-focused and oxidative-focused anti-aging mechanisms of most cosmetic actives.",
       "transparencyStatement": "<p>We source sea lavender extract from sustainable Atlantic coastal harvesters. Aqueous extraction. Marine botanical from traceable coastal ecosystem.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -8423,7 +9037,11 @@
       "professionalAnalogy": "Helichrysum italicum's italidione fraction provides documented anti-hematoma activity through accelerated enzymatic resorption of extravasated erythrocytes — a unique mechanism unavailable in any other cosmetic botanical active — alongside potent antioxidant curcumene.",
       "transparencyStatement": "<p>We use certified organic Corsican helichrysum italicum oil verified by GC/MS for authentic chemical profile. True origin verified — not adulterated with cheaper species. IFRA compliant concentrations.</p>",
       "historicalUseNotes": "<p>Called 'immortelle' — the everlasting flower — by Mediterranean peoples for its intense, lasting fragrance and remarkable healing properties. Traditional use for wound healing, bruising, and scar prevention across Mediterranean cultures for centuries.</p>",
-      "incompatibilities": "IFRA limits apply (max 0.7% leave-on); potential sensitizer at >1%",
+      "incompatibilities": [
+        "Avoid in formulas for very oily or acne-prone skin at high concentrations — aromatic oil profile",
+        "IFRA compliance review required for sensitizing compounds in some extracts",
+        "Patch test for sensitized individuals — aromatic compounds can cause contact reactions"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -8473,7 +9091,11 @@
       "professionalAnalogy": "The gluconolactone/lactobionic acid/maltobionic acid PHA complex provides complementary desquamation, humectancy, and iron chelation through three PHAs with distinct molecular weights and mechanisms — validated for efficacy in rosacea and atopic skin where conventional HAs are contraindicated.",
       "transparencyStatement": "<p>We use pharmaceutical-grade GLF PHA complex from verified fermentation production. All three components purity-verified. Safe for use in conditions where conventional acid exfoliation is contraindicated.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "coldPressed": false,
       "raw": false,
@@ -8523,7 +9145,10 @@
       "professionalAnalogy": "Nardostachys jatamansi extract provides GABA receptor-mediated anxiolytic activity alongside sesquiterpene anti-inflammatory and jatamansone-mediated cortisol suppression — addressing stress-skin aging pathways through both olfactory and topical mechanisms.",
       "transparencyStatement": "<p>We source spikenard exclusively from certified sustainable Himalayan cooperatives where harvest is strictly limited to protect the endangered wild population. This is one of the rarest and most expensive botanicals in the world — authentic sourcing is the only ethical option. We pay premium prices to support conservation-linked harvesting programs in Nepal.</p>",
       "historicalUseNotes": "<p>Called 'nard' throughout the ancient world — mentioned in Song of Solomon 1:12, 4:13-14, and in the Gospels as the costly perfume Mary Magdalene used to anoint Jesus. Used in ancient Egyptian sacred ceremonies, in Ayurvedic medicine for over 5,000 years for nervous system and skin conditions, and in ancient Roman perfumery. Traded along the Silk Road at the price of gold.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Fragrance allergen — do not exceed IFRA recommended use levels",
+        "Avoid on severely sensitive or reactive skin at high concentrations"
+      ],
       "canadianRelevance": "",
       "sacredAncient": true,
       "sacredTraditions": [
@@ -8575,7 +9200,11 @@
       "professionalAnalogy": "Hyssop extract provides rosmarinic acid-mediated antioxidant and COX-inhibitory anti-inflammatory activity alongside marrubiin-stimulated epithelial regeneration and pinocamphone antimicrobial activity — a scientifically grounded basis for its 3,000-year sacred purification tradition.",
       "transparencyStatement": "<p>We source certified organic hyssop from Mediterranean farms in the traditional biblical growing region. Wild-harvest from protected populations in Israel and Jordan sourced with local community benefit programs.</p>",
       "historicalUseNotes": "<p>Mentioned 12 times in the Bible. Used in the Passover ceremony (Exodus 12:22), the purification of lepers (Leviticus 14:4), and at the Crucifixion (John 19:29). Hippocrates used it medicinally in 400 BCE. One of the oldest continuously used medicinal herbs in human history.</p>",
-      "incompatibilities": "Essential oil fraction — IFRA limits apply; use diluted only",
+      "incompatibilities": [
+        "Pinocamphone content in essential oil can be neurotoxic at high doses — cosmetic extract form is safe at recommended use levels (below 1%)",
+        "Not for use near eyes",
+        "Generally safe and compatible at cosmetic concentrations"
+      ],
       "canadianRelevance": "",
       "sacredAncient": true,
       "sacredTraditions": [
@@ -8627,7 +9256,10 @@
       "professionalAnalogy": "Cedrus atlantica sesquiterpenes (cedrol, cedrene, atlantone) provide anti-seborrheic activity through sebaceous gland normalization alongside atlantone-mediated dermal papilla cell proliferation for hair follicle stimulation — a scientifically grounded basis for ancient cedar's scalp therapeutic tradition.",
       "transparencyStatement": "<p>We source certified sustainable Atlas cedar from Moroccan forests under FSC management. No Cedrus libani (endangered Lebanese cedar) is used. Traditional Moroccan forest cooperative partnerships.</p>",
       "historicalUseNotes": "<p>Mentioned 70+ times in the Bible. Solomon's Temple paneled entirely in Lebanese cedar. Ancient Egyptians used cedar oil in mummification — cedar-coated coffins from 4,500 years ago still carry the distinctive cedar fragrance. Used medicinally in Sumerian clay tablets dating to 3,000 BCE.</p>",
-      "incompatibilities": "IFRA limits apply for essential oil fraction",
+      "incompatibilities": [
+        "Fragrance component — IFRA-regulated; do not exceed use level guidelines",
+        "Avoid on very sensitive skin at high concentrations"
+      ],
       "canadianRelevance": "",
       "sacredAncient": true,
       "sacredTraditions": [
@@ -8692,7 +9324,11 @@
       "professionalAnalogy": "Rhodiola rosea's salidroside provides HPA axis-mediated cortisol regulation alongside Nrf2-activated endogenous antioxidant upregulation and HSP induction — a comprehensive cellular stress-resistance mechanism validated in over 180 peer-reviewed studies, adapted from the most extreme-environment plant in cosmetic botany.",
       "transparencyStatement": "<p>We wild-harvest Rhodiola rosea from certified sustainable Altai Mountain programs in Siberia — the ancestral territory of the Tartarian/Scythian healing traditions. Rosavin content standardized to 3% + salidroside 1% by HPLC. Supporting Altai Indigenous community sustainable harvest economies.</p>",
       "historicalUseNotes": "<p>Called 'golden root' by Siberian shamans who guarded its location as a sacred secret for centuries. Viking warriors took it before battle. Mongolian physicians reserved it for royalty. Soviet Cold War researchers conducted 180+ studies on it for cosmonaut and athlete performance. The Chinese emperor sent expeditions to Siberia specifically to obtain Rhodiola for the imperial court.</p>",
-      "incompatibilities": "",
+      "incompatibilities": [
+        "Generally well-tolerated at cosmetic use concentrations",
+        "Avoid at very low pH (below 3.5) — phenolic compounds and bioactives may degrade",
+        "Patch test recommended for individuals with known botanical sensitivities"
+      ],
       "canadianRelevance": "",
       "yhwhBeloved": false
     },
@@ -8748,7 +9384,9 @@
       "professionalAnalogy": "Achillea millefolium's azulene, achillicin, and flavonoid complex provides dual anti-inflammatory and hemostatic activity alongside tannin-mediated astringency and salicylate-contribution exfoliation — a multimechanism traditional wound healer with documented efficacy across every major pre-modern medical tradition.",
       "transparencyStatement": "<p>We wild-harvest yarrow from certified sustainable Canadian prairies and Altai Mountain Siberian programs. Grown wild across Canada — supporting prairie wild-harvest economies. No cultivation needed — growing wild in pristine environments.</p>",
       "historicalUseNotes": "<p>Named for Achilles of Troy. Used by Scythian shamans, Celtic druids, Norse healers, Chinese and Ayurvedic physicians, Indigenous North American nations, and literally every major civilization on earth for wound healing and skin conditions. One of the most universally documented medicinal plants across human history — found in archaeological sites dating to 60,000 BCE (Neanderthal burial sites show yarrow pollen).</p>",
-      "incompatibilities": "IFRA limits for essential oil fraction; potential sensitizer in some individuals — patch test recommended",
+      "incompatibilities": [
+        "IFRA limits for essential oil fraction; potential sensitizer in some individuals — patch test recommended"
+      ],
       "canadianRelevance": "<p>Yarrow grows wild across every Canadian province and territory — from BC coastal meadows to Newfoundland shores, from prairies to boreal forest edges. One of Canada's most widespread wild medicinal plants.</p>",
       "yhwhBeloved": false
     },
@@ -8825,8 +9463,9 @@
       "transparencyStatement": "Certified organic, cold-pressed, extra-virgin where possible. Rich in oleic acid, squalene, and polyphenols. No hexane extraction. Heavy — best blended with lighter oils for face formulations.",
       "historicalUseNotes": "YHWH commanded olive oil as the base of the Holy Anointing Oil in Exodus 30:24 — \"a hin of olive oil.\" Priests and kings were anointed with olive oil. Kings David and Solomon were anointed with it. Psalm 23:5 — \"you anoint my head with oil.\" Used in Temple lamp fuel (Exodus 27:20), grain offerings (Leviticus 2:1), and skin anointing throughout the Torah. Ancient Egyptians used it in cosmetic ointments. Greeks and Romans used it in athletic training and bathing. One of humanity's oldest cultivated plants.",
       "incompatibilities": [
-        "Avoid in formulations requiring very light texture",
-        "Can comedogenically challenge acne-prone skin in high concentrations"
+        "Avoid at high concentrations in formulas for acne-prone skin — oleic acid can be comedogenic",
+        "Heavy texture — blend with lighter oils (jojoba, squalane) for facial formulas",
+        "Keep below 40°C in formulation — cold-pressed quality degrades with heat"
       ],
       "canadianRelevance": "Imported — not grown in Canada but widely available through Canadian fair-trade suppliers and certified organic sources. Standard in Canadian artisan skincare."
     },
@@ -8900,9 +9539,10 @@
       "transparencyStatement": "True Ceylon cinnamon (C. zeylanicum), not cassia (C. cassia / aromaticum). Organically sourced. Cinnamal content is a known sensitizer — formulated responsibly at safe use levels. Not for use on broken or inflamed skin.",
       "historicalUseNotes": "YHWH commanded cinnamon in the Holy Anointing Oil: Exodus 30:23 — \"250 shekels of sweet cinnamon (kinamon).\" One of only 5 ingredients YHWH specified. Ancient Egyptians used cinnamon in embalming and sacred oils. Listed in Song of Songs 4:14 as a prized garden spice of the beloved. So rare in ancient Israel it arrived via caravan from the East, making it a mark of royalty and holiness. Herodotus wrote that cinnamon was guarded by \"great winged birds\" and could only be obtained through special effort — such was its mystique.",
       "incompatibilities": [
-        "Avoid with sensitive/reactive skin",
-        "Do not combine with high concentrations of other sensitizing actives",
-        "Keep below 0.5% in leave-on products"
+        "Never combine with sensitive skin actives (retinoids, AHAs) — compounded severe irritation",
+        "Avoid on reactive, rosacea-prone, or inflamed skin",
+        "Keep below 0.5% in leave-on products — cinnamal is a known sensitizer (IFRA regulated)",
+        "Do not use near eyes or mucous membranes"
       ],
       "canadianRelevance": "Imported spice and botanical extract available through Canadian certified organic suppliers. Widely used in Canadian artisan hair care and scalp products."
     },
@@ -8977,7 +9617,8 @@
       "incompatibilities": [
         "Highly sensitizing — never use undiluted",
         "Avoid on sensitive, reactive, or inflamed skin",
-        "Do not combine with other high-sensitization actives"
+        "Do not combine with other high-sensitization actives",
+        "Maximum 0.2% in leave-on formulas"
       ],
       "canadianRelevance": "Imported — available through Canadian organic ingredient suppliers. Used in professional-grade Canadian scalp care and aromatherapy formulations."
     },
@@ -9053,8 +9694,9 @@
       "transparencyStatement": "Wild-crafted or organic calamus root extract. Canadian-sourced where possible from sustainable wetland harvesting. Calamus has a complex regulatory history — formulated in compliance with current cosmetic regulations. Not for internal use.",
       "historicalUseNotes": "YHWH commanded \"fragrant cane\" (kaneh bosem — קָנֶה בֹשֶׂם) as the third spice in the Holy Anointing Oil: Exodus 30:23 — \"250 shekels of fragrant cane.\" Many Torah scholars and historians identify kaneh bosem as calamus (Acorus calamus). Used in Ayurveda as vacha for thousands of years for memory, speech, and nervous system support. First Nations peoples across North America chewed calamus root for respiratory conditions and used it in ceremonial preparations. Ancient Chinese TCM called it one of the \"50 fundamental herbs.\" Tatars and Eastern European folk healers used it as a protective plant. Truly global sacred herb.",
       "incompatibilities": [
-        "Avoid with known asarone sensitivity",
-        "Use within regulatory limits for cosmetic applications"
+        "Asarone content varies by species — always source Acorus calamus (not A. americanus) from reputable cosmetic ingredient suppliers",
+        "Regulatory review required for asarone content in some markets — check applicable regulations before formulating",
+        "Not for use near eyes or on broken skin"
       ],
       "canadianRelevance": "Wild calamus grows throughout Canadian wetlands (Ontario, Quebec, Atlantic provinces, BC). One of the few Torah-sacred plants with genuine Canadian wild-crafted availability. Indigenous Nations across Canada have used it in traditional medicine for centuries."
     },
@@ -9130,8 +9772,8 @@
       "transparencyStatement": "Wild-harvested from traditional Persian/Iranian sources using sustainable resin-tapping methods. One of the world's rarest botanical cosmetic ingredients. Non-toxic, non-sensitizing at recommended use levels.",
       "historicalUseNotes": "YHWH commanded galbanum as one of four sacred spices in the Holy Temple Incense: Exodus 30:34 — \"Take sweet spices, stacte, onycha, and galbanum (chelbenah — חֶלְבְּנָה), these sweet spices with pure frankincense.\" The ancient Israelites burned this incense before YHWH daily — it was the sacred scent of the Tabernacle and Temple. Hippocrates (460 BCE) documented galbanum for wound healing and inflammation. Dioscorides listed it in Materia Medica. Ancient Egyptians used it in kyphi (sacred temple incense). Truly one of the rarest and holiest botanical ingredients on earth.",
       "incompatibilities": [
-        "Can be a skin sensitizer in rare cases — patch test recommended",
-        "Avoid synthetic fragrance combinations that may destabilize the resin"
+        "Rare sensitizer — patch test on sensitive skin individuals before use",
+        "Avoid combining with synthetic fragrance components that may destabilize the natural resin complex"
       ],
       "canadianRelevance": "Imported from Iran and the Middle East. Available through specialty natural perfumery and botanical ingredient suppliers worldwide. Used in artisan Canadian sacred and natural perfumery."
     },
@@ -9209,7 +9851,8 @@
       "transparencyStatement": "Wild-crafted in Canadian prairies in partnership with Indigenous harvesters. One of the Four Sacred Plants of many First Nations. Sourced with deep cultural respect — we do not claim ownership of this plant's sacred traditions. Benefit-sharing with source communities.",
       "historicalUseNotes": "Sweetgrass is one of the Four Sacred Plants in numerous Indigenous North American traditions (alongside tobacco, cedar, and sage). The Cree call it \"Wiiskaapimizh.\" The Ojibwe \"Mashkodewashk.\" Burned to purify space and invite positive spiritual energy. Used in healing ceremonies, smudging rituals, and passed down through generations as one of the most precious gifts of the land. In skincare it represents a connection to the land, the ancestors, and the healing intelligence of North American botanicals.",
       "incompatibilities": [
-        "Coumarin content — check applicable regulatory limits for leave-on products (IFRA/EU)"
+        "Coumarin content — check applicable regulatory limits for leave-on products (IFRA/EU Cosmetics Regulation limits on coumarin)",
+        "Generally very gentle and well-tolerated at cosmetic use levels"
       ],
       "canadianRelevance": "Deeply Canadian — grows in every province and territory. One of the sacred plants of First Nations peoples from coast to coast. Canadian artisan brands committed to reconciliation can partner with Indigenous communities for ethical harvesting. Arguably the most distinctly Canadian sacred botanical."
     },
@@ -9286,8 +9929,9 @@
       "transparencyStatement": "Wild-crafted from Canadian boreal forests or certified organically grown. Standardized for arbutin content. Ethical harvesting from non-endangered populations. Deep cultural significance to Indigenous peoples — sourced with community partnership wherever possible.",
       "historicalUseNotes": "Known as \"kinnikinnick\" among many Plains Nations peoples (Cree, Blackfoot, Anishinaabe), bearberry was one of the most important medicinal plants in North American Indigenous medicine — used for urinary tract health, wound healing, and as a sacred smoking herb mixed with tobacco in ceremonial pipes. The name \"kinnikinnick\" means \"what is mixed\" in Algonquian languages. Across Siberia and Northern Europe it was similarly used in folk medicine for thousands of years. In skincare, its natural arbutin content makes it a modern functional brightener directly derived from ancient medicine traditions.",
       "incompatibilities": [
-        "Check with alpha-arbutin (additive effect — both inhibit tyrosinase)",
-        "Avoid in formulas with pH below 3.5 (hydrolysis of arbutin)"
+        "Avoid pH below 3.5 — arbutin content can hydrolyze to hydroquinone",
+        "Compatible with niacinamide, vitamin C derivatives, and other brightening actives",
+        "Additive brightening effect with alpha-arbutin — reduce one to prevent over-inhibiting tyrosinase"
       ],
       "canadianRelevance": "One of the most abundant and iconic Canadian boreal plants. Grows in every province and territory. Deep significance in First Nations medicine. Available from Canadian wild-crafting cooperatives and certified organic suppliers. A pride ingredient for Canadian-made sacred skincare."
     }

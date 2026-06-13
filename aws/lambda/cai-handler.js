@@ -78,6 +78,204 @@ HOW YOU RESPOND:
     },
 ];
 
+// ── Ingredient Intelligence Block (second cached block in SKIN_SYSTEM_BLOCKS) ──
+// Comprehensive reference for skin type/concern matching and the complete
+// incompatibility matrix. Cached so it is billed at 10% on every warm hit.
+const INGREDIENT_INTELLIGENCE_BLOCK = {
+    type: "text",
+    text: `INGREDIENT INTELLIGENCE — FORMULATION REFERENCE
+(C-Ai cross-checks every ingredient selection against this table before finalizing any formula or recommendation.)
+
+━━━ CRITICAL INCOMPATIBILITIES — NEVER COMBINE IN THE SAME FORMULA OR SAME ROUTINE STEP ━━━
+
+RETINOL / RETINOIDS + AHAs (glycolic, lactic, mandelic, tartaric)
+→ Compounded exfoliation → severe barrier disruption and chemical irritation. ALWAYS separate.
+
+RETINOL / RETINOIDS + BHAs (salicylic acid, willow bark extract)
+→ Compounded exfoliant-driven cell turnover with acid → barrier breakdown. ALWAYS separate.
+
+RETINOL / RETINOIDS + Benzoyl Peroxide
+→ BPO oxidizes and fully deactivates retinol. Never in same formula or same step.
+
+RETINOL / RETINOIDS + Vitamin C (L-Ascorbic Acid, pure)
+→ pH conflict: Vitamin C requires pH 2.5–3.5; retinol requires pH 5–7. Combined = mutual destabilization + irritation.
+→ Use Vitamin C AM, Retinol PM. Never layer in same routine.
+
+VITAMIN C (L-Ascorbic Acid) + Copper Peptides (GHK-Cu, Copper Peptides)
+→ Ascorbic acid chelates copper → deactivates the peptide entirely. Never in same formula or same routine step.
+
+VITAMIN C (L-Ascorbic Acid) + Niacinamide (same step, elevated temperature)
+→ Forms niacin (nicotinic acid) → skin flushing/redness. Separate by at least 30 min. Modern stable formulations reduce risk but separate routines are the safe standard.
+
+VITAMIN C (L-Ascorbic Acid) + Benzoyl Peroxide
+→ BPO oxidizes ascorbic acid → formula turns brown, loses all antioxidant activity. Never combine.
+
+COPPER PEPTIDES + AHAs or BHAs (any direct acid)
+→ Acid degrades copper-peptide complex → loss of efficacy + potential irritation. Use copper peptides PM only; separate from all acid steps by entire routine.
+
+KOJIC ACID + High pH (>5.5) or Alkaline Ingredients
+→ Kojic acid is unstable above pH 5.5 → browning, loss of tyrosinase-inhibiting activity. Never in alkaline formulas.
+
+BENZOYL PEROXIDE + Any Peptide
+→ BPO oxidizes peptide bonds → deactivation. Benzoyl peroxide must be used alone or with non-active bases.
+
+ALPHA ARBUTIN + pH Below 3.5
+→ Hydrolyzes to free hydroquinone at very low pH → regulatory concern in EU and some other markets.
+
+NIACINAMIDE + pH Below 5 with Heat
+→ Converts to niacin (nicotinic acid) → flushing. Keep niacinamide formulas at pH 5–7.
+
+HIGH-DOSE AHA + HIGH-DOSE BHA in same formula
+→ Compounded acid burden → severe irritation, barrier compromise. Choose one primary exfoliant.
+
+TEA TREE OIL (undiluted) + Any skin
+→ Never apply undiluted. Chemical burn risk. Maximum 5% leave-on. Avoid with retinoids on sensitive skin.
+
+CITRUS ESSENTIAL OILS (bergamot, lime, lemon peel) + UV Exposure
+→ Furocoumarin content → phototoxic burns. PM use only, or formulate with SPF guidance. Do not apply before sun exposure.
+
+SEA BUCKTHORN OIL / CO2 Extract + Color-critical formulas
+→ Intense orange/yellow carotenoid pigment stains skin and formula. Maximum 1–5%.
+
+BROMELAIN or PAPAIN (enzyme exfoliants) + AHAs/BHAs at therapeutic %
+→ Enzymatic + acid exfoliation = compounded barrier disruption. Use enzymes as a standalone exfoliant step.
+
+HELIX ASPERSA (snail mucin) + Vegan Declarations
+→ Animal-derived. Never include in any vegan-declared formula.
+
+COLOSTRUM + Vegan Declarations
+→ Bovine-derived. Never include in any vegan-declared formula.
+
+OAT EXTRACT / BETA GLUCAN + Gluten-Free Declarations
+→ Oat-derived. Exclude unless source is certified gluten-free oat. Flag always.
+
+━━━ TIMING RULES — SEPARATE INTO DIFFERENT ROUTINES ━━━
+
+AM ONLY (or strong preference for AM):
+Vitamin C (L-Ascorbic Acid) — antioxidant protection synergizes with SPF; photostable delivery
+Niacinamide — can also be PM; AM is fine and compatible with SPF
+Azelaic Acid — can be AM or PM; AM fine with SPF
+
+PM ONLY (photodegrades or photosensitizes):
+Retinol / Retinoids — degrades under UV; increases photosensitivity
+Bakuchiol — preferably PM; retinol-like mechanism benefits from overnight use
+AHAs (glycolic, lactic, mandelic) — increase photosensitivity; always follow with AM SPF
+BHAs (salicylic acid) — photosensitizing
+Copper Peptides — PM only; separate from any vitamin C by full 8+ hours
+Benzoyl Peroxide — PM; inactivates many actives
+
+━━━ INGREDIENT SELECTION BY SKIN TYPE ━━━
+
+OILY / ACNE-PRONE:
+Sebum regulation: Niacinamide (4–10%), Zinc PCA (1–2%), Willow Bark Extract
+Exfoliation: Salicylic Acid (0.5–2% BHA), Gluconolactone PHA (5–10%), Glycolic Acid (5–10% PM)
+Antimicrobial: Tea Tree Oil (<1%), Azelaic Acid (10–20%)
+Calming breakouts: Centella Asiatica, Allantoin, Madecassoside, Zinc PCA
+Anti-PIH: Alpha Arbutin (2%), Tranexamic Acid (2–5%), Kojic Acid (1%)
+Non-comedogenic oils ONLY: Hemp Seed Oil, Rosehip Oil (low %), Jojoba (wax ester — best option)
+AVOID: Heavy butters (cocoa, shea, mango at high %), high oleic oils (avocado, olive) at high %, fragrance >0.5%
+
+DRY / BARRIER-COMPROMISED:
+Humectants: Sodium Hyaluronate (0.1–2%), Glycerin (3–10%), Polyglutamic Acid, Betaine, Sodium PCA
+Barrier lipids: Ceramide NP, Ceramide EG, Squalane, Cholesterol
+Rich emollients: Avocado Oil, Olive Oil, Shea Butter, Meadowfoam Seed Oil, Cupuacu Butter, Baobab Oil
+Repair actives: Allantoin, Panthenol (B5), Beta Glucan, Oat Extract, Colostrum
+AVOID: High-concentration AHAs or retinoids before barrier is restored — repair first
+
+SENSITIVE / REACTIVE / ROSACEA:
+Primary calming: Centella Asiatica, Madecassoside, Aloe Vera, Beta Glucan, Allantoin, Ectoin
+Barrier: Ceramides NP/EG, Squalane, Oat Extract, Colloidal Oat
+Gentle-only actives: Bakuchiol (retinol alternative), Gluconolactone PHA, Azelaic Acid (10% is tolerated)
+Anti-redness: Feverfew (parthenolide-free extract), Licorice Root Extract, Ectoin, Sea Lavender Extract
+Hydration: Sodium Hyaluronate, Polyglutamic Acid, Betaine, Rose Hydrosol
+AVOID: AHAs at therapeutic %, retinol until barrier is confirmed intact, fragrance >0.5%, tea tree >0.5%, citrus oils, ginger extract (warming)
+
+MATURE / AGING:
+Gold standard actives: Retinol (0.025–1% PM), Vitamin C (10–20% AM), Niacinamide (5–10%)
+Peptides: Matrixyl — Palmitoyl Tripeptide-1 + Palmitoyl Tetrapeptide-7 (combined 1–3%), GHK-Cu (1–5% PM), Argireline (5–10%), Snap-8 Peptide (3–5%), Tripeptide-29, Eyeseryl Peptide Complex
+Cell energy: Coenzyme Q10 / Ubiquinone (0.5–1%), Adenosine (0.04%)
+Antioxidants: Tocopherol (Vitamin E), Sea Buckthorn CO2, Pomegranate Extract, Ellagic Acid, Alpha Lipoic Acid
+Emollients: Squalane, Marula Oil, Argan Oil, Sea Buckthorn Berry Oil (low %)
+Retinol alternatives: Bakuchiol (0.5–2%), Rosehip Oil (phytoretinols), Colostrum
+AVOID: Over-exfoliation — mature skin has slower cell renewal; do not stack multiple exfoliants
+
+COMBINATION:
+Zone-adaptive actives: Niacinamide (5%), Zinc PCA, Hyaluronic Acid, Ceramides, Squalane (lightweight)
+Gentle exfoliation: Lactic Acid (5% PM), Gluconolactone, Salicylic Acid (0.5%)
+Lightweight emollients: Jojoba Oil, Rosehip Oil, Hemp Seed Oil
+
+DEHYDRATED (oily or normal skin that lacks water, not oil):
+Water-binding: Multi-weight Sodium Hyaluronate, Polyglutamic Acid, Sodium PCA, Betaine, Sea Moss Extract
+Barrier sealing: Squalane (final layer), Ceramides
+Ferment-based NMF support: Galactomyces Ferment Filtrate, Bifida Ferment Lysate, Lactobacillus Ferment
+NOTE: Dehydration ≠ dry skin type. Oily dehydrated skin needs humectants but NOT heavy oils or butters.
+
+━━━ INGREDIENT SELECTION BY CONCERN ━━━
+
+HYPERPIGMENTATION / DARK SPOTS / UNEVEN TONE:
+Tyrosinase inhibitors: Alpha Arbutin (2%), Bearberry/Uva Ursi Extract (2–3%), Kojic Acid (1–2%), Licorice Root Glabridin (2–5%)
+Melanin transfer inhibitors: Niacinamide (10%), Tranexamic Acid (2–5%)
+Copper chelators (block melanin synthesis upstream): Phytic Acid, Acetyl Glucosamine
+Vitamin C family: L-Ascorbic Acid (10–20%), Magnesium Ascorbyl Phosphate (3–10%), Ascorbyl Glucoside (2–10%)
+Exfoliation (clear pigmented cells): Glycolic Acid, Lactic Acid, Mandelic Acid, Salicylic Acid
+Botanical brighteners: Turmeric CO2 (encapsulated), Ellagic Acid, Elderberry Anthocyanins
+Cell turnover: Retinol (accelerates clearance of pigmented cells)
+Synergistic stacks: Alpha Arbutin + Vitamin C + Niacinamide = high-performance triple inhibitor stack
+
+ACNE / BREAKOUTS:
+Exfoliants: Salicylic Acid (BHA — oil-soluble, penetrates follicles), Glycolic Acid, Lactic Acid
+Antimicrobials: Tea Tree Oil (<1%), Azelaic Acid (10–20%), Zinc PCA, Niacinamide
+Anti-inflammatory: Centella Asiatica, Allantoin, Madecassoside, Willow Bark Extract
+Retinol (PM — normalizes follicular keratinization)
+Post-breakout PIH: Alpha Arbutin, Tranexamic Acid, Niacinamide, Vitamin C
+
+BARRIER REPAIR / ECZEMA / COMPROMISED SKIN:
+Ceramides NP + EG (essential ratio: ceramide, cholesterol, fatty acid = 1:1:1)
+Colloidal Oat Extract / Beta Glucan — calm and protect
+Allantoin — stimulate cell renewal without irritation
+Panthenol / Vitamin B5 — wound healing, moisture retention
+Polyglutamic Acid, Sodium PCA, Betaine — restore NMF (Natural Moisturizing Factor)
+Squalane, Meadowfoam Seed Oil, Borage/Evening Primrose (GLA — anti-inflammatory omega-6)
+Ectoin — protect against environmental stressors during barrier recovery
+RULE: No AHAs, retinoids, vitamin C, or fragrances on a severely compromised barrier. Repair FIRST.
+
+ANTI-AGING / FIRMNESS:
+Peptide complex: Matrixyl + GHK-Cu (alternate PM nights) + Argireline (crow's feet/expression lines)
+Retinol (0.025–0.1% start, titrate up) — gold standard collagen stimulator
+Vitamin C (15–20% AM) — collagen synthesis cofactor, antioxidant
+Niacinamide (5–10%) — reduces TEWL, firms epidermis
+Adenosine (0.04%) — anti-wrinkle, cellular energy
+Bakuchiol — retinol alternative for sensitive aging skin
+
+BRIGHTENING / GLOW:
+Vitamin C (AM), Niacinamide, Licorice Root Extract
+Enzymatic exfoliation: Bromelain, Papain (standalone step)
+AHA exfoliation (Lactic Acid for hydrated glow, Glycolic Acid for deeper)
+Ferments: Galactomyces, Bifida, Saccharomyces — improve skin radiance and texture
+Antioxidant complex: Tocopherol + Vitamin C + Ferulic Acid (if available)
+
+CALMING / REDNESS / ROSACEA:
+Centella Asiatica / Madecassoside — first choice
+Ectoin — environmental stress protection
+Feverfew (parthenolide-free) — reduces erythema
+Allantoin, Beta Glucan, Colloidal Oat
+Azelaic Acid 10% — anti-rosacea clinical evidence
+AVOID: Fragrance, high-% acids, retinoids on unprepped skin, warming botanicals (ginger, cinnamon)
+
+HYDRATION:
+Layer: Sodium Hyaluronate (AM + PM) → Polyglutamic Acid → Squalane or Ceramides (seal)
+Ferment humectants: Sea Kelp Bioferment, Galactomyces Ferment Filtrate, Kombucha
+Birch Sap, Aloe Vera, Rose Hydrosol — lightweight hydration base
+
+━━━ PREGNANCY / NURSING — MANDATORY EXCLUSIONS ━━━
+Flag and exclude entirely: Retinol and all retinoids (category X), Salicylic Acid >2% (systemic absorption concern), Hydroquinone, Formaldehyde-releasing preservatives, High-dose essential oils (>0.5%)
+Safe during pregnancy: Hyaluronic Acid, Niacinamide, Azelaic Acid, Vitamin C, Ceramides, Squalane, Bakuchiol (with caution — limited data), Glycolic/Lactic Acid at low %, Zinc PCA
+
+━━━ HEAT-SENSITIVE INGREDIENTS (formulate at ≤40°C) ━━━
+Retinol, Vitamin C (L-Ascorbic Acid), all peptides, colostrum, ferment filtrates, Bromelain, Papain, Aloe Vera (fresh), all cold-pressed seed oils high in PUFAs, Bakuchiol, Rose Hydrosol, Calamus Extract`,
+    cache_control: { type: "ephemeral" },
+};
+
 const SKIN_SYSTEM_BLOCKS = [
     {
         type: "text",
@@ -186,6 +384,7 @@ HOW YOU ANALYZE AND RESPOND:
 - Treat the client as an intelligent adult who deserves the real answer.`,
         cache_control: { type: "ephemeral" },
     },
+    INGREDIENT_INTELLIGENCE_BLOCK,
 ];
 
 // ── Handler ───────────────────────────────────────────────────────────────────
@@ -325,22 +524,34 @@ ${JSON.stringify(profile, null, 2)}`,
 
 // Step 3: Ingredient Education
 // skinMap: result from step 2, goals: array, sourcing: array of client sourcing standards
-async function handleIngredients(client, { skinMap = {}, goals = [], sourcing = [] }) {
+// ingredientCatalog: optional array of encyclopedia entries {slug, name, inciName, bestForSkinTypes,
+//   bestForConcerns, incompatibilities, maxUseLevel, heatSensitive, irritationRisk, sacredTraditions}
+async function handleIngredients(client, { skinMap = {}, goals = [], sourcing = [], ingredientCatalog = [] }) {
     const sourcingLine = sourcing.length
         ? `\nINGREDIENT SOURCING REQUIREMENTS: The client has declared the following standards — ALL ingredient selections must comply: ${sourcing.join(", ")}. Flag any ingredient that cannot meet a declared standard and propose a compliant alternative.`
         : "";
+
+    const catalogLine = ingredientCatalog.length
+        ? `\nAVAILABLE INGREDIENT CATALOG (By BoBo encyclopedia — only select from these unless a critical active is missing):\n${
+            ingredientCatalog.map(i =>
+                `• ${i.name} (${i.inciName || ""}): best for [${(i.bestForSkinTypes || []).join(", ")}] | concerns [${(i.bestForConcerns || []).join(", ")}] | max ${i.maxUseLevel || "standard"} | irritation: ${i.irritationRisk || "low"} | incompatibilities: ${Array.isArray(i.incompatibilities) ? i.incompatibilities.slice(0,2).join("; ") : (i.incompatibilities || "none noted")}`
+            ).join("\n")
+          }`
+        : "";
+
     const msg = await client.messages.create({
         model: MODEL,
-        max_tokens: 1500,
+        max_tokens: 1800,
         system: SKIN_SYSTEM_BLOCKS,
         messages: [{
             role: "user",
-            content: `Based on this skin map and client goals, select ONLY the ingredients that are directly indicated. Fewer precise ingredients beat a broad-spectrum list every time.${sourcingLine}
+            content: `Based on this skin map and client goals, select ONLY the ingredients that are directly indicated. Fewer precise ingredients beat a broad-spectrum list every time.${sourcingLine}${catalogLine}
 
 For each ingredient return as a JSON array of objects:
-{ "name": "", "inci": "", "purpose": "", "concentrationRange": "", "applicationOrder": 0, "whyThisSkin": "", "sourcingNotes": "", "contraindication": "" }
+{ "name": "", "inci": "", "purpose": "", "concentrationRange": "", "applicationOrder": 0, "whyThisSkin": "", "sourcingNotes": "", "contraindication": "", "incompatibilityWarnings": [] }
 
-"sourcingNotes" should confirm compliance with declared standards or flag a trade-off.
+"sourcingNotes" confirms compliance with declared standards or flags a trade-off.
+"incompatibilityWarnings" lists any conflicts with other selected ingredients — NEVER select two ingredients that cannot coexist.
 
 Exclude anything not clearly earned by this skin profile. If a goal requires an active the skin cannot currently tolerate, note it in a "deferred" array with a reason.
 
@@ -356,7 +567,10 @@ Client goals: ${goals.join(", ")}`,
 // Step 4: Custom Formulation
 // skinMap, selectedIngredients, productType (essence|serum|cream|gel|mousse|toner|treatment),
 // preferences: { scent, packaging, charitable, sourcing[] }
-async function handleFormulate(client, { skinMap = {}, selectedIngredients = [], productType, preferences = {} }) {
+// ingredientDetails: optional array of encyclopedia entries for the selected ingredients
+//   — if provided, C-Ai uses the actual maxUseLevel, heatSensitive, incompatibilities, and
+//     bestForConcerns data rather than relying solely on training knowledge
+async function handleFormulate(client, { skinMap = {}, selectedIngredients = [], productType, preferences = {}, ingredientDetails = [] }) {
     if (!productType) return err(400, "productType is required");
 
     // Map product type to pyramid tier context
@@ -380,6 +594,14 @@ async function handleFormulate(client, { skinMap = {}, selectedIngredients = [],
         ? `INGREDIENT SOURCING STANDARDS (mandatory compliance): ${preferences.sourcing.join(", ")}. Every ingredient in this formula must comply. Flag any conflict or trade-off under "sourcingNotes" in each ingredient object. Add a "sourcingCertifications" field to the root formula object listing all standards this formula satisfies.`
         : "";
 
+    const detailsLine = ingredientDetails.length
+        ? `\nSELECTED INGREDIENT DATA (from By BoBo encyclopedia — use these exact specs):\n${
+            ingredientDetails.map(i =>
+                `• ${i.name}: INCI=${i.inciName || "—"} | max=${i.maxUseLevel || "standard"} | heatSensitive=${i.heatSensitive || false} | irritation=${i.irritationRisk || "low"} | incompatibilities=${Array.isArray(i.incompatibilities) ? i.incompatibilities.slice(0,3).join("; ") : (i.incompatibilities || "none")} | bestFor=${(i.bestForConcerns || []).join(", ")} | sourcing=${[i.vegan && "vegan", i.organic && "organic", i.wildcrafted && "wildcrafted", i.coldPressed && "cold-pressed", i.canadianSourced && "Canadian"].filter(Boolean).join(", ")}`
+            ).join("\n")
+          }\n`
+        : "";
+
     const msg = await client.messages.create({
         model: MODEL,
         max_tokens: 2048,
@@ -393,7 +615,7 @@ SCENT PREFERENCE: ${scent}
 PACKAGING: ${packaging}
 ${charitable}
 ${sourcing}
-
+${detailsLine}
 This is NOT a generic formula. Every ingredient must be traceable to this client's actual skin data. Return JSON only:
 {
   "formulaName": "",
