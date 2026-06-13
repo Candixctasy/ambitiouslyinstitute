@@ -18,11 +18,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": true,
       "ancientIngredient": true,
@@ -40,7 +40,9 @@
       "historicalUseNotes": "<p>Used by Indigenous Peoples for centuries for wound healing and scars. Medieval European herbalists prized it. Traditional Chinese Medicine values for regeneration and vitality.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>"
+      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "calendula-extract",
@@ -60,7 +62,7 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": true,
       "organic": true,
       "crueltyFree": true,
@@ -82,7 +84,9 @@
       "historicalUseNotes": "<p>Called \"Mary's Gold\" in medieval monasteries. Traditional midwifery remedy for centuries. Valued in Ayurveda and Traditional Chinese Medicine.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>"
+      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "chamomile-extract",
@@ -102,11 +106,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": true,
       "ancientIngredient": true,
@@ -124,7 +128,9 @@
       "historicalUseNotes": "<p>One of oldest herbs used by Egyptians, Greeks, Romans. Traditional \"mother herb\" in European folk medicine.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>"
+      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "green-tea-extract",
@@ -148,7 +154,7 @@
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -166,7 +172,9 @@
       "historicalUseNotes": "<p>5,000 years in Chinese and Japanese medicine. Sacred in tea ceremonies. Valued in Ayurveda for protection.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "witch-hazel-hydrosol",
@@ -186,7 +194,7 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": true,
       "organic": true,
       "crueltyFree": true,
@@ -208,7 +216,9 @@
       "historicalUseNotes": "<p>Traditionally used by Indigenous Peoples for wound healing. Early colonists adopted from Native herbalists.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>"
+      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "sea-buckthorn-oil",
@@ -228,11 +238,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": true,
       "ancientIngredient": true,
@@ -250,7 +260,9 @@
       "historicalUseNotes": "<p>Used in Traditional Chinese Medicine for thousands of years. Tibetan herbalists valued for longevity.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>"
+      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "turmeric-root",
@@ -274,7 +286,7 @@
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -292,7 +304,9 @@
       "historicalUseNotes": "<p>Sacred in Ayurveda for 4,000+ years. Traditional haldi paste used in Indian wedding ceremonies for radiance.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "arnica-montana",
@@ -312,7 +326,7 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": true,
       "organic": true,
       "crueltyFree": true,
@@ -334,7 +348,9 @@
       "historicalUseNotes": "<p>Used by Swiss mountain climbers for bruising and strain. Traditional European herbalism and homeopathy.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>"
+      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "helichrysum-extract",
@@ -354,7 +370,7 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": true,
       "organic": true,
       "crueltyFree": true,
@@ -376,7 +392,9 @@
       "historicalUseNotes": "<p>Valued in Mediterranean medicine for centuries. Used to celebrate eternal beauty. Greek herbalists prized for resilience.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "lavender-extract",
@@ -396,7 +414,7 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": true,
       "organic": true,
       "crueltyFree": true,
@@ -418,7 +436,9 @@
       "historicalUseNotes": "<p>Ancient Romans used in bathing rituals. Medieval herbalists prized for nervous system and skin balance.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "aloe-vera-gel",
@@ -438,11 +458,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -460,7 +480,9 @@
       "historicalUseNotes": "<p>Cleopatra used for beauty. Ancient Egyptians called \"plant of immortality\". Ayurvedic and Chinese medicine staple.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "jojoba-oil",
@@ -480,11 +502,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -502,7 +524,9 @@
       "historicalUseNotes": "<p>Used by indigenous desert peoples for centuries. Prized for matching skin's natural chemistry.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "rosehip-seed-oil",
@@ -522,11 +546,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -544,7 +568,9 @@
       "historicalUseNotes": "<p>Used in South American traditional medicine for centuries. Valued for skin regeneration and healing.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "frankincense-extract",
@@ -564,7 +590,7 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": true,
       "organic": true,
       "crueltyFree": true,
@@ -586,7 +612,9 @@
       "historicalUseNotes": "<p>One of the three gifts to baby Jesus. Valued in Ayurveda, TCM, and Middle Eastern medicine for millennia.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "myrrh-extract",
@@ -606,7 +634,7 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": true,
       "organic": true,
       "crueltyFree": true,
@@ -628,7 +656,9 @@
       "historicalUseNotes": "<p>Given at Jesus's birth. Used in Egyptian mummification. Valued in Ayurveda and TCM for millennia.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "prickly-pear-seed-oil",
@@ -648,11 +678,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -670,7 +700,9 @@
       "historicalUseNotes": "<p>Used by Bedouins and indigenous cultures for centuries. Prized for skin protection and regeneration.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "marula-oil",
@@ -690,11 +722,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": true,
       "ancientIngredient": true,
@@ -712,7 +744,9 @@
       "historicalUseNotes": "<p>Used by African tribes for centuries. Sacred tree fruit for beauty and healing.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>"
+      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "kokum-butter",
@@ -732,11 +766,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -754,7 +788,9 @@
       "historicalUseNotes": "<p>Used in Indian Ayurvedic beauty for centuries. Sacred tree fruit prized for skin healing.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "shea-butter",
@@ -774,7 +810,7 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
@@ -796,7 +832,9 @@
       "historicalUseNotes": "<p>Used in African cultures for millennia. Sacred tree for beauty, protection, and healing.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "argan-oil",
@@ -816,7 +854,7 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
@@ -838,7 +876,9 @@
       "historicalUseNotes": "<p>Used by Berber women for centuries. Sacred tree oil for beauty and healing.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "evening-primrose-oil",
@@ -858,11 +898,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -880,7 +920,9 @@
       "historicalUseNotes": "<p>Used in traditional herbalism for hormonal and skin balance for centuries.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "squalane",
@@ -900,11 +942,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -922,7 +964,9 @@
       "historicalUseNotes": "<p>Modern plant-derived alternative to shark-sourced squalene. Supports sustainable beauty.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "hemp-seed-oil",
@@ -942,11 +986,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -964,7 +1008,9 @@
       "historicalUseNotes": "<p>Used in traditional Chinese medicine. Sacred in many cultures for health and beauty.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "pomegranate-oil",
@@ -984,11 +1030,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1006,7 +1052,9 @@
       "historicalUseNotes": "<p>Symbol of fertility and regeneration in ancient cultures. Prized in Middle Eastern beauty traditions.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "carrot-seed-oil",
@@ -1026,11 +1074,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1048,7 +1096,9 @@
       "historicalUseNotes": "<p>Used in traditional herbalism for skin health and sun protection for centuries.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "sea-kelp-extract",
@@ -1068,7 +1118,7 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": true,
       "organic": true,
       "crueltyFree": true,
@@ -1090,7 +1140,9 @@
       "historicalUseNotes": "<p>Used in Japanese and Korean beauty traditions for millennia. Sacred ocean plant.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>"
+      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "spirulina",
@@ -1114,7 +1166,7 @@
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1132,7 +1184,9 @@
       "historicalUseNotes": "<p>Valued by Aztecs as sacred superfood. Used in traditional beauty and nutrition.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "hyaluronic-acid",
@@ -1156,7 +1210,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1174,7 +1228,9 @@
       "historicalUseNotes": "<p>Modern botanical extraction of naturally-occurring compound. Supports skin's own moisture retention.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "vegetable-glycerin",
@@ -1198,7 +1254,7 @@
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1216,7 +1272,9 @@
       "historicalUseNotes": "<p>Traditional humectant used in herbalism for centuries. Safe and gentle.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "neem-oil",
@@ -1236,11 +1294,11 @@
       "irritationRisk": "medium",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1258,7 +1316,9 @@
       "historicalUseNotes": "<p>Valued in Ayurvedic medicine for thousands of years. Sacred tree for healing.</p>",
       "heroImageUrl": "",
       "incompatibilities": "Use only in dilution. High concentrations may cause irritation.",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "tea-tree-oil",
@@ -1278,7 +1338,7 @@
       "irritationRisk": "medium",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": true,
       "organic": true,
       "crueltyFree": true,
@@ -1300,7 +1360,9 @@
       "historicalUseNotes": "<p>Used by Australian Indigenous peoples for centuries. Prized for wound healing and antisepsis.</p>",
       "heroImageUrl": "",
       "incompatibilities": "Use only in dilution. High concentrations may cause irritation.",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "gotu-kola-extract",
@@ -1320,7 +1382,7 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": true,
       "organic": true,
       "crueltyFree": true,
@@ -1342,7 +1404,9 @@
       "historicalUseNotes": "<p>Valued in TCM and Ayurveda for skin health and longevity. Used in Indonesian beauty traditions.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>"
+      "canadianRelevance": "<p>Sourced from Canadian suppliers supporting local farmers and wild harvesters.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "bakuchiol",
@@ -1362,11 +1426,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1384,7 +1448,9 @@
       "historicalUseNotes": "<p>Derived from Ayurvedic plant (Babchi). Modern retinol alternative without irritation.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "squalene",
@@ -1404,11 +1470,11 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": true,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1426,7 +1492,9 @@
       "historicalUseNotes": "<p>Mimics skin's natural lipid production. Gentle support for barrier function.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "blue-tansy-oil",
@@ -1446,7 +1514,7 @@
       "irritationRisk": "low",
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": true,
       "organic": true,
       "crueltyFree": true,
@@ -1468,7 +1536,9 @@
       "historicalUseNotes": "<p>Traditional Moroccan beauty secret. Valued for skin healing and balance.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "helix-aspersa-extract",
@@ -1487,8 +1557,8 @@
       "solubility": "water-soluble",
       "irritationRisk": "low",
       "isPublished": "true",
-      "vegan": true,
-      "glutenFree": false,
+      "vegan": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
@@ -1510,7 +1580,9 @@
       "historicalUseNotes": "<p>Garden snail secretion traditionally used. Modern vegan alternative maintains benefits.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "azelaic-acid",
@@ -1534,7 +1606,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1552,7 +1624,9 @@
       "historicalUseNotes": "<p>Derived from grain fermentation. Modern botanical with proven efficacy.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "salicylic-acid",
@@ -1576,7 +1650,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1594,7 +1668,9 @@
       "historicalUseNotes": "<p>Derived from willow bark used in traditional herbalism. Modern extraction for efficacy.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "lactic-acid",
@@ -1618,7 +1694,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1636,7 +1712,9 @@
       "historicalUseNotes": "<p>Traditional milk-based beauty treatments. Modern plant fermentation for vegan option.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "mandelic-acid",
@@ -1660,7 +1738,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1678,7 +1756,9 @@
       "historicalUseNotes": "<p>Derived from bitter almonds. Traditional use in beauty preparations.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "niacinamide",
@@ -1702,7 +1782,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1720,7 +1800,9 @@
       "historicalUseNotes": "<p>Modern botanical-derived vitamin. Foundational skin nutrient.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "panthenol",
@@ -1744,7 +1826,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1762,7 +1844,9 @@
       "historicalUseNotes": "<p>Modern botanical extraction of naturally-occurring compound.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "l-ascorbic-acid",
@@ -1786,7 +1870,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1804,7 +1888,9 @@
       "historicalUseNotes": "<p>Modern extraction of naturally-occurring compound. Stable, effective form.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "ferulic-acid",
@@ -1828,7 +1914,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1846,7 +1932,9 @@
       "historicalUseNotes": "<p>Botanical antioxidant from nature's preserved seeds.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "resveratrol",
@@ -1870,7 +1958,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1888,7 +1976,9 @@
       "historicalUseNotes": "<p>From grapes used in traditional medicine. Modern extraction for purity.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "peptides",
@@ -1912,7 +2002,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1930,7 +2020,9 @@
       "historicalUseNotes": "<p>Modern botanical science extracting naturally-occurring compounds.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "ceramides",
@@ -1954,7 +2046,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -1972,7 +2064,9 @@
       "historicalUseNotes": "<p>Modern extraction of skin-identical lipids.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "cholesterol",
@@ -1996,7 +2090,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -2014,7 +2108,9 @@
       "historicalUseNotes": "<p>Modern extraction of naturally-occurring lipid.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "phospholipids",
@@ -2038,7 +2134,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -2056,7 +2152,9 @@
       "historicalUseNotes": "<p>Modern extraction of naturally-occurring compounds.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "sarcosine",
@@ -2080,7 +2178,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -2098,7 +2196,9 @@
       "historicalUseNotes": "<p>Modern botanical extraction for gentle cleansing.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "ethylhexylglycerin",
@@ -2122,7 +2222,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "ancientIngredient": true,
@@ -2140,7 +2240,9 @@
       "historicalUseNotes": "<p>Modern botanical alternative to synthetic preservatives.</p>",
       "heroImageUrl": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "meadowfoam-seed-oil",
@@ -2196,7 +2298,9 @@
       "canadianRelevance": "",
       "waterUseProfile": "",
       "carbonImpactNotes": "",
-      "packagingCompatibility": ""
+      "packagingCompatibility": "",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "black-seed-oil",
@@ -2252,7 +2356,9 @@
       "canadianRelevance": "",
       "waterUseProfile": "",
       "carbonImpactNotes": "",
-      "packagingCompatibility": ""
+      "packagingCompatibility": "",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "murumuru-butter",
@@ -2308,7 +2414,9 @@
       "canadianRelevance": "",
       "waterUseProfile": "",
       "carbonImpactNotes": "",
-      "packagingCompatibility": ""
+      "packagingCompatibility": "",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "glycolic-acid",
@@ -2334,7 +2442,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "locallySourced": false,
@@ -2366,7 +2474,9 @@
       "carbonImpactNotes": "",
       "packagingCompatibility": "",
       "phWindowLow": 3,
-      "phWindowHigh": 4
+      "phWindowHigh": 4,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "copper-peptides",
@@ -2392,7 +2502,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "locallySourced": false,
@@ -2422,7 +2532,9 @@
       "canadianRelevance": "",
       "waterUseProfile": "",
       "carbonImpactNotes": "",
-      "packagingCompatibility": ""
+      "packagingCompatibility": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "decyl-glucoside",
@@ -2478,7 +2590,9 @@
       "canadianRelevance": "",
       "waterUseProfile": "",
       "carbonImpactNotes": "",
-      "packagingCompatibility": ""
+      "packagingCompatibility": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "saccharomyces-ferment-filtrate",
@@ -2504,7 +2618,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "locallySourced": false,
@@ -2534,7 +2648,9 @@
       "canadianRelevance": "",
       "waterUseProfile": "",
       "carbonImpactNotes": "",
-      "packagingCompatibility": ""
+      "packagingCompatibility": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "tamanu-oil",
@@ -2578,7 +2694,9 @@
       "transparencyStatement": "<p>Our tamanu oil is sourced from cooperatives in Vanuatu and Fiji that practice traditional sun-curing methods. The 6-8 week drying process is non-negotiable for bioactive concentration — there are no shortcuts. Trees grow wild along coastlines with no irrigation or agricultural inputs. Cold-pressed without solvents. The nut shells are used locally as fuel and mulch. Fully biodegradable. What we are still learning: whether controlled-environment drying can replicate the bioactive profile of traditional sun-curing, and the optimal calophyllolide concentration for topical cosmetic versus therapeutic application.</p>",
       "heroImageUrl": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=1200",
       "traceableSupplyChain": true,
-      "lowImpactProcessing": true
+      "lowImpactProcessing": true,
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "rose-hydrosol",
@@ -2623,7 +2741,9 @@
       "heroImageUrl": "https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=1200",
       "historicalUseNotes": "<p>Used in ancient Persia, Egypt, and Rome for skin care and medicine. The physician Avicenna (980-1037 CE) was among the first to document the steam distillation of roses. Rose water is central to Middle Eastern, South Asian, and Mediterranean culinary and cosmetic traditions spanning over 1,000 years.</p>",
       "traceableSupplyChain": true,
-      "lowImpactProcessing": true
+      "lowImpactProcessing": true,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "turmeric-extract",
@@ -2668,7 +2788,9 @@
       "heroImageUrl": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=1200",
       "historicalUseNotes": "<p>Documented in Ayurvedic texts (Sushruta Samhita, ~600 BCE) for wound healing, skin diseases, and cosmetic brightening. Central to the Indian bridal haldi ceremony. Used in Traditional Chinese Medicine as jiang huang for blood stasis and pain. Referenced in ancient Indonesian Jamu healing tradition.</p>",
       "traceableSupplyChain": true,
-      "lowImpactProcessing": true
+      "lowImpactProcessing": true,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "aloe-vera",
@@ -2713,7 +2835,9 @@
       "historicalUseNotes": "<p>Documented in the Ebers Papyrus (1550 BCE) as an Egyptian remedy. Cleopatra's reported daily skincare ingredient. Alexander the Great conquered Socotra island (330 BCE) for its aloe supply. Referenced in Greek, Roman, Chinese, Indian, and African traditional medicine across 6,000+ years of documented use.</p>",
       "traceableSupplyChain": true,
       "lowImpactProcessing": true,
-      "regenerativeAgricultureFit": true
+      "regenerativeAgricultureFit": true,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "tranexamic-acid",
@@ -2738,7 +2862,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "locallySourced": false,
@@ -2766,7 +2890,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "canadianRelevance": "",
-      "maxUseLevel": 5
+      "maxUseLevel": 5,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "alpha-arbutin",
@@ -2791,7 +2917,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "locallySourced": false,
@@ -2821,7 +2947,9 @@
       "canadianRelevance": "",
       "phWindowLow": 5,
       "phWindowHigh": 7,
-      "maxUseLevel": 2
+      "maxUseLevel": 2,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "retinol",
@@ -2846,7 +2974,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "locallySourced": false,
@@ -2874,7 +3002,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "<p>Do not combine with AHAs, BHAs, benzoyl peroxide, or L-ascorbic acid in the same application. Increases photosensitivity. Avoid during pregnancy and breastfeeding (precautionary).</p>",
       "canadianRelevance": "",
-      "maxUseLevel": 1
+      "maxUseLevel": 1,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "matrixyl",
@@ -2899,7 +3029,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "locallySourced": false,
@@ -2927,7 +3057,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "canadianRelevance": "",
-      "maxUseLevel": 5
+      "maxUseLevel": 5,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "argireline",
@@ -2952,7 +3084,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "locallySourced": false,
@@ -2980,7 +3112,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "canadianRelevance": "",
-      "maxUseLevel": 10
+      "maxUseLevel": 10,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "coco-glucoside",
@@ -3033,7 +3167,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "canadianRelevance": "",
-      "maxUseLevel": 15
+      "maxUseLevel": 15,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "sodium-cocoyl-isethionate",
@@ -3086,7 +3222,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "canadianRelevance": "",
-      "maxUseLevel": 50
+      "maxUseLevel": 50,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "sunflower-lecithin",
@@ -3139,7 +3277,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "canadianRelevance": "",
-      "maxUseLevel": 5
+      "maxUseLevel": 5,
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "tocopherol",
@@ -3192,7 +3332,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "canadianRelevance": "",
-      "maxUseLevel": 2
+      "maxUseLevel": 2,
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "rosemary-extract",
@@ -3245,7 +3387,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "canadianRelevance": "",
-      "maxUseLevel": 1
+      "maxUseLevel": 1,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "lactobacillus-ferment",
@@ -3298,7 +3442,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "canadianRelevance": "",
-      "maxUseLevel": 10
+      "maxUseLevel": 10,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "kombucha",
@@ -3351,7 +3497,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "canadianRelevance": "",
-      "maxUseLevel": 95
+      "maxUseLevel": 95,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "birch-sap-extract",
@@ -3404,7 +3552,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "canadianRelevance": "<p>Betula papyrifera (paper birch) is one of Canada's most widespread trees, growing across every province. Canadian birch sap is harvested by small producers in Ontario, Quebec, and the Maritime provinces during the spring thaw. The Canadian boreal forest is the largest intact forest on earth, and sustainable birch sap harvesting supports forest-based livelihoods without any tree removal.</p>",
-      "maxUseLevel": 100
+      "maxUseLevel": 100,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "maple-leaf-extract",
@@ -3457,7 +3607,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "canadianRelevance": "<p>Canada is the world's leading producer of maple products. The sugar maple (Acer saccharum) is Canada's national tree and appears on the Canadian flag. Maple leaf extract research is led by Canadian university partnerships. Using the leaves — traditionally waste — creates a new revenue stream for Canadian maple producers while delivering a uniquely Canadian anti-aging ingredient with no equivalent in any other botanical tradition.</p>",
-      "maxUseLevel": 5
+      "maxUseLevel": 5,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "ceramide-np",
@@ -3482,7 +3634,7 @@
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
-      "ethicallySourced": false,
+      "ethicallySourced": true,
       "biodegradable": true,
       "canadianSourced": false,
       "locallySourced": false,
@@ -3510,7 +3662,9 @@
       "historicalUseNotes": "",
       "incompatibilities": "",
       "canadianRelevance": "",
-      "maxUseLevel": 3
+      "maxUseLevel": 3,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "licorice-root-extract",
@@ -3563,7 +3717,9 @@
       "historicalUseNotes": "<p>Documented in the Ebers Papyrus (1550 BCE), Shennong Bencao Jing (200 BCE), Charaka Samhita (300 BCE), and Dioscorides' De Materia Medica (50 CE). Used across Egyptian, Chinese, Greek, Indian, and Middle Eastern traditions for over 4,000 years.</p>",
       "incompatibilities": "",
       "canadianRelevance": "",
-      "maxUseLevel": 5
+      "maxUseLevel": 5,
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "avocado-oil",
@@ -3604,7 +3760,9 @@
       "transparencyStatement": "<p>We source avocado oil from certified organic orchards in Mexico and South Africa. Cold-pressed from pulp only; no hexane solvents. Sustainable farming practices verified by third-party auditors.</p>",
       "historicalUseNotes": "<p>Mesoamerican civilizations used avocado pulp topically for skin healing and wound care for over 5,000 years. Aztec records document its use for dry skin and scalp conditions.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "camellia-seed-oil",
@@ -3645,7 +3803,9 @@
       "transparencyStatement": "<p>We source tsubaki oil from certified organic producers in Japan's Izu Islands. Cold-pressed and unrefined. Traditional extraction methods preserved. No chemical solvents or high-heat processing.</p>",
       "historicalUseNotes": "<p>Used by Japanese geisha for over 1,000 years as their primary beauty oil for hair, skin, and nails. Referenced in Japanese beauty texts dating to the Heian period.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "baobab-oil",
@@ -3686,7 +3846,9 @@
       "transparencyStatement": "<p>We source baobab oil from wild-harvest cooperatives in East Africa. Trees are never cultivated — fruit falls naturally. Extraction is done by community producers using cold-press methods. Fair trade certified supply chain.</p>",
       "historicalUseNotes": "<p>Called the 'Tree of Life' — African communities have used every part of the baobab for millennia. The oil has been used for skin protection against harsh sun and wind in arid climates for thousands of years.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "borage-seed-oil",
@@ -3727,7 +3889,9 @@
       "transparencyStatement": "<p>We source borage oil from certified organic UK and Canadian farms. Cold-pressed and nitrogen-flushed immediately after extraction to preserve GLA integrity. Tested for peroxide values before use — any oil exceeding 10 mEq/kg is rejected.</p>",
       "historicalUseNotes": "<p>Medieval European herbalists used borage as 'the herb of gladness' — taken internally and applied topically for skin conditions, inflammation, and mood. Its skin-calming properties were documented in Roman texts.</p>",
       "incompatibilities": "Highly susceptible to oxidation — avoid extended heat or air exposure",
-      "canadianRelevance": "<p>Borage is commercially grown in Saskatchewan and Manitoba, making it one of Canada's more significant specialty oil crops for cosmetic use.</p>"
+      "canadianRelevance": "<p>Borage is commercially grown in Saskatchewan and Manitoba, making it one of Canada's more significant specialty oil crops for cosmetic use.</p>",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "raspberry-seed-oil",
@@ -3768,7 +3932,9 @@
       "transparencyStatement": "<p>We source raspberry seed oil as a byproduct of Canadian raspberry processing — representing zero-waste extraction from food production. Cold-pressed in British Columbia. Certified organic where available.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "Oxidizes rapidly — nitrogen-flush packaging recommended",
-      "canadianRelevance": "<p>British Columbia is a major raspberry growing region — raspberry seed oil represents Canadian agricultural upcycling at its best.</p>"
+      "canadianRelevance": "<p>British Columbia is a major raspberry growing region — raspberry seed oil represents Canadian agricultural upcycling at its best.</p>",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "moringa-oil",
@@ -3809,7 +3975,9 @@
       "transparencyStatement": "<p>We source moringa oil from fair-trade certified cooperatives in India and Ethiopia. Cold-pressed from organically grown seeds. Moringa cultivation actively improves soil health in arid regions — our sourcing directly supports land restoration programs.</p>",
       "historicalUseNotes": "<p>Used in ancient Egypt for skin protection and perfume fixation. Ayurvedic medicine has documented moringa oil use for over 3,000 years for skin conditions, wound healing, and hair growth.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "mango-butter",
@@ -3849,7 +4017,9 @@
       "transparencyStatement": "<p>We source mango butter from fair-trade certified processors in India who upcycle mango seed kernels from food production waste streams. Expeller-pressed without chemical solvents. Supporting zero-waste agricultural supply chains.</p>",
       "historicalUseNotes": "<p>Used in Ayurvedic medicine for centuries for skin conditions, wound healing, and as a base for herbal preparations. West African women have used mango butter for generations as a body moisturizer and hair conditioner.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "cocoa-butter",
@@ -3889,7 +4059,9 @@
       "transparencyStatement": "<p>We exclusively source fair-trade certified cocoa butter from cooperatives in Ecuador and Ghana. We will not source from conventional supply chains given documented child labor concerns. Our butter is cold-processed to preserve polyphenol content.</p>",
       "historicalUseNotes": "<p>Theobroma cacao — 'food of the gods' — was sacred to the Aztec and Maya civilizations who used the fat topically for skin conditions and wound care. Spanish colonizers documented its skin uses in the 16th century.</p>",
       "incompatibilities": "Comedogenic — avoid in facial formulas for acne-prone skin",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "cupuacu-butter",
@@ -3929,7 +4101,9 @@
       "transparencyStatement": "<p>We source cupuaçu butter from Amazon forest communities under certified sustainable wild-harvest programs that directly fund rainforest conservation. Purchase of this ingredient creates direct economic incentive to preserve standing Amazon forest.</p>",
       "historicalUseNotes": "<p>Indigenous Amazonian communities have used cupuaçu fruit and seeds for centuries for food, medicine, and skin care. Traditional use for skin wounds, dry skin, and hair conditioning is well-documented.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "centella-asiatica-extract",
@@ -3970,7 +4144,9 @@
       "transparencyStatement": "<p>We use standardized centella asiatica extract from certified organic farms in India, titrated to minimum 80% combined triterpenoids (asiaticoside, madecassoside, asiatic acid, madecassic acid). Extraction uses water and ethanol — no harsh solvents.</p>",
       "historicalUseNotes": "<p>Called 'brahmi' in Ayurveda — one of the most revered healing herbs for over 3,000 years. Used to treat leprosy, psoriasis, and chronic wounds. In TCM, called 'ji xue cao' and used for cognitive function and wound healing.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "oat-extract",
@@ -4010,7 +4186,9 @@
       "transparencyStatement": "<p>We source certified organic oat extract from Canadian prairie farms in Saskatchewan. Gluten-contamination tested batch-by-batch. Aqueous extraction without solvents.</p>",
       "historicalUseNotes": "<p>Oat baths have been prescribed for skin conditions since ancient Roman times. Colloidal oatmeal became an official OTC skin protectant in the US in 2003, reflecting centuries of traditional use validated by modern science.</p>",
       "incompatibilities": "Contains gluten — contraindicated in formulas marketed as gluten-free",
-      "canadianRelevance": "<p>Canadian oats from Saskatchewan prairies are among the world's finest. Canada is a global oat supplier — Canadian oat extract supports local agricultural economies.</p>"
+      "canadianRelevance": "<p>Canadian oats from Saskatchewan prairies are among the world's finest. Canada is a global oat supplier — Canadian oat extract supports local agricultural economies.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "tremella-mushroom-extract",
@@ -4050,7 +4228,9 @@
       "transparencyStatement": "<p>We use sustainably cultivated tremella mushroom extract from certified organic mushroom farms in Taiwan. Extracted using hot water without chemical solvents. Certified vegan and gluten-free.</p>",
       "historicalUseNotes": "<p>In TCM, tremella has been called 'the mushroom of immortality' and 'the poor man's bird's nest' for over 2,000 years. The legendary concubine Yang Guifei of the Tang Dynasty reportedly used tremella preparations for her famously luminous skin.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "sea-moss-extract",
@@ -4090,7 +4270,9 @@
       "transparencyStatement": "<p>We source sea moss extract from certified sustainable wild-harvesters on the coast of Nova Scotia. Harvest is limited to protect wild ecosystems. Cold water extraction without chemical processing.</p>",
       "historicalUseNotes": "<p>Irish and Scottish coastal communities have consumed and applied sea moss topically for centuries. During the Irish Famine (1845-1849), sea moss was a critical survival food. Traditional use for skin conditions, respiratory health, and general nourishment is extensively documented.</p>",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Nova Scotia and Newfoundland are significant wild-harvest regions for Chondrus crispus — using Canadian sea moss directly supports Atlantic fishing communities.</p>"
+      "canadianRelevance": "<p>Nova Scotia and Newfoundland are significant wild-harvest regions for Chondrus crispus — using Canadian sea moss directly supports Atlantic fishing communities.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "hibiscus-extract",
@@ -4130,7 +4312,9 @@
       "transparencyStatement": "<p>We source hibiscus extract from fair-trade certified farms in West Africa. Aqueous extraction only — no chemical solvents. The same farms supply both cosmetic and food-grade hibiscus, ensuring high safety standards.</p>",
       "historicalUseNotes": "<p>West African women have used hibiscus flowers for skin brightening and conditioning for centuries. In Ayurvedic medicine, hibiscus is used for hair growth and scalp conditions. Traditional Mexican and Caribbean use for skin lightening and anti-aging is extensively documented.</p>",
       "incompatibilities": "Natural AHA activity — use sun protection; avoid simultaneous use with high-concentration synthetic acids",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "chaga-mushroom-extract",
@@ -4170,7 +4354,9 @@
       "transparencyStatement": "<p>We wild-harvest chaga from certified sustainable operations in northern Ontario's boreal birch forests. Harvest is limited to dead or dying trees only — living birch is never stripped. Dual water/ethanol extraction. Supporting Indigenous-led sustainable forest economies in northern Ontario.</p>",
       "historicalUseNotes": "<p>Siberian shamans called chaga 'gift from god' and 'mushroom of immortality' — used medicinally for over 4,000 years. First documented in Chinese medicine texts in the 16th century. World War II era Russian research documented its anti-tumor and adaptogenic properties.</p>",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Canadian boreal forests (Ontario, Quebec, BC) are among the world's finest chaga growing environments. Supporting Canadian wild-harvest chaga directly funds Indigenous and rural forest communities across northern Canada.</p>"
+      "canadianRelevance": "<p>Canadian boreal forests (Ontario, Quebec, BC) are among the world's finest chaga growing environments. Supporting Canadian wild-harvest chaga directly funds Indigenous and rural forest communities across northern Canada.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "beta-glucan",
@@ -4210,7 +4396,9 @@
       "transparencyStatement": "<p>We use cosmetic-grade beta-glucan derived from controlled yeast fermentation. Consistent purity and molecular weight verified by HPLC. Vegan and cruelty-free.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "Oat-derived beta-glucan contains gluten — specify yeast-derived for gluten-free formulas",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "kojic-acid",
@@ -4250,7 +4438,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade kojic acid from verified fermentation facilities. INCI documented. Tested for purity and absence of contaminants. Formulated at 1% — the minimum effective concentration — to reduce sensitization risk.</p>",
       "historicalUseNotes": "<p>Discovered as a fermentation byproduct in Japanese sake and soy sauce production. Workers in sake breweries were historically noted to have unusually even, bright skin on their hands — leading to investigation of kojic acid's skin-brightening properties.</p>",
       "incompatibilities": "May cause contact sensitization at concentrations >2%; avoid in formulas with high ascorbic acid (pH conflict)",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "allantoin",
@@ -4290,7 +4480,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade allantoin (>99% purity). While naturally occurring in comfrey root, we use pharmaceutical synthesis for consistency and safety — comfrey root contains pyrrolizidine alkaloids that are unsafe for topical use.</p>",
       "historicalUseNotes": "<p>Comfrey root (allantoin source) was called 'knitbone' in medieval European herbalism for its wound-healing and bone-setting properties. Its use for skin healing spans centuries.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "sodium-hyaluronate",
@@ -4330,7 +4522,9 @@
       "transparencyStatement": "<p>We use fermentation-derived sodium hyaluronate from verified vegan production — no animal-derived HA. Multiple molecular weight fractions (high, medium, low) used for comprehensive depth-of-hydration delivery.</p>",
       "historicalUseNotes": "<p>Hyaluronic acid was first isolated from bovine vitreous humor in 1934. Its skin hydration role was characterized through the 1970s-80s. Vegan bacterial fermentation methods developed in the 1990s made it widely accessible without animal sourcing.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "betaine",
@@ -4370,7 +4564,9 @@
       "transparencyStatement": "<p>We source betaine from certified organic sugar beet fermentation in Europe. Produced from agricultural waste streams (beet molasses) — a sustainable, zero-new-land-use ingredient.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Alberta sugar beets are processed for betaine by-products — Canadian-sourced betaine is available from local sugar processing facilities.</p>"
+      "canadianRelevance": "<p>Alberta sugar beets are processed for betaine by-products — Canadian-sourced betaine is available from local sugar processing facilities.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "adenosine",
@@ -4410,7 +4606,9 @@
       "transparencyStatement": "<p>We use fermentation-derived pharmaceutical-grade adenosine verified by HPLC. Identical to endogenous human adenosine. Vegan, gluten-free, and cruelty-free.</p>",
       "historicalUseNotes": "<p>Adenosine's anti-wrinkle efficacy has been validated in peer-reviewed clinical studies since the 1990s. It is particularly well-studied in Korean dermatological research, forming the basis of the Korean regulatory approval for wrinkle improvement claims.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "madecassoside",
@@ -4450,7 +4648,9 @@
       "transparencyStatement": "<p>We use >95% purity madecassoside from certified organic Centella asiatica farms in India. Extracted using pharmaceutical-grade methods. Third-party purity verified.</p>",
       "historicalUseNotes": "<p>The traditional Centella asiatica complex from which madecassoside derives has been used in Ayurvedic medicine for over 3,000 years for wound healing and skin disease treatment.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "zinc-pca",
@@ -4490,7 +4690,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade zinc PCA. Consistent purity verified. Safe for daily use; formulated at 0.5% — effective concentration without over-suppressing the skin's natural oil balance.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "palmitoyl-tripeptide-1",
@@ -4530,7 +4732,9 @@
       "transparencyStatement": "<p>We use clinically verified Palmitoyl Tripeptide-1 from European pharmaceutical synthesis facilities. Purity verified by HPLC. Used at clinically validated concentrations — not cosmetically relevant trace amounts.</p>",
       "historicalUseNotes": "<p>GHK tripeptide was first isolated from human plasma albumin in 1973 by biochemist Loren Pickart. Its wound-healing and collagen-stimulating properties were characterized through the 1980s-90s, leading to the development of palmitoylated cosmetic versions in the 2000s.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "palmitoyl-tetrapeptide-7",
@@ -4570,7 +4774,9 @@
       "transparencyStatement": "<p>We use clinically verified Palmitoyl Tetrapeptide-7 used at clinically validated concentrations in combination with Palmitoyl Tripeptide-1. Purity by HPLC. European synthesis.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "ghk-cu",
@@ -4610,7 +4816,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade Copper Tripeptide-1 (GHK-Cu) from European synthesis facilities. Blue-tinted solution indicates copper-chelated form. Purity by HPLC. Stored under nitrogen to preserve activity.</p>",
       "historicalUseNotes": "<p>GHK was first identified in human plasma by Dr. Loren Pickart at the University of California in 1973. Its copper-chelating form and wound-healing properties were characterized through decades of research from the 1970s-2000s.</p>",
       "incompatibilities": "Incompatible with high-concentration ascorbic acid (>10%) — copper reduction destroys peptide complex",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "bifida-ferment-lysate",
@@ -4650,7 +4858,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade Bifida Ferment Lysate from controlled fermentation. Vegan and cruelty-free. All bacterial strains are human-commensal — no environmental collection. Lot-to-lot consistency verified.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "galactomyces-ferment-filtrate",
@@ -4690,7 +4900,9 @@
       "transparencyStatement": "<p>We use cosmetic-grade Galactomyces Ferment Filtrate from controlled fermentation facilities. Vegan — produced without animal-derived fermentation media. Purity and B vitamin content verified by HPLC.</p>",
       "historicalUseNotes": "<p>Sake brewery workers in Japan were observed to have exceptionally young hands — this observation led to the discovery of Galactomyces ferment's skin properties in the 1970s, eventually commercialized as SK-II Pitera in the 1980s. One of the most influential discoveries in modern cosmetic dermatology.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "phenoxyethanol",
@@ -4730,7 +4942,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade phenoxyethanol at the minimum effective concentration (0.5-0.75%). We test all formulas to ISO 11930 microbial challenge standards before release. We are transparent: this is a synthetic preservative, but it keeps products safe and prevents microbial contamination that would cause real skin harm.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "Avoid in products specifically for infants and around the diaper area per EU recommendations",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "xanthan-gum",
@@ -4770,7 +4984,9 @@
       "transparencyStatement": "<p>We use certified organic xanthan gum from non-GMO corn fermentation. Produced using renewable agricultural inputs. Fully biodegradable. Certified vegan and gluten-free.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "apricot-kernel-oil",
@@ -4810,7 +5026,9 @@
       "transparencyStatement": "<p>We source organic apricot kernel oil from Turkish cooperatives. Cold-pressed from dried apricot industry kernels — zero additional agricultural footprint. No chemical solvents.</p>",
       "historicalUseNotes": "<p>Traded along Silk Road routes for centuries. Traditional use in Central Asian and Middle Eastern skin and hair care documented for over 1,000 years.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "sweet-almond-oil",
@@ -4850,7 +5068,9 @@
       "transparencyStatement": "<p>We source certified organic sweet almond oil from Spanish and Californian orchards. Cold-pressed only. Nut allergen note: almond oil from sweet almonds has very low allergenic protein content after cold-pressing, but we advise caution for those with tree nut allergies.</p>",
       "historicalUseNotes": "<p>Used in Ayurvedic medicine for over 3,000 years for skin nourishment, massage, and hair care. Mediterranean civilizations documented almond oil use for skin conditions since ancient Greece.</p>",
       "incompatibilities": "Tree nut allergy consideration — not recommended for confirmed tree nut allergy sufferers",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "pumpkin-seed-oil",
@@ -4890,7 +5110,9 @@
       "transparencyStatement": "<p>We source organic pumpkin seed oil from Canadian growers as a byproduct of agricultural processing. Cold-pressed only. High zinc content verified by ICP-OES analysis.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "Oxidizes at moderate rate — nitrogen packaging recommended",
-      "canadianRelevance": "<p>Ontario and Quebec grow significant squash and pumpkin crops — Canadian pumpkin seed oil supports local agricultural byproduct utilization.</p>"
+      "canadianRelevance": "<p>Ontario and Quebec grow significant squash and pumpkin crops — Canadian pumpkin seed oil supports local agricultural byproduct utilization.</p>",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "watermelon-seed-oil",
@@ -4930,7 +5152,9 @@
       "transparencyStatement": "<p>We source watermelon seed oil from certified organic agricultural processing in West Africa. Seeds are a byproduct of watermelon food processing — zero new agricultural footprint.</p>",
       "historicalUseNotes": "<p>Used by North African desert communities for centuries as a skin and hair oil. Kalahari San peoples have used wild-harvested Citrullus lanatus for skin protection against extreme desert conditions for millennia.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "cloudberry-seed-oil",
@@ -4970,7 +5194,9 @@
       "transparencyStatement": "<p>We wild-harvest cloudberry from Indigenous-led sustainable harvest programs in northern Quebec. This ingredient cannot be farmed — 100% of production comes from sustainable wild harvest in pristine boreal and tundra environments. Direct payment to Indigenous harvesters above market rate.</p>",
       "historicalUseNotes": "<p>Indigenous peoples of northern Canada have consumed and used cloudberries topically for centuries — for wound healing, as a vitamin C source during long winters, and as a skin conditioner. The berries are sacred in many northern Indigenous food traditions.</p>",
       "incompatibilities": "Oxidizes quickly — nitrogen-flush packaging essential",
-      "canadianRelevance": "<p>One of Canada's most unique indigenous botanical oils — exclusively from the Canadian north and Scandinavian arctic. A defining ingredient in any 'truly Canadian' luxury skincare line.</p>"
+      "canadianRelevance": "<p>One of Canada's most unique indigenous botanical oils — exclusively from the Canadian north and Scandinavian arctic. A defining ingredient in any 'truly Canadian' luxury skincare line.</p>",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "labrador-tea-extract",
@@ -5010,7 +5236,9 @@
       "transparencyStatement": "<p>We wild-harvest Labrador tea under Indigenous-guided sustainable protocols in northern Ontario and Quebec. Population monitoring ensures no overharvest. Direct community payment to Indigenous harvesters. This ingredient is not farmed — all production is from managed wild populations.</p>",
       "historicalUseNotes": "<p>Used by Cree, Ojibwe, Inuit, and other First Nations peoples for centuries as a medicinal tea for colds, inflammation, and pain. European fur traders documented its use for respiratory conditions in the 1700s.</p>",
       "incompatibilities": "External use only — ledol is toxic at high oral doses",
-      "canadianRelevance": "<p>Labrador tea is exclusively Canadian in its primary range. An extraordinary opportunity for 'made in Canada' botanical differentiation that no other country can replicate.</p>"
+      "canadianRelevance": "<p>Labrador tea is exclusively Canadian in its primary range. An extraordinary opportunity for 'made in Canada' botanical differentiation that no other country can replicate.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "willow-bark-extract",
@@ -5050,7 +5278,9 @@
       "transparencyStatement": "<p>We use certified organic willow bark extract from sustainably managed European sources. Aqueous extraction. Salicin content standardized and verified.</p>",
       "historicalUseNotes": "<p>Willow bark has been used medicinally since ancient Egypt and Sumeria for pain and inflammation. Hippocrates documented its use for fever and pain in 400 BCE. Aspirin was synthesized from willow's salicin in 1897 by Felix Hoffmann at Bayer.</p>",
       "incompatibilities": "Aspirin allergy contraindication — salicin converts to salicylate; caution for aspirin-sensitive individuals",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "gluconolactone",
@@ -5090,7 +5320,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade gluconolactone from verified fermentation production. Tested for purity and absence of AHA contamination. Safe for daily use at therapeutic concentrations.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "glyceryl-stearate",
@@ -5130,7 +5362,9 @@
       "transparencyStatement": "<p>We use RSPO-certified (no-deforestation) palm-derived or sunflower/rapeseed-derived glyceryl stearate. Biodegradable and vegan-certified. We specify palm-free options where sunflower-derived is available.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "sodium-levulinate",
@@ -5170,7 +5404,9 @@
       "transparencyStatement": "<p>We use sodium levulinate derived from certified sustainable agricultural biomass fermentation. COSMOS-compliant natural preservative. Biodegradable.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "Activity drops significantly above pH 5.5 — not suitable for alkaline formulas",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "maracuja-oil",
@@ -5210,7 +5446,9 @@
       "transparencyStatement": "<p>We source organic maracuja oil from Brazilian cooperative farms. Cold-pressed from seeds recovered from juice production — agricultural byproduct utilization. No deforestation.</p>",
       "historicalUseNotes": "<p>Indigenous Amazonian peoples have used passion fruit and its seeds medicinally for centuries. The oil has been a traditional skin care ingredient in Brazilian folk medicine.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "sacha-inchi-oil",
@@ -5250,7 +5488,9 @@
       "transparencyStatement": "<p>We source certified organic sacha inchi oil from Peruvian Indigenous cooperative farms. Cold-pressed. Refrigerated supply chain to preserve ALA integrity. Peroxide value tested at receipt — any oil exceeding 5 mEq/kg rejected.</p>",
       "historicalUseNotes": "<p>Incan civilization used sacha inchi seeds as a food and medicinal oil for centuries. Peruvian traditional medicine documents its use for inflammatory skin conditions and wounds.</p>",
       "incompatibilities": "Very susceptible to oxidation — nitrogen packaging and cold chain mandatory",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "broccoli-seed-oil",
@@ -5290,7 +5530,9 @@
       "transparencyStatement": "<p>We source certified organic broccoli seed oil from Canadian and Italian farms. Cold-pressed from vegetable seed industry byproduct — zero new agricultural footprint. The natural, biodegradable silicone alternative.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": "<p>British Columbia and Ontario broccoli farms provide high-quality organic broccoli seed oil — a true Canadian ingredient option for clean beauty formulations.</p>"
+      "canadianRelevance": "<p>British Columbia and Ontario broccoli farms provide high-quality organic broccoli seed oil — a true Canadian ingredient option for clean beauty formulations.</p>",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "ashwagandha-extract",
@@ -5330,7 +5572,9 @@
       "transparencyStatement": "<p>We use standardized ashwagandha extract from certified organic farms in Madhya Pradesh, India. Withanolide content standardized and verified. Traditional fair-trade supply chain with community benefit programs.</p>",
       "historicalUseNotes": "<p>One of the most important herbs in Ayurvedic medicine for over 3,000 years — called 'the king of Ayurveda' for its broad range of applications. Used for stress, vitality, strength, and skin health.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "elderberry-extract",
@@ -5370,7 +5614,9 @@
       "transparencyStatement": "<p>We source wild-harvested elderberry extract from certified sustainable operations in Ontario and Quebec, supporting Indigenous and rural community harvesters. Aqueous extraction without solvents.</p>",
       "historicalUseNotes": "<p>Elderberry has been a cornerstone of European and Indigenous North American folk medicine for centuries. Used for skin conditions, immune support, and 'the flower of all medicines' in European herbal traditions. Hippocrates called elderberry his 'medicine chest.'</p>",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Wild Canadian elderberry grows abundantly across southern Ontario and Quebec — supporting local wild-harvest economies and bringing a Canadian botanical story to every formula.</p>"
+      "canadianRelevance": "<p>Wild Canadian elderberry grows abundantly across southern Ontario and Quebec — supporting local wild-harvest economies and bringing a Canadian botanical story to every formula.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "pomegranate-extract",
@@ -5410,7 +5656,9 @@
       "transparencyStatement": "<p>We source certified organic pomegranate extract from Iranian cooperative farms. Polyphenol content standardized and verified by HPLC. Traditional fair trade supply chain.</p>",
       "historicalUseNotes": "<p>Pomegranate is one of the oldest cultivated fruits — documented in ancient Egyptian, Persian, and Greek civilizations for skin, hair, and medicinal uses for over 5,000 years. The fruit appears in ancient Egyptian tomb paintings as a symbol of beauty and fertility.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "milk-thistle-extract",
@@ -5450,7 +5698,9 @@
       "transparencyStatement": "<p>We use standardized milk thistle extract (70-80% silymarin) from certified organic farms. Silymarin content verified by HPLC. Growing increasingly in southern Ontario — working toward Canadian-sourced supply.</p>",
       "historicalUseNotes": "<p>Milk thistle has been used medicinally for over 2,000 years — Pliny the Elder documented its liver-protective uses in 50 CE. Used in European folk medicine for skin conditions, liver support, and detoxification for centuries.</p>",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Milk thistle has naturalized widely in southern Canada — Canadian-sourced milk thistle extract is increasingly viable as the plant's range expands.</p>"
+      "canadianRelevance": "<p>Milk thistle has naturalized widely in southern Canada — Canadian-sourced milk thistle extract is increasingly viable as the plant's range expands.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "echinacea-extract",
@@ -5490,7 +5740,9 @@
       "transparencyStatement": "<p>We source certified organic echinacea from family farms in Ontario. Canadian prairie provenance. Traditional Indigenous uses honored through community benefit programs with Prairie First Nations.</p>",
       "historicalUseNotes": "<p>One of the most important medicinal plants used by North American Indigenous peoples — Lakota, Crow, and Cheyenne used echinacea for wounds, snakebites, toothaches, and infections. First documented by European botanists in the 1700s.</p>",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Echinacea is native to the Canadian prairies — supporting Canadian prairie agriculture and honoring Indigenous plant knowledge traditions.</p>"
+      "canadianRelevance": "<p>Echinacea is native to the Canadian prairies — supporting Canadian prairie agriculture and honoring Indigenous plant knowledge traditions.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "maca-root-extract",
@@ -5530,7 +5782,9 @@
       "transparencyStatement": "<p>We source certified organic Peruvian maca root extract from fair-trade cooperatives in the Junín plateau. Authentic altitude-grown material only — no lower-altitude substitution. Supporting Andean Indigenous community livelihoods.</p>",
       "historicalUseNotes": "<p>Maca has been cultivated in Peru for over 3,000 years. Incan warriors ate maca before battle for energy and endurance. Traditional use for fertility, strength, and skin vitality is documented in pre-Columbian records.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "schisandra-extract",
@@ -5570,7 +5824,9 @@
       "transparencyStatement": "<p>We source premium certified organic schisandra extract from Northern China under traditional wild-managed harvest protocols. Schisandrin content standardized and verified. Traditional TCM supply chain with community benefit programs.</p>",
       "historicalUseNotes": "<p>One of the 50 fundamental herbs of TCM — documented for over 2,000 years as a tonic for skin radiance, vitality, and longevity. 'The herb of beauty' in Chinese traditional medicine.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "reishi-mushroom-extract",
@@ -5610,7 +5866,9 @@
       "transparencyStatement": "<p>We use sustainably cultivated reishi from certified organic mushroom farms in China. Dual water/ethanol extraction for complete bioactive capture. Vegan and cruelty-free.</p>",
       "historicalUseNotes": "<p>Called 'lingzhi' in China — used by Taoist practitioners for over 4,000 years for longevity and spiritual clarity. Used by Japanese emperors as the ultimate health tonic.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "snap-8-peptide",
@@ -5650,7 +5908,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade Acetyl Octapeptide-3 at clinically validated concentrations. HPLC purity verified. Produced in Europe under pharmaceutical synthesis standards.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "tripeptide-29",
@@ -5690,7 +5950,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade Tripeptide-29 at therapeutically relevant concentrations. HPLC verified. European synthesis.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "zinc-oxide",
@@ -5711,7 +5973,7 @@
       "irritationRisk": true,
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
@@ -5729,7 +5991,9 @@
       "professionalAnalogy": "<p>We use non-nano zinc oxide verified at >100nm particle size. COSMOS-certified mineral UV filter. No nanoparticle risk. Reef-safe formulation grade.</p>",
       "transparencyStatement": "<p>Zinc oxide has been used as a topical healing and protective agent since ancient Egypt. Calamine lotion (zinc oxide + ferric oxide) has been used for skin conditions for over 200 years.</p>",
       "historicalUseNotes": "",
-      "incompatibilities": ""
+      "incompatibilities": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "sodium-pca",
@@ -5750,7 +6014,7 @@
       "irritationRisk": true,
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": false,
       "crueltyFree": true,
@@ -5768,7 +6032,9 @@
       "professionalAnalogy": "<p>We use pharmaceutical-grade sodium PCA from verified fermentation-derived glutamic acid. Chemically identical to endogenous NMF component.</p>",
       "transparencyStatement": "",
       "historicalUseNotes": "",
-      "incompatibilities": ""
+      "incompatibilities": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "inulin",
@@ -5789,7 +6055,7 @@
       "irritationRisk": true,
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": true,
       "organic": false,
       "crueltyFree": true,
@@ -5807,7 +6073,9 @@
       "professionalAnalogy": "<p>We use certified organic chicory-derived inulin from European farms. Non-GMO. COSMOS-approved natural ingredient.</p>",
       "transparencyStatement": "",
       "historicalUseNotes": "",
-      "incompatibilities": ""
+      "incompatibilities": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "colostrum",
@@ -5828,7 +6096,7 @@
       "irritationRisk": false,
       "isPublished": "true",
       "vegan": false,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": "",
       "crueltyFree": true,
@@ -5844,7 +6112,9 @@
       "educationWhen": "<p>We source pharmaceutical-grade bovine colostrum exclusively from New Zealand certified farms with strict animal welfare standards. Calves receive full colostrum allocation before any collection. Clearly labeled non-vegan.</p>",
       "consumerAnalogy": "",
       "professionalAnalogy": "Not vegan — clearly labeled",
-      "transparencyStatement": ""
+      "transparencyStatement": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "cetearyl-alcohol",
@@ -5865,7 +6135,7 @@
       "irritationRisk": true,
       "isPublished": "true",
       "vegan": true,
-      "glutenFree": false,
+      "glutenFree": true,
       "wildcrafted": true,
       "organic": false,
       "crueltyFree": true,
@@ -5883,7 +6153,9 @@
       "professionalAnalogy": "<p>We use palm-free cetearyl alcohol derived from certified organic coconut or rapeseed. COSMOS-compliant natural-origin ingredient. Biodegradable.</p>",
       "transparencyStatement": "",
       "historicalUseNotes": "",
-      "incompatibilities": ""
+      "incompatibilities": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "hydroxyethylcellulose",
@@ -5903,8 +6175,8 @@
       "solubility": true,
       "irritationRisk": false,
       "isPublished": "true",
-      "vegan": false,
-      "glutenFree": false,
+      "vegan": true,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": "",
       "crueltyFree": true,
@@ -5920,7 +6192,9 @@
       "educationWhen": "<p>We use HEC from FSC-certified sustainable wood pulp. Natural origin ingredient. Biodegradable.</p>",
       "consumerAnalogy": "",
       "professionalAnalogy": "",
-      "transparencyStatement": ""
+      "transparencyStatement": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "citric-acid",
@@ -5940,8 +6214,8 @@
       "solubility": true,
       "irritationRisk": false,
       "isPublished": "true",
-      "vegan": false,
-      "glutenFree": false,
+      "vegan": true,
+      "glutenFree": true,
       "wildcrafted": false,
       "organic": "",
       "crueltyFree": true,
@@ -5957,7 +6231,9 @@
       "educationWhen": "<p>We use fermentation-derived citric acid from renewable sugar fermentation. COSMOS-compliant natural origin. Biodegradable.</p>",
       "consumerAnalogy": "",
       "professionalAnalogy": "",
-      "transparencyStatement": ""
+      "transparencyStatement": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "blackcurrant-seed-oil",
@@ -5997,7 +6273,9 @@
       "transparencyStatement": "<p>We source certified organic blackcurrant seed oil from BC Canadian farms. Cold-pressed. Refrigerated supply chain.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "Oxidizes rapidly — nitrogen packaging essential",
-      "canadianRelevance": "<p>British Columbia produces significant blackcurrant crops — Canadian blackcurrant seed oil supports local agricultural byproduct utilization.</p>"
+      "canadianRelevance": "<p>British Columbia produces significant blackcurrant crops — Canadian blackcurrant seed oil supports local agricultural byproduct utilization.</p>",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "sea-buckthorn-co2",
@@ -6037,7 +6315,9 @@
       "transparencyStatement": "<p>We source sea buckthorn from sustainable wild-harvest and cultivated programs in Saskatchewan. CO2 supercritical extraction preserves full bioactive spectrum without heat or solvents.</p>",
       "historicalUseNotes": "<p>Used in Tibetan, Mongolian, and Chinese medicine for over 1,000 years. Sea buckthorn oil was used by Soviet cosmonauts to prevent radiation damage during space missions.</p>",
       "incompatibilities": "Intense orange-red pigment — use at <0.5% to avoid formula discoloration",
-      "canadianRelevance": "<p>Saskatchewan is establishing itself as North America's sea buckthorn center — Canadian prairie-grown sea buckthorn is a genuine point of domestic botanical differentiation.</p>"
+      "canadianRelevance": "<p>Saskatchewan is establishing itself as North America's sea buckthorn center — Canadian prairie-grown sea buckthorn is a genuine point of domestic botanical differentiation.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "ylang-ylang-essential-oil",
@@ -6077,7 +6357,9 @@
       "transparencyStatement": "<p>We use extra-grade ylang ylang from Comoros Island organic farms. IFRA compliant concentrations. Sensitization risk disclosed — patch test recommended for sensitive skin users.</p>",
       "historicalUseNotes": "<p>Used in Indonesia and the Philippines for centuries in hair oils and as a bridal garland. The Comoros Islands economy has depended on ylang ylang cultivation for over 150 years.</p>",
       "incompatibilities": "Potential sensitizer at >1% — IFRA limits must be respected; patch test for sensitive skin",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "neroli-essential-oil",
@@ -6117,7 +6399,9 @@
       "transparencyStatement": "<p>We source certified organic Tunisian neroli from traditional family farms in Nabeul. The premium price reflects genuine 1,000:1 flower-to-oil yield. No adulteration — verified by GC/MS analysis.</p>",
       "historicalUseNotes": "<p>Named after Anne Marie Orsini, Princess of Nerola, who used it as a perfume in 17th century Italy. Traditional use in North African wedding cosmetics for centuries. Distilled in Grasse since the 17th century.</p>",
       "incompatibilities": "IFRA limits apply — max 0.7% leave-on (skin sensitization); phototoxicity concern at high concentrations",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "alpha-lipoic-acid",
@@ -6157,7 +6441,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade R-alpha lipoic acid (the naturally occurring enantiomer, more active than racemic ALA). HPLC purity verified. Dark glass packaging to prevent oxidation.</p>",
       "historicalUseNotes": "<p>Alpha lipoic acid was first isolated in 1951 by biochemists Reed and De Busk. Its role as a mitochondrial coenzyme was established in the 1960s. Cosmetic applications emerged in the 1990s through the research of Dr. Lester Packer at UC Berkeley.</p>",
       "incompatibilities": "Light and air sensitive — nitrogen-flush dark packaging essential",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "ellagic-acid",
@@ -6197,7 +6483,9 @@
       "transparencyStatement": "<p>We use pomegranate-derived ellagic acid from certified organic pomegranate processing waste streams. HPLC purity standardized. Supports zero-waste agricultural processing.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "clary-sage-extract",
@@ -6237,7 +6525,9 @@
       "transparencyStatement": "<p>We use certified organic Provençal clary sage extract. CO2 or aqueous extraction to preserve sclareol integrity. Traditional fair trade supply chain.</p>",
       "historicalUseNotes": "<p>Used in European herbal medicine for centuries for women's conditions — 'clear eye' (clary) and hormonal balance. Traditional use for menopausal symptoms and skin conditions well documented.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "magnesium-ascorbyl-phosphate",
@@ -6277,7 +6567,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade MAP from Japanese synthesis facilities. HPLC purity verified. Water-stable form that maintains potency from batch to consumer use.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "niacinamide-b3",
@@ -6317,7 +6609,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade fermentation-derived niacinamide. Water-stable, pH-stable active used at clinically validated concentrations. Thoroughly tested for compatibility with all formulas.</p>",
       "historicalUseNotes": "<p>Niacinamide deficiency causes pellagra — a disease of skin, gut, and brain. The connection between vitamin B3 and skin health has been recognized since niacin's discovery in the 1930s. Cosmetic application developed from 1990s onwards as clinical studies accumulated.</p>",
       "incompatibilities": "High doses of ascorbic acid (>20%) may convert niacinamide to nicotinic acid — use in separate steps for vitamin C + niacinamide combination",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "vitamin-k2",
@@ -6357,7 +6651,9 @@
       "transparencyStatement": "<p>We use natto fermentation-derived MK-7 vitamin K2. Vegan-certified fermentation process. HPLC purity verified. Fat-soluble — formulated in appropriate lipid carrier for bioavailability.</p>",
       "historicalUseNotes": "<p>Vitamin K was first described by Danish biochemist Henrik Dam in 1929 (K from 'Koagulation'). The distinct K2 isomer and its skin benefits were characterized through the 1990s-2000s.</p>",
       "incompatibilities": "Anticoagulant medication users should consult physician — topical absorption is low but documented",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "lactobionic-acid",
@@ -6397,7 +6693,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade lactobionic acid from verified fermentation production. Tested for tolerability in sensitive and rosacea-affected skin. Formulated at physiological pH for optimal gentleness.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "bromelain",
@@ -6437,7 +6735,9 @@
       "transparencyStatement": "<p>We use cosmetic-grade bromelain from pineapple stem byproduct. Agricultural waste valorization. Enzyme activity (GDU/g) verified by standardized assay. Certified vegan and organic.</p>",
       "historicalUseNotes": "<p>Pineapple has been used in South American folk medicine for wound healing and inflammation for centuries. Bromelain was first isolated from pineapple in 1891 by Venezuelan chemist Vicente Marcano.</p>",
       "incompatibilities": "Heat-sensitive — denatured above 60°C; avoid hot water contact in use",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "papain",
@@ -6477,7 +6777,9 @@
       "transparencyStatement": "<p>We use cosmetic-grade papain from certified organic papaya cultivation. Enzyme activity standardized and verified. Latex allergy contraindication clearly labeled.</p>",
       "historicalUseNotes": "<p>Mesoamerican civilizations and Caribbean communities have used fresh papaya topically for skin brightening and wound healing for centuries. Traditional use for dark spots and scarring is extensively documented across Central America, India, and East Africa.</p>",
       "incompatibilities": "Latex allergy contraindication — papain shares allergenic epitopes with natural rubber latex (Hevea brasiliensis)",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "polyglutamic-acid",
@@ -6517,7 +6819,9 @@
       "transparencyStatement": "<p>We use Japanese natto-derived polyglutamic acid from certified fermentation facilities. Vegan-certified process. Molecular weight verified by GPC analysis.</p>",
       "historicalUseNotes": "<p>Polyglutamic acid was first identified in the 1930s as a component of the protective outer layer of Bacillus anthracis spores. Its cosmetic skin hydration application was developed through Japanese natto fermentation research in the 1990s-2000s.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "ceramide-eg",
@@ -6557,7 +6861,9 @@
       "transparencyStatement": "<p>We use plant-derived skin-identical Ceramide EG from biotransformation. Vegan-certified. Formulated in physiologically balanced ceramide complex (ceramide:cholesterol:fatty acid 1:1:1).</p>",
       "historicalUseNotes": "",
       "incompatibilities": "Must be formulated in physiologically balanced ratio with cholesterol and fatty acids for structural benefit",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "bakuchiol-advance",
@@ -6597,7 +6903,9 @@
       "transparencyStatement": "<p>We use CO2-extracted certified organic bakuchiol from Indian farms. CO2 extraction preserves the full meroterpene complex. Clinically validated at 0.5-1%.</p>",
       "historicalUseNotes": "<p>Psoralea corylifolia (babchi) has been used in Ayurvedic medicine for over 3,000 years for skin conditions including vitiligo, psoriasis, and aging. Traditional Indian medicine documented its skin-renewing properties long before modern clinical validation.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "sea-kelp-bioferment",
@@ -6637,7 +6945,9 @@
       "transparencyStatement": "<p>We source BC Pacific coast kelp from certified sustainable harvest operations. Fermented using controlled probiotic cultures. Supporting coastal BC marine economy.</p>",
       "historicalUseNotes": "<p>Coastal First Nations peoples of BC have harvested and consumed kelp for food, medicine, and skin care for thousands of years. Traditional use for skin conditions and wound healing is documented across Pacific coastal communities.</p>",
       "incompatibilities": "",
-      "canadianRelevance": "<p>BC's Pacific kelp forests are among the world's finest — Canadian coast kelp bioferment directly supports sustainable coastal marine economies and BC Indigenous communities.</p>"
+      "canadianRelevance": "<p>BC's Pacific kelp forests are among the world's finest — Canadian coast kelp bioferment directly supports sustainable coastal marine economies and BC Indigenous communities.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "rose-damascena-extract",
@@ -6677,7 +6987,9 @@
       "transparencyStatement": "<p>We use certified organic Bulgarian Rosa damascena extract from the Kazanlak Rose Valley. Flowers hand-picked at dawn by local cooperatives. True single-origin provenance documented. Supporting Bulgarian rose farming families.</p>",
       "historicalUseNotes": "<p>Rosa damascena has been cultivated for over 2,000 years. Rose water has been a luxury skincare staple since ancient Persia, Egypt, and Rome. The Rosa damascena cultivar is believed to have originated in Damascus (Syria) over 1,000 years ago.</p>",
       "incompatibilities": "IFRA limits apply for essential oil fraction in leave-on products",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "turmeric-co2-extract",
@@ -6717,7 +7029,9 @@
       "transparencyStatement": "<p>We use certified organic CO2-extracted turmeric from family farms in Andhra Pradesh, India. Curcuminoid content standardized to >95% by HPLC. Traditional Ayurvedic supply chain with community benefit programs.</p>",
       "historicalUseNotes": "<p>'Haldi' — turmeric — has been the cornerstone of Ayurvedic skin and beauty practice for over 4,000 years. Indian brides apply turmeric paste (Haldi ceremony) before their wedding for skin brightening and glow. Documented in Sanskrit texts as early as 250 BCE.</p>",
       "incompatibilities": "Yellow-orange pigment — colors formulas; use intentionally or at <0.2%",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "acetyl-glucosamine",
@@ -6757,7 +7071,9 @@
       "transparencyStatement": "<p>We use fermentation-derived vegan acetyl glucosamine — shellfish-free. Verified vegan. HPLC purity confirmed.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "sea-buckthorn-berry-oil",
@@ -6797,7 +7113,9 @@
       "transparencyStatement": "<p>We source Canadian prairie-grown sea buckthorn from Saskatchewan organic farms. Developing our Canadian botanical story while supporting prairie agricultural diversification.</p>",
       "historicalUseNotes": "<p>Used in Tibetan Medicine for over 1,000 years. Soviet cosmonauts used sea buckthorn oil to protect against space radiation. The berries appear in Greek mythology as the food of Pegasus.</p>",
       "incompatibilities": "Intense orange pigment — colors formulas orange at >0.5%; plan formulation accordingly",
-      "canadianRelevance": "<p>Saskatchewan is the emerging North American center for sea buckthorn cultivation — truly Canadian prairie botanical with a 1,000-year heritage story.</p>"
+      "canadianRelevance": "<p>Saskatchewan is the emerging North American center for sea buckthorn cultivation — truly Canadian prairie botanical with a 1,000-year heritage story.</p>",
+      "coldPressed": true,
+      "raw": true
     },
     {
       "slug": "willow-herb-extract",
@@ -6837,7 +7155,9 @@
       "transparencyStatement": "<p>We wild-harvest Canadian fireweed from certified sustainable boreal forest sources in BC, Alberta, and Ontario. Indigenous-guided ethical harvest. Aqueous extraction. A uniquely Canadian botanical unavailable from any other country.</p>",
       "historicalUseNotes": "<p>Fireweed is the floral emblem of the Yukon Territory. Indigenous peoples across Canada used fireweed as food, medicine, and fiber for centuries. Traditional use for skin conditions and wound healing documented across multiple First Nations.</p>",
       "incompatibilities": "",
-      "canadianRelevance": "<p>Fireweed is one of Canada's most emblematic native plants — wild-harvested willowherb extract is an extraordinary Canadian botanical differentiation story.</p>"
+      "canadianRelevance": "<p>Fireweed is one of Canada's most emblematic native plants — wild-harvested willowherb extract is an extraordinary Canadian botanical differentiation story.</p>",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "peptide-complex-eg4",
@@ -6877,7 +7197,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade Acetyl Tetrapeptide-5 at clinically validated concentrations. HPLC purity verified. European synthesis.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "phytic-acid",
@@ -6917,7 +7239,9 @@
       "transparencyStatement": "<p>We use rice bran-derived phytic acid from certified organic Japanese rice processing. Zero-waste byproduct ingredient. Note: contains trace inositol from grain source — gluten-sensitive individuals should note grain origin.</p>",
       "historicalUseNotes": "<p>Rice bran has been used in Japanese skincare ('rice bran beauty' — komenuka bijin) for centuries. Japanese geisha and traditional beauties attributed their luminous skin partly to rice bran skin care.</p>",
       "incompatibilities": "Grain-derived — note for grain-sensitive consumers",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "ectoin",
@@ -6957,7 +7281,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade ectoin from certified fermentation production. Biotechnology ingredient — consistent, reproducible, and independent of agricultural supply chain vulnerabilities.</p>",
       "historicalUseNotes": "<p>Ectoin was first isolated from halophilic (salt-loving) bacteria in 1985 by German chemist Erwin Galinski. Its cosmetic potential was recognized in the 1990s. Today it is one of the most well-studied stress-protection actives in dermatological cosmetics.</p>",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "sea-lavender-extract",
@@ -6997,7 +7323,9 @@
       "transparencyStatement": "<p>We source sea lavender extract from sustainable Atlantic coastal harvesters. Aqueous extraction. Marine botanical from traceable coastal ecosystem.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "helichrysum-italicum-oil",
@@ -7037,7 +7365,9 @@
       "transparencyStatement": "<p>We use certified organic Corsican helichrysum italicum oil verified by GC/MS for authentic chemical profile. True origin verified — not adulterated with cheaper species. IFRA compliant concentrations.</p>",
       "historicalUseNotes": "<p>Called 'immortelle' — the everlasting flower — by Mediterranean peoples for its intense, lasting fragrance and remarkable healing properties. Traditional use for wound healing, bruising, and scar prevention across Mediterranean cultures for centuries.</p>",
       "incompatibilities": "IFRA limits apply (max 0.7% leave-on); potential sensitizer at >1%",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     },
     {
       "slug": "polyhydroxy-acid-complex",
@@ -7077,7 +7407,9 @@
       "transparencyStatement": "<p>We use pharmaceutical-grade GLF PHA complex from verified fermentation production. All three components purity-verified. Safe for use in conditions where conventional acid exfoliation is contraindicated.</p>",
       "historicalUseNotes": "",
       "incompatibilities": "",
-      "canadianRelevance": ""
+      "canadianRelevance": "",
+      "coldPressed": false,
+      "raw": false
     }
   ]
 }
