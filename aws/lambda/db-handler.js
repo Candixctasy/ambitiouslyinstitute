@@ -12,8 +12,12 @@ import {
     ScanCommand,
 } from "@aws-sdk/client-dynamodb";
 import { marshall, unmarshall } from "@aws-sdk/util-dynamodb";
+import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
+import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 
-const db = new DynamoDBClient({ region: "ca-central-1" });
+const db  = new DynamoDBClient({ region: "ca-central-1" });
+const s3  = new S3Client({ region: "ca-central-1" });
+const PHOTO_BUCKET = process.env.PHOTO_BUCKET || "";
 
 const T = {
     contacts:        process.env.CONTACTS_TABLE,
@@ -108,6 +112,10 @@ export const handler = async (event) => {
             return ok(await upsertContact(body));
         if (path.includes("/analytics") && method === "POST")
             return ok(await getAnalytics(body));
+
+        // ── Photo upload presigned URL ─────────────────────────────────────
+        if (path.includes("/alist/photo-upload") && method === "POST")
+            return ok(await getPhotoUploadUrl(body));
 
         return err(404, "Not found");
     } catch (e) {
@@ -482,6 +490,25 @@ async function listEncyclopedia({ category, sourcing, skinType, search, limit = 
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
+
+
+// ── Photo upload ──────────────────────────────────────────────────────────────
+// Returns a presigned S3 PUT URL valid for 15 minutes.
+// Client uploads photo directly to S3 using this URL; Lambda never touches binary data.
+async function getPhotoUploadUrl({ email, angle, contentType = "image/jpeg" }) {
+    if (!email || !angle) throw new Error("email and angle required");
+    if (!PHOTO_BUCKET) throw new Error("PHOTO_BUCKET not configured");
+    const validAngles = ["front", "left", "right", "decolletage"];
+    if (!validAngles.includes(angle)) throw new Error(`angle must be one of: ${validAngles.join(", ")}`);
+    const s3Key = `${email.replace(/[^a-zA-Z0-9@._-]/g, "_")}/${Date.now()}/${angle}.jpg`;
+    const cmd = new PutObjectCommand({
+        Bucket: PHOTO_BUCKET,
+        Key: s3Key,
+        ContentType: contentType,
+    });
+    const uploadUrl = await getSignedUrl(s3, cmd, { expiresIn: 900 });
+    return { uploadUrl, s3Key, expiresIn: 900 };
+}
 
 function now() { return new Date().toISOString(); }
 

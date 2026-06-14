@@ -157,18 +157,16 @@
     <span class="filter-label">Category</span>
     <div class="filter-pills" id="cat-filters">
       <button class="fpill active" data-filter="category" data-val="">All</button>
-      <button class="fpill" data-filter="category" data-val="Butter">Butters</button>
-      <button class="fpill" data-filter="category" data-val="Oil">Oils</button>
-      <button class="fpill" data-filter="category" data-val="Hydrosol">Hydrosols</button>
-      <button class="fpill" data-filter="category" data-val="Active">Actives</button>
       <button class="fpill" data-filter="category" data-val="Botanical">Botanicals</button>
-      <button class="fpill" data-filter="category" data-val="Wax">Waxes</button>
+      <button class="fpill" data-filter="category" data-val="Oil">Oils</button>
+      <button class="fpill" data-filter="category" data-val="Butter">Butters</button>
+      <button class="fpill" data-filter="category" data-val="Hydrosol">Hydrosols</button>
       <button class="fpill" data-filter="category" data-val="Humectant">Humectants</button>
-      <button class="fpill" data-filter="category" data-val="Emulsifier">Emulsifiers</button>
-      <button class="fpill" data-filter="category" data-val="Preservative">Preservatives</button>
-      <button class="fpill" data-filter="category" data-val="Peptide">Peptides</button>
-      <button class="fpill" data-filter="category" data-val="AHA">AHAs</button>
       <button class="fpill" data-filter="category" data-val="Vitamin">Vitamins</button>
+      <button class="fpill" data-filter="category" data-val="AHA">AHAs</button>
+      <button class="fpill" data-filter="category" data-val="Lipid">Lipids</button>
+      <button class="fpill" data-filter="category" data-val="Peptide">Peptides</button>
+      <button class="fpill" data-filter="category" data-val="Preservative">Preservatives</button>
     </div>
   </div>
   <div class="filter-row">
@@ -220,21 +218,45 @@
 <script>
   const DB_URL  = 'YOUR_API_GATEWAY_URL';
   const DB_KEY  = 'YOUR_API_KEY';
+  const STATIC_DATA = 'data/ingredients.json';
 
   let allIngredients = [];
   let filters = { category: '', sourcing: '', search: '' };
 
   // ── Boot ──────────────────────────────────────────────────────────────────
+  // Load static JSON first (works without AWS). If API is configured, merge live data.
   (async () => {
     try {
-      const r = await fetch(`${DB_URL}/bybobo/encyclopedia?limit=500`, {
-        headers: { 'x-api-key': DB_KEY }
-      });
-      const data = await r.json();
-      allIngredients = data.ingredients || [];
-      renderGrid(allIngredients);
-      buildCatKey(allIngredients);
-    } catch (e) {
+      const staticRes = await fetch(STATIC_DATA);
+      if (staticRes.ok) {
+        const staticData = await staticRes.json();
+        allIngredients = staticData.ingredients || [];
+        renderGrid(allIngredients);
+        buildCatKey(allIngredients);
+      }
+    } catch (_) {}
+
+    // If API is configured, fetch live data and merge (may have more ingredients or updated records)
+    if (!DB_URL.includes('YOUR_API')) {
+      try {
+        const r = await fetch(`${DB_URL}/bybobo/encyclopedia?limit=500`, {
+          headers: { 'x-api-key': DB_KEY }
+        });
+        const data = await r.json();
+        if (data.ingredients?.length) {
+          // Merge: API records take precedence over static records by slug
+          const apiMap = {};
+          data.ingredients.forEach(i => { apiMap[i.slug] = i; });
+          const merged = allIngredients.map(i => apiMap[i.slug] || i);
+          data.ingredients.forEach(i => { if (!merged.find(m => m.slug === i.slug)) merged.push(i); });
+          allIngredients = merged;
+          renderGrid(allIngredients);
+          buildCatKey(allIngredients);
+        }
+      } catch (_) {}
+    }
+
+    if (!allIngredients.length) {
       document.getElementById('grid-loading').innerHTML =
         '<p style="color:var(--muted);">Unable to load encyclopedia — check API configuration.</p>';
     }

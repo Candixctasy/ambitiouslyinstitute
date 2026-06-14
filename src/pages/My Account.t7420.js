@@ -17,6 +17,7 @@
 //   #errorMessage       — Text (hidden by default)
 
 import { getInstituteEnrollments, getClientAssessments } from "backend/database.web";
+import { getAListProfile, getActiveDiscount, getReferralStats } from "backend/alist.web";
 import { currentMember } from "wix-members";
 import wixLocation from "wix-location";
 
@@ -40,6 +41,7 @@ $w.onReady(async function () {
     await Promise.all([
         loadEnrollments(member._id),
         loadSKIAssessments(member.loginEmail),
+        loadAListPanel(member.loginEmail),
     ]);
 
     $w("#loadingSpinner").hide();
@@ -115,6 +117,39 @@ function formatStatus(status) {
         shipped: "Shipped",
     };
     return map[status] || status;
+}
+
+async function loadAListPanel(email) {
+    if (!email) return;
+    try {
+        const [{ member }, { discount, isBirthday, baseDiscount, birthdayBonus }, { confirmed, pending, total }] = await Promise.all([
+            getAListProfile(email).catch(() => ({ member: null })),
+            getActiveDiscount(email, "consumer").catch(() => ({ discount: 0 })),
+            getReferralStats(email).catch(() => ({ confirmed: 0, pending: 0, total: 0 })),
+        ]);
+
+        if (!member) return;
+
+        if ($w("#alistTierLabel").length > 0) {
+            const tier = member.tier === "professional" ? "Professional" : "Consumer";
+            $w("#alistTierLabel").text = `A List — ${tier} Tier`;
+            $w("#alistTierLabel").show();
+        }
+
+        if (discount > 0 && $w("#alistDiscountLabel").length > 0) {
+            const base = `${baseDiscount || discount}% always`;
+            const birthday = isBirthday ? ` + ${birthdayBonus}% birthday bonus active today` : "";
+            $w("#alistDiscountLabel").text = `Your discount: ${base}${birthday}`;
+            $w("#alistDiscountLabel").show();
+        }
+
+        if (total > 0 && $w("#referralStats").length > 0) {
+            $w("#referralStats").text = `Referrals: ${confirmed} confirmed, ${pending} pending`;
+            $w("#referralStats").show();
+        }
+
+        if ($w("#alistPanel").length > 0) $w("#alistPanel").show();
+    } catch (_) {}
 }
 
 function showError(msg) {

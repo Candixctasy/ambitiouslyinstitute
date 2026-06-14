@@ -1,0 +1,74 @@
+{
+    "Type": "AWS::IAM::Policy",
+    "Properties": {
+        "PolicyName": "ambitiously-lambda-policy",
+        "PolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Sid": "DynamoDBFullAccess",
+                    "Effect": "Allow",
+                    "Action": [
+                        "dynamodb:GetItem",
+                        "dynamodb:PutItem",
+                        "dynamodb:UpdateItem",
+                        "dynamodb:DeleteItem",
+                        "dynamodb:Query",
+                        "dynamodb:Scan",
+                        "dynamodb:BatchWriteItem",
+                        "dynamodb:BatchGetItem",
+                        "dynamodb:DescribeTable"
+                    ],
+                    "Resource": [
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-contacts",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-contacts/index/*",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-institute-enrollments",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-institute-enrollments/index/*",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-institute-progress",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-institute-progress/index/*",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-curriculum",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-curriculum/index/*",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-bybobo-products",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-bybobo-products/index/*",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-ski-assessments",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-ski-assessments/index/*",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-alist-members",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-alist-members/index/*",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-alist-pro-members",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-alist-pro-members/index/*",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-skin-tracking",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-skin-tracking/index/*",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-referrals",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-referrals/index/*",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-ingredient-encyclopedia",
+                        "arn:aws:dynamodb:ca-central-1:344626517888:table/ambitiously-ingredient-encyclopedia/index/*"
+                    ]
+                },
+                {
+                    "Sid": "SecretsManagerAnthropicKey",
+                    "Effect": "Allow",
+                    "Action": [
+                        "secretsmanager:GetSecretValue",
+                        "secretsmanager:DescribeSecret"
+                    ],
+                    "Resource": [
+                        "arn:aws:secretsmanager:ca-central-1:344626517888:secret:ambitiously/anthropic-api-key*"
+                    ]
+                },
+                {
+                    "Sid": "CloudWatchLogs",
+                    "Effect": "Allow",
+                    "Action": [
+                        "logs:CreateLogGroup",
+                        "logs:CreateLogStream",
+                        "logs:PutLogEvents"
+                    ],
+                    "Resource": [
+                        "arn:aws:logs:ca-central-1:344626517888:log-group:/aws/lambda/ambitiously-cai:*",
+                        "arn:aws:logs:ca-central-1:344626517888:log-group:/aws/lambda/ambitiously-db:*"
+                    ]
+                }
+            ]
+        }
+    }
+}

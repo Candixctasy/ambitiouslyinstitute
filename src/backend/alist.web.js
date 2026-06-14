@@ -2,6 +2,11 @@
 // Covers the full skin flow: intake → intelligence → ingredients → formulation.
 // Also manages membership status, ongoing skin tracking, and birthday discounts.
 //
+// Photo upload flow:
+//   1. uploadSkinPhoto({ email, angle }) → returns { uploadUrl, s3Key }
+//   2. Wix page does PUT to uploadUrl with photo file (direct S3, no Lambda proxy)
+//   3. runSkinIntake({ photoKeys: { front, left, right, decolletage }, ... }) uses s3Keys
+//
 // Secrets required in Wix Secrets Manager:
 //   CAI_API_URL — API Gateway base URL (same as Institute)
 //   CAI_API_KEY — API Gateway key (same as Institute)
@@ -41,10 +46,23 @@ async function dbRequest(method, path, body) {
     return res.json();
 }
 
+// ── Photo upload ──────────────────────────────────────────────────────────────
+// Returns a presigned S3 PUT URL. The Wix page then uploads the photo directly
+// to S3 using a browser fetch PUT — no binary data through Lambda or Wix backend.
+// angle: "front" | "left" | "right" | "decolletage"
+export const uploadSkinPhoto = webMethod(
+    Permissions.SiteMember,
+    async ({ email, angle, contentType = "image/jpeg" }) =>
+        dbRequest("POST", "/alist/photo-upload", { email, angle, contentType })
+);
+
 // ── Step 1: AI Skin Intake ────────────────────────────────────────────────────
-// intake: { environment: {climate, humidity, uvIndex},
-//           sensory: {tightness, sensitivity, oiliness, texture},
-//           history: {treatments, allergies, medications, pregnancyNursing} }
+// Accepts EITHER:
+//   photoKeys: { front, left, right, decolletage } — S3 keys from uploadSkinPhoto
+//   photos:    { front, left, right, decolletage } — inline base64 data URIs (fallback)
+// Plus: environment: {climate, humidity, uvIndex},
+//       sensory: {tightness, sensitivity, oiliness, texture},
+//       history: {treatments, allergies, medications, pregnancyNursing}
 export const runSkinIntake = webMethod(
     Permissions.Anyone,
     async (intake) => caiPost("/alist/skin-intake", { intake })
@@ -129,4 +147,42 @@ export const getActiveDiscount = webMethod(
     Permissions.SiteMember,
     async (email, tier = "consumer") =>
         dbRequest("GET", `/alist/discount?email=${encodeURIComponent(email)}&tier=${tier}`)
+);
+
+// ── Referrals ──────────────────────────────────────────────────────────────────
+// Viral loop: member submits up to 5 friend emails → friends enter funnel →
+// referral credited when friend joins → credit toward free products.
+// referredEmails: string[] — up to 5 email addresses
+
+export const saveReferrals = webMethod(
+    Permissions.SiteMember,
+    async (referrerEmail, referredEmails) =>
+        dbRequest("POST", "/alist/referrals", { referrerEmail, referredEmails })
+);
+
+export const getReferralStats = webMethod(
+    Permissions.SiteMember,
+    async (email) =>
+        dbRequest("GET", `/alist/referrals?email=${encodeURIComponent(email)}`)
+);
+
+// ── Ingredient encyclopedia ────────────────────────────────────────────────────
+// Public: education-first browsable library of all By BoBo ingredients.
+
+export const getIngredientLibrary = webMethod(
+    Permissions.Anyone,
+    async ({ category, sourcing, skinType, search, limit = 50 } = {}) => {
+        const qs = new URLSearchParams();
+        if (category) qs.set("category", category);
+        if (sourcing) qs.set("sourcing", sourcing);
+        if (skinType) qs.set("skinType", skinType);
+        if (search)   qs.set("search", search);
+        qs.set("limit", String(limit));
+        return dbRequest("GET", `/bybobo/encyclopedia?${qs}`);
+    }
+);
+
+export const getIngredientDetail = webMethod(
+    Permissions.Anyone,
+    async (slug) => dbRequest("GET", `/bybobo/encyclopedia/${encodeURIComponent(slug)}`)
 );
