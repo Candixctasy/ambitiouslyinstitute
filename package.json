@@ -9,5 +9,8 @@
     "postinstall": "wix sync-types",
     "dev": "wix dev",
     "lint": "eslint ."
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }
