@@ -5,33 +5,8 @@
 //   DB_API_KEY — API key for the data endpoint
 
 import { Permissions, webMethod } from "wix-web-module";
-import { getSecret } from "wix-secrets-backend";
-import { fetch } from "wix-fetch";
-
-async function dbRequest(method, path, body) {
-    const [url, key] = await Promise.all([
-        getSecret("DB_API_URL"),
-        getSecret("DB_API_KEY"),
-    ]);
-
-    const options = {
-        method,
-        headers: {
-            "Content-Type": "application/json",
-            "x-api-key": key,
-        },
-    };
-
-    if (body) options.body = JSON.stringify(body);
-
-    const response = await fetch(`${url}${path}`, options);
-
-    if (!response.ok) {
-        throw new Error(`DB API error (${response.status}) on ${path}`);
-    }
-
-    return response.json();
-}
+import { assertOwnEmail } from "backend/auth-utils";
+import { dbRequest } from "backend/api-client";
 
 // ── Ambitiously Institute ─────────────────────────────────────────────────────
 
@@ -73,8 +48,10 @@ export const saveSKIAssessment = webMethod(
 // Returns a client's previous SKI assessments (requires member auth).
 export const getClientAssessments = webMethod(
     Permissions.SiteMember,
-    async (clientEmail) =>
-        dbRequest("GET", `/bybobo/ski-assessments?email=${encodeURIComponent(clientEmail)}`)
+    async (clientEmail) => {
+        await assertOwnEmail(clientEmail);
+        return dbRequest("GET", `/bybobo/ski-assessments?email=${encodeURIComponent(clientEmail)}`);
+    }
 );
 
 // ── Shared ────────────────────────────────────────────────────────────────────

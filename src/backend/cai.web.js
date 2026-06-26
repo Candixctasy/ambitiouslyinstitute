@@ -4,31 +4,7 @@
 //   CAI_API_KEY — API key set on the AWS API Gateway stage
 
 import { Permissions, webMethod } from "wix-web-module";
-import { getSecret } from "wix-secrets-backend";
-import { fetch } from "wix-fetch";
-
-async function caiPost(path, body) {
-    const [url, key] = await Promise.all([
-        getSecret("CAI_API_URL"),
-        getSecret("CAI_API_KEY"),
-    ]);
-
-    const response = await fetch(`${url}${path}`, {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-            "x-api-key": key,
-        },
-        body: JSON.stringify(body),
-    });
-
-    if (!response.ok) {
-        const err = await response.text().catch(() => response.status);
-        throw new Error(`C-Ai error (${response.status}): ${err}`);
-    }
-
-    return response.json();
-}
+import { caiPost } from "backend/api-client";
 
 // Sends a free-form question to C-Ai and returns the answer.
 // context: optional object with { page, role, sessionId }

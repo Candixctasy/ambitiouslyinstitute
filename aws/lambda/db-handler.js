@@ -33,12 +33,15 @@ const T = {
     encyclopedia:    process.env.ENCYCLOPEDIA_TABLE,
 };
 
-const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || "*";
+// No "*" fallback: an unset ALLOWED_ORIGIN should fail closed, not open the API to any origin.
+const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || null;
+// Omit the header entirely when ALLOWED_ORIGIN is unset — browsers then block
+// cross-origin reads from every origin, rather than the implicit allow-all of "*".
 const CORS = {
-    "Access-Control-Allow-Origin": ALLOWED_ORIGIN,
     "Access-Control-Allow-Headers": "Content-Type,x-api-key",
     "Access-Control-Allow-Methods": "POST,GET,OPTIONS",
     "Content-Type": "application/json",
+    ...(ALLOWED_ORIGIN && { "Access-Control-Allow-Origin": ALLOWED_ORIGIN }),
 };
 
 export const handler = async (event) => {
@@ -221,7 +224,9 @@ async function joinAList(data) {
 
     // If referred by someone, credit that referral
     if (data.referredBy) {
-        await creditReferral(data.referredBy, data.email).catch(() => {});
+        await creditReferral(data.referredBy, data.email).catch((e) =>
+            console.error(`Failed to credit referral from ${data.referredBy} for ${data.email}:`, e)
+        );
     }
 
     return { joined: true, tier: "consumer" };
@@ -445,6 +450,7 @@ async function listEncyclopedia({ category, sourcing, skinType, search, limit = 
     // Scan with optional filters — for full library browsing
     const filters = [];
     const eav = {};
+    const ean = {};
     if (published === "true") { filters.push("isPublished = :pub"); eav[":pub"] = "true"; }
     if (skinType) { filters.push("contains(bestForSkinTypes, :st)"); eav[":st"] = skinType; }
     if (sourcing) {
@@ -452,7 +458,19 @@ async function listEncyclopedia({ category, sourcing, skinType, search, limit = 
         sourcing.split(",").forEach((flag, i) => {
             filters.push(`#s${i} = :sv${i}`);
             eav[`:sv${i}`] = true;
+            ean[`#s${i}`] = flag.trim();
         });
+    }
+    if (search) {
+        // Pushed into the FilterExpression (was an in-memory filter applied after the
+        // Scan's Limit already truncated the result set, which could drop matches).
+        // Note: DynamoDB contains() is case-sensitive, unlike the old JS .toLowerCase() check.
+        filters.push("(contains(#name, :q) OR contains(#inci, :q) OR contains(#fn, :q) OR contains(#cat, :q))");
+        eav[":q"] = search;
+        ean["#name"] = "name";
+        ean["#inci"] = "inciName";
+        ean["#fn"] = "primaryFunction";
+        ean["#cat"] = "category";
     }
 
     const params = {
@@ -462,29 +480,11 @@ async function listEncyclopedia({ category, sourcing, skinType, search, limit = 
             FilterExpression: filters.join(" AND "),
             ExpressionAttributeValues: marshall(eav),
         }),
+        ...(Object.keys(ean).length && { ExpressionAttributeNames: ean }),
     };
 
-    if (sourcing) {
-        // Add ExpressionAttributeNames for sourcing flag fields
-        const flagNames = sourcing.split(",");
-        params.ExpressionAttributeNames = {};
-        flagNames.forEach((flag, i) => {
-            params.ExpressionAttributeNames[`#s${i}`] = flag.trim();
-        });
-    }
-
     const r = await db.send(new ScanCommand(params));
-    let items = r.Items.map(unmarshall);
-
-    if (search) {
-        const q = search.toLowerCase();
-        items = items.filter(i =>
-            i.name?.toLowerCase().includes(q) ||
-            i.inciName?.toLowerCase().includes(q) ||
-            i.primaryFunction?.toLowerCase().includes(q) ||
-            i.category?.toLowerCase().includes(q)
-        );
-    }
+    const items = r.Items.map(unmarshall);
 
     return { ingredients: items, count: items.length };
 }

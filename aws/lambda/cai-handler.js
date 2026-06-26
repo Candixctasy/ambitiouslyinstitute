@@ -24,7 +24,8 @@ import {
 const BEDROCK_REGION = process.env.BEDROCK_REGION || "us-east-1";
 const MODEL_ID       = process.env.BEDROCK_MODEL_ID || "us.anthropic.claude-3-5-sonnet-20241022-v2:0";
 const PHOTO_BUCKET   = process.env.PHOTO_BUCKET || "";
-const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || "*";
+// No "*" fallback: an unset ALLOWED_ORIGIN should fail closed, not open the API to any origin.
+const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || null;
 
 const bedrock     = new BedrockRuntimeClient({ region: BEDROCK_REGION });
 const rekognition = new RekognitionClient({ region: "ca-central-1" });
@@ -47,11 +48,21 @@ async function callClaude({ max_tokens, system, messages, temperature = 0.7 }) {
     return JSON.parse(new TextDecoder().decode(res.body));
 }
 
+// Claude responses can come back with a non-text leading block (e.g. stop reason
+// variations) or no content at all — guard against indexing into an empty array.
+function extractText(msg) {
+    const block = msg?.content?.find((b) => b.type === "text");
+    if (!block) throw new Error("No text block in Claude response");
+    return block.text;
+}
+
+// Omit the header entirely when ALLOWED_ORIGIN is unset — browsers then block
+// cross-origin reads from every origin, rather than the implicit allow-all of "*".
 const CORS = {
-    "Access-Control-Allow-Origin": ALLOWED_ORIGIN,
     "Access-Control-Allow-Headers": "Content-Type,x-api-key",
     "Access-Control-Allow-Methods": "POST,OPTIONS",
     "Content-Type": "application/json",
+    ...(ALLOWED_ORIGIN && { "Access-Control-Allow-Origin": ALLOWED_ORIGIN }),
 };
 
 // ── System prompts ────────────────────────────────────────────────────────────
@@ -584,16 +595,24 @@ export const handler = async (event) => {
 
 // ── Institute routes ──────────────────────────────────────────────────────────
 
+// Strips anything but letters/digits/spaces/hyphens and caps length — context values
+// originate from the client and are interpolated directly into the system prompt.
+function sanitizeContext(val, maxLen = 50) {
+    if (typeof val !== "string") return "";
+    return val.replace(/[^a-zA-Z0-9 \-]/g, "").trim().slice(0, maxLen);
+}
+
 async function handleAsk({ question, context = {} }) {
     if (!question?.trim()) return err(400, "question is required");
     const system = [...INSTITUTE_SYSTEM_BLOCKS];
-    if (context.role) system.push({ type: "text", text: `User context — role: ${context.role}, page: ${context.page || "unknown"}.` });
+    const role = sanitizeContext(context.role);
+    if (role) system.push({ type: "text", text: `User context — role: ${role}, page: ${sanitizeContext(context.page) || "unknown"}.` });
     const msg = await callClaude({
         max_tokens: 1024,
         system,
         messages: [{ role: "user", content: question }],
     });
-    return ok({ answer: msg.content[0].text, usage: msg.usage });
+    return ok({ answer: extractText(msg), usage: msg.usage });
 }
 
 async function handleRecommend({ profile = {} }) {
@@ -605,7 +624,7 @@ async function handleRecommend({ profile = {} }) {
             content: `Recommend the most suitable Ambitiously Institute program and By BoBo A List tier for this profile. Be specific — name the program, state why it fits, and flag anything they need to address first.\n\nProfile:\n${JSON.stringify(profile, null, 2)}`,
         }],
     });
-    return ok({ recommendations: msg.content[0].text, usage: msg.usage });
+    return ok({ recommendations: extractText(msg), usage: msg.usage });
 }
 
 async function handleScoreScript({ script }) {
@@ -618,7 +637,7 @@ async function handleScoreScript({ script }) {
             content: `Score this consultation script using the 3-Part Framework (Authority, Education, Close). Score each section /10. For each section give one specific line rewrite that improves it. End with a single overall verdict.\n\nScript:\n${script}`,
         }],
     });
-    return ok({ feedback: msg.content[0].text, usage: msg.usage });
+    return ok({ feedback: extractText(msg), usage: msg.usage });
 }
 
 // ── A List skin flow ──────────────────────────────────────────────────────────
@@ -742,7 +761,7 @@ Client history: ${JSON.stringify(history)}`;
         system: SKIN_SYSTEM_BLOCKS,
         messages: [{ role: "user", content: userContent }],
     });
-    return ok({ intakeSummary: msg.content[0].text, usage: msg.usage });
+    return ok({ intakeSummary: extractText(msg), usage: msg.usage });
 }
 
 // Step 2: Skin Intelligence Mapping
@@ -788,7 +807,7 @@ Skin profile:
 ${JSON.stringify(profile, null, 2)}`,
         }],
     });
-    return ok({ skinMap: msg.content[0].text, usage: msg.usage });
+    return ok({ skinMap: extractText(msg), usage: msg.usage });
 }
 
 // Step 3: Ingredient Education
@@ -829,7 +848,7 @@ ${JSON.stringify(skinMap, null, 2)}
 Client goals: ${goals.join(", ")}`,
         }],
     });
-    return ok({ ingredients: msg.content[0].text, usage: msg.usage });
+    return ok({ ingredients: extractText(msg), usage: msg.usage });
 }
 
 // Step 4: Custom Formulation
@@ -916,7 +935,7 @@ Selected ingredients: ${selectedIngredients.join(", ")}
 Additional preferences: ${JSON.stringify(preferences)}`,
         }],
     });
-    return ok({ formula: msg.content[0].text, usage: msg.usage });
+    return ok({ formula: extractText(msg), usage: msg.usage });
 }
 
 
